@@ -1,0 +1,107 @@
+@import "compass/css3/border-radius";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul li,ol li{
+	list-style-type: none;
+  overflow: hidden;
+}
+
+div{
+	overflow:hidden;
+}
+
+a{
+  text-decoration: none;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+
+  &:hover{
+  	text-decoration: none;
+  }
+}
+
+a:focus {
+   outline:none; 
+   -moz-outline:none;
+}
+
+
+
+
+
+$fontStack:'微软雅黑','方正兰亭超细黑简体';
+$primaryColor: #fff;
+$fontSize: 16px;
+$background:#fff;
+$className:active;
+$headLineheight:70px;
+
+$fontW:'微软雅黑';
+
+$fontSColor:#4ebbdd;
+
+%left{
+	float:left;
+}
+
+.shape{
+	width:210px;
+	height:260px;
+	background:url('../images/1.png') no-repeat center top;
+	background-size:cover;
+	
+}
+
+@mixin headerH($h:70px) {
+  height: $h;
+}
+
+@mixin cen($center:center) {
+  text-align:$center;
+}
+
+@mixin pos($relative) {
+  	position: $relative;
+}
+
+@mixin mar($margin...) {
+  	margin: $margin;
+}
+
+@mixin sca($sca...) {
+  	transform:scale($sca);
+}
+
+@mixin arrow(){
+  cursor: pointer;
+  height:255px;
+  background-size:35px 68px;
+}
+
+@mixin fontz{
+  color:$primaryColor;
+  font-family: $fontW;
+}
+
+@mixin scheme($url:url){
+  background:$url;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-postion:center top;
+}
+
+@mixin shapeUl{
+  margin-top:60px;
+}
+
+@mixin shapeli{
+  @include cen;
+  @include fontz;
+  font-size: 24px;
+  line-height: 65px;
+}
