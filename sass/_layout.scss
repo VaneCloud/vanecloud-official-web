@@ -5,6 +5,9 @@
 *{
   margin: 0;
   padding: 0;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ul li,ol li{
@@ -30,9 +33,15 @@ a:focus {
    -moz-outline:none;
 }
 
+input,button,select,textarea{ outline:none;}
+textarea{ font-size:13px; resize:none;}
 
-
-
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+    display: none;
+}
 
 $fontStack:'微软雅黑','方正兰亭超细黑简体';
 $primaryColor: #fff;
@@ -55,6 +64,36 @@ $fontSColor:#4ebbdd;
 	background:url('../images/1.png') no-repeat center top;
 	background-size:cover;
 	
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.pull-left {
+  float: left !important;
 }
 
 @mixin headerH($h:70px) {
@@ -104,4 +143,14 @@ $fontSColor:#4ebbdd;
   @include fontz;
   font-size: 24px;
   line-height: 65px;
+  white-space:pre;
+}
+
+
+@mixin footText{
+  white-space:pre;
+  @include cen;
+  color:$primaryColor;
+  font-family: $fontW;
+  line-height: 25px;
 }

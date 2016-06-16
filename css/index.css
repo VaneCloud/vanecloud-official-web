@@ -3,41 +3,63 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* line 10, ../sass/_layout.scss */
+/* line 13, ../sass/_layout.scss */
 ul li, ol li {
   list-style-type: none;
   overflow: hidden;
 }
 
-/* line 15, ../sass/_layout.scss */
+/* line 18, ../sass/_layout.scss */
 div {
   overflow: hidden;
 }
 
-/* line 19, ../sass/_layout.scss */
+/* line 22, ../sass/_layout.scss */
 a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
-/* line 23, ../sass/_layout.scss */
+/* line 26, ../sass/_layout.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 28, ../sass/_layout.scss */
+/* line 31, ../sass/_layout.scss */
 a:focus {
   outline: none;
   -moz-outline: none;
 }
 
-/* line 48, ../sass/_layout.scss */
+/* line 36, ../sass/_layout.scss */
+input, button, select, textarea {
+  outline: none;
+}
+
+/* line 37, ../sass/_layout.scss */
+textarea {
+  font-size: 13px;
+  resize: none;
+}
+
+/* line 39, ../sass/_layout.scss */
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  display: none;
+}
+
+/* line 57, ../sass/_layout.scss */
 body .header .container .logo, body .header .container .logo img, body .header .container .logo figcaption, body .header .container .headNav, body .header .container .headNav a, body .header .container .search {
   float: left;
 }
 
-/* line 52, ../sass/_layout.scss */
+/* line 61, ../sass/_layout.scss */
 .shape, body .shapes .container .news, body .shapes .container .CSHOO, body .shapes .container .scheme, body .shapes .container .fabric {
   width: 210px;
   height: 260px;
@@ -45,6 +67,1100 @@ body .header .container .logo, body .header .container .logo img, body .header .
   background-size: cover;
 }
 
+/* line 69, ../sass/_layout.scss */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 76, ../sass/_layout.scss */
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 81, ../sass/_layout.scss */
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 86, ../sass/_layout.scss */
+  .container {
+    width: 1170px;
+  }
+}
+/* line 91, ../sass/_layout.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 95, ../sass/_layout.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 1, ../sass/_row.scss */
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  overflow: hidden;
+}
+
+/* line 6, ../sass/_row.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 12, ../sass/_row.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+/* line 15, ../sass/_row.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 18, ../sass/_row.scss */
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+/* line 21, ../sass/_row.scss */
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+/* line 24, ../sass/_row.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 27, ../sass/_row.scss */
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+/* line 30, ../sass/_row.scss */
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+/* line 33, ../sass/_row.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 36, ../sass/_row.scss */
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+/* line 39, ../sass/_row.scss */
+.col-xs-4 {
+  width: 33.33333333%;
+}
+
+/* line 42, ../sass/_row.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 45, ../sass/_row.scss */
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+/* line 48, ../sass/_row.scss */
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+/* line 51, ../sass/_row.scss */
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+/* line 54, ../sass/_row.scss */
+.col-xs-pull-11 {
+  right: 91.66666667%;
+}
+
+/* line 57, ../sass/_row.scss */
+.col-xs-pull-10 {
+  right: 83.33333333%;
+}
+
+/* line 60, ../sass/_row.scss */
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+/* line 63, ../sass/_row.scss */
+.col-xs-pull-8 {
+  right: 66.66666667%;
+}
+
+/* line 66, ../sass/_row.scss */
+.col-xs-pull-7 {
+  right: 58.33333333%;
+}
+
+/* line 69, ../sass/_row.scss */
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+/* line 72, ../sass/_row.scss */
+.col-xs-pull-5 {
+  right: 41.66666667%;
+}
+
+/* line 75, ../sass/_row.scss */
+.col-xs-pull-4 {
+  right: 33.33333333%;
+}
+
+/* line 78, ../sass/_row.scss */
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+/* line 81, ../sass/_row.scss */
+.col-xs-pull-2 {
+  right: 16.66666667%;
+}
+
+/* line 84, ../sass/_row.scss */
+.col-xs-pull-1 {
+  right: 8.33333333%;
+}
+
+/* line 87, ../sass/_row.scss */
+.col-xs-pull-0 {
+  right: auto;
+}
+
+/* line 90, ../sass/_row.scss */
+.col-xs-push-12 {
+  left: 100%;
+}
+
+/* line 93, ../sass/_row.scss */
+.col-xs-push-11 {
+  left: 91.66666667%;
+}
+
+/* line 96, ../sass/_row.scss */
+.col-xs-push-10 {
+  left: 83.33333333%;
+}
+
+/* line 99, ../sass/_row.scss */
+.col-xs-push-9 {
+  left: 75%;
+}
+
+/* line 102, ../sass/_row.scss */
+.col-xs-push-8 {
+  left: 66.66666667%;
+}
+
+/* line 105, ../sass/_row.scss */
+.col-xs-push-7 {
+  left: 58.33333333%;
+}
+
+/* line 108, ../sass/_row.scss */
+.col-xs-push-6 {
+  left: 50%;
+}
+
+/* line 111, ../sass/_row.scss */
+.col-xs-push-5 {
+  left: 41.66666667%;
+}
+
+/* line 114, ../sass/_row.scss */
+.col-xs-push-4 {
+  left: 33.33333333%;
+}
+
+/* line 117, ../sass/_row.scss */
+.col-xs-push-3 {
+  left: 25%;
+}
+
+/* line 120, ../sass/_row.scss */
+.col-xs-push-2 {
+  left: 16.66666667%;
+}
+
+/* line 123, ../sass/_row.scss */
+.col-xs-push-1 {
+  left: 8.33333333%;
+}
+
+/* line 126, ../sass/_row.scss */
+.col-xs-push-0 {
+  left: auto;
+}
+
+/* line 129, ../sass/_row.scss */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+/* line 132, ../sass/_row.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+/* line 135, ../sass/_row.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+/* line 138, ../sass/_row.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 141, ../sass/_row.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+/* line 144, ../sass/_row.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+/* line 147, ../sass/_row.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 150, ../sass/_row.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+/* line 153, ../sass/_row.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+/* line 156, ../sass/_row.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 159, ../sass/_row.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+/* line 162, ../sass/_row.scss */
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+/* line 165, ../sass/_row.scss */
+.col-xs-offset-0 {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  /* line 169, ../sass/_row.scss */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+
+  /* line 172, ../sass/_row.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  /* line 175, ../sass/_row.scss */
+  .col-sm-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 178, ../sass/_row.scss */
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 181, ../sass/_row.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* line 184, ../sass/_row.scss */
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 187, ../sass/_row.scss */
+  .col-sm-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 190, ../sass/_row.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* line 193, ../sass/_row.scss */
+  .col-sm-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 196, ../sass/_row.scss */
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 199, ../sass/_row.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* line 202, ../sass/_row.scss */
+  .col-sm-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 205, ../sass/_row.scss */
+  .col-sm-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 208, ../sass/_row.scss */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+
+  /* line 211, ../sass/_row.scss */
+  .col-sm-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 214, ../sass/_row.scss */
+  .col-sm-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 217, ../sass/_row.scss */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+  /* line 220, ../sass/_row.scss */
+  .col-sm-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 223, ../sass/_row.scss */
+  .col-sm-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 226, ../sass/_row.scss */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+  /* line 229, ../sass/_row.scss */
+  .col-sm-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 232, ../sass/_row.scss */
+  .col-sm-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 235, ../sass/_row.scss */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+  /* line 238, ../sass/_row.scss */
+  .col-sm-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 241, ../sass/_row.scss */
+  .col-sm-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 244, ../sass/_row.scss */
+  .col-sm-pull-0 {
+    right: auto;
+  }
+
+  /* line 247, ../sass/_row.scss */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+
+  /* line 250, ../sass/_row.scss */
+  .col-sm-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 253, ../sass/_row.scss */
+  .col-sm-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 256, ../sass/_row.scss */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+  /* line 259, ../sass/_row.scss */
+  .col-sm-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 262, ../sass/_row.scss */
+  .col-sm-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 265, ../sass/_row.scss */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+  /* line 268, ../sass/_row.scss */
+  .col-sm-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 271, ../sass/_row.scss */
+  .col-sm-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 274, ../sass/_row.scss */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+  /* line 277, ../sass/_row.scss */
+  .col-sm-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 280, ../sass/_row.scss */
+  .col-sm-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 283, ../sass/_row.scss */
+  .col-sm-push-0 {
+    left: auto;
+  }
+
+  /* line 286, ../sass/_row.scss */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 289, ../sass/_row.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 292, ../sass/_row.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 295, ../sass/_row.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 298, ../sass/_row.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 301, ../sass/_row.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 304, ../sass/_row.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 307, ../sass/_row.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 310, ../sass/_row.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 313, ../sass/_row.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 316, ../sass/_row.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 319, ../sass/_row.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 322, ../sass/_row.scss */
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 992px) {
+  /* line 327, ../sass/_row.scss */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+  /* line 330, ../sass/_row.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 333, ../sass/_row.scss */
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 336, ../sass/_row.scss */
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 339, ../sass/_row.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 342, ../sass/_row.scss */
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 345, ../sass/_row.scss */
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 348, ../sass/_row.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 351, ../sass/_row.scss */
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 354, ../sass/_row.scss */
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 357, ../sass/_row.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 360, ../sass/_row.scss */
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 363, ../sass/_row.scss */
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 366, ../sass/_row.scss */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+
+  /* line 369, ../sass/_row.scss */
+  .col-md-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 372, ../sass/_row.scss */
+  .col-md-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 375, ../sass/_row.scss */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  /* line 378, ../sass/_row.scss */
+  .col-md-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 381, ../sass/_row.scss */
+  .col-md-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 384, ../sass/_row.scss */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  /* line 387, ../sass/_row.scss */
+  .col-md-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 390, ../sass/_row.scss */
+  .col-md-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 393, ../sass/_row.scss */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  /* line 396, ../sass/_row.scss */
+  .col-md-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 399, ../sass/_row.scss */
+  .col-md-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 402, ../sass/_row.scss */
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  /* line 405, ../sass/_row.scss */
+  .col-md-push-12 {
+    left: 100%;
+  }
+
+  /* line 408, ../sass/_row.scss */
+  .col-md-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 411, ../sass/_row.scss */
+  .col-md-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 414, ../sass/_row.scss */
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  /* line 417, ../sass/_row.scss */
+  .col-md-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 420, ../sass/_row.scss */
+  .col-md-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 423, ../sass/_row.scss */
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  /* line 426, ../sass/_row.scss */
+  .col-md-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 429, ../sass/_row.scss */
+  .col-md-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 432, ../sass/_row.scss */
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  /* line 435, ../sass/_row.scss */
+  .col-md-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 438, ../sass/_row.scss */
+  .col-md-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 441, ../sass/_row.scss */
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  /* line 444, ../sass/_row.scss */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 447, ../sass/_row.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 450, ../sass/_row.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 453, ../sass/_row.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 456, ../sass/_row.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 459, ../sass/_row.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 462, ../sass/_row.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 465, ../sass/_row.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 468, ../sass/_row.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 471, ../sass/_row.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 474, ../sass/_row.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 477, ../sass/_row.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 480, ../sass/_row.scss */
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 485, ../sass/_row.scss */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+  /* line 488, ../sass/_row.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 491, ../sass/_row.scss */
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+
+  /* line 494, ../sass/_row.scss */
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+
+  /* line 497, ../sass/_row.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 500, ../sass/_row.scss */
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+
+  /* line 503, ../sass/_row.scss */
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+
+  /* line 506, ../sass/_row.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 509, ../sass/_row.scss */
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+
+  /* line 512, ../sass/_row.scss */
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+
+  /* line 515, ../sass/_row.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 518, ../sass/_row.scss */
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+
+  /* line 521, ../sass/_row.scss */
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+
+  /* line 524, ../sass/_row.scss */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+
+  /* line 527, ../sass/_row.scss */
+  .col-lg-pull-11 {
+    right: 91.66666667%;
+  }
+
+  /* line 530, ../sass/_row.scss */
+  .col-lg-pull-10 {
+    right: 83.33333333%;
+  }
+
+  /* line 533, ../sass/_row.scss */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  /* line 536, ../sass/_row.scss */
+  .col-lg-pull-8 {
+    right: 66.66666667%;
+  }
+
+  /* line 539, ../sass/_row.scss */
+  .col-lg-pull-7 {
+    right: 58.33333333%;
+  }
+
+  /* line 542, ../sass/_row.scss */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  /* line 545, ../sass/_row.scss */
+  .col-lg-pull-5 {
+    right: 41.66666667%;
+  }
+
+  /* line 548, ../sass/_row.scss */
+  .col-lg-pull-4 {
+    right: 33.33333333%;
+  }
+
+  /* line 551, ../sass/_row.scss */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  /* line 554, ../sass/_row.scss */
+  .col-lg-pull-2 {
+    right: 16.66666667%;
+  }
+
+  /* line 557, ../sass/_row.scss */
+  .col-lg-pull-1 {
+    right: 8.33333333%;
+  }
+
+  /* line 560, ../sass/_row.scss */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  /* line 563, ../sass/_row.scss */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+
+  /* line 566, ../sass/_row.scss */
+  .col-lg-push-11 {
+    left: 91.66666667%;
+  }
+
+  /* line 569, ../sass/_row.scss */
+  .col-lg-push-10 {
+    left: 83.33333333%;
+  }
+
+  /* line 572, ../sass/_row.scss */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  /* line 575, ../sass/_row.scss */
+  .col-lg-push-8 {
+    left: 66.66666667%;
+  }
+
+  /* line 578, ../sass/_row.scss */
+  .col-lg-push-7 {
+    left: 58.33333333%;
+  }
+
+  /* line 581, ../sass/_row.scss */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  /* line 584, ../sass/_row.scss */
+  .col-lg-push-5 {
+    left: 41.66666667%;
+  }
+
+  /* line 587, ../sass/_row.scss */
+  .col-lg-push-4 {
+    left: 33.33333333%;
+  }
+
+  /* line 590, ../sass/_row.scss */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  /* line 593, ../sass/_row.scss */
+  .col-lg-push-2 {
+    left: 16.66666667%;
+  }
+
+  /* line 596, ../sass/_row.scss */
+  .col-lg-push-1 {
+    left: 8.33333333%;
+  }
+
+  /* line 599, ../sass/_row.scss */
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  /* line 602, ../sass/_row.scss */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+
+  /* line 605, ../sass/_row.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 608, ../sass/_row.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 611, ../sass/_row.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 614, ../sass/_row.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 617, ../sass/_row.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 620, ../sass/_row.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 623, ../sass/_row.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 626, ../sass/_row.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 629, ../sass/_row.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 632, ../sass/_row.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 635, ../sass/_row.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 638, ../sass/_row.scss */
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+}
 /* line 4, ../sass/index.scss */
 body {
   font-family: "微软雅黑", "方正兰亭超细黑简体";
@@ -52,8 +1168,8 @@ body {
   color: #fff;
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("../images/bg1.png") no-repeat center top;
-  background-size: auto;
+  background: url("../images/bgt2.png") no-repeat center 70px;
+  background-size: cover;
 }
 /* line 13, ../sass/index.scss */
 body .site-bg-canvas {
@@ -138,7 +1254,7 @@ body .header .container .search {
 /* line 111, ../sass/index.scss */
 body .satellite {
   width: 100%;
-  height: 630px;
+  height: 970px;
   position: relative;
 }
 /* line 116, ../sass/index.scss */
@@ -187,8 +1303,8 @@ body .satellite .container .sateBall li:nth-child(3) {
   height: 100px;
   background: url("../images/sate3.png") no-repeat center center;
   background-size: contain;
-  top: 129px;
-  right: 175px;
+  top: 260px;
+  right: 170px;
 }
 /* line 165, ../sass/index.scss */
 body .satellite .container .sateBall li:nth-child(3):hover {
@@ -213,7 +1329,7 @@ body .satellite .container .sateBall li:nth-child(5) {
   height: 200px;
   background: url("../images/sate5.png") no-repeat center center;
   background-size: contain;
-  bottom: 175px;
+  bottom: 100px;
   right: 50px;
 }
 /* line 191, ../sass/index.scss */
@@ -249,8 +1365,8 @@ body .satellite .container .sateText li:nth-child(3) {
   height: 65px;
   background: url("../images/sateText3.png") no-repeat center center;
   background-size: contain;
-  top: 380px;
-  right: 166px;
+  top: 190px;
+  right: 160px;
 }
 /* line 232, ../sass/index.scss */
 body .satellite .container .sateText li:nth-child(4) {
@@ -276,7 +1392,7 @@ body .shapes {
 }
 /* line 261, ../sass/index.scss */
 body .shapes .container .news {
-  margin: 60px auto 0;
+  margin: 50px auto 0;
 }
 /* line 265, ../sass/index.scss */
 body .shapes .container .news ul {
@@ -289,6 +1405,7 @@ body .shapes .container .news ul li {
   font-family: "微软雅黑";
   font-size: 24px;
   line-height: 65px;
+  white-space: pre;
 }
 /* line 278, ../sass/index.scss */
 body .shapes .container .row li:nth-child(1) {
@@ -315,7 +1432,7 @@ body .shapes .container .row li span {
   color: #fff;
   text-align: center;
   font-size: 18px;
-  margin-top: 180px;
+  margin-top: 190px;
   display: inline-block;
   width: 100%;
 }
@@ -340,7 +1457,7 @@ body .shapes .container .pull-right.know {
 }
 /* line 334, ../sass/index.scss */
 body .shapes .container .CSHOO {
-  margin: 60px auto 0;
+  margin: 50px auto 0;
 }
 /* line 338, ../sass/index.scss */
 body .shapes .container .CSHOO ul {
@@ -353,30 +1470,105 @@ body .shapes .container .CSHOO ul li {
   font-family: "微软雅黑";
   font-size: 24px;
   line-height: 65px;
+  white-space: pre;
 }
 /* line 348, ../sass/index.scss */
 body .shapes .container .square {
   width: 100%;
-  height: 925px;
-  margin-top: 45px;
+  height: 1050px;
 }
-/* line 357, ../sass/index.scss */
+/* line 352, ../sass/index.scss */
+body .shapes .container .square .zhong {
+  text-align: center;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  margin-top: 220px;
+  text-indent: 10px;
+}
+/* line 360, ../sass/index.scss */
+body .shapes .container .square .referral {
+  text-align: center;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 10px;
+  margin-top: 14px;
+  display: block;
+  text-indent: 10px;
+}
+/* line 371, ../sass/index.scss */
+body .shapes .container .square .product {
+  width: 660px;
+  height: 100px;
+  margin: 80px auto 0;
+}
+/* line 376, ../sass/index.scss */
+body .shapes .container .square .product .pull-left {
+  width: 50%;
+}
+/* line 379, ../sass/index.scss */
+body .shapes .container .square .product .pull-left .productName {
+  text-align: center;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+/* line 386, ../sass/index.scss */
+body .shapes .container .square .product .pull-left .comprehend {
+  margin-top: 20px;
+  display: block;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #062535;
+  text-align: center;
+}
+/* line 397, ../sass/index.scss */
+body .shapes .container .square .product .pull-right {
+  width: 50%;
+}
+/* line 400, ../sass/index.scss */
+body .shapes .container .square .product .pull-right .productName {
+  text-align: center;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 16px;
+}
+/* line 407, ../sass/index.scss */
+body .shapes .container .square .product .pull-right .comprehend {
+  margin-top: 20px;
+  display: block;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  color: #062535;
+  text-align: center;
+}
+/* line 421, ../sass/index.scss */
+body .shapes .container .square .play {
+  width: 152px;
+  height: 152px;
+  background: url("../images/play.png") no-repeat center top;
+  background-size: contain;
+  margin: 160px auto 0;
+  cursor: pointer;
+}
+/* line 432, ../sass/index.scss */
 body .shapes .container .scheme {
   margin: 50px auto 0;
 }
-/* line 361, ../sass/index.scss */
+/* line 436, ../sass/index.scss */
 body .shapes .container .scheme ul {
   margin-top: 60px;
 }
-/* line 364, ../sass/index.scss */
+/* line 439, ../sass/index.scss */
 body .shapes .container .scheme ul li {
   text-align: center;
   color: #fff;
   font-family: "微软雅黑";
   font-size: 24px;
   line-height: 65px;
+  white-space: pre;
 }
-/* line 370, ../sass/index.scss */
+/* line 445, ../sass/index.scss */
 body .shapes .container .textS {
   font-family: "微软雅黑";
   font-size: 24px;
@@ -385,46 +1577,46 @@ body .shapes .container .textS {
   width: 100%;
   margin-bottom: 80px;
 }
-/* line 378, ../sass/index.scss */
+/* line 453, ../sass/index.scss */
 body .shapes .container .textS > span {
   color: #4ebbdd;
 }
-/* line 384, ../sass/index.scss */
+/* line 459, ../sass/index.scss */
 body .shapes .container .row .col-lg-1.left {
   background: url("../images/right.png") no-repeat center center;
   cursor: pointer;
   height: 255px;
   background-size: 35px 68px;
 }
-/* line 390, ../sass/index.scss */
+/* line 465, ../sass/index.scss */
 body .shapes .container .row .col-lg-1.right {
   background: url("../images/left.png") no-repeat center center;
   cursor: pointer;
   height: 255px;
   background-size: 35px 68px;
 }
-/* line 397, ../sass/index.scss */
+/* line 472, ../sass/index.scss */
 body .shapes .container .row .col-lg-10.center li.schemes:nth-child(1) {
   background: url("../images/scheme1.png") no-repeat center top;
   background-size: 195px 225px;
 }
-/* line 402, ../sass/index.scss */
+/* line 477, ../sass/index.scss */
 body .shapes .container .row .col-lg-10.center li.schemes:nth-child(2) {
   background: url("../images/scheme2.png") no-repeat center top;
   background-size: 195px 225px;
 }
-/* line 407, ../sass/index.scss */
+/* line 482, ../sass/index.scss */
 body .shapes .container .row .col-lg-10.center li.schemes:nth-child(3) {
   background: url("../images/scheme3.png") no-repeat center top;
   background-size: 195px 225px;
 }
-/* line 412, ../sass/index.scss */
+/* line 487, ../sass/index.scss */
 body .shapes .container .row .col-lg-10.center li .content {
   width: 100%;
   text-align: center;
   margin-top: 280px;
 }
-/* line 417, ../sass/index.scss */
+/* line 492, ../sass/index.scss */
 body .shapes .container .row .col-lg-10.center li .content article {
   text-align: left;
   color: #fff;
@@ -432,49 +1624,50 @@ body .shapes .container .row .col-lg-10.center li .content article {
   font-size: 16px;
   line-height: 24px;
   word-wrap: break-word;
-  margin-bottom: 40px;
+  margin: 25px 0 40px 0;
 }
-/* line 433, ../sass/index.scss */
+/* line 508, ../sass/index.scss */
 body .shapes .container .fabric {
   margin: 170px auto 0;
 }
-/* line 437, ../sass/index.scss */
+/* line 512, ../sass/index.scss */
 body .shapes .container .fabric ul {
   margin-top: 60px;
 }
-/* line 439, ../sass/index.scss */
+/* line 514, ../sass/index.scss */
 body .shapes .container .fabric ul li {
   text-align: center;
   color: #fff;
   font-family: "微软雅黑";
   font-size: 24px;
   line-height: 65px;
+  white-space: pre;
 }
-/* line 447, ../sass/index.scss */
+/* line 522, ../sass/index.scss */
 body .shapes .container .row li.fabrics:nth-child(1) {
   background: url("../images/d1.png") no-repeat center top;
   background-size: 133px 154px;
 }
-/* line 452, ../sass/index.scss */
+/* line 527, ../sass/index.scss */
 body .shapes .container .row li.fabrics:nth-child(2) {
   background: url("../images/d1.png") no-repeat center top;
   background-size: 133px 154px;
 }
-/* line 457, ../sass/index.scss */
+/* line 532, ../sass/index.scss */
 body .shapes .container .row li.fabrics:nth-child(3) {
   background: url("../images/d3.png") no-repeat center top;
   background-size: 133px 154px;
 }
-/* line 462, ../sass/index.scss */
+/* line 537, ../sass/index.scss */
 body .shapes .container .row li.fabrics:nth-child(4) {
   background: url("../images/d2.png") no-repeat center top;
   background-size: 133px 154px;
 }
-/* line 467, ../sass/index.scss */
+/* line 542, ../sass/index.scss */
 body .shapes .container .row li span {
   margin-top: 180px;
 }
-/* line 474, ../sass/index.scss */
+/* line 549, ../sass/index.scss */
 body .shapes .container .texytF {
   width: 100%;
   text-align: center;
@@ -482,15 +1675,183 @@ body .shapes .container .texytF {
   color: #fff;
   font-family: "微软雅黑";
   font-size: 24px;
-  margin-bottom: 620px;
 }
-/* line 482, ../sass/index.scss */
+/* line 557, ../sass/index.scss */
 body .shapes .container .texytF span {
   color: #4ebbdd;
 }
-/* line 491, ../sass/index.scss */
+/* line 563, ../sass/index.scss */
+body .shapes .container .serve {
+  width: 100%;
+  margin: 620px 0 50px 0;
+}
+/* line 572, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .panel {
+  float: left;
+  width: 110px;
+}
+/* line 576, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .panel .panel-title {
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+}
+/* line 586, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .panel .panel-body li {
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  text-align: center;
+  background: none;
+  line-height: 20px;
+}
+/* line 598, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .language {
+  width: 100%;
+  height: 50px;
+  line-height: 110px;
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 605, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .language li {
+  display: inline-block;
+  color: #fff;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  background: none;
+  text-align: center;
+}
+/* line 615, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .attention {
+  width: 100%;
+  height: 48px;
+  margin-top: 30px;
+}
+/* line 619, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .attention li {
+  background: none;
+}
+/* line 624, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .attention li:nth-child(1) > a {
+  display: block;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  background: url("../images/blog.png") no-repeat center top;
+  background-size: contain;
+}
+/* line 636, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .attention li:nth-child(2) > a {
+  display: block;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  background: url("../images/weichar.png") no-repeat center top;
+  background-size: contain;
+}
+/* line 648, ../sass/index.scss */
+body .shapes .container .serve .row .col-lg-4 .attention li:nth-child(3) > a {
+  display: block;
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  background: url("../images/QQ.png") no-repeat center top;
+  background-size: contain;
+}
+/* line 671, ../sass/index.scss */
 body .footer {
   width: 100%;
-  height: 130px;
-  overflow: hidden;
+  height: 120px;
+  background: #011721;
+}
+/* line 676, ../sass/index.scss */
+body .footer .pull-left {
+  width: 50%;
+}
+/* line 678, ../sass/index.scss */
+body .footer .pull-left .version {
+  margin-top: 30px;
+}
+/* line 681, ../sass/index.scss */
+body .footer .pull-left .version li {
+  white-space: pre;
+  text-align: center;
+  color: #fff;
+  font-family: "微软雅黑";
+  line-height: 25px;
+  font-size: 16px;
+}
+/* line 689, ../sass/index.scss */
+body .footer .pull-right {
+  width: 50%;
+}
+/* line 691, ../sass/index.scss */
+body .footer .pull-right .version {
+  margin-top: 20px;
+}
+/* line 693, ../sass/index.scss */
+body .footer .pull-right .version li {
+  white-space: pre;
+  text-align: center;
+  color: #fff;
+  font-family: "微软雅黑";
+  line-height: 25px;
+  font-size: 14px;
+}
+/* line 702, ../sass/index.scss */
+body .service {
+  position: fixed;
+  width: 65px;
+  top: 120px;
+}
+/* line 707, ../sass/index.scss */
+body .service li {
+  width: 65px;
+  height: 65px;
+}
+/* line 711, ../sass/index.scss */
+body .service li:nth-child(1) {
+  background: #25364a;
+}
+/* line 714, ../sass/index.scss */
+body .service li:nth-child(1) > a {
+  background: url("../images/speech-bubble.png") no-repeat center center;
+  background-size: 23px 19px;
+}
+/* line 720, ../sass/index.scss */
+body .service li:nth-child(2) {
+  background: #4ebbdd;
+}
+/* line 723, ../sass/index.scss */
+body .service li:nth-child(2) > a {
+  background: url("../images/email.png") no-repeat center center;
+  background-size: 22px 16px;
+}
+/* line 730, ../sass/index.scss */
+body .service li:nth-child(3) {
+  background: #4aaaa5;
+}
+/* line 733, ../sass/index.scss */
+body .service li:nth-child(3) > a {
+  background: url("../images/like.png") no-repeat center center;
+  background-size: 22px 18px;
+}
+/* line 739, ../sass/index.scss */
+body .service li:nth-child(4) {
+  background: #0091a9;
+}
+/* line 742, ../sass/index.scss */
+body .service li:nth-child(4) > a {
+  background: url("../images/telephone.png") no-repeat center center;
+  background-size: 22px 30px;
+}
+/* line 748, ../sass/index.scss */
+body .service li a {
+  width: 100%;
+  height: 100%;
+  display: block;
 }

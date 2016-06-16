@@ -1,5 +1,5 @@
 @import "_layout";
-
+@import "_row";
 
 body {
   	font-family: $fontStack;
@@ -7,8 +7,8 @@ body {
   	color: $primaryColor;
   	overflow-x:hidden;
 	overflow-y:auto;
-  	background:url('../images/bg1.png') no-repeat center top;
-  	background-size:auto;
+  	background:url('../images/bgt2.png') no-repeat center 70px;
+  	background-size:cover;
 
 	.site-bg-canvas{
 		@include pos(absolute);
@@ -110,7 +110,7 @@ body {
 
   	.satellite{
   		width:100%;
-  		height:630px;
+  		height:970px;
   		@include pos(relative);
   		
 		.container{
@@ -159,8 +159,8 @@ body {
 						height:100px;
 						background:url('../images/sate3.png') no-repeat center center;
 						background-size:contain;
-						top:129px;
-						right:175px;
+						top:260px;
+						right:170px;
 
 						&:hover{
 							@include sca(1.2);
@@ -185,7 +185,7 @@ body {
 						height:200px;
 						background:url('../images/sate5.png') no-repeat center center;
 						background-size:contain;
-						bottom:175px;
+						bottom:100px;
 						right:50px;
 
 						&:hover{
@@ -225,8 +225,8 @@ body {
 						height:65px;
 						background:url('../images/sateText3.png') no-repeat center center;
 						background-size:contain;
-						top:380px;
-						right:166px;
+						top:190px;
+						right:160px;
 					}
 
 					&:nth-child(4){
@@ -260,7 +260,7 @@ body {
 		.container{
 			.news{
 				@extend .shape;
-				margin:60px auto 0;
+				margin:50px auto 0;
 				
 				ul{
 					@include shapeUl;
@@ -299,7 +299,7 @@ body {
 						color: $primaryColor;
 						@include cen;
 						font-size: 18px;
-						margin-top:180px;
+						margin-top:190px;
 						display: inline-block;
 						width: 100%;
 					}
@@ -332,7 +332,7 @@ body {
 			
 
 			.CSHOO{
-				margin:60px auto 0;
+				margin:50px auto 0;
 				@extend .shape;
 				
 				ul{
@@ -347,10 +347,85 @@ body {
 			
 			.square{
 				width:100%;
-				height:925px;
+				height:1050px;
 				
-				margin-top:45px;
-				
+				.zhong{
+					@include cen;
+					@include fontz;
+					font-size: 16px;
+					margin-top:220px;
+					text-indent: 10px;
+				}
+
+				.referral{
+					@include cen;
+					@include fontz;
+					font-size: 10px;
+					margin-top:14px;
+					display: block;
+					text-indent: 10px;
+
+
+				}
+
+				.product{
+					width:660px;
+					height:100px;
+					margin:80px auto 0;
+					
+					.pull-left{
+						width:50%;
+
+						.productName{
+						
+							@include cen;
+							@include fontz;
+							font-size: 16px;
+						}
+
+						.comprehend{
+							margin-top:20px;
+							display: block;
+							font-family: $fontW;
+							font-size: 14px;
+							color:#062535;
+							@include cen;
+						}
+
+					}
+					
+					.pull-right{
+						width:50%;
+
+						.productName{
+						
+							@include cen;
+							@include fontz;
+							font-size: 16px;
+						}
+
+						.comprehend{
+							margin-top:20px;
+							display: block;
+							font-family: $fontW;
+							font-size: 14px;
+							color:#062535;
+							@include cen;
+						}
+
+					}
+
+
+				}
+
+				.play{
+					width: 152px;
+					height: 152px;
+					background:url('../images/play.png') no-repeat center top;
+					background-size:contain;
+					margin:160px auto 0;
+					cursor: pointer;
+				}
 			}
 			
 
@@ -419,8 +494,8 @@ body {
 								@include fontz;
 								font-size: 16px;
 								line-height: 24px;
-								 word-wrap: break-word;
-								 margin-bottom:40px;
+								word-wrap: break-word;
+								margin:25px 0 40px 0;
 							}
 						}
 
@@ -477,21 +552,205 @@ body {
 				margin-top:120px;
 				@include fontz;
 				font-size: 24px;
-				margin-bottom:620px;
+				
 
 				span{
 					color:$fontSColor;
 				}
 
 			}
+
+			.serve{
+				width:100%;
+				margin:620px 0 50px 0;
+
+				
+				.row{
+
+					.col-lg-4{
+
+						.panel{
+							float:left;
+							width:110px;
+
+							.panel-title{
+								@include fontz;
+								font-size: 16px;
+								font-weight: bold;
+								@include cen;
+								line-height: 35px;
+							}
+
+							.panel-body{
+
+								li{
+									@include fontz;
+									font-size: 14px;
+									@include cen;
+									background:none;
+									line-height: 20px;
+								}
+							}
+
+							
+						}
+
+						.language{
+							width:100%;
+							height:50px;
+							line-height: 110px;
+							margin-top:20px;
+							@include cen;
+
+							li{
+								display: inline-block;
+								@include fontz;
+								font-size: 16px;
+								background:none;
+								@include cen;
+							}
+
+						}
+
+						.attention{
+							width:100%;
+							height:48px;
+							margin-top:30px;
+							li{
+									
+								background:none;
+								&:nth-child(1){
+										
+									&>a{
+										display:block;
+										width:100%;
+										height:48px;
+										@include cen;
+										background:url('../images/blog.png') no-repeat center top;
+										background-size:contain;
+									}
+								}
+
+								&:nth-child(2){
+										
+									&>a{
+										display:block;
+										width:100%;
+										height:48px;
+										@include cen;
+										background:url('../images/weichar.png') no-repeat center top;
+										background-size:contain;
+									}
+								}
+
+								&:nth-child(3){
+										
+									&>a{
+										display:block;
+										width:100%;
+										height:48px;
+										@include cen;
+										background:url('../images/QQ.png') no-repeat center top;
+										background-size:contain;
+									}
+								}
+
+							}
+
+						}
+
+					}
+				}
+			}
 		}
 
-  	}
+		
+		
+	}
 
   	.footer{
   		width:100%;
-  		height:130px;
+  		height:120px;
+  		background:#011721;
   		
-  		overflow: hidden;
+  		.pull-left{
+			width:50%;
+			.version{
+				margin-top:30px;
+
+				li{
+					@include footText;
+					font-size:16px;
+					
+				}
+			}
+  		}
+
+  		.pull-right{
+			width:50%;
+			.version{
+				margin-top:20px;
+				li{
+					@include footText;
+					font-size:14px;
+					
+				}
+			}
+  		}
+  	}
+	
+  	.service{
+  		@include pos(fixed);
+  		width:65px;
+  		top:120px;
+
+  		li{
+			width:65px;
+  			height:65px;
+
+			&:nth-child(1){
+				background:#25364a;
+
+				& > a{
+					background:url('../images/speech-bubble.png') no-repeat center center;
+					background-size:23px 19px;
+				}
+			}
+			
+			&:nth-child(2){
+  				background:#4ebbdd;
+
+				& > a{
+  					background:url('../images/email.png') no-repeat center center;
+					background-size:22px 16px;
+				}
+
+  			}
+				
+			&:nth-child(3){
+  				background:#4aaaa5;
+
+  				& > a{
+  					background:url('../images/like.png') no-repeat center center;
+					background-size:22px 18px;
+  				}
+  			}
+
+			&:nth-child(4){
+  				background:#0091a9;
+
+  				& > a{
+  					background:url('../images/telephone.png') no-repeat center center;
+					background-size:22px 30px;
+  				}
+  			}
+
+  			a {
+  				width:100%;
+  				height:100%;
+  				display: block;
+
+  			}
+  		}
   	}
 }
