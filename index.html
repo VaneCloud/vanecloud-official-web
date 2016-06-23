@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -7,279 +7,345 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
 	<body>
-		<canvas class="site-bg-canvas"></canvas> 
 		<header class="header">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-2 col-md-3 col-sm-12">
-						<figure class="logo">
-							<img src="images/logo.png"/>
-						    <figcaption>
-						    	<div class="top">中科氢氧</div>
-						    	<div class="bottom">CSHO TECH</div>
-						    </figcaption>
-						</figure>
+					<div class="col-lg-3 col-md-3">
+						<div class="company">
+							<img src="./images/logo.png">
+							<ul class="companyText" >
+								<li class="top">中科氢氧</li>
+								<li class="bot">CSHO TECH</li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-lg-6 col-md-9 col-sm-12">	
-						<nav class="headNav">
-							<a href="javscript:" class="active">首页</a>
-							<a href="javscript:">新闻动态</a>
-							<a href="javscript:">CSHO+</a>
-							<a href="javscript:">行业解决方案</a>
-							<a href ="javscript:">产品体验中心</a>
+					<div class="col-lg-6 col-md-6">
+						<nav class="navHead">
+							<li>
+								<a href="javascript:">首页</a>
+							</li>
+							<li>
+								<a href="javascript:">新闻动态</a>
+								<div id="news" class="navSection"></div>
+							</li>
+							<li>
+								<a href="javascript:">CSHO+</a>
+							</li>
+							<li>
+								<a href="javascript:">行业解决方案</a>
+							</li>
+							<li>
+								<a href="javascript:">体验中心</a>
+							</li>
 						</nav>
 					</div>
-					<div class="col-lg-2 hidden-md hidden-sm hidden-xs">	
+					<div class="col-lg-3 col-md-3">
 						<hgroup class="logInOut">
-							<a href="javscript:">登录</a>
-							<a href="javscript:">注册</a>
+							<li>
+								<a href="javascript:">登陆</a>
+							</li>
+							<li>
+								<a href="javascript:">注册</a>
+							</li>
 						</hgroup>
 					</div>
-					<div class="col-lg-2 hidden-md hidden-sm hidden-xs">	
-						<input type="search" class="search"  placeholder="搜索vaneWIKI文档" />
-						<div class="magnify"></div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<section class="satellite">
-			<div class="container">
-				<ul class="sateBall">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-				<ul class="sateText">
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul> 
-			</div>
-		</section>
-		<section class="shapes">
-			<div class="container">
-				<div class="news">
-					<ul>
-						<li>新闻动态</li>
-						<li>NEWS</li>
-					</ul>
-				</div>
-				<ul class="row">
-					<li class="col-lg-3 col-md-3 col-sm-6">
-						<span>国际信息</span>
-					</li>
-					<li class="col-lg-3 col-md-3 col-sm-6">
-						<span>行业动态</span>
-					</li>
-					<li class="col-lg-3 col-md-3 col-sm-6">
-						<span>氢氧动态</span>
-					</li>
-					<li class="col-lg-3 col-md-3 col-sm-6">
-						<span>产品发布</span>
-					</li>
-				</ul>
-				<div class="text">2016年5月21日，主题为“奥斯汀归来，再谈OpenStack”的OpenStack分享会，于上海新园华美达广场酒店成功召开。再谈OpenStack”的OpenStack分享会......</div>
-				<a href="javascript:" class="pull-right know">了解详情</a>
-			</div>
-			<div class="container">
-				<div class="CSHOO">
-					<ul>
-						<li>CSHO+</li>
-						<li>ABOUT US</li>
-					</ul>
-				</div>	
-				<div class="square">
-					<div class="zhong">中  科  氢  氧</div>
-					<a class="referral" href="javascript:">关于我们</a>
-					<div class="product">
-						<div class="pull-left">
-							<div class="productName">云计算产品</div>
-							<a class="comprehend" href="javascript:">了解详情</a>
-						</div>
-						<div class="pull-right">
-							<div class="productName">大数据产品</div>
-							<a class="comprehend" href="javascript:">了解详情</a>
-						</div>
-					</div>
-					<div class="play"></div>
 				</div>
 				
 			</div>
-			<div class="container">
-				<div class="scheme">
-					<ul>
-						<li>行业解决方案</li>
-						<li>SOLUTION</li>
-					</ul>
+		</header>
+		<section class="banner">
+			<div class="picture">
+				<div class="pic">
+					<img src="images/b4.png"/>
 				</div>
-				<div class="textS">针对<span>个性化需求</span>，提供量身定制方案</div>
-				<div class="row">
-					<div class="col-lg-1 left"></div>
-					<ul class="col-lg-10 center">
-						<li class="col-lg-4 schemes">
-							<div class="content">
-								<h1>金融</h1>
-								<article>为金融云客户量身定制的混合云计算服务，具备低成本、高可用、高可靠、高弹性。</article>
-								<a href="javascript:" class="pull-right know">了解详情</a>
-							</div>
-						</li>
-						<li class="col-lg-4 schemes">
-							<div class="content">
-								<h1>政府</h1>
-								<article>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</article>
-								<a href="javascript:" class="pull-right know">了解详情</a>
-							</div>
-						</li>
-						<li class="col-lg-4 schemes">
-							<div class="content">
-								<h1>教育</h1>
-								<article>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb。</article>
-								<a href="javascript:" class="pull-right know">了解详情</a>
-							</div>
-						</li>
-					</ul>
-					<div class="col-lg-1 right"></div>
+				<div class="pic">
+					<img src="images/b1.png"/>
+				</div>
+				<div class="pic">
+					<img src="images/b2.png"/>
+				</div>
+				<div class="pic">
+					<img src="images/b3.png"/>
 				</div>
 			</div>
-			<div class="container">
-				<div class="fabric">
-					<ul>
-						<li>产品体验中心</li>
-						<li>PRODUCT</li>
-					</ul>
-				</div>
-				<ul class="row">
-					<li class="col-lg-3 col-sm-6 fabrics">
-						<span>氢氧云</span>
+			<ul class="num"></ul>
+			<div class="btn btn_l">&lt;</div>
+    		<div class="btn btn_r">&gt;</div>
+		</section>
+		<section class="newsdynamic">
+			<div class="sectionHead">
+				<div class="Ch">最新动态</div>
+				<div class="En">RECENT NEWS</div>
+				<div class="textline"></div>
+				<ul class="dynamicText">
+					<li>中科氢氧致力于研发企业级云计算平台、大数据解决方案</li>
+					<li>全面了解国内外及氢氧科技的第一手动态资讯</li>
+				</ul>
+				<ul class="accordion">
+					<li class="active">
+						<aside class="namic">
+							<h3>国际动态</h3>
+							<div class="namicImg"></div>
+						</aside>
+						<div class="particulars"></div>
 					</li>
-					<li class="col-lg-3 col-sm-6 fabrics">
-						<span>氢氧云管平台</span>
+					<li>
+						<aside class="namic">
+							<h3>行业动态</h3>
+							<div class="namicImg"></div>
+						</aside>
+						<div class="particulars"></div>
 					</li>
-					<li class="col-lg-3 col-sm-6 fabrics">
-						<span>氢氧云盘</span>
+					<li>
+						<aside class="namic">
+							<h3>氢氧动态</h3>
+							<div class="namicImg"></div>
+						</aside>
+						<div class="particulars"></div>
 					</li>
-					<li class="col-lg-3 col-sm-6 fabrics">
-						<span>氢氧智迅</span>
+					<li>
+						<aside class="namic">
+							<h3>新品发布</h3>
+							<div class="namicImg"></div>
+						</aside>
+						<div class="particulars"></div>
 					</li>
 				</ul>
-				<div class="texytF">在产品中心，您可以根据需求下载试用我们的产品，<span>优化您的用户体验</span>。</div>
-				<div class="serve">
+			</div>
+		</section>
+		<section class="wisdomtree">
+			<div class="sectionHead">
+				<div class="Ch">氢氧智慧树</div>
+				<div class="En">CSHO TECH TREE</div>
+				<div class="textline"></div>
+			</div>
+			<div class="tree">
+				<div class="foot"></div>
+				<ul class="leaf">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<ul class="bole">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+		</section>
+		<section class="industry">
+			<div class="sectionHead">
+				<div class="Ch">行业解决方案</div>
+				<div class="En">PRODUCT  CENTER</div>
+				<div class="textline"></div>
+			</div>
+			<div class="container industry">
+				<div class="row">
+					<div class="col-lg-2 col-md-2">
+						<div class="btnnl"></div>
+					</div>
+					<div class="col-lg-8 col-md-8">
+						<div class="row indust">
+							<div class="col-lg-4 col-md-4">
+								<h1>金融</h1>
+								<div class="industryPic p1"></div>
+								<article class="industryArticle">为金融云客户量身定制的混合云计算服务，具备低成本、高可用、高可靠、高弹性。</article>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<h1>政府</h1>
+								<div class="industryPic p2"></div>
+								<article class="industryArticle">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</article>
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<h1>教育</h1>
+								<div class="industryPic p3"></div>
+								<article class="industryArticle">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</article>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2">
+						<div class="btnnr"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="product">
+			<div class="sectionHead">
+				<div class="Ch">产品中心</div>
+				<div class="En">PRODUCT  CENTER</div>
+				<div class="textline"></div>
+			</div>
+			<div class="container productsyun">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 products">
+						
+					</div>
+					<div class="col-lg-3 col-md-3 products">
+						
+					</div>
+					<div class="col-lg-3 col-md-3 products">
+						
+					</div>
+					<div class="col-lg-3 col-md-3 products">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="experience">
+			<div class="sectionHead">
+				<div class="Ch">体验中心</div>
+				<div class="En">EXPERIENCE  CENTER</div>
+				<div class="textline"></div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3"></div>
+					<div class="col-lg-3 col-md-3"></div>
+					<div class="col-lg-3 col-md-3"></div>
+					<div class="col-lg-3 col-md-3"></div>
+				</div>
+			</div>
+		</section>
+		<section class="ourserver">
+			<!-- <div class="sectionHead">
+				<div class="Ch">我们的服务</div>
+				<div class="En">OUR SERVICES</div>
+				<div class="textline"></div>
+			</div> -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-5">
+						
+					</div>
+					<div class="col-lg-2 col-md-2">
+						
+					</div>
+					<div class="col-lg-5 col-md-5 serverpic">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="service">
+			<div class="container">
+				<div class="serviceTop">
 					<div class="row">
-						<div class="col-lg-4">
-							<div class="panel">
-								<div class="panel-title">首页</div>
-								<ul class="panel-body">
-									<li>新闻动态</li>
-									<li>关于我们</li>
-									<li>行业解决方案</li>
-									<li>产品体验中心</li>
-								</ul>
-							</div>
-							<div class="panel">
-								<div class="panel-title">动态资讯</div>
-								<ul class="panel-body">
-									<li>国际信息</li>
-									<li>行业动态</li>
-									<li>氢氧动态</li>
-									<li>产品发布</li>
-								</ul>
-							</div>
-							<div class="panel">
-								<div class="panel-title">CSHO+</div>
-								<ul class="panel-body">
-									<li>中科氢氧</li>
-									<li>云计算产品</li>
-									<li>大数据产品</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<ul class="language">
-								<li>简体中文</li>
-								<li>English</li>
-							</ul>
-							<ul class="row attention">
-								<li class="col-lg-4">
-									<a href="javscript:"></a>
-								</li>
-								<li class="col-lg-4">
-									<a href="javscript:"></a>
-								</li>
-								<li class="col-lg-4">
-									<a href="javscript:"></a>
-								</li>
+						<div class="col-lg-2 col-md-2">
+							<div class="serviceTitle">首页</div>
+							<ul class="serviceBody">
+								<li>新闻动态</li>
+								<li>关于我们</li>
+								<li>行业解决方案</li>
+								<li>产品体验中心</li>
 							</ul>
 						</div>
-						<div class="col-lg-4">
-							<div class="panel">
-								<div class="panel-title">行业解决方案</div>
-								<ul class="panel-body">
-									<li>金融</li>
-									<li>政府</li>
-									<li>教育</li>
-								</ul>
-							</div>
-							<div class="panel">
-								<div class="panel-title">产品体验中心</div>
-								<ul class="panel-body">
-									<li>氢氧云</li>
-									<li>氢氧云盘</li>
-									<li>氢氧云管平台</li>
-									<li>氢氧智迅</li>
-								</ul>
-							</div>	
+						<div class="col-lg-2 col-md-2">
+							<div class="serviceTitle">动态资讯</div>
+							<ul class="serviceBody">
+								<li>国际信息</li>
+								<li>行业动态</li>
+								<li>氢氧动态</li>
+								<li>产品发布</li>
+							</ul>
 						</div>
+						<div class="col-lg-2 col-md-2">
+							<div class="serviceTitle">CSHO+</div>
+							<ul class="serviceBody">
+								<li>中科氢氧</li>
+								<li>云计算产品</li>
+								<li>大数据产品</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2">
+							<div class="serviceTitle">行业解决方案</div>
+							<ul class="serviceBody">
+								<li>金融</li>
+								<li>政府</li>
+								<li>教育</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2">
+							<div class="serviceTitle">产品体验中心</div>
+							<ul class="serviceBody">
+								<li>氢氧云</li>
+								<li>氢氧云盘</li>
+								<li>氢氧云管平台</li>
+								<li>氢氧智迅</li>
+							</ul>
+						</div>
+						<div class="col-lg-2 col-md-2">
+							<div class="serviceTitle">关于我们</div>
+						</div>
+					</div>
+				</div>
+				<div class="serviceBot">
+					<div class="row">
+						
 					</div>
 				</div>
 			</div>
 		</section>
 		<footer class="footer">
-			<div class="pull-left">
-				<ul class="version">
+			<div class="container">
+				<ul class="version pull-left">
 					<li>contactus@vanecloud.com</li>
 					<li>400 680 9981</li>
 				</ul>
-			</div>
-			<div class="pull-right">
-				<ul class="version">
+				<ul class="version pull-right">
 					<li>中科氢氧云计算技术（上海）有限公司</li>
-					<li>Copyright © 2016 CSHO  Cloud (Shanghai)</li>
-					<li>Co., Ltd. All rights reserved</li>
+					<li>Copyright © 2016 CSHO  Cloud (Shanghai) Co., Ltd. All rights reserved.</li>
 				</ul>
 			</div>
 		</footer>
-		<ul class="service">
-			<li><a href="javscript:"></a></li>
-			<li><a href="javscript:"></a></li>
-			<li><a href="javscript:"></a></li>
-			<li><a href="javscript:"></a></li>
+		<ul class="joint">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
 		</ul>
-	</body>
-	<script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script> 
-	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/plugin.js"></script>
-	<script type="text/javascript" src="js/variable.js"></script>
-	<script type="text/javascript" src="js/main.js"></script> 
-	<script type="text/javascript">
-		$(function(){
-			var rw=$(window).width();
-			var sw=$('.header .container').width();
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script type="text/javascript" src="js/browser.min.js"></script>
+		<script type="text/javascript" src="js/drag.js"></script>
+		<script type="text/javascript" src="js/banner.js"></script>
+		<script type="text/javascript" src="js/fluid.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.navHead li').hover(function(){
+					$(this).children('.navSection').show();
+				},function(){
+					$(this).children('.navSection').hide();
+				});
 
-			$('.service').css('left',(rw-sw)/2+'px');
-
-			$(window).on('scroll resize',function(){
-				var rw=$(window).width();
-				var sw=$('.header .container').width();
-
-				$('.service').css('left',(rw-sw)/2+'px');
-
+				
 			})
-
-		})
-	</script> 
+		</script>
+		<script type="text/babel">
+			var names = ['国际动态', '行业动态', '氢氧动态','新品发布'];
+		
+			var News=React.createClass({
+				render:function(){
+					return (
+						<ul>
+							{
+								names.map(function (name) {
+									return <li><a href="javascript:">{name}</a></li>
+								})
+							}
+						</ul>
+					)
+				}
+			})
+		
+		ReactDOM.render(<News></News>,document.getElementById('news'));
+		</script> 
+	</body>
 </html>
