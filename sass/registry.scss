@@ -1,0 +1,102 @@
+@import "layout";
+@import "row";
+@import "animation";
+@charset "utf-8";
+
+body{
+
+	.header{
+		background: #1f2539;
+	}
+
+	.Login{
+		width:100%;
+		background: -webkit-linear-gradient(#358fb9,#326a92); 
+		background: -o-linear-gradient(#358fb9,#326a92); 
+		background: -moz-linear-gradient(#358fb9,#326a92); 
+		background: linear-gradient(#358fb9,#326a92);
+		overflow: hidden;
+
+		.registryBox{
+			@include Radiu;
+			width:650px;
+			background:#ffffff;
+			margin:100px auto 0;
+			box-shadow:0 0 10px #307398;
+			overflow: hidden;
+
+			h1{
+				color:#000;
+				font-size: 30px;
+				text-align: center;
+				margin:30px auto 30px; 
+				font-family:$fontW;
+				font-weight: normal;
+				font-weight: bold;
+			}
+			
+			label{
+				overflow: hidden;
+				display: block;
+				margin:0 auto 20px;
+
+				.inputL{
+					width:100px;
+					height:50px;
+					line-height: 50px;
+					text-align: right;
+					font-family:$fontW;
+					color:#7a7a7a;
+					font-size: 16px;
+				}
+				
+				input{
+					width:340px;
+					height:50px;
+					line-height: 50px;
+					@include Radiu;
+					margin:0 30px 0px 15px;
+					border:2px solid #afc0d1;
+					text-indent: 20px;
+					font-size: 16px;
+					
+					
+
+					&[type="submit"]{
+						background:#14adc4;
+						text-align: center;
+						border:2px solid #15849b;
+						color:#fff;
+						text-indent:0px;
+					}
+				}
+
+				.inputR{
+					height:50px;
+					line-height: 50px;
+					font-family:$fontW;
+					color:#7a7a7a;
+					font-size: 16px;
+				}
+			}
+
+			.footRegistry{
+				width:340px;
+				margin:40px auto 40px 115px;
+				text-align: center;
+				font-size: 16px;
+				font-family:$fontW;
+				color:#7a7a7a;
+				white-space: pre;
+
+				&>a{
+					color:#15849b;
+				}
+			}
+		}
+	}
+
+	.footer{
+
+	}
+}
