@@ -75,7 +75,7 @@ $(function(){
 		
 	}
 
-	$(window).on('resize',function(){
+	$(window).on('resize scroll',function(){
 		var w=$(window).width();
 		$('.pic').width(w);
 		$('.picture').width(w*5);

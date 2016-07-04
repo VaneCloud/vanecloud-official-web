@@ -31,7 +31,7 @@ $(function(){
             $('.indd').scrollLeft(0);
         }else{
                 
-            $('.indd').scrollLeft($('.indd').scrollLeft()+0)  
+            $('.indd').scrollLeft($('.indd').scrollLeft()+10)  
         }
     }
 	

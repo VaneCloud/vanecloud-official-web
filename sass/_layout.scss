@@ -58,23 +58,14 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @mixin headText{
-  font-family: $fontF;
-  color: $color;
-  font-size: 18px;
-  -webkit-box-flex:1;
-  -moz-box-flex:1;
-  -o-box-flex:1;
+  font-family:$fontW;
+  color:#e6e3e3;
+  font-size: 14px;
   text-align: center;
-  display:block;
+ 
 }
 
-@mixin headBox{
-  width: 100%;
-  display:-webkit-box;
-  display:-moz-box;
-  display:-o-box;
-  height:100%;
-}
+
 
 @mixin lineunder{
   width: 50px;
@@ -88,7 +79,6 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @mixin serviceText{
-  color:$color;
   font-family: $fontW;
   text-align: center;
 }
@@ -122,6 +112,17 @@ input[type=search]::-webkit-search-results-decoration {
 
 @mixin round{
   border-radius:100%;
+}
+
+@mixin sectionFoot{
+  font-size: 18px;
+  width:200px;
+  height:65px;
+  line-height: 65px;
+  font-family:$fontW;
+  white-space:pre;
+  text-align:center;
+  display:block;
 }
 
 .container {
@@ -177,13 +178,13 @@ body{
               text-align: center;
 
               &.top{
-                font-size:22px;
+                font-size:14px;
                 height:32px;
                 line-height: 37px;
               }
 
               &.bot{
-                font-size:16px;
+                font-size:14px;
                 height:32px;
                 line-height: 27px;
               }
@@ -198,7 +199,7 @@ body{
           position:relative;
 
           .navHead{
-            @include headBox;
+            
             
 
             &>li{
@@ -290,12 +291,10 @@ body{
         
 
       .logInOut{
-        @include headBox;
+       
         
         &>li{
-          margin-top:29px;
-          list-style:none;
-          height:42px;
+          
           @include headText;
           
           &>a{

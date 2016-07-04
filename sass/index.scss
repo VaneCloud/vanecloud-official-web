@@ -9,161 +9,156 @@ body{
 	.header{
 		.container{
 			overflow: visible !important;
-			
-			.row{
-				overflow: visible !important;
 
-				.company{
-					width:100%;
-					height: 68px;
-					margin-top:16px;
+			.logo{
+				width:150px;
+				height:50px;	
+				background:url('../images/logo.png')no-repeat;
+				background-size:contain;
+				margin:25px 80px auto auto;
 
-					&>img{
-						width: 68px;
-						height: 68px;
-						float:left;
+			}
+
+			.navHead{
+				height:100%;
+						
+
+				&>li{
+					@include headText;
+					overflow: visible;
+					position: relative;
+					float:left;
+					margin-top:32px;
+
+					&>a{
+						height:36px;
+						line-height: 36px;
 						display:block;
-						margin-right:30px;
-					}
-					
-					&>.companyText{
+						padding:0 10px;
+						margin:0 15px;
 
-						float:left;
-				
-						>li{
-							font-family: $fontF;
-							text-align: center;
+						&.active1{
+							background:#3a4051;
+							@include Radiu;
+							border:0 none;
+						}
 
-							&.top{
-								font-size:22px;
-								height:32px;
-								line-height: 37px;
-							}
+						&.active2{
+							background:#5ad0b8;
+							@include Radiu;
+							border:0 none;
+						}
 
-							&.bot{
-								font-size:16px;
-								height:32px;
-								line-height: 27px;
-							}
+						&.active3{
+							background:#64c3e1;
+							@include Radiu;
+							border:0 none;
+						}
+
+						&.active4{
+							background:#5ca0dd;
+							@include Radiu;
+							border:0 none;
 						}
 					}
-
-					
-				}
-
-				.col-lg-6.col-md-6{
-					overflow: visible !important;
-					position:relative;
-
-					.navHead{
-						@include headBox;
 						
-
-						&>li{
-							@include headText;
-							overflow: visible;
-							position: relative;
-
-							&>a{
-								height:35px;
-								line-height: 35px;
-								color:#e6e3e3;
-								font-family:$fontW;
-								margin-top:32.5px;
-								display:block;
-
-								&.active1{
-									background:#3a4051;
-									@include Radiu;
-									border:0 none;
-								}
-
-								&.active2{
-									background:#5ad0b8;
-									@include Radiu;
-									border:0 none;
-								}
-
-								&.active3{
-									background:#64c3e1;
-									@include Radiu;
-									border:0 none;
-								}
-
-								&.active4{
-									background:#5ca0dd;
-									@include Radiu;
-									border:0 none;
-								}
-							}
-						
-							.navSection{
+					.navSection{
+						padding:5px 0;
+						margin-top:0px;
+						position:absolute;
+						z-index:99;
+						width:100%;
+						display:none;
 								
-								padding:5px 0;
-								margin-top:0px;
-								position:absolute;
-								z-index:99;
-								width:100%;
-								display:none;
+						.trigon{
+							width: 0;
+							height: 0;
+							border-left: 10px solid transparent;
+							border-right: 10px solid transparent;
+							border-bottom: 10px solid #f2f7fc;
+							margin:0 auto 0;
+						}
 								
-								.trigon{
-									width: 0;
-									height: 0;
-									border-left: 10px solid transparent;
-									border-right: 10px solid transparent;
-									border-bottom: 10px solid #f2f7fc;
-									margin:0 auto 0;
-								}
-								
-								&>ul{
-									background:#eff0f1;
-									@include Radiu;
+						&>ul{
+							background:#eff0f1;
+							@include Radiu;
 									
-									&>li{
-										line-height:35px;
-										font-size: 16px;
-										font-family:$fontW;
+							&>li{
+								line-height:36px;
+								font-size: 14px;
+								font-family:$fontW;
 
-										&>a{
-											color:#1f2539;	
+								&>a{
+									color:#1f2539;	
 
-											&:hover{
-												color:#14adc4;
-												text-decoration:underline;	
-											}
-										}
+									&:hover{
+										color:#14adc4;
+										text-decoration:underline;	
 									}
-
 								}
-								
 							}
-						}
-						
 
+						}
+								
 					}
-					
-					
 				}
 			}
-				
-
-			.logInOut{
-				@include headBox;
-				
-				&>li{
-					margin-top:29px;
-					list-style:none;
-					height:42px;
-					@include headText;
 					
+					
+			.logInOut{
+				margin:0px 25px;
+
+				&>li{
+					@include headText;
+					float:left;
+					margin:32px 5px;
+					height:36px;
+					
+
 					&>a{
-						line-height:40px; 
+						
 						@include Radiu;
-						padding:0 15px;
-						display:inline-block;
-						color:#e6e3e3;
-						font-family: $fontW;
+						height:34px;
+						line-height: 34px;
+						display:iblock;
+						
+						&.#{$className}{
+							color:#e6e3e3;
+							background:#14adc4;
+							border:0 none;
+						}
 					}
+				}
+			}
+
+			.search{
+				@include Radiu;
+				border:0 none;
+				height:36px;
+				margin-top:32px;
+			
+				&>input[type="search"]{
+					width:150px;
+					height:100%;
+					background:#fff url('../images/s1.png')no-repeat 8px center;
+					background-size:20px 20px;
+					border:0 none;
+					float:left;
+					text-indent:45px;
+				}
+
+				&>input[type="button"]{
+					width:36px;
+					height:100%;
+					line-height:36px;
+					float:left;
+					background:#14adc4 url('../images/sr.png')no-repeat center center;
+					background-size:25px 25px;
+					border:0 none;
+					font-family:$fontW;
+					color:#898989;
+					cursor:pointer;
+
 				}
 			}
 		}
@@ -177,30 +172,30 @@ body{
 
 		& >.num{
 
-				position:absolute;
-				width:100%; 
+			position:absolute;
+			width:100%; 
+			height:20px;
+			bottom:100px; 
+			left:0; 
+			text-align:center;
+			z-index:99;
+
+			&>li{
+				width:20px;
 				height:20px;
-				bottom:210px; 
-				left:0; 
-				text-align:center;
-				z-index:99;
+				border-radius:100%;
+				background:#fff;
+				border:1px solid #1f2539;
+				display: inline-block;
+				margin:0 20px;
+				cursor:pointer;
 
-				&>li{
-					width:20px;
-					height:20px;
-					border-radius:100%;
-					background:#fff;
-					border:1px solid #1f2539;
-					display: inline-block;
-					margin:0 20px;
-					cursor:pointer;
-
-					&.#{$className}{
-						background:#1f2539;
-						border:1px solid #fff;
-					}
+				&.#{$className}{
+					background:#1f2539;
+					border:1px solid #fff;
 				}
 			}
+		}
 		
 
 		.picture{
@@ -211,7 +206,7 @@ body{
 			
 			
 			.pic{
-				
+				width:100%;
 				height:980px;
 				float:left;
 				position: relative;
@@ -352,23 +347,17 @@ body{
 				
 				&:nth-child(2){
 
-					&>.banfooter{
-						background:#16a085;
-					}
+					
 				}
 				
 				&:nth-child(3){
 					
 
-					&>.banfooter{
-						background:#318fbb;
-					}
+					
 				}
 
 				&:nth-child(4){
-					&>.banfooter{
-						background:#2e6697;
-					}
+					
 				}
 
 				& > .header{
@@ -377,57 +366,7 @@ body{
 					top:0;
 				}
 				
-				&>.banfooter{
-					width:100%;
-					height:250px;
-					position:absolute;
-					bottom:0;
-					left:0;
-
-					
-					
-					
-					&>.search{
-						width:410px;
-						@include Radiu;
-						border:0 none;
-						margin:60px auto 0;
-						clear:both;
-						
-						&> input[type="search"]{
-							width:360px;
-							height:50px;
-							line-height: 50px;
-							float:left;
-							text-indent:65px;
-							font-size: 18px;
-							color:#898989;
-							font-family:$fontW;
-							background:#fff url('../images/yun.png') no-repeat 17px center;
-							background-size:26px 16px;
-							border:0 none;
-						}
-
-						&> input[type="button"]{
-							width:50px;
-							height:50px;
-							float:left;
-							background:#7accc8 url('../images/arrow.png') no-repeat center center;
-							background-size:16px 12px;
-							border:0 none;
-
-						}
-					}
-
-					&> .banText{
-						width:100%;
-						font-family: $fontF;
-						color:#fff;
-						text-align: center;
-						font-size: 36px;
-						margin-top:45px;
-					}
-				}
+				
 
 				&:nth-child(1),&:last-child{
 					background:#1f2539 url('../images/b1.png') no-repeat center center;
@@ -524,27 +463,17 @@ body{
 				font-size:26px;
 			}
 			
-			& > .textline{
-				@include lineunder;
-				background:#fff;
-
-			}
 		}
 		
 		.footL{
 			@include Radiu;
-			width:200px;
-			height:65px;
-			line-height: 65px;
-			font-family:$fontW;
-			white-space:pre;
+			@include sectionFoot;
 			color:#318fbb;
 			background:#fff;
-			font-size: 28px;
+			display: inline-block;
 			border:2px solid #318fbb;
 			margin:100px auto 0;
-			display:inline-block;
-			text-align:center;
+			
 			
 			&:hover{
 				color:#fff;
@@ -610,11 +539,11 @@ body{
 
 						&>.namicImg{
 							@include namic;
-							background:url('../images/namic11.png') no-repeat center center;
+							background:url('../images/namic11.png') no-repeat right center;
 							background-size:contain;
 
 							&:hover{
-								background:url('../images/namic1.png') no-repeat center center;
+								background:url('../images/namic1.png') no-repeat right center;
 								background-size:contain;
 							}
 						}
@@ -666,11 +595,11 @@ body{
 						
 						&>.namicImg{
 							@include namic;
-							background:url('../images/namic22.png') no-repeat center center;
+							background:url('../images/namic22.png') no-repeat right center;
 							background-size:contain;
 
 							&:hover{
-								background:url('../images/namic2.png') no-repeat center center;
+								background:url('../images/namic2.png') no-repeat right center;
 								background-size:contain;
 							}
 						}
@@ -703,7 +632,7 @@ body{
 							width:122px;
 							height:40px;
 							line-height: 40px;
-							background:#14adc4 url('../images/arr.png') no-repeat 86px center;
+							background:#1694a7 url('../images/arr.png') no-repeat 86px center;
 							background-size:30px 30px;
 							margin:25px auto;
 							display:block;
@@ -725,11 +654,11 @@ body{
 
 						&>.namicImg{
 							@include namic;
-							background:url('../images/namic33.png') no-repeat center center;
+							background:url('../images/namic33.png') no-repeat right center;
 							background-size:contain;
 
 							&:hover{
-								background:url('../images/namic3.png') no-repeat center center;
+								background:url('../images/namic3.png') no-repeat right center;
 								background-size:contain;
 							}
 						}
@@ -760,7 +689,7 @@ body{
 							width:122px;
 							height:40px;
 							line-height: 40px;
-							background:#7accc8 url('../images/arr.png') no-repeat 86px center;
+							background:#5fbcb8 url('../images/arr.png') no-repeat 86px center;
 							background-size:30px 30px;
 							margin:25px auto;
 							display:block;
@@ -781,11 +710,11 @@ body{
 
 						&>.namicImg{
 							@include namic;
-							background:url('../images/namic44.png') no-repeat center center;
+							background:url('../images/namic44.png') no-repeat right center;
 							background-size:contain;
 
 							&:hover{
-								background:url('../images/namic4.png') no-repeat center center;
+								background:url('../images/namic4.png') no-repeat right center;
 								background-size:contain;
 							}
 						}
@@ -816,7 +745,7 @@ body{
 							width:122px;
 							height:40px;
 							line-height: 40px;
-							background:#4b99bf url('../images/arr.png') no-repeat 86px center;
+							background:#3a7896 url('../images/arr.png') no-repeat 86px center;
 							background-size:30px 30px;
 							margin:25px auto;
 							display:block;
@@ -846,18 +775,11 @@ body{
 			
 			.footL{
 				@include Radiu;
-				width:200px;
-				height:65px;
-				line-height: 65px;
-				font-family:$fontW;
-				white-space:pre;
+				@include sectionFoot;
 				color:#318fbb;
 				background:#fff;
-				font-size: 28px;
 				border:2px solid #318fbb;
 				margin:50px auto 50px;
-				display:block;
-				text-align:center;
 				
 				&:hover{
 					color:#fff;
@@ -882,11 +804,7 @@ body{
 					font-size:26px;
 				}
 				
-				& > .textline{
-					@include lineunder;
-					background:#224c6a;
-					
-				}
+				
 			}
 
 			.tree{
@@ -1063,18 +981,11 @@ body{
 
 			.footL{
 				@include Radiu;
-				width:200px;
-				height:65px;
-				line-height: 65px;
-				font-family:$fontW;
-				white-space:pre;
+				@include sectionFoot;
 				color:#fff;
 				background:#318fbb;
-				font-size: 28px;
 				border:2px solid #fff;
 				margin:115px auto 160px;
-				display:block;
-				text-align:center;
 				
 				&:hover{
 					color:#318fbb;
@@ -1100,24 +1011,25 @@ body{
 					font-size:26px;
 				}
 				
-				& > .textline{
-					@include lineunder;
-					background:#e9eaeb;
-					
-				}
+				
 			}
 			
 			.indust{
-				width:3100px;
+				width:4000px;
 				margin-top:0px;
 				
+				&>li{
+					padding-right:40px;
+					padding-left:40px;
+				}
 
 				h1{
 					margin:50px auto 0;
 					font-family: $fontW;
 					color: $color;
-					font-size: 35px;
+					font-size: 30px;
 					text-align: center;
+					font-weight: normal;
 				}
 				
 				.industryPic{
@@ -1207,7 +1119,7 @@ body{
 					margin:40px auto 200px;
 					font-family: $fontW;
 					color: $color;
-					font-size: 18px;
+					font-size: 16px;
 					text-indent: 2em;
 					line-height: 30px;
 					word-wrap: break-word;
@@ -1247,7 +1159,7 @@ body{
 
 		.container.productsyun{
 			margin:90px auto 0px;
-			width:100% !important; 
+			
 
 			.sectionHead{
 				margin:0px auto 100px;
@@ -1267,26 +1179,31 @@ body{
 					font-size:26px;
 				}
 				
-				& > .textline{
-					@include lineunder;
-					background:#224c6a;
-					
-				}
+				
 			}
 
 			.products{
+				perspective:50000px;
 
 				&>li{
-					width:23%;
-					margin:0 1%;
+					
 					height:450px;
 					position:relative;
+					padding-left:0;
+					padding-right:0;
+					transition: 500ms;
+
+					&:hover{
+						transform: rotateY(360deg);
+						-webkit-transform: rotateY(360deg);
+					}
 					
 					.productsBox1{
 						position:relative;
-						width:90%;
+						width:94%;
 						height:100%;
 						margin: auto;
+
 
 						.productspic{
 							width:90px;
@@ -1363,6 +1280,7 @@ body{
 					}
 
 					.productsBox2{
+						
 						height:400px;
 						width:100%;
 						display:none;
@@ -1444,18 +1362,13 @@ body{
 
 			.footL{
 				@include Radiu;
-				width:200px;
-				height:65px;
-				line-height: 65px;
-				font-family:$fontW;
-				white-space:pre;
+				@include sectionFoot;
 				color:#318fbb;
 				background:#f2f3f7;
-				font-size: 28px;
 				border:2px solid #318fbb;
 				margin:130px auto 90px;
-				display:block;
-				text-align:center;
+				
+				
 				
 				&:hover{
 					color:#f2f3f7;
@@ -1492,16 +1405,12 @@ body{
 					font-size:26px;
 				}
 				
-				& > .textline{
-					@include lineunder;
-					background:#e9eaeb;
-					
-				}
+				
 			}
 			
 			.people{
-				width:100%;
-				height:100%;
+				width:auto;
+				height:780px;
 				background:url('../images/people.png')no-repeat center 10px;
 				background-size:contain; 
 			}
@@ -1522,17 +1431,10 @@ body{
 
 			.apply{
 				@include Radiu;
-				width:200px;
-				height:65px;
-				line-height: 65px;
-				font-family:$fontW;
-				white-space:pre;
+				@include sectionFoot;
 				color:#ffffff;
-				font-size: 28px;
 				border:2px solid #ffffff;
 				margin:100px auto 0;
-				display:block;
-				text-align:center;
 				
 				&:hover{
 					color:#318fbb;
@@ -1563,18 +1465,13 @@ body{
 
 			.footL{
 				@include Radiu;
-				width:200px;
-				height:65px;
-				line-height: 65px;
-				font-family:$fontW;
-				white-space:pre;
+				@include sectionFoot;
 				color:#fff;
 				background:#318fbb;
-				font-size: 28px;
+				
 				border:2px solid #318fbb;
 				margin:0px auto 60px;
-				display:block;
-				text-align:center;
+				
 				
 				&:hover{
 					color:#318fbb;
@@ -1599,12 +1496,7 @@ body{
 					font-size:26px;
 				}
 				
-				& > .textline{
-					@include lineunder;
-					background:#326a92;
-					width:90px;
-					margin:10px auto;
-				}
+				
 			}
 
 			.serverpic{
@@ -1821,9 +1713,17 @@ body{
 				.serviceBody{
 					@include serviceText;
 					font-size:14px;
-
+					
 					li{
 						margin-top:10px;
+						
+						
+						a{
+							color:#abbac4;
+							&:hover{
+								color:#fff;
+							}
+						}
 					}
 				}
 
@@ -1853,15 +1753,26 @@ body{
 				.serviceTitle{
 					@include serviceText;
 					font-size:16px;
-					
+					color:#fff;
 				}
 
 				.serviceBody{
 					@include serviceText;
 					font-size:14px;
-
+					
 					li{
 						margin-top:10px;
+						
+						&>a{
+							color:#abbac4;
+
+							
+							&:hover{
+								color:#fff;
+							}
+
+						}
+						
 					}
 				}
 
