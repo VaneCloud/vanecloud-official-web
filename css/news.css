@@ -1769,94 +1769,259 @@ body .joint > li:nth-child(4) > a {
     -webkit-transform: rotate(-45deg);
   }
 }
-/* line 8, ../sass/registry.scss */
+/* line 16, ../sass/news.scss */
 body .header {
-  background: #1f2539;
+  overflow: visible;
 }
-/* line 12, ../sass/registry.scss */
-body .Login {
+/* line 20, ../sass/news.scss */
+body .bg {
   width: 100%;
-  background: -webkit-linear-gradient(#358fb9, #326a92);
-  background: -o-linear-gradient(#358fb9, #326a92);
-  background: -moz-linear-gradient(#358fb9, #326a92);
-  background: linear-gradient(#358fb9, #326a92);
-  overflow: hidden;
+  height: 490px;
+  background: url("../images/ba.png") no-repeat center center;
+  background-size: auto 100%;
+  position: relative;
 }
-/* line 20, ../sass/registry.scss */
-body .Login .registryBox {
-  border-radius: 5px;
-  border: 1px solid #fff;
-  width: 650px;
-  background: #ffffff;
-  margin: 100px auto 0;
-  box-shadow: 0 0 10px #307398;
-  overflow: hidden;
+/* line 27, ../sass/news.scss */
+body .bg .namic {
+  width: 824px;
+  position: absolute;
+  left: 50%;
+  margin-left: -412px;
+  top: 410px;
+  perspective: 50000px;
 }
-/* line 28, ../sass/registry.scss */
-body .Login .registryBox h1 {
-  color: #000;
-  font-size: 30px;
+/* line 35, ../sass/news.scss */
+body .bg .namic a {
+  width: 166px;
+  height: 166px;
+  margin: 0 20px;
+  display: block;
+  background: url("../images/f2.png") no-repeat center center;
+  background-size: contain;
+  float: left;
+  transition: 1s;
+  /* &:hover{
+  	background:url('../images/f1.png')no-repeat center center;
+  	transform: rotateY(360deg);
+  	-webkit-transform: rotateY(360deg);
+  	-o-transform: rotateY(360deg);
+  	-moz-transform: rotateY(360deg);
+  	color:#ffffff;
+  }  */
+}
+/* line 56, ../sass/news.scss */
+body .bg .namic a .interior {
+  width: 100%;
+  height: 100%;
+  line-height: 166px;
   text-align: center;
-  margin: 30px auto 30px;
+  color: #000000;
+  font-size: 24px;
   font-family: "微软雅黑";
-  font-weight: normal;
+}
+/* line 68, ../sass/news.scss */
+body .bg .theme {
+  width: 100%;
+  margin: 80px auto 0;
+  line-height: 80px;
+}
+/* line 73, ../sass/news.scss */
+body .bg .theme li {
+  color: #fcfcfc;
+  text-align: center;
+}
+/* line 76, ../sass/news.scss */
+body .bg .theme li.top {
+  font-size: 60px;
+  font-family: 方正兰亭超细黑简体;
+}
+/* line 81, ../sass/news.scss */
+body .bg .theme li.bot {
+  font-size: 60px;
+  font-family: 方正兰亭超细黑简体;
   font-weight: bold;
 }
-/* line 38, ../sass/registry.scss */
-body .Login .registryBox label {
+/* line 91, ../sass/news.scss */
+body .newSection {
+  width: 100%;
+  background: #fff;
   overflow: hidden;
-  display: block;
-  margin: 0 auto 20px;
 }
-/* line 43, ../sass/registry.scss */
-body .Login .registryBox label .inputL {
-  width: 100px;
-  height: 50px;
-  line-height: 50px;
-  text-align: right;
+/* line 97, ../sass/news.scss */
+body .newSection .newSearch {
+  height: 36px;
+  margin: 250px auto 0;
+}
+/* line 101, ../sass/news.scss */
+body .newSection .newSearch .newSl {
+  color: #000000;
+  font-size: 24px;
   font-family: "微软雅黑";
-  color: #7a7a7a;
-  font-size: 16px;
+  line-height: 36px;
+  float: left;
 }
-/* line 53, ../sass/registry.scss */
-body .Login .registryBox label input {
-  width: 340px;
-  height: 50px;
-  line-height: 50px;
+/* line 109, ../sass/news.scss */
+body .newSection .newSearch select {
+  width: 114px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  border: 1px solid #d6d4d4;
+  margin-left: 50px;
+  text-align: center;
   border-radius: 5px;
-  border: 1px solid #fff;
-  margin: 0 30px 0px 15px;
-  border: 2px solid #afc0d1;
-  text-indent: 20px;
-  font-size: 16px;
 }
-/* line 65, ../sass/registry.scss */
-body .Login .registryBox label input[type="submit"] {
-  background: #14adc4;
+/* line 120, ../sass/news.scss */
+body .newSection .newSearch input[type="search"] {
+  width: 280px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: #373535;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  border: 1px solid #d6d4d4;
+  text-indent: 30px;
+  background: url("../images/s2.png") no-repeat 250px center;
+  background-size: 20px 20px;
+}
+/* line 137, ../sass/news.scss */
+body .newSection .newSbody {
+  margin: 100px auto 0;
+}
+/* line 140, ../sass/news.scss */
+body .newSection .newSbody > li {
+  height: 270px;
+  position: relative;
+}
+/* line 144, ../sass/news.scss */
+body .newSection .newSbody > li .shape1 {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #9f9f9f;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/* line 154, ../sass/news.scss */
+body .newSection .newSbody > li .shape2 {
+  width: 2px;
+  height: 255px;
+  background: #9f9f9f;
+  position: absolute;
+  left: 8px;
+  top: 17px;
+}
+/* line 163, ../sass/news.scss */
+body .newSection .newSbody > li .newspic {
+  width: 350px;
+  height: 235px;
+  margin: 22px auto auto 80px;
+  border: 1px solid #9f9f9f;
+  border-radius: 5px;
+}
+/* line 170, ../sass/news.scss */
+body .newSection .newSbody > li .newspic > img {
+  width: 100%;
+  height: 100%;
+}
+/* line 176, ../sass/news.scss */
+body .newSection .newSbody > li .situation {
+  width: 680px;
+  margin: 22px auto auto auto;
+}
+/* line 180, ../sass/news.scss */
+body .newSection .newSbody > li .situation .situationHead {
+  color: #000000;
+  font-size: 30px;
+  font-family: 方正兰亭纤黑_GBK;
+}
+/* line 186, ../sass/news.scss */
+body .newSection .newSbody > li .situation time {
+  color: #7c7b7b;
+  font-size: 18px;
+  line-height: 26px;
+  font-family: 方正兰亭超细黑简体;
+}
+/* line 193, ../sass/news.scss */
+body .newSection .newSbody > li .situation .situationBody {
+  color: #000000;
+  font-size: 18px;
+  font-family: 方正兰亭纤黑_GBK;
+  line-height: 30px;
+}
+/* line 200, ../sass/news.scss */
+body .newSection .newSbody > li .situation > a {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  font-family: 方正兰亭纤黑_GBK;
+  color: #074696;
+  font-size: 18px;
+}
+/* line 213, ../sass/news.scss */
+body .newSection .newSbody > li:last-child .shape2 {
+  height: 237px;
+}
+/* line 217, ../sass/news.scss */
+body .newSection .newSbody > li:last-child .shape3 {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #9f9f9f;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+/* line 231, ../sass/news.scss */
+body .newSection .pages {
   text-align: center;
-  border: 2px solid #15849b;
+  margin: 120px auto 50px;
+}
+/* line 235, ../sass/news.scss */
+body .newSection .pages .page {
+  display: inline-block;
+}
+/* line 239, ../sass/news.scss */
+body .newSection .pages .page > li {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 5px;
+  font-family: 方正兰亭纤黑_GBK;
+}
+/* line 248, ../sass/news.scss */
+body .newSection .pages .page > li > a {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  color: #000000;
+}
+/* line 254, ../sass/news.scss */
+body .newSection .pages .page > li > a:hover {
+  background: #0070cc;
   color: #fff;
-  text-indent: 0px;
 }
-/* line 74, ../sass/registry.scss */
-body .Login .registryBox label .inputR {
-  height: 50px;
-  line-height: 50px;
-  font-family: "微软雅黑";
-  color: #7a7a7a;
-  font-size: 16px;
+/* line 262, ../sass/news.scss */
+body .newSection .pages .pagePrev {
+  width: 22px;
+  height: 36px;
+  display: inline-block;
+  background-size: contain;
+  cursor: pointer;
+  background: url("../images/page1.png") no-repeat center center;
 }
-/* line 83, ../sass/registry.scss */
-body .Login .registryBox .footRegistry {
-  width: 340px;
-  margin: 40px auto 40px 115px;
-  text-align: center;
-  font-size: 16px;
-  font-family: "微软雅黑";
-  color: #7a7a7a;
-  white-space: pre;
-}
-/* line 92, ../sass/registry.scss */
-body .Login .registryBox .footRegistry > a {
-  color: #15849b;
+/* line 268, ../sass/news.scss */
+body .newSection .pages .pageNext {
+  width: 22px;
+  height: 36px;
+  display: inline-block;
+  background-size: contain;
+  cursor: pointer;
+  background: url("../images/page2.png") no-repeat center center;
 }

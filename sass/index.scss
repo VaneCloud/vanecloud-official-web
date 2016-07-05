@@ -10,101 +10,6 @@ body{
 		.container{
 			overflow: visible !important;
 
-			.logo{
-				width:150px;
-				height:50px;	
-				background:url('../images/logo.png')no-repeat;
-				background-size:contain;
-				margin:25px 80px auto auto;
-
-			}
-
-			.navHead{
-				height:100%;
-						
-
-				&>li{
-					@include headText;
-					overflow: visible;
-					position: relative;
-					float:left;
-					margin-top:32px;
-
-					&>a{
-						height:36px;
-						line-height: 36px;
-						display:block;
-						padding:0 10px;
-						margin:0 15px;
-
-						&.active1{
-							background:#3a4051;
-							@include Radiu;
-							border:0 none;
-						}
-
-						&.active2{
-							background:#5ad0b8;
-							@include Radiu;
-							border:0 none;
-						}
-
-						&.active3{
-							background:#64c3e1;
-							@include Radiu;
-							border:0 none;
-						}
-
-						&.active4{
-							background:#5ca0dd;
-							@include Radiu;
-							border:0 none;
-						}
-					}
-						
-					.navSection{
-						padding:5px 0;
-						margin-top:0px;
-						position:absolute;
-						z-index:99;
-						width:100%;
-						display:none;
-								
-						.trigon{
-							width: 0;
-							height: 0;
-							border-left: 10px solid transparent;
-							border-right: 10px solid transparent;
-							border-bottom: 10px solid #f2f7fc;
-							margin:0 auto 0;
-						}
-								
-						&>ul{
-							background:#eff0f1;
-							@include Radiu;
-									
-							&>li{
-								line-height:36px;
-								font-size: 14px;
-								font-family:$fontW;
-
-								&>a{
-									color:#1f2539;	
-
-									&:hover{
-										color:#14adc4;
-										text-decoration:underline;	
-									}
-								}
-							}
-
-						}
-								
-					}
-				}
-			}
-					
-					
 			.logInOut{
 				margin:0px 25px;
 
@@ -120,7 +25,7 @@ body{
 						@include Radiu;
 						height:34px;
 						line-height: 34px;
-						display:iblock;
+						display:block;
 						
 						&.#{$className}{
 							color:#e6e3e3;
@@ -211,6 +116,8 @@ body{
 				float:left;
 				position: relative;
 				
+				
+
 				.container{
 					
 					&.con2,&.con3,&.con4{
@@ -300,6 +207,13 @@ body{
 				}
 
 				&:nth-child(1),&:last-child{
+
+					.header{
+						&:hover{
+							background: rgba(17,17,17,0.9);
+						}
+					}
+
 					.cloudpic{
 						width:560px;
 						height:320px;
@@ -308,56 +222,46 @@ body{
 						background-size:contain;
 						left:50%;
 						margin-left:-280px;
-						bottom:250px;
+						bottom:230px;
 					}
 
 					.cloudText{
-						width:100%;
-						position:absolute;
+						width:668px;
+						height:168px;
+						background:url('../images/cloud11.png') no-repeat center center;
+						background-size:contain;
+						position: absolute;
+						left:50%;
+						margin-left:-334px;
 						top:250px;
-
-						&>li{
-							width:100%;
-							text-align: center;
-							font-family: $fontF;
-							
-							color:#fcfcfc;
-							white-space:pre;
-							
-
-							&.top{
-								font-size: 48px;
-							}
-
-							&.bot{
-								font-size: 36px;
-								margin-top:40px;
-
-								&>span{
-									color:#1791a6;
-								}
-							}
-
-							
-
-
-						}
 					}
 				} 
 				
 				&:nth-child(2){
-
+					.header{
+						&:hover{
+							background: rgba(17,17,17,0.9);
+						}
+					}
 					
 				}
 				
 				&:nth-child(3){
-					
+					.header{
+						&:hover{
+							background: rgba(17,17,17,0.9);
+						}
+					}
 
 					
 				}
 
 				&:nth-child(4){
-					
+					.header{
+						&:hover{
+							background: rgba(17,17,17,0.9);
+						}
+					}
 				}
 
 				& > .header{
@@ -1130,22 +1034,22 @@ body{
 
 			.btnnl{
 				@include btnn;
-				background:url('../images/btnnl.png')no-repeat center center;
+				background:url('../images/bll.png')no-repeat center center;
 				background-size:contain; 
 
 				&:hover{
-					background:url('../images/btnnll.png')no-repeat center center;
+					background:url('../images/bll.png')no-repeat center center;
 					background-size:contain;
 				}
 			}
 
 			.btnnr{
 				@include btnn;
-				background:url('../images/btnnr.png')no-repeat center center;
+				background:url('../images/br.png')no-repeat center center;
 				background-size:contain;
 
 				&:hover{
-					background:url('../images/btnnrr.png')no-repeat center center;
+					background:url('../images/brr.png')no-repeat center center;
 					background-size:contain;
 				} 
 			}
@@ -1196,6 +1100,8 @@ body{
 					&:hover{
 						transform: rotateY(360deg);
 						-webkit-transform: rotateY(360deg);
+						-o-transform: rotateY(360deg);
+						-moz-transform: rotateY(360deg);
 					}
 					
 					.productsBox1{

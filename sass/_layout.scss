@@ -94,7 +94,7 @@ input[type=search]::-webkit-search-results-decoration {
 @mixin btnn{
   width:70px;
   height:70px;
-  margin-top:250px;
+  margin-top:165px;
   cursor: pointer;
 }
 
@@ -146,6 +146,14 @@ body{
   color:$color;
   overflow-x:hidden;
 
+  .site-bg-canvas{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+  }
+
   .header{
     width:100%;
     height:100px;
@@ -153,160 +161,125 @@ body{
    .container{
       overflow: visible !important;
       
-      .row{
-        overflow: visible !important;
+      .logo{
+        width:150px;
+        height:50px;  
+        background:url('../images/logo.png')no-repeat;
+        background-size:contain;
+        margin:25px 80px auto auto;
 
-        .company{
-          width:100%;
-          height: 68px;
-          margin-top:16px;
-
-          &>img{
-            width: 68px;
-            height: 68px;
-            float:left;
-            display:block;
-            margin-right:30px;
-          }
-          
-          &>.companyText{
-
-            float:left;
-        
-            >li{
-              font-family: $fontF;
-              text-align: center;
-
-              &.top{
-                font-size:14px;
-                height:32px;
-                line-height: 37px;
-              }
-
-              &.bot{
-                font-size:14px;
-                height:32px;
-                line-height: 27px;
-              }
-            }
-          }
-
-          
-        }
-
-        .col-lg-6.col-md-6{
-          overflow: visible !important;
-          position:relative;
-
-          .navHead{
-            
-            
-
-            &>li{
-              @include headText;
-              overflow: visible;
-              position: relative;
-
-              &>a{
-                height:35px;
-                line-height: 35px;
-                color:#e6e3e3;
-                font-family:$fontW;
-                margin-top:32.5px;
-                display:block;
-
-                &.active1{
-                  background:#3a4051;
-                  @include Radiu;
-                  border:0 none;
-                }
-
-                &.active2{
-                  background:#5ad0b8;
-                  @include Radiu;
-                  border:0 none;
-                }
-
-                &.active3{
-                  background:#64c3e1;
-                  @include Radiu;
-                  border:0 none;
-                }
-
-                &.active4{
-                  background:#5ca0dd;
-                  @include Radiu;
-                  border:0 none;
-                }
-              }
-            
-              .navSection{
-                
-                padding:5px 0;
-                margin-top:0px;
-                position:absolute;
-                z-index:99;
-                width:100%;
-                display:none;
-                
-                .trigon{
-                  width: 0;
-                  height: 0;
-                  border-left: 10px solid transparent;
-                  border-right: 10px solid transparent;
-                  border-bottom: 10px solid #f2f7fc;
-                  margin:0 auto 0;
-                }
-                
-                &>ul{
-                  background:#eff0f1;
-                  @include Radiu;
-                  
-                  &>li{
-                    line-height:35px;
-                    font-size: 16px;
-                    font-family:$fontW;
-
-                    &>a{
-                      color:#1f2539;  
-
-                      &:hover{
-                        color:#14adc4;
-                        text-decoration:underline;  
-                      }
-                    }
-                  }
-
-                }
-                
-              }
-            }
-            
-
-          }
-          
-          
-        }
       }
-        
 
-      .logInOut{
-       
-        
+      .navHead{
+        height:100%;
+            
+
         &>li{
-          
           @include headText;
+          overflow: visible;
+          position: relative;
+          float:left;
           
+
           &>a{
-            line-height:40px; 
-            @include Radiu;
-            padding:0 15px;
-            display:inline-block;
-            color:#e6e3e3;
-            font-family: $fontW;
+            height: 100px;
+            line-height: 100px;
+            display:block;
+            padding:0 10px;
+            margin:0 15px;
+            
+            &:hover{
+              color:#2176da;
+
+            }
+
+            &.active1{
+              
+              @include Radiu;
+              border:0 none;
+            }
+
+            &.active2{
+              
+              @include Radiu;
+              border:0 none;
+            }
+
+            &.active3{
+              
+              @include Radiu;
+              border:0 none;
+            }
+
+            &.active4{
+              
+              @include Radiu;
+              border:0 none;
+            }
+          }
+            
+          .navSection{
+            padding:5px 0;
+            margin-top:0px;
+            position:absolute;
+            z-index:99;
+            width:100%;
+            display:none;
+            background:rgba(17,17,17,0.9);
+                
+            
+            &>ul{
+              &>li{
+                line-height:36px;
+                font-size: 14px;
+                font-family:$fontW;
+
+                &>a{
+                  color:#fff;  
+
+                  &:hover{
+                    color:#2176da;
+                    
+                  }
+                }
+              }
+
+            }
+                
+          }
+
+         .logInOut{
+          margin:0px 25px;
+        
+          &>li{
+              
+            @include headText;
+            float:left;
+            margin:32px 5px;
+            height:36px;
+              
+           &>a{
+            
+              @include Radiu;
+              height:34px;
+              line-height: 34px;
+              display:block;
+              
+              &.#{$className}{
+                color:#e6e3e3;
+                background:#14adc4;
+                border:0 none;
+              }
+            }
           }
         }
+
+
       }
+
+        
+      }
+      
       
       .reglog{
         height: 100px;
@@ -323,6 +296,133 @@ body{
     
   }
   
+  .service{
+    width:100%;
+    background: #0b2f47;
+
+    .container{
+
+      .serviceTop{
+        margin-top:70px;
+
+        .serviceTitle{
+          @include serviceText;
+          font-size:16px;
+          
+        }
+
+        .serviceBody{
+          @include serviceText;
+          font-size:14px;
+          
+          li{
+            margin-top:10px;
+            
+            
+            a{
+              color:#abbac4;
+              &:hover{
+                color:#fff;
+              }
+            }
+          }
+        }
+
+        .ma{
+          width:70px;
+          height:70px;
+          margin:20px auto 20px;
+
+          &>img{
+            width: 100px;
+            height: 100%;
+          }
+        }
+      }
+
+      .serviceBot{
+        margin:60px auto 30px;
+    
+        &>li.language{
+          color:#fff;
+          font-size: 16px;
+          font-family:$fontW;
+          text-align: center;
+          
+        } 
+
+        .serviceTitle{
+          @include serviceText;
+          font-size:16px;
+          color:#fff;
+        }
+
+        .serviceBody{
+          @include serviceText;
+          font-size:14px;
+          
+          li{
+            margin-top:10px;
+            
+            &>a{
+              color:#abbac4;
+
+              
+              &:hover{
+                color:#fff;
+              }
+
+            }
+            
+          }
+        }
+
+
+
+        .xwq{
+
+          &>li{
+            width:50px;
+            height:50px;
+            margin-left:50px;
+            float:left;
+            
+            &>a{
+              display:block;
+              width:50px;
+              height:50px;
+            }
+
+            &:nth-child(1){
+              &>a{
+
+                background:url('../images/WB.png')no-repeat center center;
+                background-size:contain;
+              }
+            }
+
+            &:nth-child(2){
+              &>a{
+                background:url('../images/WX.png')no-repeat center center;
+                background-size:contain;
+              }
+            }
+
+            &:nth-child(3){
+              &>a{
+                background:url('../images/QQ.png')no-repeat center center;
+                background-size:contain;
+              }
+            }
+          }
+        } 
+
+      }
+
+
+    }
+  }
+
   .footer{
     width:100%;
     height:105px;

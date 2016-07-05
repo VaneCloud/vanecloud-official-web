@@ -1769,94 +1769,179 @@ body .joint > li:nth-child(4) > a {
     -webkit-transform: rotate(-45deg);
   }
 }
-/* line 8, ../sass/registry.scss */
-body .header {
-  background: #1f2539;
+/* line 6, ../sass/newsmain.scss */
+body {
+  background: #f2f2f2;
 }
-/* line 12, ../sass/registry.scss */
-body .Login {
-  width: 100%;
-  background: -webkit-linear-gradient(#358fb9, #326a92);
-  background: -o-linear-gradient(#358fb9, #326a92);
-  background: -moz-linear-gradient(#358fb9, #326a92);
-  background: linear-gradient(#358fb9, #326a92);
-  overflow: hidden;
-}
-/* line 20, ../sass/registry.scss */
-body .Login .registryBox {
-  border-radius: 5px;
-  border: 1px solid #fff;
-  width: 650px;
+/* line 9, ../sass/newsmain.scss */
+body .main {
+  width: 1200px;
+  margin: 100px auto 10px;
   background: #ffffff;
-  margin: 100px auto 0;
-  box-shadow: 0 0 10px #307398;
+  box-shadow: 0 0 10px #c5c5c5;
   overflow: hidden;
 }
-/* line 28, ../sass/registry.scss */
-body .Login .registryBox h1 {
-  color: #000;
-  font-size: 30px;
-  text-align: center;
-  margin: 30px auto 30px;
-  font-family: "微软雅黑";
-  font-weight: normal;
-  font-weight: bold;
+/* line 16, ../sass/newsmain.scss */
+body .main .head {
+  width: 940px;
+  margin: 45px auto 80px;
 }
-/* line 38, ../sass/registry.scss */
-body .Login .registryBox label {
-  overflow: hidden;
+/* line 22, ../sass/newsmain.scss */
+body .main .head .pull-left a {
+  background: url("../images/h1.png") no-repeat left center;
+  background-size: contain;
   display: block;
+  text-indent: 40px;
+  height: 36px;
+  line-height: 36px;
+  color: #000000;
+  font-size: 18px;
+  font-family: "微软雅黑";
+}
+/* line 36, ../sass/newsmain.scss */
+body .main .head .pull-right .newSl {
+  color: #000000;
+  font-size: 24px;
+  font-family: "微软雅黑";
+  line-height: 36px;
+  float: left;
+}
+/* line 44, ../sass/newsmain.scss */
+body .main .head .pull-right select {
+  width: 114px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  border: 1px solid #d6d4d4;
+  margin-left: 50px;
+  text-align: center;
+  border-radius: 5px;
+}
+/* line 55, ../sass/newsmain.scss */
+body .main .head .pull-right input[type="search"] {
+  width: 280px;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: #373535;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  border: 1px solid #d6d4d4;
+  text-indent: 30px;
+  background: url("../images/s2.png") no-repeat 250px center;
+  background-size: 20px 20px;
+}
+/* line 73, ../sass/newsmain.scss */
+body .main .panel {
+  width: 940px;
+  margin: 0 auto 0;
+}
+/* line 77, ../sass/newsmain.scss */
+body .main .panel .panelHead {
+  border-bottom: 1px solid #c6c6c6;
+}
+/* line 80, ../sass/newsmain.scss */
+body .main .panel .panelHead .panneltitle {
+  line-height: 70px;
+  font-size: 36px;
+  font-family: 方正兰亭纤黑_GBK;
+  color: #000;
+  text-align: center;
+}
+/* line 88, ../sass/newsmain.scss */
+body .main .panel .panelHead time {
+  display: block;
+  color: #7c7b7b;
+  font-size: 16px;
+  font-family: "微软雅黑";
+  line-height: 60px;
+  text-align: center;
+}
+/* line 99, ../sass/newsmain.scss */
+body .main .panel .panelBody {
+  margin: 15px auto 15px;
+}
+/* line 101, ../sass/newsmain.scss */
+body .main .panel .panelBody article {
+  word-wrap: break-word;
+  line-height: 30px;
+  color: #000000;
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+/* line 109, ../sass/newsmain.scss */
+body .main .panel .panelFoot {
+  margin: 0 auto 80px;
+}
+/* line 112, ../sass/newsmain.scss */
+body .main .panel .panelFoot .read {
+  height: 40px;
+}
+/* line 117, ../sass/newsmain.scss */
+body .main .panel .panelFoot .read .pull-left a {
+  line-height: 40px;
+  color: #318fbb;
+  font-family: 方正兰亭纤黑_GBK;
+  font-size: 20px;
+  display: block;
+  margin-right: 35px;
+  float: left;
+}
+/* line 129, ../sass/newsmain.scss */
+body .main .panel .panelFoot .read .pull-right > a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 10px;
+}
+/* line 135, ../sass/newsmain.scss */
+body .main .panel .panelFoot .read .pull-right > a:nth-child(1) {
+  background: url("../images/r1.png") no-repeat;
+  background-size: contain;
+}
+/* line 140, ../sass/newsmain.scss */
+body .main .panel .panelFoot .read .pull-right > a:nth-child(2) {
+  background: url("../images/r2.png") no-repeat;
+  background-size: contain;
+}
+/* line 145, ../sass/newsmain.scss */
+body .main .panel .panelFoot .read .pull-right > a:nth-child(3) {
+  background: url("../images/r3.png") no-repeat;
+  background-size: contain;
+}
+/* line 153, ../sass/newsmain.scss */
+body .main .panel .panelFoot .context {
+  margin: 30px auto 0;
+}
+/* line 155, ../sass/newsmain.scss */
+body .main .panel .panelFoot .context > ul > li {
   margin: 0 auto 20px;
 }
-/* line 43, ../sass/registry.scss */
-body .Login .registryBox label .inputL {
-  width: 100px;
-  height: 50px;
-  line-height: 50px;
-  text-align: right;
-  font-family: "微软雅黑";
-  color: #7a7a7a;
-  font-size: 16px;
+/* line 158, ../sass/newsmain.scss */
+body .main .panel .panelFoot .context > ul > li > div {
+  line-height: 35px;
+  color: #318fbb;
+  font-size: 20px;
+  font-family: 方正兰亭纤黑_GBK;
 }
-/* line 53, ../sass/registry.scss */
-body .Login .registryBox label input {
-  width: 340px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 5px;
-  border: 1px solid #fff;
-  margin: 0 30px 0px 15px;
-  border: 2px solid #afc0d1;
-  text-indent: 20px;
-  font-size: 16px;
+/* line 167, ../sass/newsmain.scss */
+body .main .panel .panelFoot .context > ul > li > a {
+  color: #318fbb;
+  font-size: 20px;
+  font-family: 方正兰亭纤黑_GBK;
+  text-decoration: underline;
+  display: block;
+  line-height: 35px;
 }
-/* line 65, ../sass/registry.scss */
-body .Login .registryBox label input[type="submit"] {
-  background: #14adc4;
-  text-align: center;
-  border: 2px solid #15849b;
-  color: #fff;
-  text-indent: 0px;
+/* line 181, ../sass/newsmain.scss */
+body .footer {
+  width: 100%;
+  background: #f2f2f2;
+  margin: 0 auto 50px;
 }
-/* line 74, ../sass/registry.scss */
-body .Login .registryBox label .inputR {
-  height: 50px;
-  line-height: 50px;
-  font-family: "微软雅黑";
-  color: #7a7a7a;
-  font-size: 16px;
-}
-/* line 83, ../sass/registry.scss */
-body .Login .registryBox .footRegistry {
-  width: 340px;
-  margin: 40px auto 40px 115px;
-  text-align: center;
-  font-size: 16px;
-  font-family: "微软雅黑";
-  color: #7a7a7a;
-  white-space: pre;
-}
-/* line 92, ../sass/registry.scss */
-body .Login .registryBox .footRegistry > a {
-  color: #15849b;
+/* line 190, ../sass/newsmain.scss */
+body .footer .container .version > li {
+  color: #707070;
 }

@@ -1,20 +1,23 @@
+$(function(){
 
-			var names = ['国际动态', '行业动态', '氢氧动态','新品发布'];
+	$('.namic a').on('mouseover',function(){
+		$(this).css({'background':'url("./images/f1.png") no-repeat','background-size':'contain','transform':'rotateY(360deg)','-webkit-transform':'rotateY(360deg)','-o-transform':'rotateY(360deg)','-moz-transform':'rotateY(360deg)'});
+		$(this).children('.interior').css('color','#ffffff');
+	});
 
-			var News=React.createClass({
-				render:function(){
-					return (
-						<ul>
-							{
-								names.map(function (name) {
-									return <li><a href="javascript:">{name}</a></li>
-								})
-							}
-						</ul>
-					)
-				}
-			})
+	$('.namic a').on('mouseout',function(){
+		$(this).css({'background':'url("./images/f2.png") no-repeat','background-size':'contain','transform':'rotateY(0deg)'});
+		$(this).children('.interior').css('color','#000000');
+	});
 
-		ReactDOM.render(<News></News>,document.getElementById('news'));
+	$('.namic a').on('click',function(){
+		$(this).css({'background':'url("./images/f1.png") no-repeat','background-size':'contain','transform':'rotateY(360deg)'}).siblings('.namic a').css({'background':'url("./images/f2.png") no-repeat','background-size':'contain','transform':'rotateY(0deg)','-webkit-transform':'rotateY(0deg)','-moz-transform':'rotateY(0deg)','-o-transform':'rotateY(0deg)'});
+		$(this).children('.interior').css('color','#ffffff');
+		$(this).siblings('.namic a').children('.interior').css('color','#000000');
+		$(this).off('mouseout');
+	});
+
+	$('.newSbody li:last-child').append('<div class="shape3"></div>');
+})
 
 
