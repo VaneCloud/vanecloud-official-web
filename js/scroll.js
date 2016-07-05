@@ -5,7 +5,7 @@ $(function(){
 	var s=$('.indust>li').eq(0).outerWidth();
 	
 	
-	$('.btnnl').on('click',function(){
+	$('.btnnl').on('hover',function(){
     	if($('.indd').scrollLeft()>$('.indust').width()/2){
               
             $('.indd').scrollLeft(0);
@@ -15,17 +15,18 @@ $(function(){
         } 
     })
 
-    $('.btnnr').on('click',function(){
-    	if($('.indd').scrollLeft()>$('.indust').width()/2){
-              
-            $('.indd').scrollLeft(0);
+    $('.btnnr').on('hover',function(){
+        //alert($('.indd').scrollLeft());
+    	if($('.indd').scrollLeft()<$('.indust').width()/2){
+           
+            $('.indd').scrollLeft($('.indust').width()/2);
         }else{
                 
             $('.indd').scrollLeft($('.indd').scrollLeft()-s)  
         }
     })
 
-	var scroll = function(){
+	/*var scroll = function(){
         if($('.indd').scrollLeft()>$('.indust').width()/2){
               
             $('.indd').scrollLeft(0);
@@ -45,5 +46,5 @@ $(function(){
         }, function () {
             tervual = setInterval(scroll,100)
         }
-    )
+    )*/
 })

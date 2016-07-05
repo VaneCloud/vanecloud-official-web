@@ -26,6 +26,7 @@ body{
 						height:34px;
 						line-height: 34px;
 						display:block;
+						padding:0 20px;
 						
 						&.#{$className}{
 							color:#e6e3e3;
@@ -116,8 +117,6 @@ body{
 				float:left;
 				position: relative;
 				
-				
-
 				.container{
 					
 					&.con2,&.con3,&.con4{
@@ -264,10 +263,12 @@ body{
 					}
 				}
 
-				& > .header{
+				& >	.header{
 					position: absolute;
 					left:0;
 					top:0;
+					overflow: visible;
+
 				}
 				
 				

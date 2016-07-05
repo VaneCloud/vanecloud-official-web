@@ -5,6 +5,10 @@ $(function(){
 		var disX = 0;
 		var disY = 0;
 
+		obj.click(function(ev){
+			ev.preventDefault();
+		})
+
 		obj.mousedown(function(ev){
 						
 			disX = ev.pageX - $(this).offset().left;

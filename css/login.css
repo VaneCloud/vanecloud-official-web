@@ -97,11 +97,11 @@ body .header {
   width: 100%;
   height: 100px;
 }
-/* line 161, ../sass/_layout.scss */
+/* line 162, ../sass/_layout.scss */
 body .header .container {
   overflow: visible !important;
 }
-/* line 164, ../sass/_layout.scss */
+/* line 165, ../sass/_layout.scss */
 body .header .container .logo {
   width: 150px;
   height: 50px;
@@ -109,11 +109,11 @@ body .header .container .logo {
   background-size: contain;
   margin: 25px 80px auto auto;
 }
-/* line 173, ../sass/_layout.scss */
+/* line 174, ../sass/_layout.scss */
 body .header .container .navHead {
   height: 100%;
 }
-/* line 177, ../sass/_layout.scss */
+/* line 178, ../sass/_layout.scss */
 body .header .container .navHead > li {
   font-family: "微软雅黑";
   color: #e6e3e3;
@@ -123,43 +123,40 @@ body .header .container .navHead > li {
   position: relative;
   float: left;
 }
-/* line 184, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 body .header .container .navHead > li > a {
   height: 100px;
   line-height: 100px;
   display: block;
   padding: 0 10px;
   margin: 0 15px;
+  color: #e6e3e3;
 }
-/* line 191, ../sass/_layout.scss */
-body .header .container .navHead > li > a:hover {
-  color: #2176da;
-}
-/* line 196, ../sass/_layout.scss */
+/* line 193, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active1 {
   border-radius: 5px;
   border: 1px solid #fff;
   border: 0 none;
 }
-/* line 202, ../sass/_layout.scss */
+/* line 199, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active2 {
   border-radius: 5px;
   border: 1px solid #fff;
   border: 0 none;
 }
-/* line 208, ../sass/_layout.scss */
+/* line 205, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active3 {
   border-radius: 5px;
   border: 1px solid #fff;
   border: 0 none;
 }
-/* line 214, ../sass/_layout.scss */
+/* line 211, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active4 {
   border-radius: 5px;
   border: 1px solid #fff;
   border: 0 none;
 }
-/* line 221, ../sass/_layout.scss */
+/* line 218, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection {
   padding: 5px 0;
   margin-top: 0px;
@@ -169,25 +166,25 @@ body .header .container .navHead > li .navSection {
   display: none;
   background: rgba(17, 17, 17, 0.9);
 }
-/* line 232, ../sass/_layout.scss */
+/* line 229, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
   font-family: "微软雅黑";
 }
-/* line 237, ../sass/_layout.scss */
+/* line 234, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
   color: #fff;
 }
-/* line 240, ../sass/_layout.scss */
+/* line 237, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a:hover {
   color: #2176da;
 }
-/* line 251, ../sass/_layout.scss */
+/* line 248, ../sass/_layout.scss */
 body .header .container .navHead > li .logInOut {
   margin: 0px 25px;
 }
-/* line 254, ../sass/_layout.scss */
+/* line 251, ../sass/_layout.scss */
 body .header .container .navHead > li .logInOut > li {
   font-family: "微软雅黑";
   color: #e6e3e3;
@@ -197,21 +194,22 @@ body .header .container .navHead > li .logInOut > li {
   margin: 32px 5px;
   height: 36px;
 }
-/* line 261, ../sass/_layout.scss */
+/* line 258, ../sass/_layout.scss */
 body .header .container .navHead > li .logInOut > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
   height: 34px;
   line-height: 34px;
   display: block;
+  padding: 0 20px;
 }
-/* line 268, ../sass/_layout.scss */
+/* line 266, ../sass/_layout.scss */
 body .header .container .navHead > li .logInOut > li > a.active {
   color: #e6e3e3;
   background: #14adc4;
   border: 0 none;
 }
-/* line 284, ../sass/_layout.scss */
+/* line 282, ../sass/_layout.scss */
 body .header .container .reglog {
   height: 100px;
   line-height: 100px;
@@ -221,176 +219,202 @@ body .header .container .reglog {
   background-size: 20px 20px;
   padding-right: 35px;
 }
-/* line 299, ../sass/_layout.scss */
+/* line 297, ../sass/_layout.scss */
 body .service {
   width: 100%;
   background: #0b2f47;
 }
-/* line 305, ../sass/_layout.scss */
+/* line 303, ../sass/_layout.scss */
 body .service .container .serviceTop {
   margin-top: 70px;
 }
-/* line 308, ../sass/_layout.scss */
+/* line 306, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 16px;
 }
-/* line 314, ../sass/_layout.scss */
+/* line 312, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 14px;
 }
-/* line 318, ../sass/_layout.scss */
+/* line 316, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 322, ../sass/_layout.scss */
+/* line 320, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 324, ../sass/_layout.scss */
+/* line 322, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 331, ../sass/_layout.scss */
+/* line 329, ../sass/_layout.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
   margin: 20px auto 20px;
 }
-/* line 336, ../sass/_layout.scss */
+/* line 334, ../sass/_layout.scss */
 body .service .container .serviceTop .ma > img {
   width: 100px;
   height: 100%;
 }
-/* line 343, ../sass/_layout.scss */
+/* line 341, ../sass/_layout.scss */
 body .service .container .serviceBot {
   margin: 60px auto 30px;
 }
-/* line 346, ../sass/_layout.scss */
+/* line 344, ../sass/_layout.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
   font-family: "微软雅黑";
   text-align: center;
 }
-/* line 354, ../sass/_layout.scss */
+/* line 352, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
-/* line 360, ../sass/_layout.scss */
+/* line 358, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 14px;
 }
-/* line 364, ../sass/_layout.scss */
+/* line 362, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 367, ../sass/_layout.scss */
+/* line 365, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 371, ../sass/_layout.scss */
+/* line 369, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 384, ../sass/_layout.scss */
+/* line 382, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li {
   width: 50px;
   height: 50px;
   margin-left: 50px;
   float: left;
 }
-/* line 390, ../sass/_layout.scss */
+/* line 388, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 50px;
   height: 50px;
 }
-/* line 397, ../sass/_layout.scss */
+/* line 395, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 405, ../sass/_layout.scss */
+/* line 403, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 412, ../sass/_layout.scss */
+/* line 410, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;
 }
-/* line 426, ../sass/_layout.scss */
+/* line 424, ../sass/_layout.scss */
 body .footer {
   width: 100%;
   height: 105px;
   background: #081f2f;
 }
-/* line 432, ../sass/_layout.scss */
+/* line 430, ../sass/_layout.scss */
 body .footer .container .version {
   margin-top: 25px;
 }
-/* line 435, ../sass/_layout.scss */
+/* line 433, ../sass/_layout.scss */
 body .footer .container .version > li {
   line-height: 30px;
 }
-/* line 440, ../sass/_layout.scss */
+/* line 438, ../sass/_layout.scss */
 body .footer .container .version.pull-left {
   text-align: left;
 }
-/* line 444, ../sass/_layout.scss */
+/* line 442, ../sass/_layout.scss */
 body .footer .container .version.pull-right {
   text-align: right;
 }
-/* line 451, ../sass/_layout.scss */
+/* line 449, ../sass/_layout.scss */
 body .joint {
   position: fixed;
-  width: 70px;
+  width: 40px;
   top: 120px;
   left: 50px;
   border-radius: 5px;
   border: 1px solid #fff;
   border: 0 none;
 }
-/* line 459, ../sass/_layout.scss */
+/* line 457, ../sass/_layout.scss */
 body .joint > li {
-  width: 70px;
-  height: 70px;
+  width: 45px;
+  height: 45px;
+}
+/* line 461, ../sass/_layout.scss */
+body .joint > li:nth-child(1) {
+  background: #25364a;
 }
 /* line 463, ../sass/_layout.scss */
-body .joint > li > a {
-  width: 70px;
-  height: 70px;
-  display: block;
-}
-/* line 470, ../sass/_layout.scss */
 body .joint > li:nth-child(1) > a {
-  background: #25364a url("../images/speech-bubble.png") no-repeat center center;
-  background-size: 42px 35px;
+  width: 30px;
+  height: 20px;
+  margin: 12.5px auto 0;
+  background: url("../images/speech-bubble.png") no-repeat center center;
+  background-size: contain;
 }
-/* line 478, ../sass/_layout.scss */
+/* line 472, ../sass/_layout.scss */
+body .joint > li:nth-child(2) {
+  background: #4ebbdd;
+}
+/* line 474, ../sass/_layout.scss */
 body .joint > li:nth-child(2) > a {
-  background: #4ebbdd url("../images/email.png") no-repeat center center;
-  background-size: 40px 29px;
+  width: 30px;
+  height: 30px;
+  margin: 7.5px auto 0;
+  background: url("../images/email.png") no-repeat center center;
+  background-size: 30px 30px;
 }
-/* line 486, ../sass/_layout.scss */
+/* line 483, ../sass/_layout.scss */
+body .joint > li:nth-child(3) {
+  background: #4aaaa5;
+}
+/* line 485, ../sass/_layout.scss */
 body .joint > li:nth-child(3) > a {
-  background: #4aaaa5 url("../images/like.png") no-repeat center center;
-  background-size: 40px 33px;
+  width: 30px;
+  height: 30px;
+  margin: 7.5px auto 0;
+  background: url("../images/like.png") no-repeat center center;
+  background-size: 30px 30px;
 }
-/* line 493, ../sass/_layout.scss */
+/* line 494, ../sass/_layout.scss */
+body .joint > li:nth-child(4) {
+  background: #0091a9;
+}
+/* line 496, ../sass/_layout.scss */
 body .joint > li:nth-child(4) > a {
-  background: #0091a9 url("../images/telephone.png") no-repeat center center;
-  background-size: 40px 55px;
+  width: 30px;
+  height: 30px;
+  margin: 7.5px auto 0;
+  background: url("../images/telephone.png") no-repeat center center;
+  background-size: 30px 30px;
+}
+/* line 505, ../sass/_layout.scss */
+body .joint > li > a {
+  display: block;
 }
 
 /* line 1, ../sass/_row.scss */
