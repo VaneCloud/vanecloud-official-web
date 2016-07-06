@@ -76,7 +76,7 @@ body{
 		position:relative;
 		overflow:hidden;
 
-		& >.num{
+			.num{
 
 			position:absolute;
 			width:100%; 
@@ -462,7 +462,7 @@ body{
 							height:200px;
 							background:url('../images/n1.png') no-repeat center center;
 							background-size:contain;
-							margin:105px auto 0;
+							margin:90px auto 0;
 						}
 
 						&>.partext{
