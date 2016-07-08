@@ -1,7 +1,10 @@
 $(function(){
-	var w=$(window).width();
+	var w=$(window).width()+20;
 	$('.pic').width(w);
+	
 	$('.picture').width(w*5);
+
+	
 
 	var i=0;
 	var clone=$(".picture .pic").first().clone();
@@ -23,11 +26,11 @@ $(function(){
 	})
 
 
-
-	var t=setInterval(function(){
+	move();
+	/*var t=setInterval(function(){
 		i++;
 		move()
-	},1000)
+	},5000)
 
 	$(".banner").hover(function(){
 		clearInterval(t);
@@ -36,8 +39,8 @@ $(function(){
 		t=setInterval(function(){
 			i++;
 			move()
-		},1000)
-	})
+		},5000)
+	})*/
 
 	$(".btn.btn_l").click(function(){
 		i++;
@@ -76,9 +79,13 @@ $(function(){
 	}
 
 	$(window).on('resize scroll',function(){
-		var w=$(window).width();
+		var w=$(window).width()+20;
+		var h=$(window).height();
+		$('.banner').height(h);
 		$('.pic').width(w);
+		$('.pic').height(h);
 		$('.picture').width(w*5);
+
 
 		var i=0;
 		

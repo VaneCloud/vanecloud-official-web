@@ -1,5 +1,5 @@
 $(function(){
-	var header='<div class="header">'+
+	var header='<div class="header menu">'+
 					'<div class="container">'+
 						'<div class="logo pull-left"></div>'+
 							'<nav class="navHead pull-left">'+
@@ -16,6 +16,7 @@ $(function(){
 								'</li>'+
 								'<li><a href="javascript:">CSHO+</a></li>'+
 								'<li><a href="javascript:">解决方案</a></li>'+
+								'<li><a href="javascript:">产品中心</a></li>'+
 								'<li><a href="javascript:">体验中心</a></li>'+
 							'</nav>'+
 							'<hgroup class="logInOut pull-left">'+
@@ -28,6 +29,6 @@ $(function(){
 							'</div>'+
 						'</div>'+
 					'</div>';
-	$('.picture .pic').prepend(header);
+	$('body').prepend(header);
 
 })

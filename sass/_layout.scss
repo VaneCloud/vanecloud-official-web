@@ -27,10 +27,6 @@ li{
   overflow: hidden;
 }
 
-div{
-   overflow: hidden;
-}
-
 input,button,select,textarea{outline:none}
 textarea{resize:none}
 
@@ -84,8 +80,8 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @mixin namic{
-  width:180px;
-  height:180px;
+  width:140px;
+  height:140px;
   position: absolute;
   right:0;
   bottom:0;
@@ -106,19 +102,15 @@ input[type=search]::-webkit-search-results-decoration {
   background:#318fbb;
 }
 
-@mixin footerText{
-
-}
-
 @mixin round{
   border-radius:100%;
 }
 
 @mixin sectionFoot{
-  font-size: 18px;
-  width:200px;
-  height:65px;
-  line-height: 65px;
+  font-size: 20px;
+  width:150px;
+  height:50px;
+  line-height: 45px;
   font-family:$fontW;
   white-space:pre;
   text-align:center;
@@ -151,12 +143,13 @@ body{
     top:0;
     left:0;
     right:0;
-    z-index:1;
+    bottom:0;
+    z-index:10;
   }
 
   .header{
     width:100%;
-    height:100px;
+    height:60px;
     
 
    .container{
@@ -164,10 +157,10 @@ body{
       
       .logo{
         width:150px;
-        height:50px;  
+        height:40px;  
         background:url('../images/logo.png')no-repeat;
         background-size:contain;
-        margin:25px 80px auto auto;
+        margin:10px 50px auto auto;
 
       }
 
@@ -183,36 +176,20 @@ body{
           
 
           &>a{
-            height: 100px;
-            line-height: 100px;
+            @include Radiu;
+            border:0 none;
+            height: 100%;
+            line-height: 60px;
             display:block;
             padding:0 10px;
-            margin:0 15px;
+            margin:0 10px;
             color:#e6e3e3;
             
-            &.active1{
-              
-              @include Radiu;
-              border:0 none;
+            &.active{
+              color:#14adc4;
             }
 
-            &.active2{
-              
-              @include Radiu;
-              border:0 none;
-            }
-
-            &.active3{
-              
-              @include Radiu;
-              border:0 none;
-            }
-
-            &.active4{
-              
-              @include Radiu;
-              border:0 none;
-            }
+            
           }
             
           .navSection{
@@ -226,6 +203,7 @@ body{
                 
             
             &>ul{
+
               &>li{
                 line-height:36px;
                 font-size: 14px;
@@ -238,6 +216,11 @@ body{
                     color:#2176da;
                     
                   }
+
+                  &.active{
+                    color:#14adc4;
+                  }
+
                 }
               }
 
@@ -245,14 +228,16 @@ body{
                 
           }
 
-         .logInOut{
+       }
+
+      .logInOut{
           margin:0px 25px;
         
           &>li{
               
             @include headText;
             float:left;
-            margin:32px 5px;
+            margin:12px 5px;
             height:36px;
               
            &>a{
@@ -271,9 +256,6 @@ body{
             }
           }
         }
-
-
-      }
 
         
       }
@@ -297,11 +279,12 @@ body{
   .service{
     width:100%;
     background: #0b2f47;
+    overflow: hidden;
 
     .container{
 
       .serviceTop{
-        margin-top:70px;
+         margin:10px auto 0px;
 
         .serviceTitle{
           @include serviceText;
@@ -339,7 +322,7 @@ body{
       }
 
       .serviceBot{
-        margin:60px auto 30px;
+        margin:10px auto 0px;
     
         &>li.language{
           color:#fff;
@@ -423,7 +406,7 @@ body{
 
   .footer{
     width:100%;
-    height:105px;
+    height:100px;
     background: #081f2f;
 
     .container{
@@ -453,6 +436,7 @@ body{
     left:50px;
     @include Radiu;
     border:0 none;
+    z-index:30;
 
     &>li{
       width:45px;
@@ -473,10 +457,10 @@ body{
         background:#4ebbdd;
         &>a{
           width:30px;
-          height:30px;
-          margin:7.5px auto 0;
+          height:20px;
+          margin:12.5px auto 0;
           background:url('../images/email.png') no-repeat center center;
-          background-size:30px 30px;
+          background-size:contain;
         }
       }
 
