@@ -1787,3 +1787,19 @@ body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .pic > img {
   height: 230px;
   display: block;
 }
+/* line 131, ../sass/server.scss */
+body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clFoot {
+  margin: 0 auto 60px;
+}
+/* line 133, ../sass/server.scss */
+body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clFoot > li {
+  line-height: 30px;
+  font-family: "方正兰亭纤黑_GBK";
+  color: #000000;
+  font-size: 16px;
+  text-align: left;
+}
+/* line 142, ../sass/server.scss */
+body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clFoot.last > li {
+  text-align: center;
+}
