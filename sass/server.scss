@@ -186,12 +186,149 @@ body{
 					width:100%;
 					margin:30px auto 0px;
 					overflow:hidden;
+					text-align: center;
 					
 					&>li{
 						height:253px;
-						float:left;
+						display:inline-block;
 						margin-right:15px;
 						margin-bottom:15px;
+
+						.site{
+							position: relative;
+							width:400px;
+							height:100%;
+
+							.backups{
+								position: absolute;
+								top:0;
+								font-family:$fontG2;
+								color:#535353;
+								font-size: 18px;
+
+								&.backupsL{
+									left:0;
+								}
+
+								&.backupsR{
+									right:0;
+								}
+
+								&.backupsC{
+									width:100%;
+									text-align: center;
+									top:40px;
+									font-size: 22px;
+								}
+
+							}
+
+							
+							.lines{
+								width:100px;
+								height:196px;
+								position: absolute;
+								top:30px;
+								border-bottom:1px solid #161616;
+
+								&.linesL{
+									left:35px;
+									border-left:1px solid #161616;
+								}
+
+								&.linesR{
+									right:35px;
+									border-right:1px solid #161616;
+								}	
+							}
+
+							.cir{
+								position: absolute;
+								width:12px;
+								height:12px;
+								bottom:21px;
+								background:#161616;
+								@include round;
+
+								&.cirL{
+									left:124px;
+								}
+
+								&.cirR{
+									right:124px;
+								}
+							}
+			
+							.gear{
+								position: absolute;
+								width:80px;
+								height:130px;
+								top:40px;
+
+								span{
+									width:100%;
+									color:#535353;
+									font-family: $fontG2;
+									text-indent: center;
+									display:inline-block;
+								}
+
+								&.gearL{
+									left:45px;
+				
+									.gearImg{
+										width:80px;
+										height:80px;
+										background:url('../images/C2.png')no-repeat center top;
+										background-size:contain;
+										animation:gear 10s linear infinite;
+									}
+
+									span{
+										font-size:18px;
+										margin-top:36px;
+									}
+								}
+
+								&.gearC{
+									width:116px;
+									left:50%;
+									margin-left:-58px;
+									top:80px;
+					
+									.gearImg{
+										width:116px;
+										height:116px;
+										background:url('../images/C1.png')no-repeat center top;
+										background-size:contain;
+										animation:gear2 10s linear infinite;
+									}
+
+									span{
+										font-size:22px;
+										margin-top:15px;
+									}
+								}
+
+								&.gearR{
+									right:45px;
+	
+									.gearImg{
+										width:80px;
+										height:80px;
+										background:url('../images/C3.png')no-repeat center top;
+										background-size:contain;
+										animation:gear 10s linear infinite;
+									}
+
+									span{
+										font-size:18px;
+										margin-top:36px;
+									}
+								}
+
+							}
+						}
 					}
 				}
 
@@ -264,7 +401,8 @@ body{
 				border-collapse:collapse;
 				border-left:1px solid #c7c7c7;
 				border-top:1px solid #c7c7c7;
-
+				
+				
 				&>tbody>tr>th{
 					height:80px;
 					line-height: 80px;
@@ -272,6 +410,8 @@ body{
 					text-align: center;
 					border-right:1px solid #c7c7c7;
 					border-bottom:1px solid #c7c7c7;
+					font-size: 22px;
+					font-family: $fontG2;
 				}
 
 				&>tbody>tr>td{
@@ -279,6 +419,36 @@ body{
 					line-height: 80px;
 					border-right:1px solid #c7c7c7;
 					border-bottom:1px solid #c7c7c7;
+					overflow: hidden;
+					
+					
+
+					.text1{
+						color:#000000;
+						font-family:$fontG2;
+						font-size: 14px;
+						line-height: 20px;
+						margin:20px auto 0;
+
+					}
+
+					.text2{
+						color:#000000;
+						font-family:$fontG1;
+						font-size: 14px;
+						line-height: 20px;
+						margin:20px auto 0;
+
+						
+					}
+
+					.elect{
+						width:44px;
+						height:44px;
+						background:url('../images/elect.png')no-repeat center center;
+						background-size:contain;
+						margin:18px auto 0;
+					}
 				}
 			}
 			
