@@ -5,18 +5,6 @@ $(function(){
 
 	$('.businessL').css('height',bh+'px');
 
-	$('.business li').hover(function(){
-		var _index=$(this).index();
-
-		$(this).addClass('active').siblings('.business li').removeClass('active');
-
-		//$('.businessBox').eq(_index).show().siblings('.businessBox').hide();
-
-
-
-	})
-
-
 	$('.businessNav a').on('mouseover',function(){
 		$(this).css({'background':'url("./images/f1.png") no-repeat','background-size':'contain','transform':'rotateY(360deg)','-webkit-transform':'rotateY(360deg)','-o-transform':'rotateY(360deg)','-moz-transform':'rotateY(360deg)'});
 		$(this).children('.interior').css('color','#ffffff');

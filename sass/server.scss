@@ -8,7 +8,7 @@ body{
 	.bg{
 		width:100%;
 		height:500px;
-		background:url('../images/company.png')no-repeat center center;
+		background:url('../images/ser.png')no-repeat center center;
 		background-size:auto 100%; 
 		position: relative;
 
@@ -20,6 +20,121 @@ body{
 		background:#ffffff;
 		overflow: hidden;
 
-		
+		.serverL{
+			border-left:1px solid #d6d6d6;
+			border-right:1px solid #d6d6d6;
+			padding:0;
+			
+			.serHead{
+				color:#272636;
+				font-family: $fontW;
+				font-size:24px;
+				text-align: left;
+				height:80px;
+				line-height: 80px;
+				text-indent: 100px;
+				background:url('../images/busi.png')no-repeat 20px center;
+				background-size:40px 36px; 
+				font-weight: 400;
+				border-bottom:1px solid #d6d6d6;
+			}
+
+			.serelect{
+
+				&>li{
+					font-size:20px;
+					font-family: $fontW;
+					text-align: center;
+					height:80px;
+					line-height: 80px;
+					border-bottom:1px solid #d6d6d6;
+					font-weight: 400;
+					cursor: pointer;
+					
+					&>a{
+						
+						color:#272636;
+						display:block;
+
+						&.#{$className}{
+							color:#fff;
+							background:#109ee1;
+						}
+					}
+					
+				}
+			}
+		}
+
+		.serverR{
+			.serverBox{
+				margin-top:80px;
+
+				.serHead{
+
+					.declaration{
+						text-align: center;
+						font-family:$fontG1;
+						font-size: 24px;
+						color:#000000;
+						line-height: 50px;
+
+						&>li{
+
+						}
+					}
+					
+					.author{
+						margin-top:20px;
+						font-family:$fontW;
+						color:#0062c1;
+						font-size: 18px;
+						float:right;
+						line-height: 50px;
+					}
+					
+				}
+
+				.serBody{
+					margin:50px auto 0;
+
+					.motif{
+						font-family: $fontW;
+						color:#0062c1;
+						font-size: 24px;
+					}
+
+					.row{
+
+						.col-lg-6.col-md-6{
+
+							.clHead{
+								color:#000000;
+								font-family:$fontW;
+								font-size: 22px;
+								text-align:center;
+								margin-top:30px;
+							}
+							
+							.pic{
+								width:100%;
+								height:230px;
+								margin:40px auto 40px;
+
+								&>img{
+									margin:0 auto 0;
+									height:230px;
+									display:block;
+								}
+							}
+
+							
+						}
+
+					}
+					
+				}
+			}
+		}
 	}
 }
