@@ -33,7 +33,7 @@ body{
 				height:80px;
 				line-height: 80px;
 				text-indent: 100px;
-				background:url('../images/busi.png')no-repeat 20px center;
+				background:url('../images/rgt.png')no-repeat 20px center;
 				background-size:40px 36px; 
 				font-weight: 400;
 				border-bottom:1px solid #d6d6d6;
@@ -67,10 +67,13 @@ body{
 		}
 
 		.serverR{
+			padding-left:40px;
+
 			.serverBox{
 				margin-top:80px;
 
 				.serHead{
+					overflow:hidden;
 
 					.declaration{
 						text-align: center;
@@ -97,6 +100,7 @@ body{
 
 				.serBody{
 					margin:50px auto 0;
+
 
 					.motif{
 						font-family: $fontW;
@@ -150,6 +154,68 @@ body{
 					
 				}
 			}
+
+			.gradeHead{
+
+				.selgrade{
+					margin:50px auto 0;
+					width:100%;
+					text-align: left;
+					font-family:$fontW;
+					color:#0062c1;
+					font-size:24px;
+				}
+
+				.gHead{
+					margin:40px auto 0;
+					color:#000000;
+					font-family:$fontG2;
+					font-size:20px;
+				}
+
+				.gBody{
+					margin:30px auto 0;
+					color:#000000;
+					font-family:$fontG1;
+					font-size:20px;
+					text-indent: 2em;
+					line-height: 30px;
+				}
+
+				.manageImg{
+					margin:70px auto 70px;
+					height:345px;
+					background:url('../images/manageImg.png')no-repeat center center;
+					background-size:contain;
+
+				}
+			}
+
+			
+			.sustain{
+				width:100%;
+				margin:100px auto 100px;
+				border-collapse:collapse;
+				border-left:1px solid #c7c7c7;
+				border-top:1px solid #c7c7c7;
+
+				&>tbody>tr>th{
+					height:80px;
+					line-height: 80px;
+					background:#08528f;
+					text-align: center;
+					border-right:1px solid #c7c7c7;
+					border-bottom:1px solid #c7c7c7;
+				}
+
+				&>tbody>tr>td{
+					height:80px;
+					line-height: 80px;
+					border-right:1px solid #c7c7c7;
+					border-bottom:1px solid #c7c7c7;
+				}
+			}
+			
 		}
 	}
 }
