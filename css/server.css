@@ -1837,13 +1837,64 @@ body .main .serverR .gradeHead .gBody {
   line-height: 30px;
 }
 /* line 185, ../sass/server.scss */
+body .main .serverR .gradeHead .call {
+  width: 100%;
+  margin: 30px auto 0px;
+  overflow: hidden;
+}
+/* line 190, ../sass/server.scss */
+body .main .serverR .gradeHead .call > li {
+  height: 253px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+/* line 198, ../sass/server.scss */
+body .main .serverR .gradeHead .team {
+  margin: 30px auto 30px;
+}
+/* line 202, ../sass/server.scss */
+body .main .serverR .gradeHead .team > li .teampic {
+  height: 80px;
+}
+/* line 206, ../sass/server.scss */
+body .main .serverR .gradeHead .team > li span {
+  width: 100%;
+  font-family: "方正兰亭纤黑_GBK";
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+}
+/* line 219, ../sass/server.scss */
+body .main .serverR .gradeHead .team > li:nth-child(1) .teampic {
+  background: url("../images/sdas_03.png") no-repeat center top;
+  background-size: contain;
+}
+/* line 227, ../sass/server.scss */
+body .main .serverR .gradeHead .team > li:nth-child(2) .teampic {
+  background: url("../images/sdas_05.png") no-repeat center top;
+  background-size: contain;
+}
+/* line 235, ../sass/server.scss */
+body .main .serverR .gradeHead .team > li:nth-child(3) .teampic {
+  background: url("../images/sdas_07.png") no-repeat center top;
+  background-size: contain;
+}
+/* line 243, ../sass/server.scss */
+body .main .serverR .gradeHead .team > li:nth-child(4) .teampic {
+  background: url("../images/sdas_09.png") no-repeat center top;
+  background-size: contain;
+}
+/* line 251, ../sass/server.scss */
 body .main .serverR .gradeHead .manageImg {
   margin: 70px auto 70px;
   height: 345px;
   background: url("../images/manageImg.png") no-repeat center center;
   background-size: contain;
 }
-/* line 195, ../sass/server.scss */
+/* line 261, ../sass/server.scss */
 body .main .serverR .sustain {
   width: 100%;
   margin: 100px auto 100px;
@@ -1851,7 +1902,7 @@ body .main .serverR .sustain {
   border-left: 1px solid #c7c7c7;
   border-top: 1px solid #c7c7c7;
 }
-/* line 202, ../sass/server.scss */
+/* line 268, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > th {
   height: 80px;
   line-height: 80px;
@@ -1860,7 +1911,7 @@ body .main .serverR .sustain > tbody > tr > th {
   border-right: 1px solid #c7c7c7;
   border-bottom: 1px solid #c7c7c7;
 }
-/* line 211, ../sass/server.scss */
+/* line 277, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > td {
   height: 80px;
   line-height: 80px;

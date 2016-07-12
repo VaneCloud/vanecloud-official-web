@@ -181,6 +181,72 @@ body{
 					text-indent: 2em;
 					line-height: 30px;
 				}
+				
+				.call{
+					width:100%;
+					margin:30px auto 0px;
+					overflow:hidden;
+					
+					&>li{
+						height:253px;
+						float:left;
+						margin-right:15px;
+						margin-bottom:15px;
+					}
+				}
+
+				.team{
+					margin:30px auto 30px;
+
+					&>li{
+						.teampic{
+							height:80px;
+						}
+						
+						span{
+							width:100%;
+							font-family:$fontG1;
+							color:#000000;
+							font-size: 16px;
+							text-align: center;
+							display: inline-block;
+							margin-top:20px;
+
+						}
+
+						&:nth-child(1){
+				
+							.teampic{
+								background:url('../images/sdas_03.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+
+						&:nth-child(2){
+				
+							.teampic{
+								background:url('../images/sdas_05.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+
+						&:nth-child(3){
+				
+							.teampic{
+								background:url('../images/sdas_07.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+
+						&:nth-child(4){
+				
+							.teampic{
+								background:url('../images/sdas_09.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+					}
+				}
 
 				.manageImg{
 					margin:70px auto 70px;
