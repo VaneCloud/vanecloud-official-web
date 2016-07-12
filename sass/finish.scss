@@ -35,7 +35,6 @@ body{
 			@include Radiu;
 			background:#ffffff;
 			width:450px;
-			margin:100px auto 0;
 			box-shadow:0 0 10px #307398;
 			overflow: hidden;
 
@@ -43,7 +42,7 @@ body{
 				color:#000;
 				font-size: 30px;
 				text-align: center;
-				margin:80px auto 60px; 
+				margin:40px auto 40px; 
 				font-family:$fontW;
 				font-weight: bold;
 			}

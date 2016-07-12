@@ -18,6 +18,8 @@ $(function(){
 	});
 
 	$('.newSbody li:last-child').append('<div class="shape3"></div>');
+
+	
 })
 
 

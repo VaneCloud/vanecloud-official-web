@@ -1681,81 +1681,184 @@ body .joint > li > a {
     -o-transform: rotateY(360deg);
   }
 }
-/* line 20, ../sass/login.scss */
-body .header {
-  background: #1f2539;
-  overflow: visible;
-}
-/* line 25, ../sass/login.scss */
-body .Login {
+/* line 8, ../sass/company.scss */
+body .bg {
   width: 100%;
-  background: -webkit-linear-gradient(#358fb9, #326a92);
-  background: -o-linear-gradient(#358fb9, #326a92);
-  background: -moz-linear-gradient(#358fb9, #326a92);
-  background: linear-gradient(#358fb9, #326a92);
-  overflow: hidden;
+  height: 500px;
+  background: url("../images/company.png") no-repeat center center;
+  background-size: auto 100%;
+  position: relative;
 }
-/* line 33, ../sass/login.scss */
-body .Login .loginBox {
-  border-radius: 5px;
-  border: 1px solid #fff;
+/* line 15, ../sass/company.scss */
+body .bg .businessNav {
+  width: 100%;
+  height: 166px;
+  position: absolute;
+  bottom: -84px;
+  perspective: 50000px;
+  z-index: 10;
+  text-align: center;
+}
+/* line 27, ../sass/company.scss */
+body .bg .businessNav > a {
+  width: 166px;
+  height: 166px;
+  display: inline-block;
+  transition: 1s;
+  margin: 0 50px;
+  background: url("../images/f2.png") no-repeat;
+  background-size: contain;
+}
+/* line 36, ../sass/company.scss */
+body .bg .businessNav > a .interior {
+  width: 100%;
+  height: 100%;
+  line-height: 166px;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-family: "微软雅黑";
+}
+/* line 49, ../sass/company.scss */
+body .main {
+  width: 100%;
   background: #ffffff;
-  width: 450px;
-  box-shadow: 0 0 10px #307398;
   overflow: hidden;
 }
-/* line 40, ../sass/login.scss */
-body .Login .loginBox h1 {
-  color: #000;
-  font-size: 30px;
-  text-align: center;
-  margin: 20px auto 20px;
-  font-family: "微软雅黑";
-  font-weight: normal;
-  font-weight: bold;
+/* line 54, ../sass/company.scss */
+body .main .businessL {
+  border-left: 1px solid #d6d6d6;
+  border-right: 1px solid #d6d6d6;
+  padding: 0;
 }
-/* line 50, ../sass/login.scss */
-body .Login .loginBox input {
-  margin: 20px auto 0;
-  border-radius: 5px;
-  border: 1px solid #fff;
-  width: 370px;
-  height: 58px;
-  line-height: 58px;
-  border: 2px solid #aabcce;
-  background: #fff;
+/* line 59, ../sass/company.scss */
+body .main .businessL .busHead {
+  color: #272636;
+  font-family: "微软雅黑";
+  font-size: 24px;
+  text-align: left;
+  height: 80px;
+  line-height: 80px;
+  text-indent: 100px;
+  background: url("../images/busi.png") no-repeat 20px center;
+  background-size: 40px 36px;
+  font-weight: 400;
+  border-bottom: 1px solid #d6d6d6;
+}
+/* line 75, ../sass/company.scss */
+body .main .businessL .business > li {
   font-size: 20px;
+  color: #272636;
   font-family: "微软雅黑";
-  display: block;
-  color: #b8b8b8;
-}
-/* line 58, ../sass/login.scss */
-body .Login .loginBox input[type="text"] {
-  text-align: left;
-  text-indent: 20px;
-}
-/* line 63, ../sass/login.scss */
-body .Login .loginBox input[type="password"] {
-  text-align: left;
-  text-indent: 20px;
-}
-/* line 68, ../sass/login.scss */
-body .Login .loginBox input[type="submit"] {
-  background: #14adc4;
   text-align: center;
-  border: 2px solid #15849b;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #d6d6d6;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* line 86, ../sass/company.scss */
+body .main .businessL .business > li.active {
   color: #fff;
+  background: #109ee1;
 }
-/* line 78, ../sass/login.scss */
-body .Login .loginBox .footLogin {
-  width: 370px;
-  height: 20px;
-  line-height: 20px;
-  margin: 20px auto 20px;
+/* line 94, ../sass/company.scss */
+body .main .businessR {
+  padding-left: 70px;
+  padding-right: 70px;
 }
-/* line 84, ../sass/login.scss */
-body .Login .loginBox .footLogin > a {
-  color: #15849b;
-  font-size: 20px;
+/* line 98, ../sass/company.scss */
+body .main .businessR .businessBox {
+  margin-top: 80px;
+}
+/* line 103, ../sass/company.scss */
+body .main .businessR .businessBox .row .comhead {
   font-family: "微软雅黑";
+  color: #4691d5;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* line 112, ../sass/company.scss */
+body .main .businessR .businessBox .row .combody > li {
+  font-family: "微软雅黑";
+  color: #515567;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* line 122, ../sass/company.scss */
+body .main .businessR .businessBox .cshohead {
+  height: 80px;
+}
+/* line 130, ../sass/company.scss */
+body .main .businessR .businessBox .cshobody .cshoarticle > li {
+  color: #515567;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  line-height: 40px;
+  text-indent: 2em;
+}
+/* line 141, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot {
+  margin: 20px auto 100px;
+}
+/* line 144, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshobus {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+/* line 149, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshobus.cshobus1 {
+  background: #358eb8;
+}
+/* line 153, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshobus.cshobus2 {
+  background: #326c94;
+}
+/* line 157, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshobus.cshobus3 {
+  background: #ccd1d9;
+}
+/* line 160, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshobus.cshobus3 > li {
+  color: #000;
+}
+/* line 165, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshobus > li {
+  color: #ffffff;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+/* line 176, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshoser {
+  height: 280px;
+  width: 44.5%;
+  margin: 0 2%;
+}
+/* line 181, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshoser.cshoser1 {
+  background: #326c94;
+}
+/* line 185, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshoser.cshoser2 {
+  background: #358eb8;
+}
+/* line 189, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshoser .cshoserhead {
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 199, ../sass/company.scss */
+body .main .businessR .businessBox .cshofoot .cshoser .cshoserbody > li {
+  list-style: disc;
+  color: #000;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
 }

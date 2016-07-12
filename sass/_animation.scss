@@ -224,3 +224,19 @@
 @mixin trans{
   transition:1s;
 }
+
+@keyframes navrotate{
+	from{
+		transform:rotateY(0deg); 
+		-moz-transform:rotateY(0deg); 
+		-webkit-transform:rotateY(0deg); 
+		-o-transform:rotateY(0deg);  
+	}
+	to 
+	{
+		transform:rotateY(360deg); 
+		-moz-transform:rotateY(360deg); 
+		-webkit-transform:rotateY(360deg); 
+		-o-transform:rotateY(360deg); 
+	}
+}

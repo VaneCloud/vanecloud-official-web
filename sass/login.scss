@@ -19,6 +19,7 @@ body{
 
 	.header{
 		background: #1f2539;
+		overflow: visible;
 	}
 
 	.Login{
@@ -28,12 +29,11 @@ body{
 		background: -moz-linear-gradient(#358fb9,#326a92); 
 		background: linear-gradient(#358fb9,#326a92);
 		overflow: hidden;
-
+		
 		.loginBox{
 			@include Radiu;
 			background:#ffffff;
 			width:450px;
-			margin:100px auto 0;
 			box-shadow:0 0 10px #307398;
 			overflow: hidden;
 
@@ -41,14 +41,14 @@ body{
 				color:#000;
 				font-size: 30px;
 				text-align: center;
-				margin:30px auto 0; 
+				margin:20px auto 20px; 
 				font-family:$fontW;
 				font-weight: normal;
 				font-weight: bold;
 			}
 
 			input{
-				margin:26px auto 0;
+				margin:20px auto 0;
 				@include Radiu;
 				@include logput;
 				display: block;
@@ -71,11 +71,15 @@ body{
 					border:2px solid #15849b;
 					color:#fff;
 				}
-			}
 
+				
+			}
+			
 			.footLogin{
 				width:370px;
-				margin:40px auto 40px;
+				height:20px;
+				line-height: 20px;
+				margin:20px auto 20px;
 
 				&>a{
 					color:#15849b;

@@ -16,20 +16,22 @@ body{
 		background: -moz-linear-gradient(#358fb9,#326a92); 
 		background: linear-gradient(#358fb9,#326a92);
 		overflow: hidden;
+		
+
 
 		.registryBox{
 			@include Radiu;
 			width:650px;
 			background:#ffffff;
-			margin:100px auto 0;
 			box-shadow:0 0 10px #307398;
 			overflow: hidden;
+
 
 			h1{
 				color:#000;
 				font-size: 30px;
 				text-align: center;
-				margin:30px auto 30px; 
+				margin:20px auto 20px; 
 				font-family:$fontW;
 				font-weight: normal;
 				font-weight: bold;
@@ -69,6 +71,28 @@ body{
 						color:#fff;
 						text-indent:0px;
 					}
+	
+					&[type="text"].small{
+						width:170px;
+					}	
+				}
+				
+				&>a{
+					color:#1495ab;
+					font-size: 14px;
+					height:50px;
+					line-height: 50px;
+					font-family:$fontW;
+					float:left;
+					display:block;
+					margin-right:15px;
+				}
+				
+				.grapheme{
+					width:85px;
+					height:50px;
+					float:left;
+
 				}
 
 				.inputR{
@@ -78,11 +102,30 @@ body{
 					color:#7a7a7a;
 					font-size: 16px;
 				}
+
+
 			}
+			
+			.fin{
+				width:340px;
+				margin:20px auto 20px;
+				color:#7a7a7a;
+				font-size: 16px;
+				font-family:$fontW;
+				
+				&>span{
+					color:#2c90a5;
+				}
+
+				&>input{
+					margin-right:10px;
+				}
+			}
+
 
 			.footRegistry{
 				width:340px;
-				margin:40px auto 40px 115px;
+				margin:20px auto 20px 115px;
 				text-align: center;
 				font-size: 16px;
 				font-family:$fontW;

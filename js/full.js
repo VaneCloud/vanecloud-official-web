@@ -1,5 +1,6 @@
 $('#fullpage').fullpage({
 	fixedElements:'#header',
+	scrollingSpeed:1000,
 
 	onLeave: function(index, nextIndex, direction){
 		if(nextIndex == 3){
