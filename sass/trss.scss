@@ -40,14 +40,34 @@ body{
 					text-indent: 2em;
 					margin-top:30px;
 					line-height: 30px;
+
 				}
 
+				.Power{
+					margin-top:30px;
 
+					&>li{
+						color:#313131;
+						font-family: $fontW;
+						font-size: 18px;
+						text-indent: 2em;
+						line-height: 30px;
+
+					}
+				}
 			}
 
 			.treesBody{
 				margin:130px auto 150px;
-			
+				
+				h3{
+					color:#313131;
+					font-family: $fontW;
+					font-size: 24px;
+					text-align: center;
+					font-weight: normal;
+				}
+
 				.property{
 
 					&>li{
@@ -72,6 +92,8 @@ body{
 							margin-top:25px;
 							line-height: 30px;
 							padding:0 25px;
+							background:url('../images/g_03.png')no-repeat left 1px;
+							background-szie:28px 28px;
 						}
 					}
 				}
@@ -81,6 +103,28 @@ body{
 					background:url('../images/gt_03.png')no-repeat center top;
 					background-size:contain; 
 				}
+				
+				.powpic{
+					margin:40px auto 130px;
+
+					.PowerL{
+						width:695px;
+						height:640px;
+						margin:0 auto 0;
+						background:url('../images/tg_03.png')no-repeat center center;
+						background-size:contain; 
+					}
+
+					.PowerR{
+						@include radius;
+						width:235px;
+						height:640px;
+						margin:0 auto 0;
+						background:#383747;
+
+					}
+				}
+				
 			}
 		}
 		
