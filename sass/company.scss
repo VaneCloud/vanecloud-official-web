@@ -106,6 +106,13 @@ body{
 					margin-top:80px;
 				.row{
 					
+					.comlogo{
+						width:190px;
+						height:70px;
+						
+						background:url('../images/buslogo.png')no-repeat center center;
+						background-size:contain; 
+					}
 
 					.comhead{
 						font-family: $fontW;
@@ -226,94 +233,152 @@ body{
 				}
 
 				.incident{
-					width:550px;
-					position: relative;
+					width:570px;
+					height:942px;
+					background:url('../images/incident.png')no-repeat center center;
+					background-size:contain;
 					margin:30px auto 80px 0;
 					overflow: hidden;
 
-					&>li{
-						width:410px;
-						height:190px;
-						position: relative;
+					.incid{
+
+						&>li{
+							&:nth-child(1),&:nth-child(3),&:nth-child(5){
+								margin-left:320px;
+							}
+	
+							&:nth-child(2),&:nth-child(4),&:nth-child(6){
+								margin-left:70px;
+							}
+	
+							&:nth-child(1){
+								margin-top:35px;
+							}
+	
+							&:nth-child(2){
+								margin-top:120px;
+							}
+
+							&:nth-child(3){
+								margin-top:95px;
+							}
+	
+							&:nth-child(4){
+								margin-top:95px;
+							}
+
+							&:nth-child(5){
+								margin-top:70px;
+							}
+	
+							&:nth-child(6){
+								margin-top:105px;
+							}
+
+							.list{
+
+								&>li{
+									color:#515567;
+									font-size: 20px;
+									font-family: $fontW;
+									height:30px;
+									line-height: 30px;
 
 
-						.full{
-							width:94px;
-							height:94px;
-							position: absolute;
-							top:0;
-							overflow: hidden;
-							
-							.full1{
-								@include round;
-								width:86px;
-								height:86px;
-								margin:4px auto 0;
-								background:#008fbb;
-								overflow: hidden;
-
-								.full2{
-									@include round;
-									width:60px;
-									height:60px;
-									margin:13px auto 0;
-									background:#fff;
-									overflow: hidden;
-
-									.full3{
-										@include round;
-										width:42px;
-										height:42px;
-										margin:9px auto 0;
-										background:#bbbbbb;
-										overflow: hidden;
-
-										.full4{
-											@include round;
-											width:34px;
-											height:34px;
-											margin:4px auto 0;
-											background:#e65538;
-											overflow: hidden;
-										}
+									&>span{
+										width: 0;
+										height: 0;
+										border-top: 9px solid transparent;
+										border-left: 18px solid #0b2f47;
+										border-bottom: 9px solid transparent;
+										display:inline-block;
+										margin-right:6px;
+										margin-top:6px;
 									}
+									
 								}
 							}
-						}
 
-						&:nth-child(1),&:nth-child(3),&:nth-child(5){
-							.full{
-								left:145px;
+							.textt{
+								color:#006c97;
+								font-size: 24px;
+								font-family: $fontW;
 							}
-						}
+							
 
-						&:nth-child(2),&:nth-child(4),&:nth-child(6){
-							.full{
-								right:145px;
-							}
-						}
 
-						.year{
-							position: absolute;
-							font-family: 'Arial';
-							color:#002b46;
-							font-size:28px;
-							top:100px;
-						}
-
-						&:nth-child(1),&:nth-child(3),&:nth-child(5){
-							.year{
-								left:145px;
-							}
-						}
-
-						&:nth-child(2),&:nth-child(4),&:nth-child(6){
-							.year{
-								right:145px;
-							}
 						}
 
 					}
+
+				}
+
+				.profHead{
+					color:#358eb8;
+					font-size: 24px;
+					font-family: $fontW;
+					line-height: 40px;
+					margin-top:80px;
+				}
+
+				.profBody{
+
+					.proff{
+
+						&>li{
+							color:#515567;
+							font-size: 16px;
+							font-family: $fontW;
+							line-height: 36px;
+						}
+					}
+
+					.joinpic{
+						width:805px;
+						height:87px;
+
+						&>a{
+							display:inline-block;
+							margin:0 10px;
+						}
+
+					}
+
+					.joinimg{
+						width:805px;
+						height:452px;
+						margin-top:20px;
+
+						&>img{
+							width:100%;
+							heigth:100%;
+						}
+					}
+
+					.coord{
+						margin:30px auto 70px;
+						text-align: center;
+
+						&>li{
+							display:inline-block;
+							color:#515567;
+							font-family: $fontW;
+							font-size: 20px;
+							margin:0 10px;
+							height:20px;
+							line-height:20px;
+
+							span{
+								@include radius;
+								width:8px;
+								height:8px;
+								background:#173d8b;
+								display:inline-block;
+
+							}
+						}
+					}
+
 				}
 
 			}
