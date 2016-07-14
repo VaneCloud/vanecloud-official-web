@@ -117,10 +117,31 @@ body{
 
 					.PowerR{
 						@include radius;
-						width:235px;
+						width:240px;
 						height:640px;
 						margin:0 auto 0;
 						background:#383747;
+
+						.cinder{
+							width:125px;
+							height:70px;
+							line-height: 70px;
+							color:#ffffff;
+							font-family: $fontW;
+							font-size: 20px;
+							margin:10px auto 0;
+							text-align:center;
+							border-bottom:1px solid #717074;
+						}
+
+						article{
+							color:#ffffff;
+							font-family: $fontW;
+							font-size: 18px;
+							margin:35px auto 0;
+							padding:0 5px;
+							line-height: 
+						}
 
 					}
 				}
