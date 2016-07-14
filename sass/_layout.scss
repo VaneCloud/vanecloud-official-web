@@ -63,8 +63,6 @@ input[type=search]::-webkit-search-results-decoration {
  
 }
 
-
-
 @mixin lineunder{
   width: 50px;
   height:4px;
@@ -74,6 +72,11 @@ input[type=search]::-webkit-search-results-decoration {
 @mixin Radiu{
   border-radius:5px;
   border:1px solid #fff;
+}
+
+@mixin radius{
+  border-radius:5px;
+ 
 }
 
 @mixin serviceText{
