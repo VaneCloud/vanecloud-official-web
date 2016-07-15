@@ -221,6 +221,91 @@
 	}
 }
 
+@keyframes logrotatet{
+	from{
+		transform:rotateX(25deg); 
+		-moz-transform:rotateX(25deg); 
+		-webkit-transform:rotateX(25deg); 
+		-o-transform:rotateX(25deg);  
+	}
+	to 
+	{
+		transform:rotateX(0deg); 
+		-moz-transform:rotateX(0deg); 
+		-webkit-transform:rotateX(0deg); 
+		-o-transform:rotateX(0deg);  
+	}
+}
+
+@keyframes logrotateT{
+	from{
+		transform:rotateX(0deg); 
+		-moz-transform:rotateX(0deg); 
+		-webkit-transform:rotateX(0deg); 
+		-o-transform:rotateX(0deg);  
+	}
+	to 
+	{
+		transform:rotateX(25deg); 
+		-moz-transform:rotateX(25deg); 
+		-webkit-transform:rotateX(25deg); 
+		-o-transform:rotateX(25deg);  
+	}
+}
+
+@keyframes logrotateb{
+	from{
+		transform:rotateX(-25deg); 
+		-moz-transform:rotateX(-25deg); 
+		-webkit-transform:rotateX(-25deg); 
+		-o-transform:rotateX(-25deg);  
+	}
+	to 
+	{
+		transform:rotateX(0deg); 
+		-moz-transform:rotateX(0deg); 
+		-webkit-transform:rotateX(0deg); 
+		-o-transform:rotateX(0deg);  
+	}
+}
+
+@keyframes logrotateB{
+	from{
+		transform:rotateX(0deg); 
+		-moz-transform:rotateX(0deg); 
+		-webkit-transform:rotateX(0deg); 
+		-o-transform:rotateX(0deg);  
+		 
+	}
+	to 
+	{
+		transform:rotateX(-25deg); 
+		-moz-transform:rotateX(-25deg); 
+		-webkit-transform:rotateX(-25deg); 
+		-o-transform:rotateX(-25deg);   
+	}
+}
+
+@keyframes logpic{
+	from{
+		height:772px;
+	}
+	to 
+	{
+		height:728px; 
+	}
+}
+
+@keyframes logpicc{
+	from{
+		height:728px;
+	}
+	to 
+	{
+		height:772px; 
+	}
+}
+
 @mixin trans{
   transition:1s;
 }
