@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/vane.css">
 	</head>
 	<body>
-		<header class="bg">
+		<header class="bg1">
 			<div class="header">
 				<div class="container">
 					<div class="logo pull-left"></div>
@@ -72,6 +72,38 @@
 							<div class="vaneHead">vaneReport氢氧万信</div>
 							<div class="vaneFoot">氢氧万信3.0 征信报告系统</div>
 						</div>
+						<div class="cloudBody">
+							<div class="cloudTitle">产品概述：</div>
+							<article>
+								一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台
+							</article>
+							<div class="row summarize">
+								<div class="col-lg-6 col-md-6 pic"></div>
+								<div class="col-lg-6 col-md-6">
+									<ul class="summList">
+										<li><span>业界领先的IaaS</span> 私有云平台</li>
+										<li><span>真正的</span> 混合平台技术</li>
+										<li><span>标准化</span> 快速部署</li>
+										<li><span>自动化</span> 节点部署</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="cloudBody">
+							<div class="cloudTitle">产品优势：</div>
+							<ul class="advantageLists">
+								<li>全面的功能 领先的高兼容性、高容错性和高安全性云计算平台</li>
+								<li>计量计费（标配）细颗粒度计费模式</li>
+								<li>Power强力支持（标配）业界领先的Power整合最优化技术实力</li>
+								<li>工作流（定制化） 完美实现企业的业务需求</li>
+								<li>日志模块（标配） 云平台日志分析</li>
+								<li>氢氧云盘（标配） 企业级高性价比安全云盘</li>
+								<li>万信征信系统 一站式大数据实时信用服务平台</li>
+								<li>智迅（定制化） 业内最快的大数据分析平台</li>
+								<li>应用商店（即将上线） 各类行业应用一键部署</li>
+							</ul>
+							<div class="advantagePic"></div>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -95,9 +127,12 @@
 		<!-- <script type="text/javascript" src="js/server.js"></script> -->
 		<script type="text/javascript">
 			$(function(){
-				$('.serelect li a.ser2').addClass('active');
+				var wh=$(window).height();
 
-				$('.sustain tr:odd').css('background','#f1f2f6');
+				var rh=$('.vanR').height();
+
+				$('.vanL').css('height',rh+'px');
+
 			})
 		</script>
 	</body>

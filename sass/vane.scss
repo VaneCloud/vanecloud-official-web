@@ -5,15 +5,24 @@
 
 body{
 
-	.bg{
+	.bg1{
 		width:100%;
 		height:500px;
-		background:url('../images/tree.png')no-repeat center center;
+		background:url('../images/van1.png')no-repeat center center;
 		background-size:auto 100%; 
 		position: relative;
 		
-
 	}
+	
+	.bg2{
+		width:100%;
+		height:500px;
+		background:url('../images/van2.png')no-repeat center center;
+		background-size:auto 100%; 
+		position: relative;
+		
+	}
+
 	.main{
 		width:100%;
 		background:#fff;
@@ -37,7 +46,7 @@ body{
 						height:80px;
 						line-height: 80px;
 						text-indent: 100px;
-						background:url('../images/busi.png')no-repeat 20px center;
+						background:url('../images/vann.png')no-repeat 20px center;
 						background-size:40px 36px; 
 						font-weight: 400;
 						border-bottom:1px solid #d6d6d6;
@@ -84,6 +93,28 @@ body{
 							font-size:22px;
 							line-height: 44px;
 						}
+						
+						.advantageLists{
+							margin:50px auto 0;
+
+							&>li{
+								font-family:$fontW;
+								color:#74767c;
+								font-size:20px;
+								background:url('../images/g_03.png')no-repeat left 10px;
+								background-size:20px 20px;
+								line-height: 40px;
+								text-indent: 40px;
+							}
+						}
+						
+						.advantagePic{
+							margin:70px auto 100px;
+							width:759px;
+							height:227px;
+							background:url('../images/advantagePic.png')no-repeat center center;
+							background-size:contain;
+						}
 
 						article{
 							color:#515567;
@@ -91,6 +122,90 @@ body{
 							font-size:20px;
 							line-height: 40px;
 							text-indent: 2em;
+						}
+						
+						.summarize{
+							margin:60px auto 0;
+
+							.pic{
+								height:434px;
+								background:url('../images/summarize.png')no-repeat center top;
+								background-size:contain; 
+							}
+
+							.summList{
+								margin:100px auto auto 65px;
+
+								&>li{
+									color:#797c80;
+									font-family: $fontW;
+									font-size:20px;
+									line-height: 40px;
+
+									span{
+										color:#0062c1;
+									}
+								}
+							}
+						}
+
+						.featurePic{
+							width:566px;
+							height:465px;
+							margin:80px auto 0;
+							background:url('../images/figure.png')no-repeat center center;
+							background-size:contain; 
+						}
+						
+						.figureFoot{
+							color:#000000;
+							font-family: $fontW;
+							font-size:20px;
+							text-align: center;
+							margin:40px auto 0;
+						}
+
+						.feature{
+							margin:100px auto 0;
+							overflow:hidden;
+
+							&>li{
+								margin-bottom:80px;
+								overflow:hidden;
+
+								.featureTitle{
+									color:#000000;
+									font-family: $fontW;
+									font-size:24px;
+									text-align: center;
+								}
+								
+								.icon{
+									width:198px;
+									height:216px;
+									margin:60px auto 60px;
+
+									&>img{
+										width:100%;
+										height:100%;
+									}
+
+								}
+								
+								.lists{
+
+									&>li{
+										font-family:$fontW;
+										color:#74767c;
+										font-size:20px;
+										background:url('../images/g_03.png')no-repeat left 10px;
+										background-size:20px 20px;
+										line-height: 40px;
+										text-indent: 40px;
+										
+									}
+								}			
+							}
 						}
 					}
 				}

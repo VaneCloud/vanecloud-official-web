@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/vane.css">
 	</head>
 	<body>
-		<header class="bg">
+		<header class="bg1">
 			<div class="header">
 				<div class="container">
 					<div class="logo pull-left"></div>
@@ -83,25 +83,97 @@
 							<article>
 								vaneQ协助实现全局私有云管理，加速服务交付速度，提升效率和服务水平，最大化资源使用率。除此之外，通过自助服务，工作流审批、配额管理、容量评估和自动化引擎，可以优化客户原有的工作方式，节约时间成本。
 							</article>
+							<div class="featurePic"></div>
+							<div class="figureFoot">Figure 1 vaneQ逻辑架构层</div>
 						</div>
 						<div class="cloudBody">
 							<div class="cloudTitle">产品特色：</div>
-							<ul class="row">
+							<ul class="row feature">
 								<li class="col-lg-4 col-md-4">
-									
+									<div class="featureTitle">统一灵活</div>
+									<div class="icon">
+										<img src="./images/feat1.png" />
+									</div>
+									<ul class="lists">
+										<li>提供虚拟化平台以及云平台的统一管理能力，并基于模块接口调用方式极易扩展其他平台支持。</li>
+									</ul>
 								</li>
 								<li class="col-lg-4 col-md-4">
-									
+									<div class="featureTitle">迁移能力</div>
+									<div class="icon">
+										<img src="./images/feat2.png" />
+									</div>
+									<ul class="lists">
+										<li>用户可以迁移现有虚拟化环境到私有云或混合云。</li>
+									</ul>
 								</li>
 								<li class="col-lg-4 col-md-4">
-									
+									<div class="featureTitle">企业架构管理</div>
+									<div class="icon">
+										<img src="./images/feat3.png" />
+									</div>
+									<ul class="lists">
+										<li>将企业内部组织结构同私有云架构相结合，形成私有或混合云的资源管理方式</li>
+									</ul>
 								</li>
-								<li class="col-lg-4 col-md-4"></li>
-								<li class="col-lg-4 col-md-4"></li>
-								<li class="col-lg-4 col-md-4"></li>
-								<li class="col-lg-4 col-md-4"></li>
-								<li class="col-lg-4 col-md-4"></li>
-								<li class="col-lg-4 col-md-4"></li>
+								<li class="col-lg-4 col-md-4">
+									<div class="featureTitle">IAAS资源管理</div>
+									<div class="icon">
+										<img src="./images/feat4.png" />
+									</div>
+									<ul class="lists">
+										<li>针对生命周期管理、平台信息统一查看、策略管理、服务目录、报表、计费等加强IAAS管理。</li>
+									</ul>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="featureTitle">自助服务</div>
+									<div class="icon">
+										<img src="./images/feat5.png" />
+									</div>
+									<ul class="lists">
+										<li>提供基于Web界面的统一的权限管理、资源申请、审批、配额管理、策略和计费功能。</li>
+									</ul>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="featureTitle">智能分析</div>
+									<div class="icon">
+										<img src="./images/feat6.png" />
+									</div>
+									<ul class="lists">
+										<li>对虚拟机或主机进行智能分析获取内部信息，进而进行安全审计和合规性检查。</li>
+									</ul>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="featureTitle">综合治理</div>
+									<div class="icon">
+										<img src="./images/feat7.png" />
+									</div>
+									<ul class="lists">
+										<li>对企业IT环境提供安全管理，包括统一监控、报警、合规性检查功能。</li>
+									</ul>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="featureTitle">容量管理</div>
+									<div class="icon">
+										<img src="./images/feat8.png" />
+									</div>
+									<ul class="lists">
+										<li>实时记录统计资源使用</li>
+										<li>策略和现有负载动态的调整资源使用。</li>
+										<li>容量、历史数据、使用趋势等。</li>
+									</ul>
+								</li>
+								<li class="col-lg-4 col-md-4">
+									<div class="featureTitle">效率收益</div>
+									<div class="icon">
+										<img src="./images/feat9.png" />
+									</div>
+									<ul class="lists">
+										<li>统一纳管企业内部IT架构。提供可视化报表。</li>
+										<li>提升IAAS层资源交付率清晰展示企业各项成本</li>
+										<li>预测分析前瞻性管理与决策支持。</li>
+									</ul>
+								</li>
 							</ul>
 						</div>
 					</li>
@@ -127,7 +199,12 @@
 		<!-- <script type="text/javascript" src="js/server.js"></script> -->
 		<script type="text/javascript">
 			$(function(){
-				
+				var wh=$(window).height();
+
+				var rh=$('.vanR').height();
+
+				$('.vanL').css('height',rh+'px');
+
 			})
 		</script>
 	</body>
