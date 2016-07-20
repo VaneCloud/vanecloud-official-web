@@ -236,6 +236,7 @@ body{
 			
 			.diskHead{
 				margin:65px auto 85px;
+				overflow: hidden;
 
 				.disTitle{
 					font-family:$fontW;
@@ -243,21 +244,42 @@ body{
 					font-size:22px;
 					line-height: 44px;
 				}
-
+			
 				article{
 					font-family:$fontW;
 					color:#74767c;
 					font-size:20px;
 					line-height: 40px;
 				}
+
+				.diskPic{
+					width:353px;
+					height:418px;
+					background:url('../images/diskPic.png')no-repeat center center;
+					background-size:contain;
+					marin:0 auto;
+				}
 			}
 
 			.diskBody{
+				margin:0 auto 90px;
+
 				.disTitle{
 					font-family:$fontW;
 					color:#0062c1;
 					font-size:22px;
 					line-height: 44px;
+				}
+				
+				.icon{
+					width:222px;
+					height:255px;
+					margin:0 auto 0;
+
+					&>img{
+						width:100%;
+						heigth:100%;
+					}
 				}
 
 				.lists{
@@ -266,7 +288,7 @@ body{
 						font-family:$fontW;
 						color:#74767c;
 						font-size:20px;
-						background:url('../images/g_03.png')no-repeat left top;
+						background:url('../images/g_03.png')no-repeat left 10px;
 						background-size:20px 20px;
 						line-height: 40px;
 						text-indent: 40px;
@@ -284,6 +306,27 @@ body{
 					font-size:22px;
 					line-height: 44px;
 					font-weight: 400;
+				}
+				
+				.traitPic{
+					width: 502px;
+					height: 500px;
+					margin:40px auto 0;
+					background:url('../images/traitPic.png')no-repeat center center;
+					background-size:contain;
+				}
+
+				.traitLists{
+					
+					&>li{
+						font-family:$fontW;
+						color:#74767c;
+						font-size:18px;
+						background:url('../images/g_03.png')no-repeat left 10px;
+						background-size:20px 20px;
+						line-height: 40px;
+						text-indent: 40px;
+					}
 				}
 
 				article{
@@ -306,6 +349,17 @@ body{
 							color:#000;
 							font-size:24px;
 							text-align:center;
+						}
+						
+						.icon{
+							margin:40px auto 0;
+							width:222px;
+							height:255px;
+
+							&>img{
+								width:100%;
+								height:100%;
+							}
 						}
 
 						.lists{
