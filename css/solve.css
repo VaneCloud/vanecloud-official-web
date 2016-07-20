@@ -1963,6 +1963,31 @@ body .main .container .principlePanel .prinHead .text {
   z-index: 2;
 }
 /* line 164, ../sass/solve.scss */
+body .main .container .principlePanel .preponderant {
+  margin: 70px auto 70px;
+}
+/* line 169, ../sass/solve.scss */
+body .main .container .principlePanel .preponderant > li h3 {
+  font-family: "微软雅黑";
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal;
+}
+/* line 177, ../sass/solve.scss */
+body .main .container .principlePanel .preponderant > li .icon {
+  width: 185px;
+  height: 215px;
+  margin: 30px auto 50px;
+}
+/* line 183, ../sass/solve.scss */
+body .main .container .principlePanel .preponderant > li article {
+  font-family: "微软雅黑";
+  color: #74767c;
+  font-size: 18px;
+  line-height: 36px;
+}
+/* line 193, ../sass/solve.scss */
 body .main .container .principlePanel .dataFramework {
   width: 969px;
   height: 597px;
@@ -1970,7 +1995,7 @@ body .main .container .principlePanel .dataFramework {
   background: url("../images/frame.png") no-repeat center center;
   background-size: contain;
 }
-/* line 173, ../sass/solve.scss */
+/* line 202, ../sass/solve.scss */
 body .main .container .principlePanel .dataDemoH {
   width: 100%;
   font-family: "微软雅黑";
@@ -1981,7 +2006,7 @@ body .main .container .principlePanel .dataDemoH {
   text-align: center;
   margin: 60px auto 0;
 }
-/* line 184, ../sass/solve.scss */
+/* line 213, ../sass/solve.scss */
 body .main .container .principlePanel .dataImg {
   width: 1100px;
   height: 500px;
@@ -1989,11 +2014,11 @@ body .main .container .principlePanel .dataImg {
   background-size: contain;
   margin: 25px auto 100px;
 }
-/* line 193, ../sass/solve.scss */
+/* line 222, ../sass/solve.scss */
 body .main .container .principlePanel .systemList {
   margin: 60px auto 0;
 }
-/* line 196, ../sass/solve.scss */
+/* line 225, ../sass/solve.scss */
 body .main .container .principlePanel .systemList > li {
   font-family: "微软雅黑";
   color: #515567;
@@ -2003,13 +2028,13 @@ body .main .container .principlePanel .systemList > li {
   background-size: 20px 20px;
   text-indent: 40px;
 }
-/* line 207, ../sass/solve.scss */
+/* line 236, ../sass/solve.scss */
 body .main .container .principlePanel .custom {
   width: 1000px;
   margin: 60px auto 80px;
   overflow: hidden;
 }
-/* line 212, ../sass/solve.scss */
+/* line 241, ../sass/solve.scss */
 body .main .container .principlePanel .custom .client {
   width: 100%;
   height: 20px;
@@ -2019,7 +2044,7 @@ body .main .container .principlePanel .custom .client {
   font-size: 18px;
   text-align: center;
 }
-/* line 222, ../sass/solve.scss */
+/* line 251, ../sass/solve.scss */
 body .main .container .principlePanel .custom .clientImg {
   width: 180px;
   height: 180px;
@@ -2027,34 +2052,34 @@ body .main .container .principlePanel .custom .clientImg {
   background-size: contain;
   margin: 10px auto 0;
 }
-/* line 230, ../sass/solve.scss */
+/* line 259, ../sass/solve.scss */
 body .main .container .principlePanel .custom .customLR {
   width: 810px;
   overflow: hidden;
   margin: 0 auto 0;
 }
-/* line 235, ../sass/solve.scss */
+/* line 264, ../sass/solve.scss */
 body .main .container .principlePanel .custom .customLR .customImg {
   width: 256px;
   height: 256px;
 }
-/* line 240, ../sass/solve.scss */
+/* line 269, ../sass/solve.scss */
 body .main .container .principlePanel .custom .customLR .customL {
   float: left;
   background: url("../images/customL.png") no-repeat center center;
   background-size: contain;
 }
-/* line 246, ../sass/solve.scss */
+/* line 275, ../sass/solve.scss */
 body .main .container .principlePanel .custom .customLR .customR {
   background: url("../images/customR.png") no-repeat center center;
   background-size: contain;
   float: right;
 }
-/* line 253, ../sass/solve.scss */
+/* line 282, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION {
   margin: 130px auto 0;
 }
-/* line 255, ../sass/solve.scss */
+/* line 284, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li {
   width: 190px;
   height: 480px;
@@ -2062,17 +2087,17 @@ body .main .container .principlePanel .custom .SOLUTION > li {
   margin: 0 5px;
   position: relative;
 }
-/* line 262, ../sass/solve.scss */
+/* line 291, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solT {
   width: 180px;
   height: 30px;
   margin: 40px auto 0;
 }
-/* line 268, ../sass/solve.scss */
+/* line 297, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solCen {
   width: 100%;
 }
-/* line 271, ../sass/solve.scss */
+/* line 300, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solCen .solText {
   color: #ffffff;
   font-family: "微软雅黑";
@@ -2080,7 +2105,7 @@ body .main .container .principlePanel .custom .SOLUTION > li .solCen .solText {
   text-align: center;
   margin: 40px auto 0;
 }
-/* line 279, ../sass/solve.scss */
+/* line 308, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solCen .soltriangle {
   width: 0;
   height: 0;
@@ -2089,127 +2114,154 @@ body .main .container .principlePanel .custom .SOLUTION > li .solCen .soltriangl
   border-top: 15px solid #fff;
   margin: 10px auto 0;
 }
-/* line 291, ../sass/solve.scss */
+/* line 320, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solicon {
   position: absolute;
   bottom: 0;
   right: 0;
 }
-/* line 298, ../sass/solve.scss */
+/* line 327, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(1) {
   background: #1694a7;
   border: 1px solid #306a73;
 }
-/* line 302, ../sass/solve.scss */
+/* line 331, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(1) .solT {
   background: url("../images/sol1.png") no-repeat center center;
   background-size: contain;
 }
-/* line 307, ../sass/solve.scss */
+/* line 336, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(1) .solicon {
   width: 156px;
   height: 173px;
   background: url("../images/si1.png") no-repeat center center;
   background-size: contain;
 }
-/* line 313, ../sass/solve.scss */
+/* line 342, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(1) .solicon:hover {
   background: url("../images/si11.png") no-repeat center center;
   background-size: contain;
 }
-/* line 320, ../sass/solve.scss */
+/* line 349, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(2) {
   background: #006c97;
   border: 1px solid #035879;
 }
-/* line 324, ../sass/solve.scss */
+/* line 353, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(2) .solT {
   background: url("../images/sol2.png") no-repeat center center;
   background-size: contain;
 }
-/* line 329, ../sass/solve.scss */
+/* line 358, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(2) .solicon {
   width: 112px;
   height: 175px;
   background: url("../images/si2.png") no-repeat center center;
   background-size: contain;
 }
-/* line 336, ../sass/solve.scss */
+/* line 365, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(2) .solicon:hover {
   background: url("../images/si22.png") no-repeat center center;
   background-size: contain;
 }
-/* line 343, ../sass/solve.scss */
+/* line 372, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(3) {
   background: #546e7a;
   border: 1px solid #465961;
 }
-/* line 347, ../sass/solve.scss */
+/* line 376, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(3) .solT {
   background: url("../images/sol3.png") no-repeat center center;
   background-size: contain;
 }
-/* line 352, ../sass/solve.scss */
+/* line 381, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(3) .solicon {
   width: 146px;
   height: 175px;
   background: url("../images/si3.png") no-repeat center center;
   background-size: contain;
 }
-/* line 359, ../sass/solve.scss */
+/* line 388, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(3) .solicon:hover {
   background: url("../images/si33.png") no-repeat center center;
   background-size: contain;
 }
-/* line 366, ../sass/solve.scss */
+/* line 395, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(4) {
   background: #4b99bf;
   border: 1px solid #4283a2;
 }
-/* line 370, ../sass/solve.scss */
+/* line 399, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(4) .solT {
   background: url("../images/sol4.png") no-repeat center center;
   background-size: contain;
 }
-/* line 375, ../sass/solve.scss */
+/* line 404, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(4) .solicon {
   width: 140px;
   height: 173px;
   background: url("../images/si4.png") no-repeat center center;
   background-size: contain;
 }
-/* line 382, ../sass/solve.scss */
+/* line 411, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(4) .solicon:hover {
   background: url("../images/si44.png") no-repeat center center;
   background-size: contain;
 }
-/* line 389, ../sass/solve.scss */
+/* line 418, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(5) {
   background: #7accc8;
   border: 1px solid #6bb2af;
 }
-/* line 393, ../sass/solve.scss */
+/* line 422, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(5) .solT {
   background: url("../images/sol5.png") no-repeat center center;
   background-size: contain;
 }
-/* line 398, ../sass/solve.scss */
+/* line 427, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(5) .solicon {
   width: 145px;
   height: 191px;
   background: url("../images/si5.png") no-repeat center center;
   background-size: contain;
 }
-/* line 405, ../sass/solve.scss */
+/* line 434, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(5) .solicon:hover {
   background: url("../images/si55.png") no-repeat center center;
   background-size: contain;
 }
-/* line 415, ../sass/solve.scss */
+/* line 443, ../sass/solve.scss */
+body .main .container .principlePanel .custom .delivery {
+  text-align: center;
+  margin: 150px auto 0;
+}
+/* line 447, ../sass/solve.scss */
+body .main .container .principlePanel .custom .delivery > li {
+  width: 320px;
+  height: 500px;
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 453, ../sass/solve.scss */
+body .main .container .principlePanel .custom .delivery > li:nth-child(1) {
+  background: #1694a7;
+  border: 2px solid #306a73;
+}
+/* line 458, ../sass/solve.scss */
+body .main .container .principlePanel .custom .delivery > li:nth-child(2) {
+  background: #006c97;
+  border: 2px solid #035879;
+}
+/* line 463, ../sass/solve.scss */
+body .main .container .principlePanel .custom .delivery > li:nth-child(3) {
+  background: #546e7a;
+  border: 2px solid #465961;
+}
+/* line 471, ../sass/solve.scss */
 body .main .container .principlePanel .scheme {
   margin: 60px auto 80px;
 }
-/* line 420, ../sass/solve.scss */
+/* line 476, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li h3 {
   font-family: "微软雅黑";
   color: #000;
@@ -2217,18 +2269,18 @@ body .main .container .principlePanel .scheme > li h3 {
   text-align: center;
   font-weight: normal;
 }
-/* line 428, ../sass/solve.scss */
+/* line 484, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li .iocn {
   width: 186px;
   height: 214px;
   margin: 30px auto 0;
 }
-/* line 433, ../sass/solve.scss */
+/* line 489, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li .iocn > img {
   width: 100%;
   height: 100%;
 }
-/* line 439, ../sass/solve.scss */
+/* line 495, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li article {
   font-family: "微软雅黑";
   color: #74767c;
@@ -2237,62 +2289,107 @@ body .main .container .principlePanel .scheme > li article {
   margin: 40px auto 0;
   padding: 0 20px;
 }
-/* line 450, ../sass/solve.scss */
+/* line 506, ../sass/solve.scss */
 body .main .container .principlePanel .values {
   margin: 60px auto 80px;
 }
-/* line 453, ../sass/solve.scss */
+/* line 509, ../sass/solve.scss */
 body .main .container .principlePanel .values > li {
   width: 1080px;
   height: 200px;
   margin: 0 auto 15px;
   border: 1px solid #6a6a6a;
 }
-/* line 460, ../sass/solve.scss */
+/* line 516, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(1) .value {
   background: #1694a7;
   border: 2px solid #306a73;
 }
-/* line 467, ../sass/solve.scss */
+/* line 520, ../sass/solve.scss */
+body .main .container .principlePanel .values > li:nth-child(1) .value .valueit {
+  background: url("../images/value_03.png") no-repeat center center;
+  background-size: contain;
+}
+/* line 528, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(2) .value {
   background: #006c97;
   border: 2px solid #035879;
 }
-/* line 474, ../sass/solve.scss */
+/* line 532, ../sass/solve.scss */
+body .main .container .principlePanel .values > li:nth-child(2) .value .valueit {
+  background: url("../images/value_07.png") no-repeat center center;
+  background-size: contain;
+}
+/* line 540, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(3) .value {
   background: #546e7a;
   border: 2px solid #465961;
 }
-/* line 481, ../sass/solve.scss */
+/* line 544, ../sass/solve.scss */
+body .main .container .principlePanel .values > li:nth-child(3) .value .valueit {
+  background: url("../images/value_09.png") no-repeat center center;
+  background-size: contain;
+}
+/* line 552, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(4) .value {
   background: #4b99bf;
   border: 2px solid #4283a2;
 }
-/* line 488, ../sass/solve.scss */
+/* line 556, ../sass/solve.scss */
+body .main .container .principlePanel .values > li:nth-child(4) .value .valueit {
+  background: url("../images/value_11.png") no-repeat center center;
+  background-size: contain;
+}
+/* line 564, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(5) .value {
   background: #7accc8;
   border: 2px solid #6bb2af;
 }
-/* line 494, ../sass/solve.scss */
+/* line 568, ../sass/solve.scss */
+body .main .container .principlePanel .values > li:nth-child(5) .value .valueit {
+  background: url("../images/value_14.png") no-repeat center center;
+  background-size: contain;
+}
+/* line 575, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .value {
   width: 200px;
   height: 200px;
   float: left;
   position: relative;
 }
-/* line 500, ../sass/solve.scss */
+/* line 581, ../sass/solve.scss */
+body .main .container .principlePanel .values > li .value .valueit {
+  width: 100%;
+  height: 40px;
+  margin: 40px auto 0;
+}
+/* line 587, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .value .triangleR {
-  width: 200px;
-  height: 200px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 30px solid #fff;
+  border-bottom: 20px solid transparent;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 80px;
 }
-/* line 510, ../sass/solve.scss */
+/* line 599, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .content {
   float: left;
+  width: 878px;
+  height: 200px;
 }
-/* line 516, ../sass/solve.scss */
+/* line 604, ../sass/solve.scss */
+body .main .container .principlePanel .values > li .content .textR {
+  font-family: "微软雅黑";
+  color: #545454;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 20px;
+  margin: 50px auto 0;
+}
+/* line 616, ../sass/solve.scss */
 body .main .container .principlePanel .demoImg {
   width: 1000px;
   height: 700px;
