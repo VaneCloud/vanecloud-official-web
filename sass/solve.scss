@@ -160,7 +160,152 @@ body{
 						z-index:2;
 					}	
 				}
+
+				.valuess{
+					width: 1000px;
+					margin:0 auto 0;
+
+					&>li{
+						width: 460px;
+						height:200px;
+						margin-top:55px;
+						border:1px solid #6a6a6a;
+
+						.value{
+							width:200px;
+							height:200px;
+							position: relative;
+							
+							.valueit{
+								width:100%;
+								height:40px;
+								margin:20px auto 0;
+								color:#ffffff;
+								font-size: 40px;
+								font-family: 'Bauhaus 93';
+								text-align: center;
+							}
+							
+							.textL{
+								color:#ffffff;
+								font-family: $fontW;
+								font-size: 20px;
+								margin:20px auto 0;
+								line-height: 30px;
+								text-align:center;
+								padding:0 10px;
+							}
+
+							.triangleR{
+								width: 0;
+    							height: 0;
+								border-top: 15px solid transparent;
+   								border-left: 20px solid #fff;
+    							border-bottom: 15px solid transparent;
+								position: absolute;
+								right:0;
+								top:80px;
+							}
+						}
+					}
+				}
 				
+				.worth{
+					margin:100px auto 100px;
+
+					.worthH{
+						color:#000000;
+						font-family:$fontW;
+						font-size: 18px;
+						line-height: 36px;
+						text-align: center;
+					}
+
+					.worthList{
+						margin:30px auto 0;
+
+						&>li{
+							width:100%;
+							height:95px;
+							border:1px solid #60ccf4;
+							margin-bottom:15px;
+
+							.icon{
+								width:55px;
+								height:55px;
+								margin:20px auto auto 20px;
+
+								&>img{
+									width: 100%;
+									height: 100%;
+								}
+							}
+
+							.content{
+								margin-left:95px;
+								color:#000000;
+								font-size: 18px;
+								font-family: $fontW;
+								line-height: 95px;
+							}
+						}
+					}
+				}
+
+				.preceptH{
+					font-family: $fontW;
+					color:#0062c1;
+					font-size: 20px;
+					text-align: center;
+					margin:30px auto 0;
+					height:30px;
+					line-height: 30px;
+
+				}
+
+				.preceptList{
+					margin:60px auto 0;
+
+					&>li{
+						margin:0 auto 0;
+
+						h3{
+							text-align: center;
+							font-family: $fontW;
+							color:#000000;
+							font-size: 24px;
+							heigth:30px;
+							line-height: 30px;
+							font-weight: normal;
+						}
+
+						.icon{
+							width:185px;
+							height:215px;
+							margin:20px auto 0;
+
+							&>img{
+								width: 100%;
+								height: 100%;
+							}
+						}
+
+						.natureList{
+							height:180px;
+							margin:30px auto 0;
+
+							&>li{
+								font-family: $fontW;
+								color:#74767c;
+								font-size: 18px;
+								line-height: 36px;
+								text-align: center;
+							}
+							
+						}
+					}
+				}
+
 				.preponderant{
 					margin:70px auto 70px;
 
@@ -192,10 +337,36 @@ body{
 
 				.dataFramework{
 					width: 969px;
-					height: 597px;
-					margin:0 auto 60px;
-					background:url('../images/frame.png')no-repeat center center;
-					background-size:contain;
+					margin:40px auto 0;
+					
+					.frameH{
+						width:100%;
+						height:30px;
+						line-height: 30px;
+						margin:0px auto 0;
+						font-family: $fontW;
+						color:#000000;
+						font-size: 22px;
+						text-align: center;
+
+						.frameHL{
+							width:534px;
+							margin-left:93px;
+						}
+
+						.frameHR{
+							width:213px;
+							margin-right:115px;
+						}
+					}
+					
+					.frameP{
+						width: 100%;
+						height: 597px;
+						margin:10px auto 80px;
+						background:url('../images/frame.png')no-repeat center center;
+						background-size:contain;
+					}
 
 				}
 
@@ -232,12 +403,21 @@ body{
 						text-indent: 40px;
 					}
 				}
+				
+				.systemicon{
+					margin:100px auto 100px;
+					width: 1100px;
+					height: 400px;
+					background:url('../images/systemicon.png')no-repeat center top;
+					background-size:contain;
+				}
 
 				.custom{
 					width:1000px;
 					margin:60px auto 80px;
 					overflow: hidden;
-
+					position: relative;
+		
 					.client{
 						width:100%;
 						height:20px;
@@ -248,12 +428,18 @@ body{
 						text-align: center;
 					}
 
-					.clientImg{
+					.clientIcon{
 						width:180px;
 						height:180px;
 						background:url('../images/clientImg.png')no-repeat center center;
 						background-size:contain;
 						margin:10px auto 0;
+
+						&>img{
+							width: 100%;
+							height: 100%;
+
+						}
 					}
 
 					.customLR{
@@ -264,19 +450,111 @@ body{
 						.customImg{
 							width:256px;
 							height:256px;
+							position: relative;
+
+							&>img{
+								width:100%;
+								height:100%;
+							}
+
+							.Text{
+								position: absolute;
+								height:60px;
+								line-height: 60px;
+								font-family: $fontW;
+								color:#000;
+								font-size: 24px;
+								bottom:0px;
+								width:100%;
+								text-indent: 20px;
+							}
 						}
 
 						.customL{
 							float:left;
-							background:url('../images/customL.png')no-repeat center center;
-							background-size:contain;
+
 						}
 
 						.customR{
-							background:url('../images/customR.png')no-repeat center center;
-							background-size:contain;
 							float:right;
 						}
+					}
+
+					.dataImgLR{
+						width:100%;
+						margin:10px auto 0;
+						
+						.datesImg{
+							width: 300px;
+							height: 530px;
+							border:1px solid #6a6a6a;
+							background:#d6d6d6;
+
+							.icon{
+								width: 280px;
+								height: 200px;
+								margin:10px auto 0;
+
+								&>img{
+									width:100%;
+									height:auto;
+								}
+							}
+						}
+
+						h3{
+							color:#0070cc;
+							font-family: $fontW;
+							font-size: 32px;
+							text-align: center;
+							padding:0 10px;
+							margin:20px auto 0;
+							font-weight: normal;
+						}
+
+						article{
+							color:#545454;
+							font-family: $fontW;
+							font-size: 16px;
+							line-height: 32px;
+							text-indent: 2em;
+							padding:0 20px;
+							margin:20px auto 0;
+							
+						}
+
+					}
+
+					.pay{
+						width:100%;
+						height:60px;
+						line-height: 60px;
+						font-family: $fontW;
+						color:#000;
+						font-size: 24px;
+						text-align: center;
+						top:405px;
+						position: absolute;
+					}
+
+					.line1{
+						width:1px;
+						height:128px;
+						position: absolute;
+						background:#d6d6d6;
+						left:50%;
+						margin-left:-0.5px;
+						top:210px;
+					}
+
+					.line2{
+						width:300px;
+						height:1px;
+						position: absolute;
+						background:#d6d6d6;
+						left:50%;
+						margin-left:-150px;
+						top:338px;
 					}
 
 					.SOLUTION{
@@ -292,6 +570,10 @@ body{
 								width:180px;
 								height:30px;
 								margin:40px auto 0;
+								font-family: 'Bauhaus 93';
+								color:#ffffff;
+								font-size: 36px;
+								text-align: center;
 							}
 
 							.solCen{
@@ -328,11 +610,6 @@ body{
 								background:#1694a7;
 								border:1px solid #306a73;
 
-								.solT{
-									background:url('../images/sol1.png')no-repeat center center;
-									background-size:contain;
-								}
-
 								.solicon{
 									width: 156px;
 									height: 173px;
@@ -349,11 +626,6 @@ body{
 							&:nth-child(2){
 								background:#006c97;
 								border:1px solid #035879;
-
-								.solT{
-									background:url('../images/sol2.png')no-repeat center center;
-									background-size:contain;
-								}
 
 								.solicon{
 									width: 112px;
@@ -373,11 +645,6 @@ body{
 								background:#546e7a;
 								border:1px solid #465961;
 
-								.solT{
-									background:url('../images/sol3.png')no-repeat center center;
-									background-size:contain;
-								}
-
 								.solicon{
 									width: 146px;
 									height: 175px;
@@ -396,11 +663,6 @@ body{
 								background:#4b99bf;
 								border:1px solid #4283a2;
 
-								.solT{
-									background:url('../images/sol4.png')no-repeat center center;
-									background-size:contain;
-								}
-
 								.solicon{
 									width: 140px;
 									height: 173px;
@@ -418,11 +680,6 @@ body{
 							&:nth-child(5){
 								background:#7accc8;
 								border:1px solid #6bb2af;
-
-								.solT{
-									background:url('../images/sol5.png')no-repeat center center;
-									background-size:contain;
-								}
 
 								.solicon{
 									width: 145px;
@@ -446,23 +703,107 @@ body{
 
 						&>li{
 							width:320px;
-							height:500px;
+							height:520px;
 							display:inline-block;
 							margin:0 5px;
+							position: relative;
 
 							&:nth-child(1){
 								background:#1694a7;
 								border:2px solid #306a73;
+
+								.delicon{
+									background:url('../images/solution_13.png')no-repeat right bottom;
+									background-size:auto;
+
+									&:hover{
+										background:url('../images/icon_03.png')no-repeat right bottom;
+									}
+								}
 							}
 
 							&:nth-child(2){
 								background:#006c97;
 								border:2px solid #035879;
+
+								.delicon{
+									background:url('../images/solution_16.png')no-repeat right bottom;
+									background-size:auto;
+
+									&:hover{
+										background:url('../images/icon_06.png')no-repeat right bottom;
+									}
+								}
 							}
 
 							&:nth-child(3){
 								background:#546e7a;
 								border:2px solid #465961;
+
+								.delicon{
+									background:url('../images/solution_19.png')no-repeat right bottom;
+									background-size:auto;
+
+									&:hover{
+										background:url('../images/icon_09.png')no-repeat right bottom;
+									}
+								}
+							}
+
+							&:nth-child(4){
+								background:#7accc8;
+								border:2px solid #306a73;
+							}
+
+							&:nth-child(5){
+								background:#4b99bf;
+								border:2px solid #035879;
+							}
+
+							&:nth-child(6){
+								background:#798d97;
+								border:2px solid #465961;
+							}
+							
+							&:nth-child(4),&:nth-child(5),&:nth-child(6){
+								margin-top:60px;
+							}
+
+							.delHead{
+								color:#ffffff;
+								font-size: 50px;
+								font-family: 'Bauhaus 93';
+								text-align: center;
+								margin:65px auto 0;
+							}
+
+							.delBofy{
+								margin:35px auto 0;
+
+								.delText{
+									color:#ffffff;
+									font-size: 32px;
+									font-family:$fontW;
+									text-align: center;
+									line-height: 35px;
+								}
+
+								.delb{
+									width: 0;
+								    height: 0;
+								    border-left: 20px solid transparent;
+								    border-right: 20px solid transparent;
+								    border-top: 30px solid #fff;
+								    margin:20px auto 0;
+								}
+							}
+
+							.delicon{
+								width:320px;
+								height:320px;
+								position: absolute;
+								bottom:0;
+								right:0;
 							}
 						}
 					}
@@ -517,10 +858,7 @@ body{
 								background:#1694a7;
 								border:2px solid #306a73;
 
-								.valueit{
-									background:url('../images/value_03.png')no-repeat center center;
-									background-size:contain;
-								}
+								
 							}
 						}
 		
@@ -529,10 +867,7 @@ body{
 								background:#006c97;
 								border:2px solid #035879;
 
-								.valueit{
-									background:url('../images/value_07.png')no-repeat center center;
-									background-size:contain;
-								}
+								
 							}
 						}
 			
@@ -541,10 +876,7 @@ body{
 								background:#546e7a;
 								border:2px solid #465961;
 
-								.valueit{
-									background:url('../images/value_09.png')no-repeat center center;
-									background-size:contain;
-								}
+								
 							}
 						}
 		
@@ -553,10 +885,7 @@ body{
 								background:#4b99bf;
 								border:2px solid #4283a2;
 
-								.valueit{
-									background:url('../images/value_11.png')no-repeat center center;
-									background-size:contain;
-								}
+								
 							}
 						}
 						
@@ -565,10 +894,7 @@ body{
 								background:#7accc8;
 								border:2px solid #6bb2af;
 
-								.valueit{
-									background:url('../images/value_14.png')no-repeat center center;
-									background-size:contain;
-								}
+								
 							}
 						}
 
@@ -581,15 +907,29 @@ body{
 							.valueit{
 								width:100%;
 								height:40px;
-								margin:40px auto 0;
+								margin:20px auto 0;
+								color:#ffffff;
+								font-size: 40px;
+								font-family: 'Bauhaus 93';
+								text-align: center;
+							}
+							
+							.textL{
+								color:#ffffff;
+								font-family: $fontW;
+								font-size: 20px;
+								margin:20px auto 0;
+								line-height: 30px;
+								text-align:center;
+								padding:0 10px;
 							}
 
 							.triangleR{
 								width: 0;
     							height: 0;
-								border-top: 20px solid transparent;
-   								border-left: 30px solid #fff;
-    							border-bottom: 20px solid transparent;
+								border-top: 15px solid transparent;
+   								border-left: 20px solid #fff;
+    							border-bottom: 15px solid transparent;
 								position: absolute;
 								right:0;
 								top:80px;
