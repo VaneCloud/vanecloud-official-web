@@ -38,21 +38,8 @@
 					</div>
 				</div>
 			</div>
+			<div id="settleNav"></div>
 		</header>
-		<ul class="joint">
-			<li>
-				<a href="http://www.baidu.com"></a>
-			</li>
-			<li>
-				<a href="javascript:"></a>
-			</li>
-			<li>
-				<a href="javascript:"></a>
-			</li>
-			<li>
-				<a href="javascript:"></a>
-			</li>
-		</ul> 
 		<section class="main">
 			<div class="container">
 				<div class="principle">
@@ -91,6 +78,12 @@
 						<div class="pay">交付</div>
 						<div class="line1"></div>
 						<div class="line2"></div>
+						<div class="line3"></div>
+						<div class="line4"></div>
+						<div class="line6"></div>
+						<div class="line7"></div>
+						<div class="line8"></div>
+						<div class="line9"></div>
 						<ul class="delivery">
 							<li>
 								<div class="delHead">SOLUTION1</div>
@@ -98,7 +91,15 @@
 									<div class="delText">顶层设计优先</div>
 									<div class="delb"></div>
 								</div>
-								<div class="delicon"></div>
+								<div class="govicon"></div>
+								<div class="govBox">
+									<h3>顶层设计优先</h3>
+									<ul class="SOList">
+										<li>
+										电子政务云的部署和建设是一项系统工程，涉及部门多，建设周期长，管理和技术层面相当复杂,因此做好总体设计和规划是至关重要的。部署电子政务云应采取增量优先、先易后难、先共性后特殊的原则，“增量优先”是指将那些新建、改造的电子政务系统部署到电子政务云平台，“先易后难”是指技术上实施起来最简单，部门间协调起来最容易；“先共性后特殊”是指业务性质上先迁移各部门共有的对象，再迁移具有特殊要求的对象，安全上先考虑对安全要求不高的对象，再考虑对安全要求高的对象。
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
 								<div class="delHead">SOLUTION2</div>
@@ -106,7 +107,15 @@
 									<div class="delText">电子政务IaaS云平台</div>
 									<div class="delb"></div>
 								</div>
-								<div class="delicon"></div>
+								<div class="govicon"></div>
+								<div class="govBox">
+									<h3>电子政务IaaS云平台</h3>
+									<ul class="SOList">
+										<li>
+										vaneCloud通过虚拟化、分布式计算、资源池化及容灾备份等关键技术构建动态的IT基础架构。vaneCloud支持异构物理设备和虚拟化平台，因此可灵活选用不同的技术及不同类型的设备整合起来协同工作，一方面根据策略，动态调度虚拟化资源，最大限度提高政府部门现有IT资源的利用率，另一方面通过全面的服务监控，整合备份及迁移技术，保障业务系统的可用性。vaneCloud支持跨地域分布式资源管理，有效扩展IT资源池的规模，同时可视化管理模式提升数据中心的管理效率，并将IT资源以标准化、规格化的服务对外提供，提供业务运营、用户自助服务的能力，最终将数据中心转变成为IT服务中心。
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
 								<div class="delHead">SOLUTION3</div>
@@ -114,7 +123,15 @@
 									<div class="delText">PaaS和SaaS演进</div>
 									<div class="delb"></div>
 								</div>
-								<div class="delicon"></div>
+								<div class="govicon"></div>
+								<div class="govBox">
+									<h3>PaaS和SaaS演进</h3>
+									<ul class="SOList">
+										<li>
+										电子政务资源共享分为基础设施、信息资源和应用三个层次的共享，资源共享的核心问题是共享资源的管理与对外服务，而云计算IaaS、PaaS和SaaS三种模式正好解决用于电子政务资源三个层次的管理与服务问题。因此初期以vaneCloud基础架构云平台为切入点，未来逐步平滑向PaaS和SaaS演进。
+										</li>
+									</ul>
+								</div>
 							</li>
 						</ul>
 					</div>
@@ -217,27 +234,38 @@
 				</div>
 			</div>
 		</section>
-		<footer class="footer">
-			<div class="container">
-				<ul class="version pull-left">
-					<li>contactus@vanecloud.com</li>
-					<li>400 680 9981</li>
-				</ul>
-				<ul class="version pull-right">
-					<li>中科氢氧云计算技术（上海）有限公司</li>
-					<li>Copyright © 2016 CSHO  Cloud (Shanghai) Co., Ltd. All rights reserved.</li>
-				</ul>
-			</div>
-		</footer>
+		<section class="service"></section>
+		<footer class="footer"></footer>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 		<script type="text/javascript" src="js/registry.js"></script>
 		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/settleNav.js"></script>
+		<script type="text/javascript" src="js/our.js"></script>
+		<script type="text/javascript" src="js/footer.js"></script>
+		<script type="text/javascript" src="js/joint.js"></script>
 		<script type="text/javascript" src="js/drag.js"></script>
 		<!-- <script type="text/javascript" src="js/server.js"></script> -->
 		<script type="text/javascript">
 			$(function(){
-				
+				$('.delivery > li .delBofy').hover(function(){
+					$(this).siblings('.govBox').animate({
+						top:'0px'
+					},500)
+				},function(){
+					
+				});
 
+				$('.delivery > li .govBox').hover(function(){
+					$(this).animate({
+						top:'0px'
+					},500)
+				},function(){
+					$(this).animate({
+						top:'-520px'
+					},500)
+				});
+
+				$('.settleNav a.nav3').addClass('active');
 			})
 		</script>
 	</body>

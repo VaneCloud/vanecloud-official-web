@@ -3283,7 +3283,7 @@ body .service .container .serviceTop .ma {
 }
 /* line 1563, ../sass/index.scss */
 body .service .container .serviceTop .ma > img {
-  width: 100px;
+  width: 100%;
   height: 100%;
 }
 /* line 1573, ../sass/index.scss */

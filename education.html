@@ -38,21 +38,8 @@
 					</div>
 				</div>
 			</div>
+			<div id="settleNav"></div>
 		</header>
-		<ul class="joint">
-			<li>
-				<a href="http://www.baidu.com"></a>
-			</li>
-			<li>
-				<a href="javascript:"></a>
-			</li>
-			<li>
-				<a href="javascript:"></a>
-			</li>
-			<li>
-				<a href="javascript:"></a>
-			</li>
-		</ul> 
 		<section class="main">
 			<div class="container">
 				<div class="principle">
@@ -91,6 +78,12 @@
 						<div class="pay">交付</div>
 						<div class="line1"></div>
 						<div class="line2"></div>
+						<div class="line3"></div>
+						<div class="line4"></div>
+						<div class="line6"></div>
+						<div class="line7"></div>
+						<div class="line8"></div>
+						<div class="line9"></div>
 						<ul class="delivery">
 							<li>
 								<div class="delHead">SOLUTION1</div>
@@ -99,6 +92,13 @@
 									<div class="delb"></div>
 								</div>
 								<div class="delicon"></div>
+								<div class="delBox">
+									<h3>服务器虚化技术</h3>
+									<ul class="SOList">
+										<li>利用服务器虚拟化技术，将原先隔离的硬件资源变成一个资源池，使硬件资源的利用率得到大幅度提升，CPU的利用率从原来的不足10%提升到60%～80%，使得IT资源得以按需使用，硬件采购成本大幅降低，同时节省了设备能耗。可提供一键式部署，简化业务部署，实现教学活动、行政管理等新业务快速上线，提升办公效率。
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
 								<div class="delHead">SOLUTION2</div>
@@ -107,6 +107,14 @@
 									<div class="delb"></div>
 								</div>
 								<div class="delicon"></div>
+								<div class="delBox">
+									<h3>统一云管理平台</h3>
+									<ul class="SOList">
+										<li>
+										统一的云管理平台，不同校区资源全局统一管理和调度，方便管理，省时省力，同时也提高了提高资源池利用率。
+										</li>
+									</ul>
+								</div>
 							</li>
 							<li>
 								<div class="delHead">SOLUTION3</div>
@@ -115,32 +123,52 @@
 									<div class="delb"></div>
 								</div>
 								<div class="delicon"></div>
+								<div class="delBox">
+									<h3>确保业务稳定性</h3>
+									<ul class="SOList">
+										<li>
+										云数据中心提供虚拟化热迁移、资源资源热插拔等特性，减少系统计划内宕机时间；提供虚拟机快照备份和恢复技术，实现系统故障自动切换，减少系统计划外宕机时间。同时实现零宕机硬件维护和升级，确保业务连续性。
+										</li>
+									</ul>
+								</div>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</section>
-		<footer class="footer">
-			<div class="container">
-				<ul class="version pull-left">
-					<li>contactus@vanecloud.com</li>
-					<li>400 680 9981</li>
-				</ul>
-				<ul class="version pull-right">
-					<li>中科氢氧云计算技术（上海）有限公司</li>
-					<li>Copyright © 2016 CSHO  Cloud (Shanghai) Co., Ltd. All rights reserved.</li>
-				</ul>
-			</div>
-		</footer>
+		<section class="service"></section>
+		<footer class="footer"></footer>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
 		<script type="text/javascript" src="js/registry.js"></script>
 		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/settleNav.js"></script>
+		<script type="text/javascript" src="js/our.js"></script>
+		<script type="text/javascript" src="js/footer.js"></script>
+		<script type="text/javascript" src="js/joint.js"></script>
 		<script type="text/javascript" src="js/drag.js"></script>
 		<!-- <script type="text/javascript" src="js/server.js"></script> -->
 		<script type="text/javascript">
 			$(function(){
-				
+				$('.delivery > li .delBofy').hover(function(){
+					$(this).siblings('.delBox').animate({
+						top:'0px'
+					},500)
+				},function(){
+					
+				});
+
+				$('.delivery > li .delBox').hover(function(){
+					$(this).animate({
+						top:'0px'
+					},500)
+				},function(){
+					$(this).animate({
+						top:'-520px'
+					},500)
+				})
+
+				$('.settleNav a.nav2').addClass('active');
 
 			})
 		</script>
