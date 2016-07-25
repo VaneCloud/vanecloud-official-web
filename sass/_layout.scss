@@ -212,18 +212,15 @@ body{
           text-indent:45px;
         }
 
-        &>input[type="button"]{
+        &>a{
           width:36px;
           height:100%;
-          line-height:36px;
           float:left;
           background:#14adc4 url('../images/sr.png')no-repeat center center;
           background-size:25px 25px;
-          border:0 none;
           font-family:$fontW;
           color:#898989;
-          cursor:pointer;
-
+          display:block;
         }
       }
 

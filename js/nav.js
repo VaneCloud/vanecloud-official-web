@@ -1,5 +1,5 @@
 $(function(){
-	$('#header').hover(function(){
+	$('.header').hover(function(){
 		$(this).css('background','rgba(17,17,17,0.9)')
 	},function(){
 		$(this).css('background','transparent');

@@ -71,19 +71,13 @@ body{
 			&:hover{
 				color:#fff;
 				background:url('../images/f1.png')no-repeat center center;
-				transform:rotateY(360deg);
-				-webkit-transform:rotateY(360deg);
-				-moz-transform:rotateY(360deg);
-				-o-transform:rotateY(360deg);
+				
 			}
 
 			&.active{
 				color:#fff;
 				background:url('../images/f1.png')no-repeat center center;
-				transform:rotateY(360deg);
-				-webkit-transform:rotateY(360deg);
-				-moz-transform:rotateY(360deg);
-				-o-transform:rotateY(360deg);
+				
 			}
 
 		}
