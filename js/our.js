@@ -3,12 +3,12 @@ $(function(){
 	var our='<div class="container">'+
 		'<ul class="row serviceTop">'+
 			'<li class="col-lg-2 col-md-2">'+
-				'<div class="serviceTitle">首页</div>'+
+				'<div class="serviceTitle">新闻动态</div>'+
 				'<ul class="serviceBody">'+
-					'<li><a href="javascript:">新闻动态</a></li>'+
+					'<li><a href="newsInternational.html">国际动态</a></li>'+
 					'<li><a href="javascript:">关于我们</a></li>'+
-					'<li><a href="javascript:">行业解决方案</a></li>'+
-					'<li><a href="javascript:">产品体验中心</a></li>'+
+					'<li><a href="newsBusiness.html">行业动态</a></li>'+
+					'<li><a href="newsIssue.html">新品发布</a></li>'+
 				'</ul>'+
 			'</li>'+
 			'<li class="col-lg-2 col-md-2">'+

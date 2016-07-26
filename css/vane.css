@@ -1965,20 +1965,21 @@ body .main .container .row .vanR .cloudBody .summarize .pic {
 }
 /* line 173, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .summList {
-  margin: 100px auto auto 65px;
+  width: 270px;
+  margin: 100px auto 0;
 }
-/* line 176, ../sass/vane.scss */
+/* line 177, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .summList > li {
   color: #797c80;
   font-family: "微软雅黑";
   font-size: 20px;
   line-height: 40px;
 }
-/* line 182, ../sass/vane.scss */
+/* line 183, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .summList > li span {
   color: #0062c1;
 }
-/* line 189, ../sass/vane.scss */
+/* line 190, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .featurePic {
   width: 566px;
   height: 465px;
@@ -1986,7 +1987,7 @@ body .main .container .row .vanR .cloudBody .featurePic {
   background: url("../images/figure.png") no-repeat center center;
   background-size: contain;
 }
-/* line 197, ../sass/vane.scss */
+/* line 198, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .figureFoot {
   color: #000000;
   font-family: "微软雅黑";
@@ -1994,35 +1995,35 @@ body .main .container .row .vanR .cloudBody .figureFoot {
   text-align: center;
   margin: 40px auto 0;
 }
-/* line 205, ../sass/vane.scss */
+/* line 206, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature {
   margin: 100px auto 0;
   overflow: hidden;
 }
-/* line 209, ../sass/vane.scss */
+/* line 210, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li {
   margin-bottom: 80px;
   overflow: hidden;
 }
-/* line 213, ../sass/vane.scss */
+/* line 214, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .featureTitle {
   color: #000000;
   font-family: "微软雅黑";
   font-size: 24px;
   text-align: center;
 }
-/* line 220, ../sass/vane.scss */
+/* line 221, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .icon {
   width: 198px;
   height: 216px;
   margin: 60px auto 60px;
 }
-/* line 225, ../sass/vane.scss */
+/* line 226, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .icon > img {
   width: 100%;
   height: 100%;
 }
-/* line 234, ../sass/vane.scss */
+/* line 235, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .lists > li {
   font-family: "微软雅黑";
   color: #74767c;
@@ -2032,19 +2033,19 @@ body .main .container .row .vanR .cloudBody .feature > li .lists > li {
   line-height: 40px;
   text-indent: 40px;
 }
-/* line 252, ../sass/vane.scss */
+/* line 253, ../sass/vane.scss */
 body .main .container .vaneWells {
   width: 100%;
   margin: 100px auto 0;
 }
-/* line 256, ../sass/vane.scss */
+/* line 257, ../sass/vane.scss */
 body .main .container .vaneWells .vaneHead {
   font-family: "微软雅黑";
   color: #000000;
   font-size: 30px;
   text-align: center;
 }
-/* line 265, ../sass/vane.scss */
+/* line 266, ../sass/vane.scss */
 body .main .container .vaneWells .vaneFoot {
   font-family: "微软雅黑";
   color: #0062c1;
@@ -2052,26 +2053,26 @@ body .main .container .vaneWells .vaneFoot {
   text-align: center;
   margin-top: 20px;
 }
-/* line 274, ../sass/vane.scss */
+/* line 275, ../sass/vane.scss */
 body .main .container .diskHead {
   margin: 65px auto 85px;
   overflow: hidden;
 }
-/* line 278, ../sass/vane.scss */
+/* line 279, ../sass/vane.scss */
 body .main .container .diskHead .disTitle {
   font-family: "微软雅黑";
   color: #0062c1;
   font-size: 22px;
   line-height: 44px;
 }
-/* line 285, ../sass/vane.scss */
+/* line 286, ../sass/vane.scss */
 body .main .container .diskHead article {
   font-family: "微软雅黑";
   color: #74767c;
   font-size: 20px;
   line-height: 40px;
 }
-/* line 292, ../sass/vane.scss */
+/* line 293, ../sass/vane.scss */
 body .main .container .diskHead .diskPic {
   width: 353px;
   height: 418px;
@@ -2079,29 +2080,29 @@ body .main .container .diskHead .diskPic {
   background-size: contain;
   marin: 0 auto;
 }
-/* line 301, ../sass/vane.scss */
+/* line 302, ../sass/vane.scss */
 body .main .container .diskBody {
   margin: 0 auto 90px;
 }
-/* line 304, ../sass/vane.scss */
+/* line 305, ../sass/vane.scss */
 body .main .container .diskBody .disTitle {
   font-family: "微软雅黑";
   color: #0062c1;
   font-size: 22px;
   line-height: 44px;
 }
-/* line 311, ../sass/vane.scss */
+/* line 312, ../sass/vane.scss */
 body .main .container .diskBody .icon {
   width: 222px;
   height: 255px;
   margin: 0 auto 0;
 }
-/* line 316, ../sass/vane.scss */
+/* line 317, ../sass/vane.scss */
 body .main .container .diskBody .icon > img {
   width: 100%;
   heigth: 100%;
 }
-/* line 324, ../sass/vane.scss */
+/* line 325, ../sass/vane.scss */
 body .main .container .diskBody .lists > li {
   font-family: "微软雅黑";
   color: #74767c;
@@ -2111,11 +2112,11 @@ body .main .container .diskBody .lists > li {
   line-height: 40px;
   text-indent: 40px;
 }
-/* line 337, ../sass/vane.scss */
+/* line 338, ../sass/vane.scss */
 body .main .container .vanePanel {
   margin: 35px auto 0;
 }
-/* line 340, ../sass/vane.scss */
+/* line 341, ../sass/vane.scss */
 body .main .container .vanePanel .vaneTitle {
   font-family: "微软雅黑";
   color: #0062c1;
@@ -2123,7 +2124,7 @@ body .main .container .vanePanel .vaneTitle {
   line-height: 44px;
   font-weight: 400;
 }
-/* line 348, ../sass/vane.scss */
+/* line 349, ../sass/vane.scss */
 body .main .container .vanePanel .traitPic {
   width: 502px;
   height: 500px;
@@ -2131,7 +2132,7 @@ body .main .container .vanePanel .traitPic {
   background: url("../images/traitPic.png") no-repeat center center;
   background-size: contain;
 }
-/* line 358, ../sass/vane.scss */
+/* line 359, ../sass/vane.scss */
 body .main .container .vanePanel .traitLists > li {
   font-family: "微软雅黑";
   color: #74767c;
@@ -2141,7 +2142,7 @@ body .main .container .vanePanel .traitLists > li {
   line-height: 40px;
   text-indent: 40px;
 }
-/* line 369, ../sass/vane.scss */
+/* line 370, ../sass/vane.scss */
 body .main .container .vanePanel article {
   font-family: "微软雅黑";
   color: #74767c;
@@ -2149,38 +2150,38 @@ body .main .container .vanePanel article {
   line-height: 36px;
   text-indent: 2em;
 }
-/* line 377, ../sass/vane.scss */
+/* line 378, ../sass/vane.scss */
 body .main .container .vanePanel .fun {
   margin: 20px auto 0;
 }
-/* line 380, ../sass/vane.scss */
+/* line 381, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li {
   padding-right: 30px;
   padding-left: 30px;
 }
-/* line 384, ../sass/vane.scss */
+/* line 385, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .funHead {
   font-family: "微软雅黑";
   color: #000;
   font-size: 24px;
   text-align: center;
 }
-/* line 391, ../sass/vane.scss */
+/* line 392, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .icon {
   margin: 40px auto 0;
   width: 222px;
   height: 255px;
 }
-/* line 396, ../sass/vane.scss */
+/* line 397, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .icon > img {
   width: 100%;
   height: 100%;
 }
-/* line 402, ../sass/vane.scss */
+/* line 403, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .lists {
   margin: 60px auto 50px;
 }
-/* line 405, ../sass/vane.scss */
+/* line 406, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .lists > li {
   font-family: "微软雅黑";
   color: #74767c;
@@ -2190,7 +2191,7 @@ body .main .container .vanePanel .fun > li .lists > li {
   background-size: 26px 26px;
   text-indent: 40px;
 }
-/* line 419, ../sass/vane.scss */
+/* line 420, ../sass/vane.scss */
 body .main .container .vanePanel .vaneFoot {
   font-family: "微软雅黑";
   color: #326c94;
