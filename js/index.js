@@ -8,9 +8,23 @@ $(function(){
 
 	$('.btn').css('top',(h-$('.btn').height())/2+'px');
 
-	$('.picFoot').css('height',h*0.231+'px');
+	var ih=$('.picFoot .icon').height();
+
+	$('.picFoot').css('height',ih+5+'px');
 
 	$('.pic .container').css('height',h-$('.picFoot').height()-60+'px');
+
+	$('.container.con4 .con4pic').css('margin',($('.pic .container').height()-350)/2+'px auto 0');
+
+	$('.container.con4 .con4text').css('margin',($('.pic .container').height()-350)/2+40+'px auto 0');
+
+	$('.con3pic').css('margin',($('.pic .container').height()-351)/2+'px auto 0');
+
+	$('.con3text').css('margin',($('.pic .container').height()-351)/2+40+'px auto 0');
+
+	$('.con2pic').css('margin',($('.pic .container').height()-356)/2+'px auto 0');
+
+	$('.con2text').css('margin',($('.pic .container').height()-356)/2+40+'px auto 0');
 
 	$('.cloudText').css('height',h*0.141+'px');
 
@@ -20,9 +34,11 @@ $(function(){
 
 	$('.cloudpic').css('top',h*0.5-10+'px');
 
-	$('.con3pic').css('height',h*0.546+'px');
+	
 
-	$('.banner .num').css('bottom',h*0.05+'px');
+	var ph=$('.picFoot').height();
+
+	$('.banner .num').css('bottom',ph+5+'px');
 
 	$('.newsdynamic .container').css('margin',(h-$('.newsdynamic .container').height())/2+30+'px auto 0');
 
@@ -62,7 +78,9 @@ $(function(){
 
 		$('.btn').css('top',(h-$('.btn').height())/2+'px');
 
-		$('.picFoot').css('height',h*0.231+'px');
+		var ih=$('.picFoot .icon').height();
+
+		$('.picFoot').css('height',ih+10+'px');
 
 		$('.pic .container').css('height',h-$('.picFoot').height()-60+'px');
 
@@ -72,7 +90,9 @@ $(function(){
 
 		$('.cloudpic').css('height',h*3.427+'px');
 
-		$('.banner .num').css('bottom',h*0.05+'px');
+		var ph=$('.picFoot').height();
+
+		$('.banner .num').css('bottom',ph+5+'px');
 
 		$('.newsdynamic .container').css('margin',(h-$('.newsdynamic .container').height())/2+30+'px auto 0');
 

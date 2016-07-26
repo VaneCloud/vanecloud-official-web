@@ -39,15 +39,13 @@ body{
 			.num{
 				position:absolute;
 				width:100%; 
-				height:20px;
-				
 				left:0; 
 				text-align:center;
 				z-index:99;
 
 				&>li{
-					width:20px;
-					height:20px;
+					width:15px;
+					height:15px;
 					border-radius:100%;
 					background:#fff;
 					border:1px solid #1f2539;
@@ -88,42 +86,42 @@ body{
 						.con2text{
 							height:194px;
 							background:url('../images/b3zi.png') no-repeat center center;
-							background-size:contain;
-							margin: 150px auto 0;
+							background-size:70% 70%;
+							
 						}
 						
 						.shiy{
-							width:200px;
-							height:84px;
+							width:217px;
+							height:72px;
 							display: block;
 							background:url('../images/cp33.png') no-repeat center center;
-							background-size:contain;
-							margin:70px auto 0;
+							background-size:70%;
+							margin:30px auto 0;
 
 						}
 
 						.con2pic{
-							height:600px;
+							height:356px;
 							background:url('../images/pic2.png') no-repeat center center;
 							background-size:contain;
-							margin: 43px auto 0;
+							
 						}
 					}
 
 					&.con3{
 						.con3pic{
-							width:100%;
+							height:351px;
 							background:url('../images/cp31.png') no-repeat center center;
-							background-size:auto 100%;
-							position: absolute;
-							top:0;
+							background-size:contain;
+							
+							
 						}
 						
 						.con3text{
-							height:500px;
+							height:198px;
 							background:url('../images/cp32.png') no-repeat center center;
-							background-size:contain;
-							margin: 0px auto 0;
+							background-size:70% 70%;
+							
 						}
 
 						.shiy{
@@ -131,25 +129,25 @@ body{
 							height:84px;
 							display: block;
 							background:url('../images/cp33.png') no-repeat center center;
-							background-size:contain;
-							margin:0 auto 0;
+							background-size:70% 60%;
+							margin:0px auto 0;
 
 						}
 					}
 
 					&.con4{
 						.con4pic{
-							height:500px;
+							height:350px;
 							background:url('../images/pic4.png') no-repeat center center;
 							background-size:contain;
-							margin: 65px auto 0;
+							
 						}
 						
 						.con4text{
 							height:197px;
 							background:url('../images/b2zi.png') no-repeat center center;
-							background-size:contain;
-							margin: 125px auto 0;
+							background-size:70% 70%;
+							
 						}
 
 						.shiy{
@@ -157,8 +155,8 @@ body{
 							height:84px;
 							display: block;
 							background:url('../images/cp33.png') no-repeat center center;
-							background-size:contain;
-							margin:70px auto 0;
+							background-size:70% 60%;
+							margin:0 auto 0;
 
 						}
 					}
@@ -167,10 +165,21 @@ body{
 				
 				&>.picFoot{
 					width:100%;
-					background:#318fbb;
 					position:absolute;
 					bottom:0;
 					z-index:9;
+
+					.icon{
+						width:25%;
+						
+						padding-right:5px;
+						padding-left:5px;
+
+						&>img{
+							width:100%;
+							height:100%;
+						}
+					}
 				}
 
 				&:nth-child(1),&:last-child{
