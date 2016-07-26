@@ -1971,20 +1971,20 @@ body .newSection .newSbody > li .situation {
 body .newSection .newSbody > li .situation .situationHead {
   color: #000000;
   font-size: 30px;
-  font-family: 方正兰亭纤黑_GBK;
+  font-family: "微软雅黑";
 }
 /* line 182, ../sass/news.scss */
 body .newSection .newSbody > li .situation time {
   color: #7c7b7b;
   font-size: 18px;
   line-height: 26px;
-  font-family: 方正兰亭超细黑简体;
+  font-family: "微软雅黑";
 }
 /* line 189, ../sass/news.scss */
 body .newSection .newSbody > li .situation .situationBody {
   color: #000000;
   font-size: 18px;
-  font-family: 方正兰亭纤黑_GBK;
+  font-family: "微软雅黑";
   line-height: 30px;
 }
 /* line 196, ../sass/news.scss */
@@ -1992,7 +1992,7 @@ body .newSection .newSbody > li .situation > a {
   position: absolute;
   right: 0;
   bottom: 10px;
-  font-family: 方正兰亭纤黑_GBK;
+  font-family: "微软雅黑";
   color: #074696;
   font-size: 18px;
 }
@@ -2027,7 +2027,7 @@ body .newSection .pages .page > li {
   display: inline-block;
   font-size: 20px;
   margin: 0 5px;
-  font-family: 方正兰亭纤黑_GBK;
+  font-family: "微软雅黑";
 }
 /* line 244, ../sass/news.scss */
 body .newSection .pages .page > li > a {

@@ -176,20 +176,20 @@ body{
 					.situationHead{
 						color:#000000;
 						font-size:30px;
-						font-family: 方正兰亭纤黑_GBK;
+						font-family:$fontW;
 					}
 					
 					time{
 						color:#7c7b7b;
 						font-size:18px;
 						line-height: 26px;
-						font-family: 方正兰亭超细黑简体;
+						font-family:$fontW;
 					}
 
 					.situationBody{
 						color:#000000;
 						font-size: 18px;
-						font-family: 方正兰亭纤黑_GBK;
+						font-family:$fontW;
 						line-height: 30px;
 					}
 
@@ -197,7 +197,7 @@ body{
 						position: absolute;
 						right:0;
 						bottom:10px;
-						font-family: 方正兰亭纤黑_GBK;
+						font-family:$fontW;
 						color:#074696;
 						font-size: 18px;
 
@@ -239,7 +239,7 @@ body{
 					display: inline-block;
 					font-size: 20px;
 					margin:0 5px;
-					font-family:方正兰亭纤黑_GBK;
+					font-family:$fontW;
 
 					&>a{
 						width:36px;
