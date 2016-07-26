@@ -16,6 +16,7 @@ body{
 		.head{
 			width:940px;
 			margin:45px auto 80px;
+			overflow: hidden;
 
 			.pull-left{
 
@@ -72,7 +73,8 @@ body{
 
 		.panel{
 			width:940px;
-			margin:0 auto 0;
+			margin:80px auto 0;
+			overflow: hidden;
 
 			.panelHead{
 				border-bottom:1px solid #c6c6c6;

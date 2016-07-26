@@ -11,7 +11,7 @@
 		<header id="header" class="header"></header>
 		<div id="fullpage">
 			<section class="section">
-				<!-- <canvas class="site-bg-canvas"></canvas> -->
+				<canvas class="site-bg-canvas"></canvas>
 				<div class="banner">
 					<ul class="num"></ul>
 					<div class="picture">
@@ -212,7 +212,7 @@
 										</div>
 										<h1>金融</h1>
 										<article class="industryArticle">为金融云客户量身定制的混合云计算服务，具备低成本、高可用、高可靠、高弹性。</article>
-										<a href="javascript:" class="parthref">查看详情</a>
+										<a href="finance.html" class="parthref">查看详情</a>
 									</li>
 									<li class="col-lg-1 col-md-1">
 										<div class="industryPic">
@@ -224,7 +224,7 @@
 										</div>
 										<h1>政府</h1>
 										<article class="industryArticle">为金融云客户量身定制的混合云计算服务，具备低成本、高可用、高可靠、高弹性。</article>
-										<a href="javascript:" class="parthref">查看详情</a>
+										<a href="government.html" class="parthref">查看详情</a>
 									</li>
 									<li class="col-lg-1 col-md-1">
 										<div class="industryPic">
@@ -236,7 +236,7 @@
 										</div>
 										<h1>教育</h1>
 										<article class="industryArticle">为金融云客户量身定制的混合云计算服务，具备低成本、高可用、高可靠、高弹性。</article>
-										<a href="javascript:" class="parthref">查看详情</a>
+										<a href="education.html" class="parthref">查看详情</a>
 									</li>
 									<li class="col-lg-1 col-md-1">
 										<div class="industryPic">
@@ -248,7 +248,7 @@
 										</div>
 										<h1>零售</h1>
 										<article class="industryArticle">为金融云客户量身定制的混合云计算服务，具备低成本、高可用、高可靠、高弹性。</article>
-										<a href="javascript:" class="parthref">查看详情</a>
+										<a href="retail.html" class="parthref">查看详情</a>
 									</li>
 									<li class="col-lg-1 col-md-1">
 										<div class="industryPic">
@@ -260,7 +260,7 @@
 										</div>
 										<h1>数据</h1>
 										<article class="industryArticle">为金融云客户量身定制的混合云计算服务，具备低成本、高可用、高可靠、高弹性。</article>
-										<a href="javascript:" class="parthref">查看详情</a>
+										<a href="bigData.html" class="parthref">查看详情</a>
 									</li>
 								</ul>
 
@@ -294,7 +294,7 @@
 									<h1>氢氧云管平台</h1>
 									<div class="productspic"></div>
 									<div class="synopsis">15<span>(简介）</span></div>
-									<a href="javascript:" class="know">开始了解</a>
+									<a href="vaneQueue.html" class="know">开始了解</a>
 								</div>
 							</li>
 							<li class="col-lg-3 col-md-3">
@@ -311,7 +311,7 @@
 									<h1>氢氧云盘</h1>
 									<div class="productspic"></div>
 									<div class="synopsis">15<span>(简介）</span></div>
-									<a href="javascript:" class="know">开始了解</a>
+									<a href="vaneDisk.html" class="know">开始了解</a>
 								</div>
 							</li>
 							<li class="col-lg-3 col-md-3">
@@ -328,7 +328,7 @@
 									<h1>氢氧云</h1>
 									<div class="productspic"></div>
 									<div class="synopsis">15<span>(简介）</span></div>
-									<a href="javascript:" class="know">开始了解</a>
+									<a href="vaneCloud.html" class="know">开始了解</a>
 								</div>
 							</li>
 							<li class="col-lg-3 col-md-3">
@@ -345,7 +345,7 @@
 									<h1>氢氧智迅</h1>
 									<div class="productspic"></div>
 									<div class="synopsis">15<span>(简介）</span></div>
-									<a href="javascript:" class="know">开始了解</a>
+									<a href="vaneAnalytics.html" class="know">开始了解</a>
 								</div>
 							</li>
 						</ul>
@@ -439,15 +439,16 @@
 		<script type="text/javascript" src="js/footer.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 		<script type="text/javascript" src="js/banner.js"></script>
+		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/scroll.js"></script>
 		<script type="text/javascript" src="js/fluid.js"></script>
 		<script type="text/javascript" src="js/tree.js"></script>
 		<script type="text/javascript" src="js/full.js"></script>
-	<!-- 	<script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/plugin.js"></script>
-	<script type="text/javascript" src="js/variable.js"></script>
-	<script type="text/javascript" src="js/main.js"></script> -->
+	 	<script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/plugin.js"></script>
+		<script type="text/javascript" src="js/variable.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/joint.js"></script>
 		<script type="text/javascript" src="js/drag.js"></script>
 		<script type="text/javascript">
@@ -474,25 +475,6 @@
 					$(this).siblings('a').css('color','#e6e3e3');
 				})
 	
-
-				$('.search>input[type="search"]').focus(function(){
-					$(this).parent('.search').siblings('.navHead').hide();
-					$(this).parent('.search').siblings('.logInOut').hide();
-					$(this).css('width','800px');
-				})
-
-				$('.search>input[type="search"]').blur(function(){
-					$(this).parent('.search').siblings('.navHead').show();
-					$(this).parent('.search').siblings('.logInOut').show();
-					$(this).css('width','150px');
-				})
-
-
-				$('.logInOut.pull-left>li').hover(function(){
-					$(this).children('a').addClass('active');
-					$(this).siblings('.logInOut.pull-left>li').children('a').removeClass('active');
-				});
-
 
 				$('.row.products li').hover(function(){
 					$(this).children('.productsBox1').hide();

@@ -86,7 +86,7 @@ body{
 						.con2text{
 							height:194px;
 							background:url('../images/b3zi.png') no-repeat center center;
-							background-size:70% 70%;
+							background-size:contain;
 							
 						}
 						
@@ -120,7 +120,7 @@ body{
 						.con3text{
 							height:198px;
 							background:url('../images/cp32.png') no-repeat center center;
-							background-size:70% 70%;
+							background-size:contain;
 							
 						}
 
@@ -146,7 +146,7 @@ body{
 						.con4text{
 							height:197px;
 							background:url('../images/b2zi.png') no-repeat center center;
-							background-size:70% 70%;
+							background-size:90% 90%;
 							
 						}
 
@@ -200,8 +200,8 @@ body{
 					}
 
 					.cloudText{
-						width:900px;
-						height:100px;
+						width:920px;
+						height:144px;
 						background:url('../images/cloud11.png') no-repeat center center;
 						background-size:contain;
 						position: absolute;

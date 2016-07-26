@@ -1823,8 +1823,9 @@ body .main {
 body .main .head {
   width: 940px;
   margin: 45px auto 80px;
+  overflow: hidden;
 }
-/* line 22, ../sass/newsmain.scss */
+/* line 23, ../sass/newsmain.scss */
 body .main .head .pull-left a {
   background: url("../images/h1.png") no-repeat left center;
   background-size: contain;
@@ -1836,7 +1837,7 @@ body .main .head .pull-left a {
   font-size: 18px;
   font-family: "微软雅黑";
 }
-/* line 36, ../sass/newsmain.scss */
+/* line 37, ../sass/newsmain.scss */
 body .main .head .pull-right .newSl {
   color: #000000;
   font-size: 24px;
@@ -1844,7 +1845,7 @@ body .main .head .pull-right .newSl {
   line-height: 36px;
   float: left;
 }
-/* line 44, ../sass/newsmain.scss */
+/* line 45, ../sass/newsmain.scss */
 body .main .head .pull-right select {
   width: 114px;
   height: 36px;
@@ -1855,7 +1856,7 @@ body .main .head .pull-right select {
   text-align: center;
   border-radius: 5px;
 }
-/* line 55, ../sass/newsmain.scss */
+/* line 56, ../sass/newsmain.scss */
 body .main .head .pull-right input[type="search"] {
   width: 280px;
   height: 36px;
@@ -1871,16 +1872,17 @@ body .main .head .pull-right input[type="search"] {
   background: url("../images/s2.png") no-repeat 250px center;
   background-size: 20px 20px;
 }
-/* line 73, ../sass/newsmain.scss */
+/* line 74, ../sass/newsmain.scss */
 body .main .panel {
   width: 940px;
-  margin: 0 auto 0;
+  margin: 80px auto 0;
+  overflow: hidden;
 }
-/* line 77, ../sass/newsmain.scss */
+/* line 79, ../sass/newsmain.scss */
 body .main .panel .panelHead {
   border-bottom: 1px solid #c6c6c6;
 }
-/* line 80, ../sass/newsmain.scss */
+/* line 82, ../sass/newsmain.scss */
 body .main .panel .panelHead .panneltitle {
   line-height: 70px;
   font-size: 36px;
@@ -1888,7 +1890,7 @@ body .main .panel .panelHead .panneltitle {
   color: #000;
   text-align: center;
 }
-/* line 88, ../sass/newsmain.scss */
+/* line 90, ../sass/newsmain.scss */
 body .main .panel .panelHead time {
   display: block;
   color: #7c7b7b;
@@ -1897,11 +1899,11 @@ body .main .panel .panelHead time {
   line-height: 60px;
   text-align: center;
 }
-/* line 99, ../sass/newsmain.scss */
+/* line 101, ../sass/newsmain.scss */
 body .main .panel .panelBody {
   margin: 15px auto 15px;
 }
-/* line 101, ../sass/newsmain.scss */
+/* line 103, ../sass/newsmain.scss */
 body .main .panel .panelBody article {
   word-wrap: break-word;
   line-height: 30px;
@@ -1909,15 +1911,15 @@ body .main .panel .panelBody article {
   font-size: 16px;
   font-family: "微软雅黑";
 }
-/* line 109, ../sass/newsmain.scss */
+/* line 111, ../sass/newsmain.scss */
 body .main .panel .panelFoot {
   margin: 0 auto 80px;
 }
-/* line 112, ../sass/newsmain.scss */
+/* line 114, ../sass/newsmain.scss */
 body .main .panel .panelFoot .read {
   height: 40px;
 }
-/* line 117, ../sass/newsmain.scss */
+/* line 119, ../sass/newsmain.scss */
 body .main .panel .panelFoot .read .pull-left a {
   line-height: 40px;
   color: #318fbb;
@@ -1927,44 +1929,44 @@ body .main .panel .panelFoot .read .pull-left a {
   margin-right: 35px;
   float: left;
 }
-/* line 129, ../sass/newsmain.scss */
+/* line 131, ../sass/newsmain.scss */
 body .main .panel .panelFoot .read .pull-right > a {
   width: 40px;
   height: 40px;
   display: inline-block;
   margin-left: 10px;
 }
-/* line 135, ../sass/newsmain.scss */
+/* line 137, ../sass/newsmain.scss */
 body .main .panel .panelFoot .read .pull-right > a:nth-child(1) {
   background: url("../images/r1.png") no-repeat;
   background-size: contain;
 }
-/* line 140, ../sass/newsmain.scss */
+/* line 142, ../sass/newsmain.scss */
 body .main .panel .panelFoot .read .pull-right > a:nth-child(2) {
   background: url("../images/r2.png") no-repeat;
   background-size: contain;
 }
-/* line 145, ../sass/newsmain.scss */
+/* line 147, ../sass/newsmain.scss */
 body .main .panel .panelFoot .read .pull-right > a:nth-child(3) {
   background: url("../images/r3.png") no-repeat;
   background-size: contain;
 }
-/* line 153, ../sass/newsmain.scss */
+/* line 155, ../sass/newsmain.scss */
 body .main .panel .panelFoot .context {
   margin: 30px auto 0;
 }
-/* line 155, ../sass/newsmain.scss */
+/* line 157, ../sass/newsmain.scss */
 body .main .panel .panelFoot .context > ul > li {
   margin: 0 auto 20px;
 }
-/* line 158, ../sass/newsmain.scss */
+/* line 160, ../sass/newsmain.scss */
 body .main .panel .panelFoot .context > ul > li > div {
   line-height: 35px;
   color: #318fbb;
   font-size: 20px;
   font-family: 方正兰亭纤黑_GBK;
 }
-/* line 167, ../sass/newsmain.scss */
+/* line 169, ../sass/newsmain.scss */
 body .main .panel .panelFoot .context > ul > li > a {
   color: #318fbb;
   font-size: 20px;
@@ -1973,13 +1975,13 @@ body .main .panel .panelFoot .context > ul > li > a {
   display: block;
   line-height: 35px;
 }
-/* line 181, ../sass/newsmain.scss */
+/* line 183, ../sass/newsmain.scss */
 body .footer {
   width: 100%;
   background: #f2f2f2;
   margin: 0 auto 50px;
 }
-/* line 190, ../sass/newsmain.scss */
+/* line 192, ../sass/newsmain.scss */
 body .footer .container .version > li {
   color: #707070;
 }
