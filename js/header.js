@@ -54,10 +54,10 @@ $(function(){
 				'</div>'+
 			'</li>'+
 		'</nav>'+
-		'<ul class="logInOut pull-left">'+
+		/*'<ul class="logInOut pull-left">'+
 			'<li><a href="login.html">登录</a></li>'+
 			'<li><a href="registry.html" class="active">注册</a></li>'+
-		'</ul>'+
+		'</ul>'+*/
 		'<div class="search pull-left">'+
 			'<input type="search" placeholder="搜索vaneWIKI" />'+
 			'<a href="http://192.168.20.116:3000"></a>'+
