@@ -1972,22 +1972,28 @@ body .newSection .newSbody > li .situation .situationHead {
   color: #000000;
   font-size: 30px;
   font-family: "微软雅黑";
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
+  line-height: 40px;
 }
-/* line 182, ../sass/news.scss */
+/* line 188, ../sass/news.scss */
 body .newSection .newSbody > li .situation time {
   color: #7c7b7b;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 30px;
   font-family: "微软雅黑";
 }
-/* line 189, ../sass/news.scss */
+/* line 195, ../sass/news.scss */
 body .newSection .newSbody > li .situation .situationBody {
   color: #000000;
   font-size: 18px;
   font-family: "微软雅黑";
-  line-height: 30px;
+  line-height: 36px;
 }
-/* line 196, ../sass/news.scss */
+/* line 203, ../sass/news.scss */
 body .newSection .newSbody > li .situation > a {
   position: absolute;
   right: 0;
@@ -1996,11 +2002,11 @@ body .newSection .newSbody > li .situation > a {
   color: #074696;
   font-size: 18px;
 }
-/* line 209, ../sass/news.scss */
+/* line 216, ../sass/news.scss */
 body .newSection .newSbody > li:last-child .shape2 {
   height: 237px;
 }
-/* line 213, ../sass/news.scss */
+/* line 220, ../sass/news.scss */
 body .newSection .newSbody > li:last-child .shape3 {
   width: 18px;
   height: 18px;
@@ -2010,16 +2016,16 @@ body .newSection .newSbody > li:last-child .shape3 {
   left: 0;
   bottom: 0px;
 }
-/* line 227, ../sass/news.scss */
+/* line 234, ../sass/news.scss */
 body .newSection .pages {
   text-align: center;
   margin: 120px auto 50px;
 }
-/* line 231, ../sass/news.scss */
+/* line 238, ../sass/news.scss */
 body .newSection .pages .page {
   display: inline-block;
 }
-/* line 235, ../sass/news.scss */
+/* line 242, ../sass/news.scss */
 body .newSection .pages .page > li {
   width: 36px;
   height: 36px;
@@ -2029,19 +2035,19 @@ body .newSection .pages .page > li {
   margin: 0 5px;
   font-family: "微软雅黑";
 }
-/* line 244, ../sass/news.scss */
+/* line 251, ../sass/news.scss */
 body .newSection .pages .page > li > a {
   width: 36px;
   height: 36px;
   display: inline-block;
   color: #000000;
 }
-/* line 250, ../sass/news.scss */
+/* line 257, ../sass/news.scss */
 body .newSection .pages .page > li > a:hover {
   background: #0070cc;
   color: #fff;
 }
-/* line 258, ../sass/news.scss */
+/* line 265, ../sass/news.scss */
 body .newSection .pages .pagePrev {
   width: 22px;
   height: 36px;
@@ -2050,7 +2056,7 @@ body .newSection .pages .pagePrev {
   cursor: pointer;
   background: url("../images/page1.png") no-repeat center center;
 }
-/* line 264, ../sass/news.scss */
+/* line 271, ../sass/news.scss */
 body .newSection .pages .pageNext {
   width: 22px;
   height: 36px;
