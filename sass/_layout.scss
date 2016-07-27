@@ -161,14 +161,39 @@ body{
       overflow: visible !important;
       
       .logo{
-        width:150px;
+        width:40px;
         height:40px;  
-        background:url('../images/logo.png')no-repeat;
+        background:url('../images/ZKlogo.png')no-repeat;
         background-size:contain;
-        margin:10px 50px auto auto;
+        margin:10px 10px auto auto;
 
       }
       
+      .headbar{
+          height:40px; 
+          margin:10px 50px auto auto;
+          width:100px;
+          text-align: center;
+
+        .top{
+          line-height: 20px;
+          font-family: $fontW;
+          font-size: 16px;
+          color:#fff;
+
+          &.active{
+            
+          }
+        }
+
+        .bot{
+          line-height: 20px;
+          font-family: $fontW;
+          font-size:  16px;
+          color:#fff;
+        }
+      }
+
       .logInOut{
         margin:0px 20px;
 

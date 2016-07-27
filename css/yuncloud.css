@@ -99,17 +99,38 @@ body .header .container {
 }
 /* line 163, ../sass/_layout.scss */
 body .header .container .logo {
-  width: 150px;
+  width: 40px;
   height: 40px;
-  background: url("../images/logo.png") no-repeat;
+  background: url("../images/ZKlogo.png") no-repeat;
   background-size: contain;
-  margin: 10px 50px auto auto;
+  margin: 10px 10px auto auto;
 }
 /* line 172, ../sass/_layout.scss */
+body .header .container .headbar {
+  height: 40px;
+  margin: 10px 50px auto auto;
+  width: 100px;
+  text-align: center;
+}
+/* line 178, ../sass/_layout.scss */
+body .header .container .headbar .top {
+  line-height: 20px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #fff;
+}
+/* line 189, ../sass/_layout.scss */
+body .header .container .headbar .bot {
+  line-height: 20px;
+  font-family: "微软雅黑";
+  font-size: 16px;
+  color: #fff;
+}
+/* line 197, ../sass/_layout.scss */
 body .header .container .logInOut {
   margin: 0px 20px;
 }
-/* line 175, ../sass/_layout.scss */
+/* line 200, ../sass/_layout.scss */
 body .header .container .logInOut > li {
   font-family: "微软雅黑";
   color: #e6e3e3;
@@ -119,7 +140,7 @@ body .header .container .logInOut > li {
   margin: 12px 5px;
   height: 36px;
 }
-/* line 182, ../sass/_layout.scss */
+/* line 207, ../sass/_layout.scss */
 body .header .container .logInOut > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -128,13 +149,13 @@ body .header .container .logInOut > li > a {
   display: block;
   padding: 0 20px;
 }
-/* line 190, ../sass/_layout.scss */
+/* line 215, ../sass/_layout.scss */
 body .header .container .logInOut > li > a.active {
   color: #e6e3e3;
   background: #14adc4;
   border: 0 none;
 }
-/* line 199, ../sass/_layout.scss */
+/* line 224, ../sass/_layout.scss */
 body .header .container .search {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -142,7 +163,7 @@ body .header .container .search {
   height: 36px;
   margin-top: 12px;
 }
-/* line 205, ../sass/_layout.scss */
+/* line 230, ../sass/_layout.scss */
 body .header .container .search > input[type="search"] {
   width: 150px;
   height: 100%;
@@ -152,7 +173,7 @@ body .header .container .search > input[type="search"] {
   float: left;
   text-indent: 45px;
 }
-/* line 215, ../sass/_layout.scss */
+/* line 240, ../sass/_layout.scss */
 body .header .container .search > a {
   width: 36px;
   height: 100%;
@@ -163,11 +184,11 @@ body .header .container .search > a {
   color: #898989;
   display: block;
 }
-/* line 227, ../sass/_layout.scss */
+/* line 252, ../sass/_layout.scss */
 body .header .container .navHead {
   height: 100%;
 }
-/* line 231, ../sass/_layout.scss */
+/* line 256, ../sass/_layout.scss */
 body .header .container .navHead > li {
   font-family: "微软雅黑";
   color: #e6e3e3;
@@ -177,7 +198,7 @@ body .header .container .navHead > li {
   position: relative;
   float: left;
 }
-/* line 238, ../sass/_layout.scss */
+/* line 263, ../sass/_layout.scss */
 body .header .container .navHead > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -189,11 +210,11 @@ body .header .container .navHead > li > a {
   margin: 0 10px;
   color: #e6e3e3;
 }
-/* line 248, ../sass/_layout.scss */
+/* line 273, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active {
   color: #14adc4;
 }
-/* line 255, ../sass/_layout.scss */
+/* line 280, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection {
   padding: 5px 0;
   margin-top: 0px;
@@ -203,25 +224,25 @@ body .header .container .navHead > li .navSection {
   display: none;
   background: rgba(17, 17, 17, 0.9);
 }
-/* line 267, ../sass/_layout.scss */
+/* line 292, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
   font-family: "微软雅黑";
 }
-/* line 272, ../sass/_layout.scss */
+/* line 297, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
   color: #fff;
 }
-/* line 275, ../sass/_layout.scss */
+/* line 300, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a:hover {
   color: #2176da;
 }
-/* line 280, ../sass/_layout.scss */
+/* line 305, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a.active {
   color: #14adc4;
 }
-/* line 299, ../sass/_layout.scss */
+/* line 324, ../sass/_layout.scss */
 body .header .container .reglog {
   height: 60px;
   line-height: 60px;
@@ -231,138 +252,138 @@ body .header .container .reglog {
   background-size: 20px 20px;
   padding-right: 35px;
 }
-/* line 314, ../sass/_layout.scss */
+/* line 339, ../sass/_layout.scss */
 body .service {
   width: 100%;
   background: #0b2f47;
   overflow: hidden;
 }
-/* line 321, ../sass/_layout.scss */
+/* line 346, ../sass/_layout.scss */
 body .service .container .serviceTop {
   margin: 10px auto 0px;
 }
-/* line 324, ../sass/_layout.scss */
+/* line 349, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 16px;
 }
-/* line 330, ../sass/_layout.scss */
+/* line 355, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 14px;
 }
-/* line 334, ../sass/_layout.scss */
+/* line 359, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 338, ../sass/_layout.scss */
+/* line 363, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 340, ../sass/_layout.scss */
+/* line 365, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 347, ../sass/_layout.scss */
+/* line 372, ../sass/_layout.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
   margin: 20px auto 20px;
 }
-/* line 352, ../sass/_layout.scss */
+/* line 377, ../sass/_layout.scss */
 body .service .container .serviceTop .ma > img {
   width: 100%;
   height: 100%;
 }
-/* line 359, ../sass/_layout.scss */
+/* line 384, ../sass/_layout.scss */
 body .service .container .serviceBot {
   margin: 10px auto 0px;
 }
-/* line 362, ../sass/_layout.scss */
+/* line 387, ../sass/_layout.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
   font-family: "微软雅黑";
   text-align: center;
 }
-/* line 370, ../sass/_layout.scss */
+/* line 395, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
-/* line 376, ../sass/_layout.scss */
+/* line 401, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
   font-family: "微软雅黑";
   text-align: center;
   font-size: 14px;
 }
-/* line 380, ../sass/_layout.scss */
+/* line 405, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 383, ../sass/_layout.scss */
+/* line 408, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 387, ../sass/_layout.scss */
+/* line 412, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 400, ../sass/_layout.scss */
+/* line 425, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li {
   width: 50px;
   height: 50px;
   margin-left: 50px;
   float: left;
 }
-/* line 406, ../sass/_layout.scss */
+/* line 431, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 50px;
   height: 50px;
 }
-/* line 413, ../sass/_layout.scss */
+/* line 438, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 421, ../sass/_layout.scss */
+/* line 446, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 428, ../sass/_layout.scss */
+/* line 453, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;
 }
-/* line 442, ../sass/_layout.scss */
+/* line 467, ../sass/_layout.scss */
 body .footer {
   width: 100%;
   height: 100px;
   background: #081f2f;
 }
-/* line 448, ../sass/_layout.scss */
+/* line 473, ../sass/_layout.scss */
 body .footer .container .version {
   margin-top: 25px;
 }
-/* line 451, ../sass/_layout.scss */
+/* line 476, ../sass/_layout.scss */
 body .footer .container .version > li {
   line-height: 30px;
 }
-/* line 456, ../sass/_layout.scss */
+/* line 481, ../sass/_layout.scss */
 body .footer .container .version.pull-left {
   text-align: left;
 }
-/* line 460, ../sass/_layout.scss */
+/* line 485, ../sass/_layout.scss */
 body .footer .container .version.pull-right {
   text-align: right;
 }
-/* line 467, ../sass/_layout.scss */
+/* line 492, ../sass/_layout.scss */
 body .joint {
   position: fixed;
   width: 40px;
@@ -373,16 +394,16 @@ body .joint {
   border: 0 none;
   z-index: 30;
 }
-/* line 476, ../sass/_layout.scss */
+/* line 501, ../sass/_layout.scss */
 body .joint > li {
   width: 45px;
   height: 45px;
 }
-/* line 480, ../sass/_layout.scss */
+/* line 505, ../sass/_layout.scss */
 body .joint > li:nth-child(1) {
   background: #25364a;
 }
-/* line 482, ../sass/_layout.scss */
+/* line 507, ../sass/_layout.scss */
 body .joint > li:nth-child(1) > a {
   width: 30px;
   height: 20px;
@@ -390,11 +411,11 @@ body .joint > li:nth-child(1) > a {
   background: url("../images/speech-bubble.png") no-repeat center center;
   background-size: contain;
 }
-/* line 491, ../sass/_layout.scss */
+/* line 516, ../sass/_layout.scss */
 body .joint > li:nth-child(2) {
   background: #4ebbdd;
 }
-/* line 493, ../sass/_layout.scss */
+/* line 518, ../sass/_layout.scss */
 body .joint > li:nth-child(2) > a {
   width: 30px;
   height: 20px;
@@ -402,11 +423,11 @@ body .joint > li:nth-child(2) > a {
   background: url("../images/email.png") no-repeat center center;
   background-size: contain;
 }
-/* line 502, ../sass/_layout.scss */
+/* line 527, ../sass/_layout.scss */
 body .joint > li:nth-child(3) {
   background: #4aaaa5;
 }
-/* line 504, ../sass/_layout.scss */
+/* line 529, ../sass/_layout.scss */
 body .joint > li:nth-child(3) > a {
   width: 30px;
   height: 30px;
@@ -414,11 +435,11 @@ body .joint > li:nth-child(3) > a {
   background: url("../images/like.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 513, ../sass/_layout.scss */
+/* line 538, ../sass/_layout.scss */
 body .joint > li:nth-child(4) {
   background: #0091a9;
 }
-/* line 515, ../sass/_layout.scss */
+/* line 540, ../sass/_layout.scss */
 body .joint > li:nth-child(4) > a {
   width: 30px;
   height: 30px;
@@ -426,7 +447,7 @@ body .joint > li:nth-child(4) > a {
   background: url("../images/telephone.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 524, ../sass/_layout.scss */
+/* line 549, ../sass/_layout.scss */
 body .joint > li > a {
   display: block;
 }

@@ -2,6 +2,10 @@ $(function(){
 	var head=
 	'<div class="container">'+
 		'<div class="logo pull-left"></div>'+
+		'<div class="headbar pull-left">'+
+			'<div class="top">中科氢氧</div>'+
+			'<div class="bot">CSHO TECH</div>'+
+		'</div>'+
 		'<nav class="navHead pull-left">'+
 			'<li><a href="index.html">首页</a></li>'+
 			'<li><a href="javascript:">新闻动态</a>'+
