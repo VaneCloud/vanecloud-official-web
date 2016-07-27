@@ -174,23 +174,24 @@ body{
           margin:10px 50px auto auto;
           width:100px;
           text-align: center;
+          color:#fff;
+          
+          &.#{$className}{
+            color:#14adc4;
+          }
+
 
         .top{
           line-height: 20px;
           font-family: $fontW;
           font-size: 16px;
-          color:#fff;
-
-          &.active{
-            
-          }
-        }
+         }
 
         .bot{
           line-height: 20px;
           font-family: $fontW;
           font-size:  16px;
-          color:#fff;
+        
         }
       }
 

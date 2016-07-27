@@ -5,6 +5,7 @@ $('#fullpage').fullpage({
 	onLeave: function(index, nextIndex, direction){
 
 		if(nextIndex == 3||nextIndex == 5||nextIndex == 7){
+			$('.headbar').addClass('active');
 			$('.navHead li a').addClass('active');
 
 			$('.navSection ul li a').addClass('active');
@@ -25,7 +26,7 @@ $('#fullpage').fullpage({
 
 		}else{
 			$('.navHead li a').removeClass('active');
-
+			$('.headbar').removeClass('active');
 			$('.navSection ul li a').removeClass('active');
 
 			$('.navHead li').hover(function(){
