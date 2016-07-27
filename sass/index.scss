@@ -678,7 +678,8 @@ body{
 				}
 			
 				.leaf{
-					li{
+
+					a{
 						width:150px;
 						height:150px;
 						line-height: 170px;
@@ -689,14 +690,15 @@ body{
 						@include trans;
 						font-size: 16px;
 						text-indent: 10px;
+						display:block;
 
 						&:nth-child(1){
-								left:0;
-								top:0;
-								@include Radiu;
-								border:2px solid #e85666;
-								background:url('../images/leaf1.png') no-repeat 20px 20px;
-								background-size:35% 35%;
+							left:0;
+							top:0;
+							@include Radiu;
+							border:2px solid #e85666;
+							background:url('../images/leaf1.png') no-repeat 20px 20px;
+							background-size:35% 35%;
 						}
 						
 						&:nth-child(2){

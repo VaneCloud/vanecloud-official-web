@@ -4,7 +4,7 @@ $(function(){
     var s=$('.indust>li').eq(0).outerWidth();
 	
 	
-	$('.btnnl').hover(function(){
+	$('.btnnl').click(function(){
     	if($('.indd').scrollLeft()>$('.indust').width()/2){
               
             $('.indd').scrollLeft(0);
@@ -14,7 +14,7 @@ $(function(){
         } 
     })
 
-    $('.btnnr').hover(function(){
+    $('.btnnr').click(function(){
         if($('.indd').scrollLeft()<$('.indust').width()/2){
            
             $('.indd').scrollLeft($('.indust').width()/2);

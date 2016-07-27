@@ -27,10 +27,10 @@ $(function(){
 
 
 	move();
-	/*var t=setInterval(function(){
+	var t=setInterval(function(){
 		i++;
 		move()
-	},5000)
+	},3000)
 
 	$(".banner").hover(function(){
 		clearInterval(t);
@@ -39,8 +39,8 @@ $(function(){
 		t=setInterval(function(){
 			i++;
 			move()
-		},5000)
-	})*/
+		},3000)
+	})
 
 	$(".btn.btn_l").click(function(){
 		i++;

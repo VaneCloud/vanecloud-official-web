@@ -1885,8 +1885,8 @@ body .main .panel .panelHead {
 /* line 82, ../sass/newsmain.scss */
 body .main .panel .panelHead .panneltitle {
   line-height: 70px;
-  font-size: 36px;
-  font-family: 方正兰亭纤黑_GBK;
+  font-size: 30px;
+  font-family: "微软雅黑";
   color: #000;
   text-align: center;
 }
