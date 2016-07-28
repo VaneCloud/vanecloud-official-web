@@ -2027,7 +2027,7 @@ body .banner .picture .pic:nth-child(1) > .footer, body .banner .picture .pic:la
 }
 /* line 263, ../sass/index.scss */
 body .banner .picture .pic:nth-child(2) {
-  background: #43c9ae url(../images/fh_02.png) no-repeat center center;
+  background: #31b38d url(../images/fh_02.png) no-repeat center center;
   background-size: contain;
 }
 /* line 267, ../sass/index.scss */
