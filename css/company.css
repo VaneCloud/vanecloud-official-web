@@ -2057,12 +2057,12 @@ body .main .businessR .businessBox .cshobody .cshoarticle > li {
 }
 /* line 251, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot {
-  margin: 20px auto 100px;
+  margin: 50px auto 100px;
 }
 /* line 254, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .icon {
   width: 100%;
-  margin: 50px auto 50px;
+  margin: 20px auto 0;
 }
 /* line 258, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .icon > img {
