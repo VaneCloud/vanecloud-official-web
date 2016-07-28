@@ -74,6 +74,9 @@ body{
 				float:left;
 				position: relative;
 				
+				
+
+
 				.container{
 					
 					&.con2,&.con3,&.con4{
@@ -258,7 +261,8 @@ body{
 				}
 
 				&:nth-child(2){
-					background:#43c9ae;
+					background:#43c9ae url(../images/fh_02.png) no-repeat center center;
+					background-size:contain;
 					
 					&>.footer{
 						background: #16a085;
@@ -266,7 +270,8 @@ body{
 				}
 
 				&:nth-child(3){
-					background:#4ebbdd;
+					background:#4ebbdd url(../images/56.png) no-repeat center center;
+					background-size:contain;;
 
 					&>.footer{
 						background: #318fbb;
@@ -274,7 +279,8 @@ body{
 				}
 
 				&:nth-child(4){
-					background: #4593d8;
+					background: #4593d8 url(../images/fh_01.png) no-repeat center center;
+					background-size:contain;;
 
 					&>.footer{
 						background: #2e6697;
