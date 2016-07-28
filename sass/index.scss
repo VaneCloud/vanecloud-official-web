@@ -100,7 +100,8 @@ body{
 							background:url('../images/cp33.png') no-repeat center center;
 							background-size:70%;
 							margin:30px auto 0;
-
+							position: relative;
+							z-index:15;
 						}
 
 						.con2pic{
@@ -134,7 +135,8 @@ body{
 							background:url('../images/cp33.png') no-repeat center center;
 							background-size:70% 60%;
 							margin:0px auto 0;
-
+							position: relative;
+							z-index:15;
 						}
 					}
 
@@ -160,7 +162,8 @@ body{
 							background:url('../images/cp33.png') no-repeat center center;
 							background-size:70% 60%;
 							margin:0 auto 0;
-
+							position: relative;
+							z-index:15;
 						}
 					}
 
