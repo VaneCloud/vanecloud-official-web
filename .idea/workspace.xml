@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d829690f-8b16-42fd-9174-a7b2d2a58598" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/ma.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/e0ff28e3e40d460552608bd01632ab683651440a/trss.scssc" afterPath="$PROJECT_DIR$/.sass-cache/e0ff28e3e40d460552608bd01632ab683651440a/trss.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/company.css" afterPath="$PROJECT_DIR$/css/company.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/finish.css" afterPath="$PROJECT_DIR$/css/finish.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/trss.css" afterPath="$PROJECT_DIR$/css/trss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/our.js" afterPath="$PROJECT_DIR$/js/our.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/trss.scss" afterPath="$PROJECT_DIR$/sass/trss.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tree.html" afterPath="$PROJECT_DIR$/tree.html" />
-    </list>
+    <list default="true" id="d829690f-8b16-42fd-9174-a7b2d2a58598" name="Default" comment="" />
     <ignored path="vanecloud-official-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -648,12 +638,12 @@
       <workItem from="1470033636824" duration="5329000" />
       <workItem from="1470051339946" duration="1852000" />
       <workItem from="1470053855122" duration="2411000" />
-      <workItem from="1470099558506" duration="26461000" />
+      <workItem from="1470099558506" duration="26578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48127000" />
+    <option name="totallyTimeSpent" value="48244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
