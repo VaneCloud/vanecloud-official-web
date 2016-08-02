@@ -2153,7 +2153,7 @@ body .newsdynamic .accordion > li > .namic {
 /* line 386, ../sass/index.scss */
 body .newsdynamic .accordion > li > .namic > h3 {
   color: #fcfcfc;
-  font-family: "方正兰亭超细黑简体";
+  font-family: "微软雅黑";
   font-size: 24px;
   text-align: center;
   margin-top: 90px;
@@ -2217,7 +2217,7 @@ body .newsdynamic .accordion > li:nth-child(1) > .particulars > .parthref {
   margin: 25px auto;
   display: block;
   color: #fcfcfc;
-  font-family: "方正兰亭超细黑简体";
+  font-family: "微软雅黑";
   font-size: 14px;
   text-indent: 20px;
   text-align: left;
@@ -2273,7 +2273,7 @@ body .newsdynamic .accordion > li:nth-child(2) > .particulars > .parthref {
   margin: 25px auto;
   display: block;
   color: #fcfcfc;
-  font-family: "方正兰亭超细黑简体";
+  font-family: "微软雅黑";
   font-size: 14px;
   text-indent: 20px;
   text-align: left;
@@ -2329,7 +2329,7 @@ body .newsdynamic .accordion > li:nth-child(3) > .particulars > .parthref {
   margin: 25px auto;
   display: block;
   color: #fcfcfc;
-  font-family: "方正兰亭超细黑简体";
+  font-family: "微软雅黑";
   font-size: 14px;
   text-indent: 20px;
   text-align: left;
@@ -2385,7 +2385,7 @@ body .newsdynamic .accordion > li:nth-child(4) > .particulars > .parthref {
   margin: 25px auto;
   display: block;
   color: #fcfcfc;
-  font-family: "方正兰亭超细黑简体";
+  font-family: "微软雅黑";
   font-size: 14px;
   text-indent: 20px;
   text-align: left;
@@ -2734,7 +2734,7 @@ body .industry .indust .parthref {
   background-size: 30px 30px;
   display: block;
   color: #fcfcfc;
-  font-family: "方正兰亭超细黑简体";
+  font-family: "微软雅黑";
   font-size: 16px;
   float: right;
   margin-top: 10px;

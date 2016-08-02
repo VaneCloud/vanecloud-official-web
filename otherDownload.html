@@ -22,24 +22,26 @@
 							<div class="yout">您的联系方式</div>
 						</div>
 						<div class="youBody">
-							<label for="">
+							<label>
 								<input type="text" placeholder="姓名"/>
 								<div class="significance"></div>
 							</label>
-							<label for="">
+							<label>
 								<input type="text" placeholder="职位"/>
 								<div class="significance"></div>
 							</label>
-							<label for="">
+							<label>
 								<input type="text" placeholder="公司名称"/>
 								<div class="significance"></div>
 							</label>
-							<label for="">
+							<label>
 								<input type="text" placeholder="邮箱"/>
 								<div class="significance"></div>
 							</label>
-							<label for="">
-								<input type="text" placeholder="与氢氧的合作关系"/>
+							<label>
+								<select>
+									<option>与氢氧的合作关系</option>
+								</select>
 								<div class="significance"></div>
 							</label>
 						</div>
@@ -48,22 +50,28 @@
 							<div class="yout">关于您的需求</div>
 						</div>
 						<div class="youBody">
-							<label for="">
-								<input type="text" placeholder="与氢氧的合作关系"/>
+							<label>
+								<select>
+									<option>所需产品</option>
+								</select>
 								<div class="significance"></div>
 							</label>
-							<label for="">
-								<input type="text" placeholder="与氢氧的合作关系"/>
+							<label>
+								<select>
+									<option>所属行业</option>
+								</select>
 								<div class="significance"></div>
 							</label>
-							<label for="">
-								<input type="text" placeholder="与氢氧的合作关系"/>
+							<label>
+								<select>
+									<option>感兴趣产品</option>
+								</select>
 								<div class="significance"></div>
 							</label>
-							<label for="">
+							<label>
 								<textarea class="demand" placeholder="需求描述"></textarea>
 							</label>
-							<label for="">
+							<label>
 								<input type="text" placeholder="验证码" class="small"/>
 								<div class="yard"></div>
 								<a href="javascript:" class="yardd">刷新图片</a>
@@ -96,7 +104,7 @@
 										</div>
 										<div class="box2Body">
 											<div class="tet">一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台</div>
-											<a href="javascript:" class="book">产品手册</a>
+											<a href="http://192.168.20.116:3000/vaneC/user-guide" class="book">产品手册</a>
 										</div>
 									</div>
 								</li>
@@ -119,7 +127,7 @@
 										</div>
 										<div class="box2Body">
 											<div class="tet">一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台</div>
-											<a href="javascript:" class="book">产品手册</a>
+											<a href="http://192.168.20.116:3000/vaneC/user-guide" class="book">产品手册</a>
 										</div>
 									</div>
 								</li>
@@ -142,7 +150,7 @@
 										</div>
 										<div class="box2Body">
 											<div class="tet">一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台</div>
-											<a href="javascript:" class="book">产品手册</a>
+											<a href="http://192.168.20.116:3000/vaneC/user-guide" class="book">产品手册</a>
 										</div>
 									</div>
 								</li>
@@ -156,13 +164,16 @@
 		<section class="service"></section>
 		<footer class="footer"></footer>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script type="text/javascript" src="js/browser.min.js"></script>
 		<script type="text/javascript" src="js/header.js"></script>
 		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/registry.js"></script>
 		<script type="text/javascript" src="js/nav.js"></script>
 		<script type="text/javascript" src="js/our.js"></script>
-		<script type="text/javascript" src="js/footer.js"></script>
-		
+		<script type="text/babel" src="js/rfooter.js"></script>
+		<script type="text/javascript" src="js/placeholder.js"></script>
 		<script type="text/javascript" src="js/server.js"></script>
 		<script type="text/javascript">
 			$(function(){

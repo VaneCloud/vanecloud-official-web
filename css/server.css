@@ -1902,7 +1902,7 @@ body .main .serverR .serverBox .serHead {
 /* line 79, ../sass/server.scss */
 body .main .serverR .serverBox .serHead .declaration {
   text-align: center;
-  font-family: "方正兰亭纤黑_GBK";
+  font-family: "微软雅黑";
   font-size: 24px;
   color: #000000;
   line-height: 50px;
@@ -1953,7 +1953,7 @@ body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clFoot {
 /* line 138, ../sass/server.scss */
 body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clFoot > li {
   line-height: 30px;
-  font-family: "方正兰亭纤黑_GBK";
+  font-family: "微软雅黑";
   color: #000000;
   font-size: 16px;
   text-align: left;
@@ -1975,14 +1975,14 @@ body .main .serverR .gradeHead .selgrade {
 body .main .serverR .gradeHead .gHead {
   margin: 40px auto 0;
   color: #000000;
-  font-family: "方正兰亭中黑_GBK";
+  font-family: "微软雅黑";
   font-size: 20px;
 }
 /* line 177, ../sass/server.scss */
 body .main .serverR .gradeHead .gBody {
   margin: 30px auto 0;
   color: #000000;
-  font-family: "方正兰亭纤黑_GBK";
+  font-family: "微软雅黑";
   font-size: 20px;
   text-indent: 2em;
   line-height: 30px;
@@ -2011,7 +2011,7 @@ body .main .serverR .gradeHead .call > li .site {
 body .main .serverR .gradeHead .call > li .site .backups {
   position: absolute;
   top: 0;
-  font-family: "方正兰亭中黑_GBK";
+  font-family: "微软雅黑";
   color: #535353;
   font-size: 18px;
 }
@@ -2076,7 +2076,7 @@ body .main .serverR .gradeHead .call > li .site .gear {
 body .main .serverR .gradeHead .call > li .site .gear span {
   width: 100%;
   color: #535353;
-  font-family: "方正兰亭中黑_GBK";
+  font-family: "微软雅黑";
   text-indent: center;
   display: inline-block;
 }
@@ -2145,7 +2145,7 @@ body .main .serverR .gradeHead .team > li .teampic {
 /* line 344, ../sass/server.scss */
 body .main .serverR .gradeHead .team > li span {
   width: 100%;
-  font-family: "方正兰亭纤黑_GBK";
+  font-family: "微软雅黑";
   color: #000000;
   font-size: 16px;
   text-align: center;
@@ -2196,7 +2196,7 @@ body .main .serverR .sustain > tbody > tr > th {
   border-right: 1px solid #c7c7c7;
   border-bottom: 1px solid #c7c7c7;
   font-size: 22px;
-  font-family: "方正兰亭中黑_GBK";
+  font-family: "微软雅黑";
 }
 /* line 418, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > td {
@@ -2209,7 +2209,7 @@ body .main .serverR .sustain > tbody > tr > td {
 /* line 427, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > td .text1 {
   color: #000000;
-  font-family: "方正兰亭中黑_GBK";
+  font-family: "微软雅黑";
   font-size: 14px;
   line-height: 20px;
   margin: 20px auto 0;
@@ -2217,7 +2217,7 @@ body .main .serverR .sustain > tbody > tr > td .text1 {
 /* line 436, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > td .text2 {
   color: #000000;
-  font-family: "方正兰亭纤黑_GBK";
+  font-family: "微软雅黑";
   font-size: 14px;
   line-height: 20px;
   margin: 20px auto 0;

@@ -1947,7 +1947,7 @@ body .main .panel .panelFoot .read {
 body .main .panel .panelFoot .read .pull-left a {
   line-height: 40px;
   color: #318fbb;
-  font-family: 方正兰亭纤黑_GBK;
+  font-family: "微软雅黑";
   font-size: 20px;
   display: block;
   margin-right: 35px;
@@ -1988,13 +1988,13 @@ body .main .panel .panelFoot .context > ul > li > div {
   line-height: 35px;
   color: #318fbb;
   font-size: 20px;
-  font-family: 方正兰亭纤黑_GBK;
+  font-family: "微软雅黑";
 }
 /* line 169, ../sass/newsmain.scss */
 body .main .panel .panelFoot .context > ul > li > a {
   color: #318fbb;
   font-size: 20px;
-  font-family: 方正兰亭纤黑_GBK;
+  font-family: "微软雅黑";
   text-decoration: underline;
   display: block;
   line-height: 35px;

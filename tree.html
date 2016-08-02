@@ -25,38 +25,58 @@
 				</div>
 				<div class="treesBody">
 					<h3>PowerVM 虚拟化接入</h3>
-					<div class="PowerImg"></div>
-					<!-- <ul class="row powpic">
+					<ul class="row powpic">
 						<li class="col-lg-9 col-md-9">
-							<div class="PowerL"></div>
+							<div class="PowerL pull-left">
+								<img src="./images/tg_03.png" usemap="#Map"/>
+								<ul class="PoweLines">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</div>
+							<map name="Map" class="areas">
+								<area shape="rect" coords="160,380,245,390">
+								<area shape="rect" coords="110,440,230,475" style="background: red;">
+								<area shape="rect" coords="280,440,415,475">
+								<area shape="rect" coords="455,440,605,475">
+							</map>
 						</li>
 						<li class="col-lg-3 col-md-3">
-							<div class="PowerR">
+							<div class="PowerR pull-right">
 								<div class="cinder">Cinder</div>
 								<article>块存储服务，并与PowerVC的Cinder服务交互，提供块存储及存储网络信息的同步、操作等功能
 								</article>
 							</div>
 						</li>
-					</ul> -->
+					</ul>
 				</div>
 			</div>
 		</section>
 		<section class="service"></section>
 		<footer class="footer"></footer>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script type="text/javascript" src="js/browser.min.js"></script>
 		<script type="text/javascript" src="js/header.js"></script>
 		<script type="text/javascript" src="js/registry.js"></script>
 		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/treeNav.js"></script>
 		<script type="text/javascript" src="js/nav.js"></script>
 		<script type="text/javascript" src="js/our.js"></script>
-		<script type="text/javascript" src="js/footer.js"></script>
+		<script type="text/babel" src="js/rfooter.js"></script>
 		<script type="text/javascript" src="js/company.js"></script>
 		<script type="text/javascript" src="js/server.js"></script>
 		<script type="text/javascript">
 			$(function(){
 				$('.treeNav a.nav3').addClass('active');
 
+				$(".areas area").click(function(){
+					var _index=$(this).index();
+					$('.PoweLines li').eq(_index).show().siblings('.PoweLines li').hide();
+				})
 			})
 		</script>
 	</body>
