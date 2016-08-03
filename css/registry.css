@@ -1833,7 +1833,7 @@ body .joint > li > a {
 }
 /* line 8, ../sass/registry.scss */
 body .header {
-  background: #1f2539;
+  background: #1f2539 !important;
 }
 /* line 12, ../sass/registry.scss */
 body .Login {
