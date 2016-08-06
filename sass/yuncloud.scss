@@ -46,7 +46,7 @@ body{
 					margin-left:-140px;
 					font-size:36px;
 					color:#000000;
-					font-family: $fontG1;
+					font-family: $fontW;
 					text-align: center;
 					background:#fff;
 					z-index:2;
@@ -57,7 +57,7 @@ body{
 				overflow:hidden;
 
 				article{
-					font-family:$fontG1;
+					font-family:$fontW;
 					color:#000000;
 					font-size: 20px;
 					line-height: 30px;
@@ -78,7 +78,7 @@ body{
 						text-align: center;
 						color:#318fbb;
 						font-size:24px;
-						font-family:$fontG1;
+						font-family:$fontW;
 						border:1px solid #308fbb;
 						
 						&:nth-child(1){
@@ -218,7 +218,7 @@ body{
 			.productHead{
 				width:756px;
 				height:70px;
-				font-family:$fontG2;
+				font-family:$fontW;
 				font-size:36px;
 				color:#0b2f47;
 				margin:180px auto 100px;
@@ -265,7 +265,7 @@ body{
 							z-index:2;
 							color:#000000;
 							font-size: 24px;
-							font-family:$fontG1;
+							font-family:$fontW;
 							text-align: center;
 						}
 					}
@@ -282,23 +282,45 @@ body{
 
 							input{
 								@include radius;
-								width:490px;
+								width:100%;
 								height:60px;
 								line-height:60px;
 								border:1px solid #318fbb;
 								margin:0 auto 0;
 								color:#000000;
 								font-size: 18px;
-								font-family:$fontG1;
+								font-family:$fontW;
 								text-indent: 35px;
 								display:block;
 
+								&::-webkit-input-placeholder{
+									color:#000000;
+
+								}
+
+								&::-moz-placeholder{
+									color:#000000;
+								}
 								&.small{
 									width:220px;
 									float:left;
-									margin-left:23px;
+
 								}
 
+							}
+
+							select{
+								@include radius;
+								width:100%;
+								height:60px;
+								line-height:60px;
+								border:1px solid #318fbb;
+								margin:0 auto 0;
+
+								font-size: 18px;
+								font-family:$fontW;
+								text-indent: 35px;
+								display:block;
 							}
 
 							.significance{
@@ -306,21 +328,21 @@ body{
 								height:11px;
 								position: absolute;
 								top:12px;
-								left:36px;
+								left:30px;
 								background:url('../images/sig.png')no-repeat right center;
 								background-size:contain;
 							}
 				
 							.demand{
 								@include radius;
-								width:490px;
+								width:100%;
 								height:290px;
 								border:1px solid #318fbb;
 								margin:0 auto 0;
 								line-height:60px;
 								color:#000000;
 								font-size: 18px;
-								font-family:$fontG1;
+								font-family:$fontW;
 								text-indent: 35px;
 								display:block;
 							}
@@ -329,7 +351,7 @@ body{
 								width:200px;
 								height:60px;
 								float:left;
-
+								font-size: 14px;
 							}
 
 							.yardd{
@@ -337,7 +359,7 @@ body{
 								line-height:60px;
 								float:left;
 								display:block;
-								font-family:$fontG1;
+								font-family:$fontW;
 								color:#318fbb;
 								font-size: px;
 							}
@@ -352,7 +374,7 @@ body{
 							margin:40px auto 0;
 							color:#ffffff;
 							font-size: 24px;
-							font-family:$fontG1;
+							font-family:$fontW;
 							text-align: center;
 							display:block;
 							border:0 none;
@@ -364,7 +386,7 @@ body{
 							line-height: 30px;
 							color:#000000;
 							font-size: 18px;
-							font-family:$fontG1;
+							font-family:$fontW;
 						}
 					}
 
@@ -465,7 +487,7 @@ body{
 												text-align: center;
 												color:#000000;
 												font-size:30px;
-												font-family:$fontG1;
+												font-family:$fontW;
 												display:block;
 												width:100%;
 												padding-top:70px;
@@ -482,7 +504,7 @@ body{
 												text-align: center;
 												color:#000000;
 												font-size:22px;
-												font-family:$fontG1;
+												font-family:$fontW;
 												display:block;
 												width:100%;
 												padding-top:50px;
@@ -514,7 +536,7 @@ body{
 										.text{
 											color:#ffffff;
 											font-size: 30px;
-											font-family:$fontG1;
+											font-family:$fontW;
 											width:100%;
 											text-align:center;
 											line-height: 50px;
@@ -559,7 +581,7 @@ body{
 										.tet{
 											color:#ffffff;
 											font-size: 22px;
-											font-family:$fontG1;
+											font-family:$fontW;
 											line-height: 40px;
 											margin-top:20px;
 										}
@@ -573,7 +595,7 @@ body{
 											display:block;
 											color:#ffffff;
 											font-size: 24px;
-											font-family:$fontG1;
+											font-family:$fontW;
 											text-align: center;
 										}
 									}

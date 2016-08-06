@@ -78,7 +78,7 @@ body{
 
 					.declaration{
 						text-align: center;
-						font-family:$fontG1;
+						font-family:$fontW;
 						font-size: 24px;
 						color:#000000;
 						line-height: 50px;
@@ -137,7 +137,7 @@ body{
 								margin:0 auto 60px; 
 								&>li{
 									line-height: 30px;
-									font-family:$fontG1;
+									font-family:$fontW;
 									color:#000000;
 									font-size:16px;
 									text-align: left;
@@ -170,14 +170,14 @@ body{
 				.gHead{
 					margin:40px auto 0;
 					color:#000000;
-					font-family:$fontG2;
+					font-family:$fontW;
 					font-size:20px;
 				}
 
 				.gBody{
 					margin:30px auto 0;
 					color:#000000;
-					font-family:$fontG1;
+					font-family:$fontW;
 					font-size:20px;
 					text-indent: 2em;
 					line-height: 30px;
@@ -203,7 +203,7 @@ body{
 							.backups{
 								position: absolute;
 								top:0;
-								font-family:$fontG2;
+								font-family:$fontW;
 								color:#535353;
 								font-size: 18px;
 
@@ -269,7 +269,7 @@ body{
 								span{
 									width:100%;
 									color:#535353;
-									font-family: $fontG2;
+									font-family: $fontW;
 									text-indent: center;
 									display:inline-block;
 								}
@@ -343,7 +343,7 @@ body{
 						
 						span{
 							width:100%;
-							font-family:$fontG1;
+							font-family:$fontW;
 							color:#000000;
 							font-size: 16px;
 							text-align: center;
@@ -412,7 +412,7 @@ body{
 					border-right:1px solid #c7c7c7;
 					border-bottom:1px solid #c7c7c7;
 					font-size: 22px;
-					font-family: $fontG2;
+					font-family: $fontW;
 				}
 
 				&>tbody>tr>td{
@@ -426,7 +426,7 @@ body{
 
 					.text1{
 						color:#000000;
-						font-family:$fontG2;
+						font-family:$fontW;
 						font-size: 14px;
 						line-height: 20px;
 						margin:20px auto 0;
@@ -435,7 +435,7 @@ body{
 
 					.text2{
 						color:#000000;
-						font-family:$fontG1;
+						font-family:$fontW;
 						font-size: 14px;
 						line-height: 20px;
 						margin:20px auto 0;

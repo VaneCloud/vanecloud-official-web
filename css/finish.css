@@ -1838,7 +1838,7 @@ div {
 
 /* line 22, ../sass/finish.scss */
 body .header {
-  background: #1f2539;
+  background: #1f2539 !important;
 }
 /* line 26, ../sass/finish.scss */
 body .Login {

@@ -63,7 +63,7 @@ $(function(){
 			'<li><a href="registry.html" class="active">注册</a></li>'+
 		'</ul>'+*/
 		'<div class="search pull-left">'+
-			'<input type="search" placeholder="搜索vaneWIKI" />'+
+			'<input type="search" placeholder="探索氢氧知识库" />'+
 			'<a href="http://192.168.20.116:3000"></a>'+
 		'</div>'+
 	'</div>';

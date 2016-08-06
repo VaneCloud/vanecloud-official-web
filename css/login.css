@@ -1833,7 +1833,7 @@ body .joint > li > a {
 }
 /* line 20, ../sass/login.scss */
 body .header {
-  background: #1f2539;
+  background: #1f2539 !important;
   overflow: visible;
 }
 /* line 25, ../sass/login.scss */

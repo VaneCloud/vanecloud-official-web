@@ -48,7 +48,7 @@ $(function(){
 			'</li>'+
 			'<li class="col-lg-2 col-md-2">'+
 				'<div class="serviceTitle">关于我们</div>'+
-				'<div class="ma"><img src="images/ma.png" /></div>'+
+				'<div class="ma"><img src="images/twocode.jpg" /></div>'+
 				'<ul class="serviceBody"><li><a href="javascript:">中科氢氧</a></li></ul>'+
 			'</li>'+
 		'</ul>'+
