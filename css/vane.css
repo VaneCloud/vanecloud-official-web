@@ -74,7 +74,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 /* line 139, ../sass/_layout.scss */
 body {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 14px;
   color: #fff;
   overflow-x: hidden;
@@ -120,13 +120,13 @@ body .header .container .headbar.active {
 /* line 184, ../sass/_layout.scss */
 body .header .container .headbar .top {
   line-height: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 190, ../sass/_layout.scss */
 body .header .container .headbar .bot {
   line-height: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 198, ../sass/_layout.scss */
@@ -135,7 +135,7 @@ body .header .container .logInOut {
 }
 /* line 201, ../sass/_layout.scss */
 body .header .container .logInOut > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -183,7 +183,7 @@ body .header .container .search > a {
   float: left;
   background: #14adc4 url("../images/sr.png") no-repeat center center;
   background-size: 25px 25px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #898989;
   display: block;
 }
@@ -193,7 +193,7 @@ body .header .container .navHead {
 }
 /* line 257, ../sass/_layout.scss */
 body .header .container .navHead > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -231,7 +231,7 @@ body .header .container .navHead > li .navSection {
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
 }
 /* line 298, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
@@ -267,13 +267,13 @@ body .service .container .serviceTop {
 }
 /* line 350, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
 }
 /* line 356, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -308,19 +308,19 @@ body .service .container .serviceBot {
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
 }
 /* line 396, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
 /* line 402, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -1865,7 +1865,7 @@ body .vaneNav > a {
   background: url("../images/f2.png") no-repeat center center;
   background-size: contain;
   margin: 0 35px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 18px;
   text-align: center;
@@ -1897,7 +1897,7 @@ body .main .container .row .vanL {
 /* line 78, ../sass/vane.scss */
 body .main .container .row .vanL .cloudComputing {
   color: #272636;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   text-align: left;
   height: 80px;
@@ -1911,7 +1911,7 @@ body .main .container .row .vanL .cloudComputing {
 /* line 94, ../sass/vane.scss */
 body .main .container .row .vanL .cloudsel > li {
   font-size: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   height: 80px;
   line-height: 80px;
@@ -1943,7 +1943,7 @@ body .main .container .row .vanR .cloudBody {
 /* line 127, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .cloudTitle {
   color: #0062c1;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 22px;
   line-height: 44px;
 }
@@ -1953,7 +1953,7 @@ body .main .container .row .vanR .cloudBody .advantageLists {
 }
 /* line 137, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .advantageLists > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
   font-size: 20px;
   background: url("../images/g_03.png") no-repeat left 10px;
@@ -1972,7 +1972,7 @@ body .main .container .row .vanR .cloudBody .advantagePic {
 /* line 156, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody article {
   color: #515567;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   line-height: 40px;
   text-indent: 2em;
@@ -1995,7 +1995,7 @@ body .main .container .row .vanR .cloudBody .summarize .summList {
 /* line 177, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .summList > li {
   color: #797c80;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   line-height: 40px;
 }
@@ -2014,7 +2014,7 @@ body .main .container .row .vanR .cloudBody .featurePic {
 /* line 198, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .figureFoot {
   color: #000000;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   text-align: center;
   margin: 40px auto 0;
@@ -2032,7 +2032,7 @@ body .main .container .row .vanR .cloudBody .feature > li {
 /* line 214, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .featureTitle {
   color: #000000;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   text-align: center;
 }
@@ -2049,7 +2049,7 @@ body .main .container .row .vanR .cloudBody .feature > li .icon > img {
 }
 /* line 235, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .lists > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
   font-size: 20px;
   background: url("../images/g_03.png") no-repeat left 10px;
@@ -2064,14 +2064,14 @@ body .main .container .vaneWells {
 }
 /* line 257, ../sass/vane.scss */
 body .main .container .vaneWells .vaneHead {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 30px;
   text-align: center;
 }
 /* line 266, ../sass/vane.scss */
 body .main .container .vaneWells .vaneFoot {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
   font-size: 22px;
   text-align: center;
@@ -2084,14 +2084,14 @@ body .main .container .diskHead {
 }
 /* line 279, ../sass/vane.scss */
 body .main .container .diskHead .disTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
   font-size: 22px;
   line-height: 44px;
 }
 /* line 286, ../sass/vane.scss */
 body .main .container .diskHead article {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
   font-size: 20px;
   line-height: 40px;
@@ -2110,7 +2110,7 @@ body .main .container .diskBody {
 }
 /* line 305, ../sass/vane.scss */
 body .main .container .diskBody .disTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
   font-size: 22px;
   line-height: 44px;
@@ -2128,7 +2128,7 @@ body .main .container .diskBody .icon > img {
 }
 /* line 325, ../sass/vane.scss */
 body .main .container .diskBody .lists > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
   font-size: 20px;
   background: url("../images/g_03.png") no-repeat left 10px;
@@ -2142,7 +2142,7 @@ body .main .container .vanePanel {
 }
 /* line 341, ../sass/vane.scss */
 body .main .container .vanePanel .vaneTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
   font-size: 22px;
   line-height: 44px;
@@ -2158,7 +2158,7 @@ body .main .container .vanePanel .traitPic {
 }
 /* line 359, ../sass/vane.scss */
 body .main .container .vanePanel .traitLists > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
   font-size: 18px;
   background: url("../images/g_03.png") no-repeat left 10px;
@@ -2168,7 +2168,7 @@ body .main .container .vanePanel .traitLists > li {
 }
 /* line 370, ../sass/vane.scss */
 body .main .container .vanePanel article {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
   font-size: 18px;
   line-height: 36px;
@@ -2185,7 +2185,7 @@ body .main .container .vanePanel .fun > li {
 }
 /* line 385, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .funHead {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #000;
   font-size: 24px;
   text-align: center;
@@ -2207,7 +2207,7 @@ body .main .container .vanePanel .fun > li .lists {
 }
 /* line 406, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .lists > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
   font-size: 18px;
   line-height: 36px;
@@ -2217,7 +2217,7 @@ body .main .container .vanePanel .fun > li .lists > li {
 }
 /* line 420, ../sass/vane.scss */
 body .main .container .vanePanel .vaneFoot {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #326c94;
   font-size: 24px;
   text-align: center;
