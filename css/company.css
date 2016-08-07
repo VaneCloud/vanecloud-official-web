@@ -74,7 +74,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 /* line 139, ../sass/_layout.scss */
 body {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 14px;
   color: #fff;
   overflow-x: hidden;
@@ -120,13 +120,13 @@ body .header .container .headbar.active {
 /* line 184, ../sass/_layout.scss */
 body .header .container .headbar .top {
   line-height: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 190, ../sass/_layout.scss */
 body .header .container .headbar .bot {
   line-height: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 198, ../sass/_layout.scss */
@@ -135,7 +135,7 @@ body .header .container .logInOut {
 }
 /* line 201, ../sass/_layout.scss */
 body .header .container .logInOut > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -183,7 +183,7 @@ body .header .container .search > a {
   float: left;
   background: #14adc4 url("../images/sr.png") no-repeat center center;
   background-size: 25px 25px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #898989;
   display: block;
 }
@@ -193,7 +193,7 @@ body .header .container .navHead {
 }
 /* line 257, ../sass/_layout.scss */
 body .header .container .navHead > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -231,7 +231,7 @@ body .header .container .navHead > li .navSection {
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
 }
 /* line 298, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
@@ -267,13 +267,13 @@ body .service .container .serviceTop {
 }
 /* line 350, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
 }
 /* line 356, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -308,19 +308,19 @@ body .service .container .serviceBot {
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
 }
 /* line 396, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
 /* line 402, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -1857,7 +1857,7 @@ body .cg .businessNav > a {
   background: url("../images/f2.png") no-repeat center center;
   background-size: contain;
   margin: 0 35px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 18px;
   text-align: center;
@@ -1899,7 +1899,7 @@ body .pg .businessNav > a {
   background: url("../images/f2.png") no-repeat center center;
   background-size: contain;
   margin: 0 35px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 18px;
   text-align: center;
@@ -1944,7 +1944,7 @@ body .main .prinHead .text {
   height: 100%;
   line-height: 31px;
   position: absolute;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 22px;
   text-align: center;
@@ -1979,7 +1979,7 @@ body .main .businessL {
 /* line 155, ../sass/company.scss */
 body .main .businessL .busHead {
   color: #272636;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   text-align: left;
   height: 80px;
@@ -1993,7 +1993,7 @@ body .main .businessL .busHead {
 /* line 171, ../sass/company.scss */
 body .main .businessL .business > li {
   font-size: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   height: 80px;
   line-height: 80px;
@@ -2031,14 +2031,14 @@ body .main .businessR .businessBox .row .comlogo {
 }
 /* line 213, ../sass/company.scss */
 body .main .businessR .businessBox .row .comhead {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #4691d5;
   font-size: 18px;
   line-height: 30px;
 }
 /* line 222, ../sass/company.scss */
 body .main .businessR .businessBox .row .combody > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #515567;
   font-size: 16px;
   line-height: 30px;
@@ -2050,7 +2050,7 @@ body .main .businessR .businessBox .cshohead {
 /* line 240, ../sass/company.scss */
 body .main .businessR .businessBox .cshobody .cshoarticle > li {
   color: #515567;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
   line-height: 40px;
   text-indent: 2em;
@@ -2094,7 +2094,7 @@ body .main .businessR .businessBox .cshofoot .cshobus.cshobus3 > li {
 /* line 285, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshobus > li {
   color: #ffffff;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   text-align: center;
   line-height: 30px;
@@ -2116,7 +2116,7 @@ body .main .businessR .businessBox .cshofoot .cshoser.cshoser2 {
 /* line 309, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshoser .cshoserhead {
   color: #000;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   text-align: center;
   margin-top: 50px;
@@ -2125,7 +2125,7 @@ body .main .businessR .businessBox .cshofoot .cshoser .cshoserhead {
 body .main .businessR .businessBox .cshofoot .cshoser .cshoserbody > li {
   list-style: disc;
   color: #000;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
   text-align: center;
   line-height: 30px;
@@ -2184,7 +2184,7 @@ body .main .businessR .businessBox .incident .incid > li:nth-child(6) {
 body .main .businessR .businessBox .incident .incid > li .list > li {
   color: #515567;
   font-size: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   height: 30px;
   line-height: 30px;
 }
@@ -2203,13 +2203,13 @@ body .main .businessR .businessBox .incident .incid > li .list > li > span {
 body .main .businessR .businessBox .incident .incid > li .textt {
   color: #006c97;
   font-size: 24px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
 }
 /* line 422, ../sass/company.scss */
 body .main .businessR .businessBox .profHead {
   color: #358eb8;
   font-size: 24px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   line-height: 40px;
   margin-top: 80px;
 }
@@ -2217,7 +2217,7 @@ body .main .businessR .businessBox .profHead {
 body .main .businessR .businessBox .profBody .proff > li {
   color: #515567;
   font-size: 16px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   line-height: 36px;
 }
 /* line 442, ../sass/company.scss */
@@ -2250,7 +2250,7 @@ body .main .businessR .businessBox .profBody .coord {
 body .main .businessR .businessBox .profBody .coord > li {
   display: inline-block;
   color: #515567;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   margin: 0 10px;
   height: 20px;

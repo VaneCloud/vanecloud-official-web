@@ -74,7 +74,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 /* line 139, ../sass/_layout.scss */
 body {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 14px;
   color: #fff;
   overflow-x: hidden;
@@ -120,13 +120,13 @@ body .header .container .headbar.active {
 /* line 184, ../sass/_layout.scss */
 body .header .container .headbar .top {
   line-height: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 190, ../sass/_layout.scss */
 body .header .container .headbar .bot {
   line-height: 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 198, ../sass/_layout.scss */
@@ -135,7 +135,7 @@ body .header .container .logInOut {
 }
 /* line 201, ../sass/_layout.scss */
 body .header .container .logInOut > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -183,7 +183,7 @@ body .header .container .search > a {
   float: left;
   background: #14adc4 url("../images/sr.png") no-repeat center center;
   background-size: 25px 25px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #898989;
   display: block;
 }
@@ -193,7 +193,7 @@ body .header .container .navHead {
 }
 /* line 257, ../sass/_layout.scss */
 body .header .container .navHead > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -231,7 +231,7 @@ body .header .container .navHead > li .navSection {
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
 }
 /* line 298, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
@@ -267,13 +267,13 @@ body .service .container .serviceTop {
 }
 /* line 350, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
 }
 /* line 356, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -308,19 +308,19 @@ body .service .container .serviceBot {
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
 }
 /* line 396, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
 /* line 402, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -1857,7 +1857,7 @@ body .bg .treeNav > a {
   background: url("../images/f2.png") no-repeat center center;
   background-size: contain;
   margin: 0 20px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 18px;
   text-align: center;
@@ -1886,7 +1886,7 @@ body .main .container .treesHead {
 /* line 65, ../sass/trss.scss */
 body .main .container .treesHead h3 {
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   text-align: center;
   font-weight: normal;
@@ -1894,7 +1894,7 @@ body .main .container .treesHead h3 {
 /* line 73, ../sass/trss.scss */
 body .main .container .treesHead article {
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   text-indent: 2em;
   margin-top: 30px;
@@ -1907,7 +1907,7 @@ body .main .container .treesHead .Power {
 /* line 86, ../sass/trss.scss */
 body .main .container .treesHead .Power > li {
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   text-indent: 2em;
   line-height: 30px;
@@ -1919,7 +1919,7 @@ body .main .container .treesBody {
 /* line 100, ../sass/trss.scss */
 body .main .container .treesBody h3 {
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   text-align: center;
   font-weight: normal;
@@ -1932,14 +1932,14 @@ body .main .container .treesBody .property > li:nth-child(2), body .main .contai
 body .main .container .treesBody .property > li h3 {
   color: #313131;
   font-size: 30px;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-weight: normal;
 }
 /* line 126, ../sass/trss.scss */
 body .main .container .treesBody .property > li article {
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   text-indent: 2em;
   margin-top: 25px;
@@ -2206,7 +2206,7 @@ body .main .container .treesBody .powpic .PowerR .cinder {
   height: 70px;
   line-height: 70px;
   color: #ffffff;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   margin: 10px auto 0;
   text-align: center;
@@ -2215,7 +2215,7 @@ body .main .container .treesBody .powpic .PowerR .cinder {
 /* line 410, ../sass/trss.scss */
 body .main .container .treesBody .powpic .PowerR article {
   color: #ffffff;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   margin: 35px auto 0;
   padding: 0 10px;
@@ -2228,7 +2228,7 @@ body .main .container .treelog {
 /* line 427, ../sass/trss.scss */
 body .main .container .treelog h3 {
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   text-align: center;
   font-weight: normal;
@@ -2237,7 +2237,7 @@ body .main .container .treelog h3 {
 body .main .container .treelog article {
   margin: 70px auto 0;
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   line-height: 40px;
   text-indent: 2em;
@@ -2249,7 +2249,7 @@ body .main .container .treelog .logs {
 /* line 447, ../sass/trss.scss */
 body .main .container .treelog .logs > li {
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 18px;
   line-height: 26px;
   background: url("../images/g_03.png") no-repeat 50px center;
@@ -2356,7 +2356,7 @@ body .main .container .treelog .Cloudpic {
   text-align: left;
   text-indent: 465px;
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 36px;
   white-space: pre;
 }
@@ -2366,7 +2366,7 @@ body .main .container .treelog .Cloudclassify {
 }
 /* line 568, ../sass/trss.scss */
 body .main .container .treelog .Cloudclassify > li .Cloudclass h3 {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   text-align: left;
 }
@@ -2376,7 +2376,7 @@ body .main .container .treelog .Cloudclassify > li .Cloudclass .cludelist {
 }
 /* line 575, ../sass/trss.scss */
 body .main .container .treelog .Cloudclassify > li .Cloudclass .cludelist > li {
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -2429,7 +2429,7 @@ body .main .container .treelog .Cloudclassify > li:nth-child(3) .Cloudclass .clu
 body .main .container .treelog .hint {
   margin: 60px auto 180px;
   color: #313131;
-  font-family: "微软雅黑";
+  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   text-align: center;
 }
