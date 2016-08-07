@@ -8,16 +8,18 @@ $(function(){
 
 	var i=0;
 	var clone=$(".picture .pic").first().clone();
+	
 	$(".picture").append(clone);
 
 	var size=$(".picture .pic").size();
+	
 	for(var j=0;j<size-1;j++){
 		$(".num").append("<li></li>");
 	}
 
 	$(".banner .num li").first().addClass("active");
 
-	$(".banner .num li").hover(function(){
+	$(".banner .num li").click(function(){
 		var index=$(this).index();
 		i=index;
 		$(".picture").stop().animate({left:-index*w},500);	
@@ -90,7 +92,7 @@ $(function(){
 		var i=0;
 		
 
-		$(".banner .num li").hover(function(){
+		$(".banner .num li").click(function(){
 			var index=$(this).index();
 			i=index;
 			$(".picture").stop().animate({left:-index*w},500);	
@@ -125,7 +127,7 @@ $(function(){
 				i=size-2;
 			}
 			
-			$(".picture").stop().animate({left:-i*w},500)	
+			$(".picture").stop().animate({left:-i*w},500);
 			
 			if(i==size-1){
 				$(".banner .num li").eq(0).addClass("active").siblings().removeClass("active");
