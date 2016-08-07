@@ -64,7 +64,7 @@ $(function(){
 		'</ul>'+*/
 		'<div class="search pull-left">'+
 			'<input type="search" placeholder="探索氢氧知识库" />'+
-			'<a href="http://192.168.20.116:3000"></a>'+
+			'<a href="http://kb.vanecloud.com/"></a>'+
 		'</div>'+
 	'</div>';
 
