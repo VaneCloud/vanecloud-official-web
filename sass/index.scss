@@ -863,10 +863,12 @@ body{
 			}
 		}	
 			.indust{
-				width:4000px;
 				margin-top:0px;
-				
+				width:1980px;
+				position: relative;
+
 				&>li{
+					width:330px;
 					padding-right:40px;
 					padding-left:40px;
 				}

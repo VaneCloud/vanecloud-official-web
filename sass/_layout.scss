@@ -3,13 +3,19 @@
 @charset "utf-8";
 
 $font-family:'微软雅黑' !default;
-$fontW:'微软雅黑';
+
+$fontW:"Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+
 $fontF:'方正兰亭超细黑简体';
+
 $fontc:'方正兰亭超细黑';
+
 $fontG1:'方正兰亭纤黑_GBK';
+
 $fontG2:'方正兰亭中黑_GBK';
 
 $color:#fff !default;
+
 $className:active;
 
 

@@ -1,34 +1,34 @@
 @charset "UTF-8";
-/* line 16, ../sass/_layout.scss */
+/* line 22, ../sass/_layout.scss */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-/* line 22, ../sass/_layout.scss */
+/* line 28, ../sass/_layout.scss */
 a {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 27, ../sass/_layout.scss */
+/* line 33, ../sass/_layout.scss */
 li {
   list-style: none;
   overflow: hidden;
 }
 
-/* line 32, ../sass/_layout.scss */
+/* line 38, ../sass/_layout.scss */
 input, button, select, textarea {
   outline: none;
 }
 
-/* line 33, ../sass/_layout.scss */
+/* line 39, ../sass/_layout.scss */
 textarea {
   resize: none;
 }
 
-/* line 35, ../sass/_layout.scss */
+/* line 41, ../sass/_layout.scss */
 input[type=search]::-webkit-search-decoration,
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-results-button,
@@ -37,24 +37,24 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @media (min-width: 768px) {
-  /* line 43, ../sass/_layout.scss */
+  /* line 49, ../sass/_layout.scss */
   .container {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  /* line 48, ../sass/_layout.scss */
+  /* line 54, ../sass/_layout.scss */
   .container {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 53, ../sass/_layout.scss */
+  /* line 59, ../sass/_layout.scss */
   .container {
     width: 1170px;
   }
 }
-/* line 125, ../sass/_layout.scss */
+/* line 131, ../sass/_layout.scss */
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -62,24 +62,24 @@ input[type=search]::-webkit-search-results-decoration {
   margin-left: auto;
 }
 
-/* line 132, ../sass/_layout.scss */
+/* line 138, ../sass/_layout.scss */
 .pull-right {
   float: right !important;
 }
 
-/* line 135, ../sass/_layout.scss */
+/* line 141, ../sass/_layout.scss */
 .pull-left {
   float: left !important;
 }
 
-/* line 139, ../sass/_layout.scss */
+/* line 145, ../sass/_layout.scss */
 body {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "微软雅黑";
   font-size: 14px;
   color: #fff;
   overflow-x: hidden;
 }
-/* line 146, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 body .site-bg-canvas {
   position: absolute;
   top: 0;
@@ -88,16 +88,16 @@ body .site-bg-canvas {
   bottom: 0;
   z-index: 10;
 }
-/* line 155, ../sass/_layout.scss */
+/* line 161, ../sass/_layout.scss */
 body .header {
   width: 100%;
   height: 60px;
 }
-/* line 160, ../sass/_layout.scss */
+/* line 166, ../sass/_layout.scss */
 body .header .container {
   overflow: visible !important;
 }
-/* line 163, ../sass/_layout.scss */
+/* line 169, ../sass/_layout.scss */
 body .header .container .logo {
   width: 40px;
   height: 40px;
@@ -105,7 +105,7 @@ body .header .container .logo {
   background-size: contain;
   margin: 10px 10px auto auto;
 }
-/* line 172, ../sass/_layout.scss */
+/* line 178, ../sass/_layout.scss */
 body .header .container .headbar {
   height: 40px;
   margin: 10px 50px auto auto;
@@ -113,29 +113,29 @@ body .header .container .headbar {
   text-align: center;
   color: #fff;
 }
-/* line 179, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 body .header .container .headbar.active {
   color: #14adc4;
 }
-/* line 184, ../sass/_layout.scss */
+/* line 190, ../sass/_layout.scss */
 body .header .container .headbar .top {
   line-height: 20px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
-/* line 190, ../sass/_layout.scss */
+/* line 196, ../sass/_layout.scss */
 body .header .container .headbar .bot {
   line-height: 20px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
-/* line 198, ../sass/_layout.scss */
+/* line 204, ../sass/_layout.scss */
 body .header .container .logInOut {
   margin: 0px 20px;
 }
-/* line 201, ../sass/_layout.scss */
+/* line 207, ../sass/_layout.scss */
 body .header .container .logInOut > li {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -143,7 +143,7 @@ body .header .container .logInOut > li {
   margin: 12px 5px;
   height: 36px;
 }
-/* line 208, ../sass/_layout.scss */
+/* line 214, ../sass/_layout.scss */
 body .header .container .logInOut > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -152,13 +152,13 @@ body .header .container .logInOut > li > a {
   display: block;
   padding: 0 20px;
 }
-/* line 216, ../sass/_layout.scss */
+/* line 222, ../sass/_layout.scss */
 body .header .container .logInOut > li > a.active {
   color: #e6e3e3;
   background: #14adc4;
   border: 0 none;
 }
-/* line 225, ../sass/_layout.scss */
+/* line 231, ../sass/_layout.scss */
 body .header .container .search {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -166,7 +166,7 @@ body .header .container .search {
   height: 36px;
   margin-top: 12px;
 }
-/* line 231, ../sass/_layout.scss */
+/* line 237, ../sass/_layout.scss */
 body .header .container .search > input[type="search"] {
   width: 150px;
   height: 100%;
@@ -176,24 +176,24 @@ body .header .container .search > input[type="search"] {
   float: left;
   text-indent: 45px;
 }
-/* line 241, ../sass/_layout.scss */
+/* line 247, ../sass/_layout.scss */
 body .header .container .search > a {
   width: 36px;
   height: 100%;
   float: left;
   background: #14adc4 url("../images/sr.png") no-repeat center center;
   background-size: 25px 25px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #898989;
   display: block;
 }
-/* line 253, ../sass/_layout.scss */
+/* line 259, ../sass/_layout.scss */
 body .header .container .navHead {
   height: 100%;
 }
-/* line 257, ../sass/_layout.scss */
+/* line 263, ../sass/_layout.scss */
 body .header .container .navHead > li {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -201,7 +201,7 @@ body .header .container .navHead > li {
   position: relative;
   float: left;
 }
-/* line 264, ../sass/_layout.scss */
+/* line 270, ../sass/_layout.scss */
 body .header .container .navHead > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -213,11 +213,11 @@ body .header .container .navHead > li > a {
   margin: 0 10px;
   color: #e6e3e3;
 }
-/* line 274, ../sass/_layout.scss */
+/* line 280, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active {
   color: #14adc4;
 }
-/* line 281, ../sass/_layout.scss */
+/* line 287, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection {
   padding: 5px 0;
   margin-top: 0px;
@@ -227,25 +227,25 @@ body .header .container .navHead > li .navSection {
   display: none;
   background: rgba(17, 17, 17, 0.9);
 }
-/* line 293, ../sass/_layout.scss */
+/* line 299, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 298, ../sass/_layout.scss */
+/* line 304, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
   color: #fff;
 }
-/* line 301, ../sass/_layout.scss */
+/* line 307, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a:hover {
   color: #2176da;
 }
-/* line 306, ../sass/_layout.scss */
+/* line 312, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a.active {
   color: #14adc4;
 }
-/* line 325, ../sass/_layout.scss */
+/* line 331, ../sass/_layout.scss */
 body .header .container .reglog {
   height: 60px;
   line-height: 60px;
@@ -255,138 +255,138 @@ body .header .container .reglog {
   background-size: 20px 20px;
   padding-right: 35px;
 }
-/* line 340, ../sass/_layout.scss */
+/* line 346, ../sass/_layout.scss */
 body .service {
   width: 100%;
   background: #0b2f47;
   overflow: hidden;
 }
-/* line 347, ../sass/_layout.scss */
+/* line 353, ../sass/_layout.scss */
 body .service .container .serviceTop {
   margin: 10px auto 0px;
 }
-/* line 350, ../sass/_layout.scss */
+/* line 356, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
 }
-/* line 356, ../sass/_layout.scss */
+/* line 362, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
-/* line 360, ../sass/_layout.scss */
+/* line 366, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 364, ../sass/_layout.scss */
+/* line 370, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 366, ../sass/_layout.scss */
+/* line 372, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 373, ../sass/_layout.scss */
+/* line 379, ../sass/_layout.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
   margin: 20px auto 20px;
 }
-/* line 378, ../sass/_layout.scss */
+/* line 384, ../sass/_layout.scss */
 body .service .container .serviceTop .ma > img {
   width: 100%;
   height: 100%;
 }
-/* line 385, ../sass/_layout.scss */
+/* line 391, ../sass/_layout.scss */
 body .service .container .serviceBot {
   margin: 10px auto 0px;
 }
-/* line 388, ../sass/_layout.scss */
+/* line 394, ../sass/_layout.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
 }
-/* line 396, ../sass/_layout.scss */
+/* line 402, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
-/* line 402, ../sass/_layout.scss */
+/* line 408, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
-/* line 406, ../sass/_layout.scss */
+/* line 412, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 409, ../sass/_layout.scss */
+/* line 415, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 413, ../sass/_layout.scss */
+/* line 419, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 426, ../sass/_layout.scss */
+/* line 432, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li {
   width: 50px;
   height: 50px;
   margin-left: 50px;
   float: left;
 }
-/* line 432, ../sass/_layout.scss */
+/* line 438, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 50px;
   height: 50px;
 }
-/* line 439, ../sass/_layout.scss */
+/* line 445, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 447, ../sass/_layout.scss */
+/* line 453, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 454, ../sass/_layout.scss */
+/* line 460, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;
 }
-/* line 468, ../sass/_layout.scss */
+/* line 474, ../sass/_layout.scss */
 body .footer {
   width: 100%;
   height: 100px;
   background: #081f2f;
 }
-/* line 474, ../sass/_layout.scss */
+/* line 480, ../sass/_layout.scss */
 body .footer .container .version {
   margin-top: 25px;
 }
-/* line 477, ../sass/_layout.scss */
+/* line 483, ../sass/_layout.scss */
 body .footer .container .version > li {
   line-height: 30px;
 }
-/* line 482, ../sass/_layout.scss */
+/* line 488, ../sass/_layout.scss */
 body .footer .container .version.pull-left {
   text-align: left;
 }
-/* line 486, ../sass/_layout.scss */
+/* line 492, ../sass/_layout.scss */
 body .footer .container .version.pull-right {
   text-align: right;
 }
-/* line 493, ../sass/_layout.scss */
+/* line 499, ../sass/_layout.scss */
 body .joint {
   position: fixed;
   width: 40px;
@@ -397,16 +397,16 @@ body .joint {
   border: 0 none;
   z-index: 30;
 }
-/* line 502, ../sass/_layout.scss */
+/* line 508, ../sass/_layout.scss */
 body .joint > li {
   width: 45px;
   height: 45px;
 }
-/* line 506, ../sass/_layout.scss */
+/* line 512, ../sass/_layout.scss */
 body .joint > li:nth-child(1) {
   background: #25364a;
 }
-/* line 508, ../sass/_layout.scss */
+/* line 514, ../sass/_layout.scss */
 body .joint > li:nth-child(1) > a {
   width: 30px;
   height: 20px;
@@ -414,11 +414,11 @@ body .joint > li:nth-child(1) > a {
   background: url("../images/speech-bubble.png") no-repeat center center;
   background-size: contain;
 }
-/* line 517, ../sass/_layout.scss */
+/* line 523, ../sass/_layout.scss */
 body .joint > li:nth-child(2) {
   background: #4ebbdd;
 }
-/* line 519, ../sass/_layout.scss */
+/* line 525, ../sass/_layout.scss */
 body .joint > li:nth-child(2) > a {
   width: 30px;
   height: 20px;
@@ -426,11 +426,11 @@ body .joint > li:nth-child(2) > a {
   background: url("../images/email.png") no-repeat center center;
   background-size: contain;
 }
-/* line 528, ../sass/_layout.scss */
+/* line 534, ../sass/_layout.scss */
 body .joint > li:nth-child(3) {
   background: #4aaaa5;
 }
-/* line 530, ../sass/_layout.scss */
+/* line 536, ../sass/_layout.scss */
 body .joint > li:nth-child(3) > a {
   width: 30px;
   height: 30px;
@@ -438,11 +438,11 @@ body .joint > li:nth-child(3) > a {
   background: url("../images/like.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 539, ../sass/_layout.scss */
+/* line 545, ../sass/_layout.scss */
 body .joint > li:nth-child(4) {
   background: #0091a9;
 }
-/* line 541, ../sass/_layout.scss */
+/* line 547, ../sass/_layout.scss */
 body .joint > li:nth-child(4) > a {
   width: 30px;
   height: 30px;
@@ -450,7 +450,7 @@ body .joint > li:nth-child(4) > a {
   background: url("../images/telephone.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 550, ../sass/_layout.scss */
+/* line 556, ../sass/_layout.scss */
 body .joint > li > a {
   display: block;
 }
@@ -1855,7 +1855,7 @@ body .main .serverL {
 /* line 29, ../sass/server.scss */
 body .main .serverL .serHead {
   color: #272636;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   text-align: left;
   height: 80px;
@@ -1869,7 +1869,7 @@ body .main .serverL .serHead {
 /* line 45, ../sass/server.scss */
 body .main .serverL .serelect > li {
   font-size: 20px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   height: 80px;
   line-height: 80px;
@@ -1902,7 +1902,7 @@ body .main .serverR .serverBox .serHead {
 /* line 79, ../sass/server.scss */
 body .main .serverR .serverBox .serHead .declaration {
   text-align: center;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 24px;
   color: #000000;
   line-height: 50px;
@@ -1910,7 +1910,7 @@ body .main .serverR .serverBox .serHead .declaration {
 /* line 91, ../sass/server.scss */
 body .main .serverR .serverBox .serHead .author {
   margin-top: 20px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
   font-size: 18px;
   float: right;
@@ -1922,14 +1922,14 @@ body .main .serverR .serverBox .serBody {
 }
 /* line 106, ../sass/server.scss */
 body .main .serverR .serverBox .serBody .motif {
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
   font-size: 24px;
 }
 /* line 116, ../sass/server.scss */
 body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clHead {
   color: #000000;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 22px;
   text-align: center;
   margin-top: 30px;
@@ -1953,7 +1953,7 @@ body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clFoot {
 /* line 138, ../sass/server.scss */
 body .main .serverR .serverBox .serBody .row .col-lg-6.col-md-6 .clFoot > li {
   line-height: 30px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 16px;
   text-align: left;
@@ -1967,7 +1967,7 @@ body .main .serverR .gradeHead .selgrade {
   margin: 50px auto 0;
   width: 100%;
   text-align: left;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
   font-size: 24px;
 }
@@ -1975,14 +1975,14 @@ body .main .serverR .gradeHead .selgrade {
 body .main .serverR .gradeHead .gHead {
   margin: 40px auto 0;
   color: #000000;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
 }
 /* line 177, ../sass/server.scss */
 body .main .serverR .gradeHead .gBody {
   margin: 30px auto 0;
   color: #000000;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 20px;
   text-indent: 2em;
   line-height: 30px;
@@ -2011,7 +2011,7 @@ body .main .serverR .gradeHead .call > li .site {
 body .main .serverR .gradeHead .call > li .site .backups {
   position: absolute;
   top: 0;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #535353;
   font-size: 18px;
 }
@@ -2076,7 +2076,7 @@ body .main .serverR .gradeHead .call > li .site .gear {
 body .main .serverR .gradeHead .call > li .site .gear span {
   width: 100%;
   color: #535353;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-indent: center;
   display: inline-block;
 }
@@ -2145,7 +2145,7 @@ body .main .serverR .gradeHead .team > li .teampic {
 /* line 344, ../sass/server.scss */
 body .main .serverR .gradeHead .team > li span {
   width: 100%;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #000000;
   font-size: 16px;
   text-align: center;
@@ -2196,7 +2196,7 @@ body .main .serverR .sustain > tbody > tr > th {
   border-right: 1px solid #c7c7c7;
   border-bottom: 1px solid #c7c7c7;
   font-size: 22px;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 /* line 418, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > td {
@@ -2209,7 +2209,7 @@ body .main .serverR .sustain > tbody > tr > td {
 /* line 427, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > td .text1 {
   color: #000000;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 14px;
   line-height: 20px;
   margin: 20px auto 0;
@@ -2217,7 +2217,7 @@ body .main .serverR .sustain > tbody > tr > td .text1 {
 /* line 436, ../sass/server.scss */
 body .main .serverR .sustain > tbody > tr > td .text2 {
   color: #000000;
-  font-family: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 14px;
   line-height: 20px;
   margin: 20px auto 0;
