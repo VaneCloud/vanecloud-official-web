@@ -74,7 +74,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 /* line 145, ../sass/_layout.scss */
 body {
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "微软雅黑";
   font-size: 14px;
   color: #fff;
   overflow-x: hidden;
@@ -120,13 +120,13 @@ body .header .container .headbar.active {
 /* line 190, ../sass/_layout.scss */
 body .header .container .headbar .top {
   line-height: 20px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 196, ../sass/_layout.scss */
 body .header .container .headbar .bot {
   line-height: 20px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-size: 16px;
 }
 /* line 204, ../sass/_layout.scss */
@@ -135,7 +135,7 @@ body .header .container .logInOut {
 }
 /* line 207, ../sass/_layout.scss */
 body .header .container .logInOut > li {
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -183,7 +183,7 @@ body .header .container .search > a {
   float: left;
   background: #14adc4 url("../images/sr.png") no-repeat center center;
   background-size: 25px 25px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #898989;
   display: block;
 }
@@ -193,7 +193,7 @@ body .header .container .navHead {
 }
 /* line 263, ../sass/_layout.scss */
 body .header .container .navHead > li {
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
   font-size: 14px;
   text-align: center;
@@ -231,7 +231,7 @@ body .header .container .navHead > li .navSection {
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 /* line 304, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
@@ -267,13 +267,13 @@ body .service .container .serviceTop {
 }
 /* line 356, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
 }
 /* line 362, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -308,19 +308,19 @@ body .service .container .serviceBot {
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
 }
 /* line 402, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 16px;
   color: #fff;
 }
 /* line 408, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
   font-size: 14px;
 }
@@ -1860,7 +1860,7 @@ body .Login .loginBox h1 {
   font-size: 30px;
   text-align: center;
   margin: 20px auto 20px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
   font-weight: bold;
 }
@@ -1875,7 +1875,7 @@ body .Login .loginBox input {
   border: 2px solid #aabcce;
   background: #fff;
   font-size: 20px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   display: block;
   color: #b8b8b8;
 }
@@ -1907,5 +1907,5 @@ body .Login .loginBox .footLogin {
 body .Login .loginBox .footLogin > a {
   color: #15849b;
   font-size: 20px;
-  font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
