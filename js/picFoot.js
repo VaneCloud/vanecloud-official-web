@@ -9,12 +9,12 @@
         '<a href="company.html" class="col-lg-3 col-md-3 icon pull-left">'+
             '<img src="./images/gg5.png" />'+
         '</a>'+
-        '<div class="col-lg-3 col-md-3 icon pull-left">'+
+        '<a href="javascript:" class="col-lg-3 col-md-3 icon pull-left">'+
             '<img src="./images/gg08.png" />'+
-        '</div>'+
-        '<div class="col-lg-3 col-md-3 icon pull-left">'+
+        '</a>'+
+        '<a href="javascript:" class="col-lg-3 col-md-3 icon pull-left">'+
             '<img src="./images/gg_08.png" />'+
-        '</div>';
+        '</a>';
 
     $('.row.picFoot').append(picFoot);
 

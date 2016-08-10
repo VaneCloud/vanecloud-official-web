@@ -1984,18 +1984,19 @@ body .newSection .newSbody > li .newspic {
   margin: 22px auto auto 80px;
   border: 1px solid #9f9f9f;
   border-radius: 5px;
+  display: block;
 }
-/* line 172, ../sass/news.scss */
+/* line 173, ../sass/news.scss */
 body .newSection .newSbody > li .newspic > img {
   width: 100%;
   height: 100%;
 }
-/* line 178, ../sass/news.scss */
+/* line 179, ../sass/news.scss */
 body .newSection .newSbody > li .situation {
   width: 680px;
   margin: 22px auto auto auto;
 }
-/* line 182, ../sass/news.scss */
+/* line 183, ../sass/news.scss */
 body .newSection .newSbody > li .situation .situationHead {
   color: #000000;
   font-size: 30px;
@@ -2007,22 +2008,23 @@ body .newSection .newSbody > li .situation .situationHead {
   white-space: nowrap;
   line-height: 40px;
 }
-/* line 194, ../sass/news.scss */
+/* line 195, ../sass/news.scss */
 body .newSection .newSbody > li .situation time {
   color: #7c7b7b;
   font-size: 18px;
   line-height: 30px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 201, ../sass/news.scss */
+/* line 202, ../sass/news.scss */
 body .newSection .newSbody > li .situation .situationBody {
   color: #000000;
   font-size: 18px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   line-height: 36px;
+  display: block;
 }
-/* line 209, ../sass/news.scss */
-body .newSection .newSbody > li .situation > a {
+/* line 210, ../sass/news.scss */
+body .newSection .newSbody > li .situation > a.situationFoot {
   position: absolute;
   right: 0;
   bottom: 10px;
@@ -2030,11 +2032,11 @@ body .newSection .newSbody > li .situation > a {
   color: #074696;
   font-size: 18px;
 }
-/* line 222, ../sass/news.scss */
+/* line 223, ../sass/news.scss */
 body .newSection .newSbody > li:last-child .shape2 {
   height: 237px;
 }
-/* line 226, ../sass/news.scss */
+/* line 227, ../sass/news.scss */
 body .newSection .newSbody > li:last-child .shape3 {
   width: 18px;
   height: 18px;
@@ -2044,16 +2046,16 @@ body .newSection .newSbody > li:last-child .shape3 {
   left: 0;
   bottom: 0px;
 }
-/* line 240, ../sass/news.scss */
+/* line 241, ../sass/news.scss */
 body .newSection .pages {
   text-align: center;
   margin: 120px auto 50px;
 }
-/* line 244, ../sass/news.scss */
+/* line 245, ../sass/news.scss */
 body .newSection .pages .page {
   display: inline-block;
 }
-/* line 248, ../sass/news.scss */
+/* line 249, ../sass/news.scss */
 body .newSection .pages .page > li {
   width: 36px;
   height: 36px;
@@ -2063,19 +2065,19 @@ body .newSection .pages .page > li {
   margin: 0 5px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 257, ../sass/news.scss */
+/* line 258, ../sass/news.scss */
 body .newSection .pages .page > li > a {
   width: 36px;
   height: 36px;
   display: inline-block;
   color: #000000;
 }
-/* line 263, ../sass/news.scss */
+/* line 264, ../sass/news.scss */
 body .newSection .pages .page > li > a:hover {
   background: #0070cc;
   color: #fff;
 }
-/* line 271, ../sass/news.scss */
+/* line 272, ../sass/news.scss */
 body .newSection .pages .pagePrev {
   width: 22px;
   height: 36px;
@@ -2084,7 +2086,7 @@ body .newSection .pages .pagePrev {
   cursor: pointer;
   background: url("../images/page1.png") no-repeat center center;
 }
-/* line 277, ../sass/news.scss */
+/* line 278, ../sass/news.scss */
 body .newSection .pages .pageNext {
   width: 22px;
   height: 36px;

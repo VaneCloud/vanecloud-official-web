@@ -168,6 +168,7 @@ body{
 					margin:22px auto auto 80px;
 					border:1px solid #9f9f9f;
 					border-radius:5px;
+					display:block;
 
 					&>img{
 						width: 100%;
@@ -203,10 +204,10 @@ body{
 						font-size: 18px;
 						font-family:$fontW;
 						line-height: 36px;
-
+						display:block;
 					}
 
-					&>a{
+					&>a.situationFoot{
 						position: absolute;
 						right:0;
 						bottom:10px;
