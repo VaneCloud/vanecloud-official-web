@@ -25,6 +25,7 @@ body{
 				margin:200px auto 0;
 				position:relative;
 				overflow:hidden;
+				display:block;
 
 				.yunl{
 					position:absolute;
@@ -133,7 +134,7 @@ body{
 						
 						&:nth-child(5){
 							.domnTop{
-								background:#358eb8 url('../images/ma.png')no-repeat center 50px;
+								background:#358eb8 url('../images/twocode.jpg')no-repeat center 50px;
 								background-size:140px 140px;
 							}
 						}
