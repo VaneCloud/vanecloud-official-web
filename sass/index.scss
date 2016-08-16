@@ -425,7 +425,7 @@ body{
 							width:315px;
 							height:200px;
 							background:url('../images/n1.png') no-repeat center center;
-							background-size:contain;
+							background-size:auto 100%;
 							margin:40px auto 0;
 						}
 
@@ -537,7 +537,7 @@ body{
 						&>.partpic{
 							width:315px;
 							height:200px;
-							background:url('../images/n3.png') no-repeat center center;
+							background:url('../images/n3.jpg') no-repeat center center;
 							background-size:contain;
 							margin:40px auto 0;
 						}
@@ -593,7 +593,7 @@ body{
 							&>.partpic{
 								width:315px;
 								height:200px;
-								background:url('../images/n4.png') no-repeat center center;
+								background:url('../images/n4.jpg') no-repeat center center;
 								background-size:contain;
 								margin:40px auto 0;
 							}
@@ -892,6 +892,7 @@ body{
 						width:160px;
 						height:160px;
 						position:absolute;
+						display:block;
 						border-bottom:1px solid #fff;
 						border-right:1px solid #fff;
 						top:120px;
@@ -915,6 +916,7 @@ body{
 						width:120px;
 						height:120px;
 						position:absolute;
+						display:block;
 						border:1px solid #3ad4eb;
 						background:rgba(62,177,217,0.15);
 						top:140px;
@@ -934,6 +936,7 @@ body{
 						top:170px;
 						left:50%;
 						margin-left:-30px;
+						display:block;
 
 						&.p1{
 							background:url('../images/p1.png')no-repeat center center;
@@ -1305,13 +1308,13 @@ body{
 				width:90%;
 				margin:100px auto;
 
-				li{
+				p{
+					width: 420px;
 					font-family: $fontW;
 					color:#ffffff;
-					font-size: 20px;
+					font-size: 18px;
 					text-indent: 2em;
 					line-height: 40px;
-					margin-bottom:40px;
 				}
 			}
 
@@ -1319,7 +1322,7 @@ body{
 				@include Radiu;
 				@include sectionFoot;
 				color:#ffffff;
-				border:2px solid #ffffff;
+				border:1px solid #ffffff;
 				margin:100px auto 0;
 				
 				&:hover{
@@ -1360,12 +1363,14 @@ body{
 			.servers{
 				
 				width:450px;
-				&>li{
+
+				&>p{
 					color:#326a92;
 					font-family:$fontW;
-					font-size: 16px;
-					line-height: 25px;
+					font-size: 18px;
+					line-height: 40px;
 					margin-top:10px;
+					text-indent: 2em;
 				}
 			}
 

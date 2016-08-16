@@ -96,7 +96,7 @@ body{
 
 			.newSl{
 				color:#000000;
-				font-size: 24px;
+				font-size: 16px;
 				font-family: $fontW;
 				line-height: 36px;
 				float:left;
@@ -112,8 +112,10 @@ body{
 				text-align: center;
 				border-radius:5px;
 
+
 				option{
 					color: #000000;
+					font-size: 14px;
 				}
 			}
 
@@ -182,7 +184,7 @@ body{
 
 					.situationHead{
 						color:#000000;
-						font-size:30px;
+						font-size:26px;
 						font-family:$fontW;
 						width:100%;
 						overflow:hidden;
@@ -194,14 +196,14 @@ body{
 					
 					time{
 						color:#7c7b7b;
-						font-size:18px;
+						font-size:16px;
 						line-height: 30px;
 						font-family:$fontW;
 					}
 
 					.situationBody{
 						color:#000000;
-						font-size: 18px;
+						font-size: 16px;
 						font-family:$fontW;
 						line-height: 36px;
 						display:block;
@@ -213,7 +215,7 @@ body{
 						bottom:10px;
 						font-family:$fontW;
 						color:#074696;
-						font-size: 18px;
+						font-size: 16px;
 
 					}
 				}

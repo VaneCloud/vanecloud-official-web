@@ -1858,13 +1858,13 @@ body .main .head .pull-left a {
   height: 36px;
   line-height: 36px;
   color: #000000;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 /* line 37, ../sass/newsmain.scss */
 body .main .head .pull-right .newSl {
   color: #000000;
-  font-size: 24px;
+  font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   line-height: 36px;
   float: left;
