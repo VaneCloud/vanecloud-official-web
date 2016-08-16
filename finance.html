@@ -17,7 +17,7 @@
 					<h3>金融云之道</h3>
 					<div class="principleTitle">行业需求：</div>
 					<article>
-						金融行业客户需要实现对异构平台的统一管理、平台流程化自动化、业务的快速上线，对传统数据中心而言，无疑是巨大的挑战
+						金融行业客户需要实现对异构平台的统一管理、平台流程化自动化、业务的快速上线，对传统数据中心而言，无疑是巨大的挑战。
 					</article>
 					<div class="demand demand1"></div>
 					<div class="principleTitle">解决方案概述：</div>
@@ -74,9 +74,7 @@
 										<li>生命周期管理：设置资源的回收时间</li>
 										<li>平台信息的统一查看：统一查看多平台信息</li>
 										<li>策略管理：针对具体事件设置一定的策略</li>
-										<li>服务目录：用户可以自助申请某一服务，屏蔽IAAS层的操作</li>
-										<li>报表: 对平台资源的使用和运行状态提供可视化报表</li>
-										<li>计费：为不同的云平台设置不同的费率</li>
+
 									</ul>
 								</div>
 							</li>
@@ -134,7 +132,6 @@
 									<ul class="SOList">
 										<li>通过以下功能，可以协助企业最大限度的使用现有资源：实时的记录和统计资源使用情况</li>
 										<li>基于策略和现有负载动态的调整资源的使用</li>
-										<li>基于容量、历史数据、使用趋势等数据，分析和预测未来的资源使用</li>
 									</ul>
 								</div>
 							</li>
@@ -160,7 +157,7 @@
 								<img src="./images/sch2.png"/>
 							</div>
 							<article>
-								vaneCloud金融解决方案不仅包含了中科氢氧对云计算的理解，还融汇了对金融业IT现状以及如何改善现状的见解，为客户打造量身定做的云管理平台解决方案。
+								vaneCloud融汇了对金融业IT现状以及如何改善现状的见解，为客户打造量身定做的云管理平台解决方案。
 							</article>
 						</li>
 						<li class="col-lg-3 col-md-3">
@@ -191,7 +188,6 @@
 							<div class="value">
 								<div class="valueit">VALUE1</div>
 								<div class="textL">快速响应业务需求</div>
-								<div class="triangleR"></div>
 							</div>
 							<div class="content">
 								<div class="textR">
@@ -203,7 +199,6 @@
 							<div class="value">
 								<div class="valueit">VALUE2</div>
 								<div class="textL">跨机房异构资源管理实现全网资源共享</div>
-								<div class="triangleR"></div>
 							</div>
 							<div class="content">
 								<div class="textR">
@@ -215,7 +210,6 @@
 							<div class="value">
 								<div class="valueit">VALUE3</div>
 								<div class="textL">统一监控平台</div>
-								<div class="triangleR"></div>
 							</div>
 							<div class="content">
 								<div class="textR">
@@ -227,7 +221,6 @@
 							<div class="value">
 								<div class="valueit">VALUE4</div>
 								<div class="textL">提升运维自动化水平</div>
-								<div class="triangleR"></div>
 							</div>
 							<div class="content">
 								<div class="textR">
@@ -239,7 +232,6 @@
 							<div class="value">
 								<div class="valueit">VALUE5</div>
 								<div class="textL">构建云平台资产管理平台</div>
-								<div class="triangleR"></div>
 							</div>
 							<div class="content">
 								<div class="textR">
@@ -273,7 +265,10 @@
 			$(function(){
 				$('.SOLUTION > li').hover(function(){
 					$(this).children('.SOLUTION > li .SOLBox').animate({
-						top:'0px'
+						left:'0px'
+					},500)
+					$(this).siblings().children('.SOLUTION > li .SOLBox').animate({
+						left:'-170px'
 					},500)
 				},function(){
 					
@@ -281,11 +276,11 @@
 
 				$('.SOLUTION > li .SOLBox').hover(function(){
 					$(this).animate({
-						top:'0px'
+						left:'0px'
 					},500)
 				},function(){
 					$(this).animate({
-						top:'-480px'
+						left:'-170px'
 					},500)
 				})
 

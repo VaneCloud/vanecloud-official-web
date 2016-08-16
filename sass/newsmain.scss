@@ -15,7 +15,7 @@ body{
 
 		.head{
 			width:940px;
-			margin:45px auto 80px;
+			margin:50px auto 50px;
 			overflow: hidden;
 
 			.pull-left{
@@ -73,7 +73,7 @@ body{
 
 		.panel{
 			width:940px;
-			margin:80px auto 0;
+			margin:0 auto 0;
 			overflow: hidden;
 
 			.panelHead{
@@ -81,19 +81,18 @@ body{
 
 				.panneltitle{
 					line-height: 70px;
-					font-size: 30px;
+					font-size: 26px;
 					font-family: $fontW;
 					color:#000;
 					text-align: center;
 				}
 
 				time{
-					
 					display: block;
 					color:#7c7b7b;
 					font-size: 16px;
 					font-family: $fontW;
-					line-height: 60px;
+					line-height: 40px;
 					text-align: center;
 				}
 			}

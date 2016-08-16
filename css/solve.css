@@ -165,8 +165,9 @@ body .header .container .search {
   border: 0 none;
   height: 36px;
   margin-top: 12px;
+  overflow: hidden;
 }
-/* line 237, ../sass/_layout.scss */
+/* line 238, ../sass/_layout.scss */
 body .header .container .search > input[type="search"] {
   width: 150px;
   height: 100%;
@@ -176,7 +177,7 @@ body .header .container .search > input[type="search"] {
   float: left;
   text-indent: 45px;
 }
-/* line 247, ../sass/_layout.scss */
+/* line 248, ../sass/_layout.scss */
 body .header .container .search > a {
   width: 36px;
   height: 100%;
@@ -187,11 +188,11 @@ body .header .container .search > a {
   color: #898989;
   display: block;
 }
-/* line 259, ../sass/_layout.scss */
+/* line 260, ../sass/_layout.scss */
 body .header .container .navHead {
   height: 100%;
 }
-/* line 263, ../sass/_layout.scss */
+/* line 264, ../sass/_layout.scss */
 body .header .container .navHead > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
@@ -201,7 +202,7 @@ body .header .container .navHead > li {
   position: relative;
   float: left;
 }
-/* line 270, ../sass/_layout.scss */
+/* line 271, ../sass/_layout.scss */
 body .header .container .navHead > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -213,11 +214,11 @@ body .header .container .navHead > li > a {
   margin: 0 10px;
   color: #e6e3e3;
 }
-/* line 280, ../sass/_layout.scss */
+/* line 281, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active {
   color: #14adc4;
 }
-/* line 287, ../sass/_layout.scss */
+/* line 288, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection {
   padding: 5px 0;
   margin-top: 0px;
@@ -227,25 +228,25 @@ body .header .container .navHead > li .navSection {
   display: none;
   background: rgba(17, 17, 17, 0.9);
 }
-/* line 299, ../sass/_layout.scss */
+/* line 300, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 304, ../sass/_layout.scss */
+/* line 305, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
   color: #fff;
 }
-/* line 307, ../sass/_layout.scss */
+/* line 308, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a:hover {
   color: #2176da;
 }
-/* line 312, ../sass/_layout.scss */
+/* line 313, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a.active {
   color: #14adc4;
 }
-/* line 331, ../sass/_layout.scss */
+/* line 332, ../sass/_layout.scss */
 body .header .container .reglog {
   height: 60px;
   line-height: 60px;
@@ -255,138 +256,138 @@ body .header .container .reglog {
   background-size: 20px 20px;
   padding-right: 35px;
 }
-/* line 346, ../sass/_layout.scss */
+/* line 347, ../sass/_layout.scss */
 body .service {
   width: 100%;
   background: #0b2f47;
   overflow: hidden;
 }
-/* line 353, ../sass/_layout.scss */
+/* line 354, ../sass/_layout.scss */
 body .service .container .serviceTop {
   margin: 10px auto 0px;
 }
-/* line 356, ../sass/_layout.scss */
+/* line 357, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
 }
-/* line 362, ../sass/_layout.scss */
+/* line 363, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 366, ../sass/_layout.scss */
+/* line 367, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 370, ../sass/_layout.scss */
+/* line 371, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 372, ../sass/_layout.scss */
+/* line 373, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 379, ../sass/_layout.scss */
+/* line 380, ../sass/_layout.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
-  margin: 20px auto 20px;
+  margin: 20px 0 20px;
 }
-/* line 384, ../sass/_layout.scss */
+/* line 385, ../sass/_layout.scss */
 body .service .container .serviceTop .ma > img {
   width: 100%;
   height: 100%;
 }
-/* line 391, ../sass/_layout.scss */
+/* line 392, ../sass/_layout.scss */
 body .service .container .serviceBot {
   margin: 10px auto 0px;
 }
-/* line 394, ../sass/_layout.scss */
+/* line 395, ../sass/_layout.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
 }
-/* line 402, ../sass/_layout.scss */
+/* line 403, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   color: #fff;
 }
-/* line 408, ../sass/_layout.scss */
+/* line 409, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 412, ../sass/_layout.scss */
+/* line 413, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 415, ../sass/_layout.scss */
+/* line 416, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 419, ../sass/_layout.scss */
+/* line 420, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 432, ../sass/_layout.scss */
+/* line 433, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li {
   width: 50px;
   height: 50px;
-  margin-left: 50px;
+  margin-right: 50px;
   float: left;
 }
-/* line 438, ../sass/_layout.scss */
+/* line 439, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 50px;
   height: 50px;
 }
-/* line 445, ../sass/_layout.scss */
+/* line 446, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 453, ../sass/_layout.scss */
+/* line 454, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 460, ../sass/_layout.scss */
+/* line 461, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;
 }
-/* line 474, ../sass/_layout.scss */
+/* line 475, ../sass/_layout.scss */
 body .footer {
   width: 100%;
   height: 100px;
   background: #081f2f;
 }
-/* line 480, ../sass/_layout.scss */
+/* line 481, ../sass/_layout.scss */
 body .footer .container .version {
   margin-top: 25px;
 }
-/* line 483, ../sass/_layout.scss */
+/* line 484, ../sass/_layout.scss */
 body .footer .container .version > li {
   line-height: 30px;
 }
-/* line 488, ../sass/_layout.scss */
+/* line 489, ../sass/_layout.scss */
 body .footer .container .version.pull-left {
   text-align: left;
 }
-/* line 492, ../sass/_layout.scss */
+/* line 493, ../sass/_layout.scss */
 body .footer .container .version.pull-right {
   text-align: right;
 }
-/* line 499, ../sass/_layout.scss */
+/* line 500, ../sass/_layout.scss */
 body .joint {
   position: fixed;
   width: 40px;
@@ -397,16 +398,16 @@ body .joint {
   border: 0 none;
   z-index: 30;
 }
-/* line 508, ../sass/_layout.scss */
+/* line 509, ../sass/_layout.scss */
 body .joint > li {
   width: 45px;
   height: 45px;
 }
-/* line 512, ../sass/_layout.scss */
+/* line 513, ../sass/_layout.scss */
 body .joint > li:nth-child(1) {
   background: #25364a;
 }
-/* line 514, ../sass/_layout.scss */
+/* line 515, ../sass/_layout.scss */
 body .joint > li:nth-child(1) > a {
   width: 30px;
   height: 20px;
@@ -414,11 +415,11 @@ body .joint > li:nth-child(1) > a {
   background: url("../images/speech-bubble.png") no-repeat center center;
   background-size: contain;
 }
-/* line 523, ../sass/_layout.scss */
+/* line 524, ../sass/_layout.scss */
 body .joint > li:nth-child(2) {
   background: #4ebbdd;
 }
-/* line 525, ../sass/_layout.scss */
+/* line 526, ../sass/_layout.scss */
 body .joint > li:nth-child(2) > a {
   width: 30px;
   height: 20px;
@@ -426,11 +427,11 @@ body .joint > li:nth-child(2) > a {
   background: url("../images/email.png") no-repeat center center;
   background-size: contain;
 }
-/* line 534, ../sass/_layout.scss */
+/* line 535, ../sass/_layout.scss */
 body .joint > li:nth-child(3) {
   background: #4aaaa5;
 }
-/* line 536, ../sass/_layout.scss */
+/* line 537, ../sass/_layout.scss */
 body .joint > li:nth-child(3) > a {
   width: 30px;
   height: 30px;
@@ -438,11 +439,11 @@ body .joint > li:nth-child(3) > a {
   background: url("../images/like.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 545, ../sass/_layout.scss */
+/* line 546, ../sass/_layout.scss */
 body .joint > li:nth-child(4) {
   background: #0091a9;
 }
-/* line 547, ../sass/_layout.scss */
+/* line 548, ../sass/_layout.scss */
 body .joint > li:nth-child(4) > a {
   width: 30px;
   height: 30px;
@@ -450,7 +451,7 @@ body .joint > li:nth-child(4) > a {
   background: url("../images/telephone.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 556, ../sass/_layout.scss */
+/* line 557, ../sass/_layout.scss */
 body .joint > li > a {
   display: block;
 }
@@ -1834,7 +1835,7 @@ body .joint > li > a {
 /* line 8, ../sass/solve.scss */
 body .financeBg {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background: #263d69 url("../images/financeBg.png") no-repeat center center;
   background-size: auto 100%;
   position: relative;
@@ -1891,7 +1892,7 @@ body .settleNav > a {
   margin: 0 35px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #000000;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   transition: 1s;
 }
@@ -1913,7 +1914,7 @@ body .main {
 }
 /* line 93, ../sass/solve.scss */
 body .main .container .principle {
-  margin: 140px auto 0;
+  margin: 150px auto 0;
   overflow: hidden;
 }
 /* line 97, ../sass/solve.scss */
@@ -1927,7 +1928,7 @@ body .main .container .principle h3 {
 body .main .container .principle .principleTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
   margin: 50px auto 0;
   text-align: left;
@@ -1936,7 +1937,7 @@ body .main .container .principle .principleTitle {
 body .main .container .principle article {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #515567;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 40px;
   text-indent: 2em;
 }
@@ -1946,14 +1947,14 @@ body .main .container .principle .demand {
 }
 /* line 125, ../sass/solve.scss */
 body .main .container .principle .demand1 {
-  width: 1006px;
+  width: 900px;
   height: 506px;
   background: url("../images/demand1.png") no-repeat center center;
   background-size: contain;
 }
 /* line 132, ../sass/solve.scss */
 body .main .container .principle .demand2 {
-  width: 1000px;
+  width: 900px;
   height: 590px;
   background: url("../images/demand2.png") no-repeat center center;
   background-size: contain;
@@ -2333,8 +2334,8 @@ body .main .container .principlePanel .custom .client {
 }
 /* line 532, ../sass/solve.scss */
 body .main .container .principlePanel .custom .clientIcon {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   background: url("../images/clientImg.png") no-repeat center center;
   background-size: contain;
   margin: 10px auto 0;
@@ -2352,8 +2353,8 @@ body .main .container .principlePanel .custom .customLR {
 }
 /* line 551, ../sass/solve.scss */
 body .main .container .principlePanel .custom .customLR .customImg {
-  width: 256px;
-  height: 256px;
+  width: 220px;
+  height: 220px;
   position: relative;
 }
 /* line 556, ../sass/solve.scss */
@@ -2376,35 +2377,37 @@ body .main .container .principlePanel .custom .customLR .customImg .Text {
 /* line 574, ../sass/solve.scss */
 body .main .container .principlePanel .custom .customLR .customL {
   float: left;
+  margin-left: 36px;
 }
 /* line 579, ../sass/solve.scss */
 body .main .container .principlePanel .custom .customLR .customR {
   float: right;
+  margin-right: 36px;
 }
-/* line 584, ../sass/solve.scss */
+/* line 585, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataImgLR {
   width: 100%;
   margin: 10px auto 0;
 }
-/* line 588, ../sass/solve.scss */
+/* line 589, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataImgLR .datesImg {
   width: 300px;
   height: 530px;
   border: 1px solid #6a6a6a;
   background: #d6d6d6;
 }
-/* line 594, ../sass/solve.scss */
+/* line 595, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataImgLR .datesImg .icon {
   width: 280px;
   height: 200px;
   margin: 10px auto 0;
 }
-/* line 599, ../sass/solve.scss */
+/* line 600, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataImgLR .datesImg .icon > img {
   width: 100%;
   height: auto;
 }
-/* line 606, ../sass/solve.scss */
+/* line 607, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataImgLR h3 {
   color: #0070cc;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -2414,7 +2417,7 @@ body .main .container .principlePanel .custom .dataImgLR h3 {
   margin: 20px auto 0;
   font-weight: normal;
 }
-/* line 616, ../sass/solve.scss */
+/* line 617, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataImgLR article {
   color: #545454;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -2424,7 +2427,7 @@ body .main .container .principlePanel .custom .dataImgLR article {
   padding: 0 20px;
   margin: 20px auto 0;
 }
-/* line 629, ../sass/solve.scss */
+/* line 630, ../sass/solve.scss */
 body .main .container .principlePanel .custom .pay {
   width: 100%;
   height: 60px;
@@ -2433,20 +2436,20 @@ body .main .container .principlePanel .custom .pay {
   color: #000;
   font-size: 24px;
   text-align: center;
-  top: 405px;
+  top: 368px;
   position: absolute;
 }
-/* line 641, ../sass/solve.scss */
+/* line 642, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line1 {
   width: 1px;
-  height: 128px;
+  height: 110px;
   position: absolute;
   background: #d6d6d6;
   left: 50%;
   margin-left: -0.5px;
-  top: 210px;
+  top: 150px;
 }
-/* line 651, ../sass/solve.scss */
+/* line 652, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line2 {
   width: 300px;
   height: 1px;
@@ -2454,9 +2457,9 @@ body .main .container .principlePanel .custom .line2 {
   background: #d6d6d6;
   left: 50%;
   margin-left: -150px;
-  top: 338px;
+  top: 260px;
 }
-/* line 661, ../sass/solve.scss */
+/* line 662, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataLine1 {
   position: absolute;
   width: 1px;
@@ -2466,7 +2469,7 @@ body .main .container .principlePanel .custom .dataLine1 {
   background: #d6d6d6;
   top: 210px;
 }
-/* line 671, ../sass/solve.scss */
+/* line 672, ../sass/solve.scss */
 body .main .container .principlePanel .custom .dataLine2 {
   position: absolute;
   width: 400px;
@@ -2476,35 +2479,35 @@ body .main .container .principlePanel .custom .dataLine2 {
   margin-left: -200px;
   top: 485px;
 }
-/* line 681, ../sass/solve.scss */
+/* line 682, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line3 {
   width: 1px;
   height: 70px;
   position: absolute;
   background: #d6d6d6;
-  top: 465px;
+  top: 368px;
   left: 228px;
 }
-/* line 690, ../sass/solve.scss */
+/* line 691, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line4 {
   width: 1px;
   height: 70px;
   position: absolute;
   background: #d6d6d6;
-  top: 465px;
+  top: 368px;
   right: 228px;
 }
-/* line 699, ../sass/solve.scss */
+/* line 700, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line5 {
-  width: 800px;
+  width: 700px;
   height: 1px;
   position: absolute;
   background: #d6d6d6;
-  top: 535px;
+  top: 436px;
   left: 50%;
-  margin-left: -400px;
+  margin-left: -350px;
 }
-/* line 709, ../sass/solve.scss */
+/* line 710, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line6 {
   width: 700px;
   height: 1px;
@@ -2514,7 +2517,7 @@ body .main .container .principlePanel .custom .line6 {
   left: 50%;
   margin-left: -350px;
 }
-/* line 719, ../sass/solve.scss */
+/* line 720, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line7 {
   width: 1px;
   height: 81px;
@@ -2523,7 +2526,7 @@ body .main .container .principlePanel .custom .line7 {
   top: 535px;
   left: 150px;
 }
-/* line 728, ../sass/solve.scss */
+/* line 729, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line8 {
   width: 1px;
   height: 81px;
@@ -2533,7 +2536,7 @@ body .main .container .principlePanel .custom .line8 {
   left: 50%;
   margin-left: -0.5px;
 }
-/* line 738, ../sass/solve.scss */
+/* line 739, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line9 {
   width: 1px;
   height: 81px;
@@ -2542,90 +2545,92 @@ body .main .container .principlePanel .custom .line9 {
   top: 535px;
   right: 150px;
 }
-/* line 747, ../sass/solve.scss */
+/* line 748, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line11 {
   width: 1px;
   height: 81px;
   position: absolute;
   background: #d6d6d6;
-  top: 535px;
-  left: 100px;
+  top: 436px;
+  left: 150px;
 }
-/* line 756, ../sass/solve.scss */
+/* line 757, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line12 {
   width: 1px;
   height: 81px;
   position: absolute;
   background: #d6d6d6;
-  top: 535px;
-  left: 300px;
+  top: 436px;
+  left: 320px;
 }
-/* line 765, ../sass/solve.scss */
+/* line 766, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line13 {
   width: 1px;
   height: 81px;
   position: absolute;
   background: #d6d6d6;
-  top: 535px;
+  top: 436px;
   left: 50%;
   margin-left: -0.5px;
 }
-/* line 775, ../sass/solve.scss */
+/* line 776, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line14 {
   width: 1px;
   height: 81px;
   position: absolute;
   background: #d6d6d6;
-  top: 535px;
-  right: 300px;
+  top: 436px;
+  right: 320px;
 }
-/* line 784, ../sass/solve.scss */
+/* line 785, ../sass/solve.scss */
 body .main .container .principlePanel .custom .line15 {
   width: 1px;
   height: 81px;
   position: absolute;
   background: #d6d6d6;
-  top: 535px;
-  right: 100px;
+  top: 436px;
+  right: 150px;
 }
-/* line 794, ../sass/solve.scss */
+/* line 795, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION {
+  width: 900px;
   margin: 130px auto 0;
 }
-/* line 796, ../sass/solve.scss */
+/* line 798, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li {
-  width: 190px;
-  height: 480px;
+  width: 170px;
+  height: 415px;
   float: left;
   margin: 0 5px;
   position: relative;
   overflow: hidden;
 }
-/* line 804, ../sass/solve.scss */
+/* line 806, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .SOLBox {
   width: 100%;
   height: 100%;
   background: #fff;
   position: absolute;
-  top: -480px;
-  left: 0;
+  top: 0px;
+  left: -170px;
   z-index: 2;
+  overflow: hidden;
 }
-/* line 814, ../sass/solve.scss */
+/* line 816, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .SOLBox h3 {
   color: #0070cc;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   margin: 30px auto 0;
   line-height: 35px;
   text-align: center;
 }
-/* line 824, ../sass/solve.scss */
+/* line 826, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .SOLBox .SOList {
   margin: 10px auto 0;
 }
-/* line 826, ../sass/solve.scss */
+/* line 828, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .SOLBox .SOList > li {
   color: #545454;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -2633,29 +2638,29 @@ body .main .container .principlePanel .custom .SOLUTION > li .SOLBox .SOList > l
   line-height: 28px;
   padding: 0 5px;
 }
-/* line 836, ../sass/solve.scss */
+/* line 838, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solT {
   width: 180px;
   height: 30px;
   margin: 40px auto 0;
   font-family: 'Bauhaus 93';
   color: #ffffff;
-  font-size: 36px;
+  font-size: 28px;
   text-align: center;
 }
-/* line 846, ../sass/solve.scss */
+/* line 848, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solCen {
   width: 100%;
 }
-/* line 849, ../sass/solve.scss */
+/* line 851, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solCen .solText {
   color: #ffffff;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin: 40px auto 0;
 }
-/* line 857, ../sass/solve.scss */
+/* line 859, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solCen .soltriangle {
   width: 0;
   height: 0;
@@ -2664,90 +2669,95 @@ body .main .container .principlePanel .custom .SOLUTION > li .solCen .soltriangl
   border-top: 15px solid #fff;
   margin: 10px auto 0;
 }
-/* line 869, ../sass/solve.scss */
+/* line 871, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li .solicon {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 190px;
+  height: 168px;
 }
-/* line 877, ../sass/solve.scss */
+/* line 879, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(1) {
   background: #1694a7;
   border: 1px solid #306a73;
 }
-/* line 881, ../sass/solve.scss */
+/* line 883, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(1) .solicon {
   background: url("../images/si1.png") no-repeat right bottom;
-  background-size: auto;
+  background-size: contain;
 }
-/* line 886, ../sass/solve.scss */
+/* line 888, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(1) .solicon:hover {
   background: url("../images/si11.png") no-repeat right bottom;
+  background-size: contain;
 }
-/* line 893, ../sass/solve.scss */
+/* line 895, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(2) {
   background: #006c97;
   border: 1px solid #035879;
 }
-/* line 897, ../sass/solve.scss */
+/* line 899, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(2) .solicon {
   background: url("../images/si2.png") no-repeat right bottom;
-  background-size: auto;
+  background-size: contain;
 }
-/* line 903, ../sass/solve.scss */
+/* line 904, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(2) .solicon:hover {
   background: url("../images/si22.png") no-repeat right bottom;
+  background-size: contain;
 }
-/* line 910, ../sass/solve.scss */
+/* line 911, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(3) {
   background: #546e7a;
   border: 1px solid #465961;
 }
-/* line 914, ../sass/solve.scss */
+/* line 915, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(3) .solicon {
   background: url("../images/si3.png") no-repeat right bottom;
-  background-size: auto;
+  background-size: contain;
 }
-/* line 918, ../sass/solve.scss */
+/* line 919, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(3) .solicon:hover {
   background: url("../images/si33.png") no-repeat right bottom;
+  background-size: contain;
 }
-/* line 925, ../sass/solve.scss */
+/* line 926, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(4) {
   background: #4b99bf;
   border: 1px solid #4283a2;
 }
-/* line 929, ../sass/solve.scss */
+/* line 930, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(4) .solicon {
   background: url("../images/si4.png") no-repeat right bottom;
-  background-size: auto;
+  background-size: contain;
 }
-/* line 934, ../sass/solve.scss */
+/* line 935, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(4) .solicon:hover {
   background: url("../images/si44.png") no-repeat right bottom;
+  background-size: contain;
 }
-/* line 941, ../sass/solve.scss */
+/* line 942, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(5) {
   background: #7accc8;
   border: 1px solid #6bb2af;
 }
-/* line 945, ../sass/solve.scss */
+/* line 946, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(5) .solicon {
   background: url("../images/si5.png") no-repeat right bottom;
-  background-size: auto;
+  background-size: contain;
 }
-/* line 949, ../sass/solve.scss */
+/* line 950, ../sass/solve.scss */
 body .main .container .principlePanel .custom .SOLUTION > li:nth-child(5) .solicon:hover {
   background: url("../images/si55.png") no-repeat right bottom;
+  background-size: contain;
 }
-/* line 958, ../sass/solve.scss */
+/* line 959, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery {
   text-align: center;
   margin: 150px auto 0;
 }
-/* line 962, ../sass/solve.scss */
+/* line 963, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li {
   width: 320px;
   height: 520px;
@@ -2756,149 +2766,149 @@ body .main .container .principlePanel .custom .delivery > li {
   position: relative;
   overflow: hidden;
 }
-/* line 970, ../sass/solve.scss */
+/* line 971, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(1) {
   background: #1694a7;
   border: 2px solid #306a73;
 }
-/* line 974, ../sass/solve.scss */
+/* line 975, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(1) .delicon {
   background: url("../images/solution_13.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 978, ../sass/solve.scss */
+/* line 979, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(1) .delicon:hover {
   background: url("../images/icon_03.png") no-repeat right bottom;
 }
-/* line 983, ../sass/solve.scss */
+/* line 984, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(1) .govicon {
   background: url("../images/gov1.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 987, ../sass/solve.scss */
+/* line 988, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(1) .govicon:hover {
   background: url("../images/gov11.png") no-repeat right bottom;
 }
-/* line 992, ../sass/solve.scss */
+/* line 993, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(1) .raticon {
   background: url("../images/ra1.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 996, ../sass/solve.scss */
+/* line 997, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(1) .raticon:hover {
   background: url("../images/ra11.png") no-repeat right bottom;
 }
-/* line 1003, ../sass/solve.scss */
+/* line 1004, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(2) {
   background: #006c97;
   border: 2px solid #035879;
 }
-/* line 1007, ../sass/solve.scss */
+/* line 1008, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(2) .delicon {
   background: url("../images/solution_16.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1011, ../sass/solve.scss */
+/* line 1012, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(2) .delicon:hover {
   background: url("../images/icon_06.png") no-repeat right bottom;
 }
-/* line 1016, ../sass/solve.scss */
+/* line 1017, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(2) .govicon {
   background: url("../images/gov2.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1020, ../sass/solve.scss */
+/* line 1021, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(2) .govicon:hover {
   background: url("../images/gov22.png") no-repeat right bottom;
 }
-/* line 1025, ../sass/solve.scss */
+/* line 1026, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(2) .raticon {
   background: url("../images/ra2.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1029, ../sass/solve.scss */
+/* line 1030, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(2) .raticon:hover {
   background: url("../images/ra22.png") no-repeat right bottom;
 }
-/* line 1036, ../sass/solve.scss */
+/* line 1037, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(3) {
   background: #546e7a;
   border: 2px solid #465961;
 }
-/* line 1040, ../sass/solve.scss */
+/* line 1041, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(3) .delicon {
   background: url("../images/solution_19.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1044, ../sass/solve.scss */
+/* line 1045, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(3) .delicon:hover {
   background: url("../images/icon_09.png") no-repeat right bottom;
 }
-/* line 1049, ../sass/solve.scss */
+/* line 1050, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(3) .govicon {
   background: url("../images/gov3.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1053, ../sass/solve.scss */
+/* line 1054, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(3) .govicon:hover {
   background: url("../images/gov33.png") no-repeat right bottom;
 }
-/* line 1058, ../sass/solve.scss */
+/* line 1059, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(3) .raticon {
   background: url("../images/ra3.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1062, ../sass/solve.scss */
+/* line 1063, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(3) .raticon:hover {
   background: url("../images/ra33.png") no-repeat right bottom;
 }
-/* line 1069, ../sass/solve.scss */
+/* line 1070, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(4) {
   background: #7accc8;
   border: 2px solid #306a73;
 }
-/* line 1073, ../sass/solve.scss */
+/* line 1074, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(4) .raticon {
   background: url("../images/ra4.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1077, ../sass/solve.scss */
+/* line 1078, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(4) .raticon:hover {
   background: url("../images/ra44.png") no-repeat right bottom;
 }
-/* line 1083, ../sass/solve.scss */
+/* line 1084, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(5) {
   background: #4b99bf;
   border: 2px solid #035879;
 }
-/* line 1087, ../sass/solve.scss */
+/* line 1088, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(5) .raticon {
   background: url("../images/ra5.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1091, ../sass/solve.scss */
+/* line 1092, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(5) .raticon:hover {
   background: url("../images/ra55.png") no-repeat right bottom;
 }
-/* line 1097, ../sass/solve.scss */
+/* line 1098, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(6) {
   background: #798d97;
   border: 2px solid #465961;
 }
-/* line 1101, ../sass/solve.scss */
+/* line 1102, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(6) .raticon {
   background: url("../images/ra6.png") no-repeat right bottom;
   background-size: auto;
 }
-/* line 1105, ../sass/solve.scss */
+/* line 1106, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(6) .raticon:hover {
   background: url("../images/ra66.png") no-repeat right bottom;
 }
-/* line 1111, ../sass/solve.scss */
+/* line 1112, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li:nth-child(4), body .main .container .principlePanel .custom .delivery > li:nth-child(5), body .main .container .principlePanel .custom .delivery > li:nth-child(6) {
   margin-top: 60px;
 }
-/* line 1115, ../sass/solve.scss */
+/* line 1116, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delHead {
   color: #ffffff;
   font-size: 50px;
@@ -2906,11 +2916,11 @@ body .main .container .principlePanel .custom .delivery > li .delHead {
   text-align: center;
   margin: 65px auto 0;
 }
-/* line 1123, ../sass/solve.scss */
+/* line 1124, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delBofy {
   margin: 35px auto 0;
 }
-/* line 1126, ../sass/solve.scss */
+/* line 1127, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delBofy .delText {
   color: #ffffff;
   font-size: 32px;
@@ -2918,7 +2928,7 @@ body .main .container .principlePanel .custom .delivery > li .delBofy .delText {
   text-align: center;
   line-height: 35px;
 }
-/* line 1134, ../sass/solve.scss */
+/* line 1135, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delBofy .delb {
   width: 0;
   height: 0;
@@ -2927,7 +2937,7 @@ body .main .container .principlePanel .custom .delivery > li .delBofy .delb {
   border-top: 30px solid #fff;
   margin: 20px auto 0;
 }
-/* line 1144, ../sass/solve.scss */
+/* line 1145, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delicon {
   width: 100%;
   height: 320px;
@@ -2935,7 +2945,7 @@ body .main .container .principlePanel .custom .delivery > li .delicon {
   bottom: 0;
   right: 0;
 }
-/* line 1152, ../sass/solve.scss */
+/* line 1153, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .govicon {
   width: 100%;
   height: 200px;
@@ -2943,7 +2953,7 @@ body .main .container .principlePanel .custom .delivery > li .govicon {
   bottom: 0;
   right: 0;
 }
-/* line 1160, ../sass/solve.scss */
+/* line 1161, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .raticon {
   width: 100%;
   height: 150px;
@@ -2951,7 +2961,7 @@ body .main .container .principlePanel .custom .delivery > li .raticon {
   bottom: 0;
   right: 0;
 }
-/* line 1168, ../sass/solve.scss */
+/* line 1169, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delBox {
   position: absolute;
   width: 100%;
@@ -2961,7 +2971,7 @@ body .main .container .principlePanel .custom .delivery > li .delBox {
   z-index: 2;
   background: #fff;
 }
-/* line 1177, ../sass/solve.scss */
+/* line 1178, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delBox h3 {
   color: #0070cc;
   font-size: 32px;
@@ -2971,11 +2981,11 @@ body .main .container .principlePanel .custom .delivery > li .delBox h3 {
   line-height: 40px;
   font-weight: normal;
 }
-/* line 1187, ../sass/solve.scss */
+/* line 1188, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delBox .SOList {
   margin: 100px auto 0;
 }
-/* line 1189, ../sass/solve.scss */
+/* line 1190, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .delBox .SOList > li {
   color: #545454;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -2984,7 +2994,7 @@ body .main .container .principlePanel .custom .delivery > li .delBox .SOList > l
   padding: 0 5px;
   text-align: left;
 }
-/* line 1200, ../sass/solve.scss */
+/* line 1201, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .govBox {
   position: absolute;
   width: 100%;
@@ -2994,7 +3004,7 @@ body .main .container .principlePanel .custom .delivery > li .govBox {
   z-index: 2;
   background: #fff;
 }
-/* line 1209, ../sass/solve.scss */
+/* line 1210, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .govBox h3 {
   color: #0070cc;
   font-size: 32px;
@@ -3004,11 +3014,11 @@ body .main .container .principlePanel .custom .delivery > li .govBox h3 {
   line-height: 40px;
   font-weight: normal;
 }
-/* line 1219, ../sass/solve.scss */
+/* line 1220, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .govBox .SOList {
   margin: 30px auto 0;
 }
-/* line 1221, ../sass/solve.scss */
+/* line 1222, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .govBox .SOList > li {
   color: #545454;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -3017,7 +3027,7 @@ body .main .container .principlePanel .custom .delivery > li .govBox .SOList > l
   padding: 0 5px;
   text-align: left;
 }
-/* line 1232, ../sass/solve.scss */
+/* line 1233, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .ratBox {
   position: absolute;
   width: 100%;
@@ -3027,7 +3037,7 @@ body .main .container .principlePanel .custom .delivery > li .ratBox {
   z-index: 2;
   background: #fff;
 }
-/* line 1241, ../sass/solve.scss */
+/* line 1242, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .ratBox h3 {
   color: #0070cc;
   font-size: 32px;
@@ -3037,11 +3047,11 @@ body .main .container .principlePanel .custom .delivery > li .ratBox h3 {
   line-height: 40px;
   font-weight: normal;
 }
-/* line 1251, ../sass/solve.scss */
+/* line 1252, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .ratBox .SOList {
   margin: 40px auto 0;
 }
-/* line 1253, ../sass/solve.scss */
+/* line 1254, ../sass/solve.scss */
 body .main .container .principlePanel .custom .delivery > li .ratBox .SOList > li {
   color: #545454;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -3050,82 +3060,84 @@ body .main .container .principlePanel .custom .delivery > li .ratBox .SOList > l
   padding: 0 5px;
   text-align: left;
 }
-/* line 1267, ../sass/solve.scss */
+/* line 1268, ../sass/solve.scss */
 body .main .container .principlePanel .scheme {
+  width: 900px;
   margin: 60px auto 80px;
 }
-/* line 1272, ../sass/solve.scss */
+/* line 1274, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li h3 {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #000;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   font-weight: normal;
 }
-/* line 1280, ../sass/solve.scss */
+/* line 1282, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li .iocn {
   width: 186px;
   height: 214px;
-  margin: 30px auto 0;
+  margin: 35px auto 0;
+  text-align: center;
 }
-/* line 1285, ../sass/solve.scss */
+/* line 1288, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li .iocn > img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
-/* line 1291, ../sass/solve.scss */
+/* line 1294, ../sass/solve.scss */
 body .main .container .principlePanel .scheme > li article {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 18px;
-  line-height: 36px;
-  margin: 40px auto 0;
+  font-size: 16px;
+  line-height: 32px;
+  margin: 30px auto 0;
   padding: 0 20px;
 }
-/* line 1302, ../sass/solve.scss */
+/* line 1305, ../sass/solve.scss */
 body .main .container .principlePanel .values {
   margin: 60px auto 80px;
 }
-/* line 1305, ../sass/solve.scss */
+/* line 1308, ../sass/solve.scss */
 body .main .container .principlePanel .values > li {
-  width: 1080px;
+  width: 900px;
   height: 200px;
   margin: 0 auto 15px;
   border: 1px solid #6a6a6a;
 }
-/* line 1312, ../sass/solve.scss */
+/* line 1315, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(1) .value {
   background: #1694a7;
   border: 2px solid #306a73;
 }
-/* line 1321, ../sass/solve.scss */
+/* line 1324, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(2) .value {
   background: #006c97;
   border: 2px solid #035879;
 }
-/* line 1330, ../sass/solve.scss */
+/* line 1333, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(3) .value {
   background: #546e7a;
   border: 2px solid #465961;
 }
-/* line 1339, ../sass/solve.scss */
+/* line 1342, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(4) .value {
   background: #4b99bf;
   border: 2px solid #4283a2;
 }
-/* line 1348, ../sass/solve.scss */
+/* line 1351, ../sass/solve.scss */
 body .main .container .principlePanel .values > li:nth-child(5) .value {
   background: #7accc8;
   border: 2px solid #6bb2af;
 }
-/* line 1356, ../sass/solve.scss */
+/* line 1359, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .value {
   width: 200px;
   height: 200px;
   float: left;
   position: relative;
 }
-/* line 1362, ../sass/solve.scss */
+/* line 1365, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .value .valueit {
   width: 100%;
   height: 40px;
@@ -3135,7 +3147,7 @@ body .main .container .principlePanel .values > li .value .valueit {
   font-family: 'Bauhaus 93';
   text-align: center;
 }
-/* line 1372, ../sass/solve.scss */
+/* line 1375, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .value .textL {
   color: #ffffff;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -3145,24 +3157,13 @@ body .main .container .principlePanel .values > li .value .textL {
   text-align: center;
   padding: 0 5px;
 }
-/* line 1382, ../sass/solve.scss */
-body .main .container .principlePanel .values > li .value .triangleR {
-  width: 0;
-  height: 0;
-  border-top: 15px solid transparent;
-  border-left: 20px solid #fff;
-  border-bottom: 15px solid transparent;
-  position: absolute;
-  right: 0;
-  top: 80px;
-}
-/* line 1394, ../sass/solve.scss */
+/* line 1388, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .content {
   float: left;
-  width: 878px;
+  width: 698px;
   height: 200px;
 }
-/* line 1399, ../sass/solve.scss */
+/* line 1393, ../sass/solve.scss */
 body .main .container .principlePanel .values > li .content .textR {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #545454;
@@ -3171,9 +3172,9 @@ body .main .container .principlePanel .values > li .content .textR {
   padding: 0 20px;
   margin: 50px auto 0;
 }
-/* line 1411, ../sass/solve.scss */
+/* line 1405, ../sass/solve.scss */
 body .main .container .principlePanel .demoImg {
-  width: 1000px;
+  width: 900px;
   height: 700px;
   margin: 40px auto 40px;
   background: url("../images/demoImg.png") no-repeat center center;

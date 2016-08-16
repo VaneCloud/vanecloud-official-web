@@ -165,8 +165,9 @@ body .header .container .search {
   border: 0 none;
   height: 36px;
   margin-top: 12px;
+  overflow: hidden;
 }
-/* line 237, ../sass/_layout.scss */
+/* line 238, ../sass/_layout.scss */
 body .header .container .search > input[type="search"] {
   width: 150px;
   height: 100%;
@@ -176,7 +177,7 @@ body .header .container .search > input[type="search"] {
   float: left;
   text-indent: 45px;
 }
-/* line 247, ../sass/_layout.scss */
+/* line 248, ../sass/_layout.scss */
 body .header .container .search > a {
   width: 36px;
   height: 100%;
@@ -187,11 +188,11 @@ body .header .container .search > a {
   color: #898989;
   display: block;
 }
-/* line 259, ../sass/_layout.scss */
+/* line 260, ../sass/_layout.scss */
 body .header .container .navHead {
   height: 100%;
 }
-/* line 263, ../sass/_layout.scss */
+/* line 264, ../sass/_layout.scss */
 body .header .container .navHead > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
@@ -201,7 +202,7 @@ body .header .container .navHead > li {
   position: relative;
   float: left;
 }
-/* line 270, ../sass/_layout.scss */
+/* line 271, ../sass/_layout.scss */
 body .header .container .navHead > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -213,11 +214,11 @@ body .header .container .navHead > li > a {
   margin: 0 10px;
   color: #e6e3e3;
 }
-/* line 280, ../sass/_layout.scss */
+/* line 281, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active {
   color: #14adc4;
 }
-/* line 287, ../sass/_layout.scss */
+/* line 288, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection {
   padding: 5px 0;
   margin-top: 0px;
@@ -227,25 +228,25 @@ body .header .container .navHead > li .navSection {
   display: none;
   background: rgba(17, 17, 17, 0.9);
 }
-/* line 299, ../sass/_layout.scss */
+/* line 300, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 304, ../sass/_layout.scss */
+/* line 305, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
   color: #fff;
 }
-/* line 307, ../sass/_layout.scss */
+/* line 308, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a:hover {
   color: #2176da;
 }
-/* line 312, ../sass/_layout.scss */
+/* line 313, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a.active {
   color: #14adc4;
 }
-/* line 331, ../sass/_layout.scss */
+/* line 332, ../sass/_layout.scss */
 body .header .container .reglog {
   height: 60px;
   line-height: 60px;
@@ -255,138 +256,138 @@ body .header .container .reglog {
   background-size: 20px 20px;
   padding-right: 35px;
 }
-/* line 346, ../sass/_layout.scss */
+/* line 347, ../sass/_layout.scss */
 body .service {
   width: 100%;
   background: #0b2f47;
   overflow: hidden;
 }
-/* line 353, ../sass/_layout.scss */
+/* line 354, ../sass/_layout.scss */
 body .service .container .serviceTop {
   margin: 10px auto 0px;
 }
-/* line 356, ../sass/_layout.scss */
+/* line 357, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
 }
-/* line 362, ../sass/_layout.scss */
+/* line 363, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 366, ../sass/_layout.scss */
+/* line 367, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 370, ../sass/_layout.scss */
+/* line 371, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 372, ../sass/_layout.scss */
+/* line 373, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 379, ../sass/_layout.scss */
+/* line 380, ../sass/_layout.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
-  margin: 20px auto 20px;
+  margin: 20px 0 20px;
 }
-/* line 384, ../sass/_layout.scss */
+/* line 385, ../sass/_layout.scss */
 body .service .container .serviceTop .ma > img {
   width: 100%;
   height: 100%;
 }
-/* line 391, ../sass/_layout.scss */
+/* line 392, ../sass/_layout.scss */
 body .service .container .serviceBot {
   margin: 10px auto 0px;
 }
-/* line 394, ../sass/_layout.scss */
+/* line 395, ../sass/_layout.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
 }
-/* line 402, ../sass/_layout.scss */
+/* line 403, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   color: #fff;
 }
-/* line 408, ../sass/_layout.scss */
+/* line 409, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 412, ../sass/_layout.scss */
+/* line 413, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 415, ../sass/_layout.scss */
+/* line 416, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 419, ../sass/_layout.scss */
+/* line 420, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 432, ../sass/_layout.scss */
+/* line 433, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li {
   width: 50px;
   height: 50px;
-  margin-left: 50px;
+  margin-right: 50px;
   float: left;
 }
-/* line 438, ../sass/_layout.scss */
+/* line 439, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 50px;
   height: 50px;
 }
-/* line 445, ../sass/_layout.scss */
+/* line 446, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 453, ../sass/_layout.scss */
+/* line 454, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 460, ../sass/_layout.scss */
+/* line 461, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;
 }
-/* line 474, ../sass/_layout.scss */
+/* line 475, ../sass/_layout.scss */
 body .footer {
   width: 100%;
   height: 100px;
   background: #081f2f;
 }
-/* line 480, ../sass/_layout.scss */
+/* line 481, ../sass/_layout.scss */
 body .footer .container .version {
   margin-top: 25px;
 }
-/* line 483, ../sass/_layout.scss */
+/* line 484, ../sass/_layout.scss */
 body .footer .container .version > li {
   line-height: 30px;
 }
-/* line 488, ../sass/_layout.scss */
+/* line 489, ../sass/_layout.scss */
 body .footer .container .version.pull-left {
   text-align: left;
 }
-/* line 492, ../sass/_layout.scss */
+/* line 493, ../sass/_layout.scss */
 body .footer .container .version.pull-right {
   text-align: right;
 }
-/* line 499, ../sass/_layout.scss */
+/* line 500, ../sass/_layout.scss */
 body .joint {
   position: fixed;
   width: 40px;
@@ -397,16 +398,16 @@ body .joint {
   border: 0 none;
   z-index: 30;
 }
-/* line 508, ../sass/_layout.scss */
+/* line 509, ../sass/_layout.scss */
 body .joint > li {
   width: 45px;
   height: 45px;
 }
-/* line 512, ../sass/_layout.scss */
+/* line 513, ../sass/_layout.scss */
 body .joint > li:nth-child(1) {
   background: #25364a;
 }
-/* line 514, ../sass/_layout.scss */
+/* line 515, ../sass/_layout.scss */
 body .joint > li:nth-child(1) > a {
   width: 30px;
   height: 20px;
@@ -414,11 +415,11 @@ body .joint > li:nth-child(1) > a {
   background: url("../images/speech-bubble.png") no-repeat center center;
   background-size: contain;
 }
-/* line 523, ../sass/_layout.scss */
+/* line 524, ../sass/_layout.scss */
 body .joint > li:nth-child(2) {
   background: #4ebbdd;
 }
-/* line 525, ../sass/_layout.scss */
+/* line 526, ../sass/_layout.scss */
 body .joint > li:nth-child(2) > a {
   width: 30px;
   height: 20px;
@@ -426,11 +427,11 @@ body .joint > li:nth-child(2) > a {
   background: url("../images/email.png") no-repeat center center;
   background-size: contain;
 }
-/* line 534, ../sass/_layout.scss */
+/* line 535, ../sass/_layout.scss */
 body .joint > li:nth-child(3) {
   background: #4aaaa5;
 }
-/* line 536, ../sass/_layout.scss */
+/* line 537, ../sass/_layout.scss */
 body .joint > li:nth-child(3) > a {
   width: 30px;
   height: 30px;
@@ -438,11 +439,11 @@ body .joint > li:nth-child(3) > a {
   background: url("../images/like.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 545, ../sass/_layout.scss */
+/* line 546, ../sass/_layout.scss */
 body .joint > li:nth-child(4) {
   background: #0091a9;
 }
-/* line 547, ../sass/_layout.scss */
+/* line 548, ../sass/_layout.scss */
 body .joint > li:nth-child(4) > a {
   width: 30px;
   height: 30px;
@@ -450,7 +451,7 @@ body .joint > li:nth-child(4) > a {
   background: url("../images/telephone.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 556, ../sass/_layout.scss */
+/* line 557, ../sass/_layout.scss */
 body .joint > li > a {
   display: block;
 }
@@ -2807,63 +2808,55 @@ body .product .container .products > li {
   position: relative;
   padding-left: 0;
   padding-right: 0;
-  transition: 500ms;
 }
-/* line 1057, ../sass/index.scss */
+/* line 1056, ../sass/index.scss */
 body .product .container .products > li:nth-child(1) .productsBox1 .productspic {
   background: url("../images/vane1.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1064, ../sass/index.scss */
+/* line 1063, ../sass/index.scss */
 body .product .container .products > li:nth-child(1) .productsBox2 .productspic {
   background: url("../images/vane5.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1073, ../sass/index.scss */
+/* line 1072, ../sass/index.scss */
 body .product .container .products > li:nth-child(2) .productsBox1 .productspic {
   background: url("../images/vane2.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1080, ../sass/index.scss */
+/* line 1079, ../sass/index.scss */
 body .product .container .products > li:nth-child(2) .productsBox2 .productspic {
   background: url("../images/vane6.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1089, ../sass/index.scss */
+/* line 1088, ../sass/index.scss */
 body .product .container .products > li:nth-child(3) .productsBox1 .productspic {
   background: url("../images/vane1.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1096, ../sass/index.scss */
+/* line 1095, ../sass/index.scss */
 body .product .container .products > li:nth-child(3) .productsBox2 .productspic {
   background: url("../images/vane5.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1105, ../sass/index.scss */
+/* line 1104, ../sass/index.scss */
 body .product .container .products > li:nth-child(4) .productsBox1 .productspic {
   background: url("../images/vane4.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1112, ../sass/index.scss */
+/* line 1111, ../sass/index.scss */
 body .product .container .products > li:nth-child(4) .productsBox2 .productspic {
   background: url("../images/vane8.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1120, ../sass/index.scss */
-body .product .container .products > li:hover {
-  transform: rotateY(360deg);
-  -webkit-transform: rotateY(360deg);
-  -o-transform: rotateY(360deg);
-  -moz-transform: rotateY(360deg);
-}
-/* line 1129, ../sass/index.scss */
+/* line 1119, ../sass/index.scss */
 body .product .container .products > li .productsBox1 {
   position: relative;
   width: 94%;
   height: 100%;
   margin: auto;
 }
-/* line 1136, ../sass/index.scss */
+/* line 1126, ../sass/index.scss */
 body .product .container .products > li .productsBox1 .productspic {
   width: 90px;
   height: 90px;
@@ -2873,7 +2866,7 @@ body .product .container .products > li .productsBox1 .productspic {
   margin-left: -45px;
   z-index: 9;
 }
-/* line 1149, ../sass/index.scss */
+/* line 1139, ../sass/index.scss */
 body .product .container .products > li .productsBox1 .productspanecl {
   width: 100%;
   position: absolute;
@@ -2886,19 +2879,19 @@ body .product .container .products > li .productsBox1 .productspanecl {
   background: -moz-linear-gradient(#ffffff, #f8f8fa);
   background: linear-gradient(#ffffff, #f8f8fa);
 }
-/* line 1162, ../sass/index.scss */
+/* line 1152, ../sass/index.scss */
 body .product .container .products > li .productsBox1 .productspaneclbody {
   padding: 0 5%;
   margin-top: 40px;
 }
-/* line 1166, ../sass/index.scss */
+/* line 1156, ../sass/index.scss */
 body .product .container .products > li .productsBox1 .productspaneclbody > li {
   height: 120px;
   line-height: 20px;
   border-bottom: 3px solid #c5c5c5;
   font-size: 16px;
 }
-/* line 1174, ../sass/index.scss */
+/* line 1164, ../sass/index.scss */
 body .product .container .products > li .productsBox1 .productspaneclbody > li.productspaneclbodyT {
   color: #8f929c;
   font-size: 28px;
@@ -2906,19 +2899,19 @@ body .product .container .products > li .productsBox1 .productspaneclbody > li.p
   text-align: center;
   line-height: 120px;
 }
-/* line 1183, ../sass/index.scss */
+/* line 1173, ../sass/index.scss */
 body .product .container .products > li .productsBox1 .productspaneclbody > li.productspaneclbodyB {
   color: #8f929c;
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: left;
 }
-/* line 1188, ../sass/index.scss */
+/* line 1178, ../sass/index.scss */
 body .product .container .products > li .productsBox1 .productspaneclbody > li.productspaneclbodyB span {
   color: #3089b1;
   font-size: 48px;
 }
-/* line 1198, ../sass/index.scss */
+/* line 1188, ../sass/index.scss */
 body .product .container .products > li .productsBox2 {
   height: 400px;
   width: 100%;
@@ -2931,7 +2924,7 @@ body .product .container .products > li .productsBox2 {
   background: -moz-linear-gradient(#318cb8, #326a92);
   background: linear-gradient(#318cb8, #326a92);
 }
-/* line 1211, ../sass/index.scss */
+/* line 1201, ../sass/index.scss */
 body .product .container .products > li .productsBox2 h1 {
   margin-top: 40px;
   text-align: center;
@@ -2940,13 +2933,13 @@ body .product .container .products > li .productsBox2 h1 {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
 }
-/* line 1220, ../sass/index.scss */
+/* line 1210, ../sass/index.scss */
 body .product .container .products > li .productsBox2 .productspic {
   width: 90px;
   height: 90px;
   margin: 20px auto;
 }
-/* line 1229, ../sass/index.scss */
+/* line 1219, ../sass/index.scss */
 body .product .container .products > li .productsBox2 .synopsis {
   margin: 20px auto 0;
   text-align: center;
@@ -2956,11 +2949,11 @@ body .product .container .products > li .productsBox2 .synopsis {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: normal;
 }
-/* line 1238, ../sass/index.scss */
+/* line 1228, ../sass/index.scss */
 body .product .container .products > li .productsBox2 .synopsis span {
   font-size: 14px;
 }
-/* line 1243, ../sass/index.scss */
+/* line 1233, ../sass/index.scss */
 body .product .container .products > li .productsBox2 .know {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -2975,7 +2968,7 @@ body .product .container .products > li .productsBox2 .know {
   font-size: 20px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 1265, ../sass/index.scss */
+/* line 1255, ../sass/index.scss */
 body .section6 {
   width: 100%;
   height: 100%;
@@ -2984,7 +2977,7 @@ body .section6 {
   background: -moz-linear-gradient(#358fb9, #326a92);
   background: linear-gradient(#358fb9, #326a92);
 }
-/* line 1274, ../sass/index.scss */
+/* line 1264, ../sass/index.scss */
 body .experience {
   width: 100%;
   height: 100%;
@@ -2993,36 +2986,36 @@ body .experience {
   display: block;
   overflow: hidden;
 }
-/* line 1286, ../sass/index.scss */
+/* line 1276, ../sass/index.scss */
 body .experience .container .conHead6 {
   text-align: center;
 }
-/* line 1289, ../sass/index.scss */
+/* line 1279, ../sass/index.scss */
 body .experience .container .conHead6 > .Ch {
   font-family: "微软雅黑";
   font-size: 24px;
   color: #ffffff;
 }
-/* line 1294, ../sass/index.scss */
+/* line 1284, ../sass/index.scss */
 body .experience .container .conHead6 > .En {
   font-family: 'Arial';
   margin-top: 5px;
   font-size: 18px;
   color: #d3d4d4;
 }
-/* line 1300, ../sass/index.scss */
+/* line 1290, ../sass/index.scss */
 body .experience .container .people {
   width: auto;
   height: 500px;
   background: url("../images/people.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1307, ../sass/index.scss */
+/* line 1297, ../sass/index.scss */
 body .experience .container .learn {
   width: 90%;
   margin: 100px auto;
 }
-/* line 1311, ../sass/index.scss */
+/* line 1301, ../sass/index.scss */
 body .experience .container .learn p {
   width: 420px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -3031,7 +3024,7 @@ body .experience .container .learn p {
   text-indent: 2em;
   line-height: 40px;
 }
-/* line 1321, ../sass/index.scss */
+/* line 1311, ../sass/index.scss */
 body .experience .container .apply {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -3047,44 +3040,40 @@ body .experience .container .apply {
   border: 1px solid #ffffff;
   margin: 100px auto 0;
 }
-/* line 1328, ../sass/index.scss */
+/* line 1318, ../sass/index.scss */
 body .experience .container .apply:hover {
   color: #318fbb;
   background: #ffffff;
 }
-/* line 1336, ../sass/index.scss */
+/* line 1326, ../sass/index.scss */
 body .ourserver {
   width: 100%;
   background: #f9f9f9;
   overflow: hidden;
   margin: 60px auto 0;
 }
-/* line 1342, ../sass/index.scss */
-body .ourserver .container {
-  width: 100% !important;
-}
-/* line 1349, ../sass/index.scss */
+/* line 1338, ../sass/index.scss */
 body .ourserver .container .conHead7 {
   text-align: center;
 }
-/* line 1352, ../sass/index.scss */
+/* line 1341, ../sass/index.scss */
 body .ourserver .container .conHead7 > .Ch {
   font-family: "微软雅黑";
   font-size: 24px;
   color: #326a92;
 }
-/* line 1357, ../sass/index.scss */
+/* line 1346, ../sass/index.scss */
 body .ourserver .container .conHead7 > .En {
   font-family: 'Arial';
   margin-top: 5px;
   font-size: 18px;
   color: #326a92;
 }
-/* line 1363, ../sass/index.scss */
+/* line 1352, ../sass/index.scss */
 body .ourserver .container .servers {
   width: 450px;
 }
-/* line 1367, ../sass/index.scss */
+/* line 1356, ../sass/index.scss */
 body .ourserver .container .servers > p {
   color: #326a92;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -3093,14 +3082,14 @@ body .ourserver .container .servers > p {
   margin-top: 10px;
   text-indent: 2em;
 }
-/* line 1377, ../sass/index.scss */
+/* line 1366, ../sass/index.scss */
 body .ourserver .container .serverf {
   border-radius: 5px;
   border: 1px solid #fff;
-  width: 155px;
-  height: 45px;
-  line-height: 45px;
-  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #fff;
   background: #318fbb;
@@ -3109,52 +3098,52 @@ body .ourserver .container .serverf {
   display: block;
   text-align: center;
 }
-/* line 1391, ../sass/index.scss */
+/* line 1380, ../sass/index.scss */
 body .ourserver .container .serverf:hover {
   color: #318fbb;
   background: #fff;
 }
-/* line 1397, ../sass/index.scss */
+/* line 1386, ../sass/index.scss */
 body .ourserver .container .serverpic {
   position: relative;
   width: 460px;
   height: 250px;
   margin: 0px auto 0;
 }
-/* line 1405, ../sass/index.scss */
+/* line 1394, ../sass/index.scss */
 body .ourserver .container .serverpic .lines > li {
   position: absolute;
   background: #326a92;
 }
-/* line 1409, ../sass/index.scss */
+/* line 1398, ../sass/index.scss */
 body .ourserver .container .serverpic .lines > li:nth-child(1) {
   width: 3px;
   height: 130px;
   top: 70px;
   left: 40px;
 }
-/* line 1416, ../sass/index.scss */
+/* line 1405, ../sass/index.scss */
 body .ourserver .container .serverpic .lines > li:nth-child(2) {
   width: 3px;
   height: 130px;
   top: 70px;
   right: 40px;
 }
-/* line 1423, ../sass/index.scss */
+/* line 1412, ../sass/index.scss */
 body .ourserver .container .serverpic .lines > li:nth-child(3) {
   width: 140px;
   height: 3px;
   top: 198px;
   left: 40px;
 }
-/* line 1430, ../sass/index.scss */
+/* line 1419, ../sass/index.scss */
 body .ourserver .container .serverpic .lines > li:nth-child(4) {
   width: 140px;
   height: 3px;
   top: 198px;
   right: 40px;
 }
-/* line 1441, ../sass/index.scss */
+/* line 1430, ../sass/index.scss */
 body .ourserver .container .serverpic .cilcle > li {
   width: 15px;
   height: 15px;
@@ -3162,33 +3151,33 @@ body .ourserver .container .serverpic .cilcle > li {
   background: #326a92;
   border-radius: 100%;
 }
-/* line 1449, ../sass/index.scss */
+/* line 1438, ../sass/index.scss */
 body .ourserver .container .serverpic .cilcle > li:nth-child(1) {
   top: 100px;
   left: 33.5px;
 }
-/* line 1454, ../sass/index.scss */
+/* line 1443, ../sass/index.scss */
 body .ourserver .container .serverpic .cilcle > li:nth-child(2) {
   top: 100px;
   right: 34.5px;
 }
-/* line 1459, ../sass/index.scss */
+/* line 1448, ../sass/index.scss */
 body .ourserver .container .serverpic .cilcle > li:nth-child(3) {
   top: 320px;
   left: 132px;
 }
-/* line 1464, ../sass/index.scss */
+/* line 1453, ../sass/index.scss */
 body .ourserver .container .serverpic .cilcle > li:nth-child(4) {
   top: 320px;
   right: 132px;
 }
-/* line 1474, ../sass/index.scss */
+/* line 1463, ../sass/index.scss */
 body .ourserver .container .serverpic .serpicTop > li {
   width: 170px;
   height: 65px;
   position: absolute;
 }
-/* line 1479, ../sass/index.scss */
+/* line 1468, ../sass/index.scss */
 body .ourserver .container .serverpic .serpicTop > li > .cirl {
   width: 60px;
   height: 60px;
@@ -3200,33 +3189,33 @@ body .ourserver .container .serverpic .serpicTop > li > .cirl {
   color: #000;
   background: #318fbb;
 }
-/* line 1488, ../sass/index.scss */
+/* line 1477, ../sass/index.scss */
 body .ourserver .container .serverpic .serpicTop > li > .cirr {
   width: 100px;
   height: 65px;
   margin: 0 2.5px;
 }
-/* line 1494, ../sass/index.scss */
+/* line 1483, ../sass/index.scss */
 body .ourserver .container .serverpic .serpicTop > li:nth-child(1) {
   top: 0;
   left: 10px;
 }
-/* line 1498, ../sass/index.scss */
+/* line 1487, ../sass/index.scss */
 body .ourserver .container .serverpic .serpicTop > li:nth-child(1) > .cirr {
   background: url("../images/g1.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1504, ../sass/index.scss */
+/* line 1493, ../sass/index.scss */
 body .ourserver .container .serverpic .serpicTop > li:nth-child(2) {
   top: 0;
   right: 0;
 }
-/* line 1508, ../sass/index.scss */
+/* line 1497, ../sass/index.scss */
 body .ourserver .container .serverpic .serpicTop > li:nth-child(2) > .cirr {
   background: url("../images/g2.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1519, ../sass/index.scss */
+/* line 1508, ../sass/index.scss */
 body .ourserver .container .serverpic .serpbox > li {
   width: 92px;
   height: 42px;
@@ -3239,15 +3228,15 @@ body .ourserver .container .serverpic .serpbox > li {
   background: #318fbb;
   top: 100px;
 }
-/* line 1527, ../sass/index.scss */
+/* line 1516, ../sass/index.scss */
 body .ourserver .container .serverpic .serpbox > li:nth-child(1) {
   left: 0;
 }
-/* line 1531, ../sass/index.scss */
+/* line 1520, ../sass/index.scss */
 body .ourserver .container .serverpic .serpbox > li:nth-child(2) {
   right: 0;
 }
-/* line 1537, ../sass/index.scss */
+/* line 1526, ../sass/index.scss */
 body .ourserver .container .serverpic .gear {
   width: 240px;
   height: 182px;
@@ -3256,12 +3245,12 @@ body .ourserver .container .serverpic .gear {
   margin-left: -120px;
   bottom: 0;
 }
-/* line 1546, ../sass/index.scss */
+/* line 1535, ../sass/index.scss */
 body .ourserver .container .serverpic .gear > li {
   position: absolute;
   z-index: 10;
 }
-/* line 1550, ../sass/index.scss */
+/* line 1539, ../sass/index.scss */
 body .ourserver .container .serverpic .gear > li:nth-child(1) {
   width: 50px;
   height: 50px;
@@ -3271,7 +3260,7 @@ body .ourserver .container .serverpic .gear > li:nth-child(1) {
   left: 45px;
   animation: gear 10s linear infinite alternate;
 }
-/* line 1561, ../sass/index.scss */
+/* line 1550, ../sass/index.scss */
 body .ourserver .container .serverpic .gear > li:nth-child(2) {
   width: 50px;
   height: 50px;
@@ -3281,7 +3270,7 @@ body .ourserver .container .serverpic .gear > li:nth-child(2) {
   right: 45px;
   animation: gear2 10s linear infinite alternate;
 }
-/* line 1571, ../sass/index.scss */
+/* line 1560, ../sass/index.scss */
 body .ourserver .container .serverpic .gear > li:nth-child(3) {
   width: 80px;
   height: 80px;
@@ -3292,101 +3281,101 @@ body .ourserver .container .serverpic .gear > li:nth-child(3) {
   bottom: 15px;
   animation: gear 10s linear infinite alternate;
 }
-/* line 1590, ../sass/index.scss */
+/* line 1579, ../sass/index.scss */
 body .service {
   width: 100%;
 }
-/* line 1597, ../sass/index.scss */
+/* line 1586, ../sass/index.scss */
 body .service .container .serviceTop .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
 }
-/* line 1603, ../sass/index.scss */
+/* line 1592, ../sass/index.scss */
 body .service .container .serviceTop .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 1607, ../sass/index.scss */
+/* line 1596, ../sass/index.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 1611, ../sass/index.scss */
+/* line 1600, ../sass/index.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 1613, ../sass/index.scss */
+/* line 1602, ../sass/index.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 1620, ../sass/index.scss */
+/* line 1609, ../sass/index.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
   margin: 20px auto 20px;
 }
-/* line 1625, ../sass/index.scss */
+/* line 1614, ../sass/index.scss */
 body .service .container .serviceTop .ma > img {
   width: 100%;
   height: 100%;
 }
-/* line 1635, ../sass/index.scss */
+/* line 1624, ../sass/index.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
 }
-/* line 1643, ../sass/index.scss */
+/* line 1632, ../sass/index.scss */
 body .service .container .serviceBot .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   color: #fff;
 }
-/* line 1649, ../sass/index.scss */
+/* line 1638, ../sass/index.scss */
 body .service .container .serviceBot .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 1653, ../sass/index.scss */
+/* line 1642, ../sass/index.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 1656, ../sass/index.scss */
+/* line 1645, ../sass/index.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 1660, ../sass/index.scss */
+/* line 1649, ../sass/index.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 1673, ../sass/index.scss */
+/* line 1662, ../sass/index.scss */
 body .service .container .serviceBot .xwq > li {
   width: 50px;
   height: 50px;
-  margin-left: 50px;
+  margin-right: 50px;
   float: left;
 }
-/* line 1679, ../sass/index.scss */
+/* line 1668, ../sass/index.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 50px;
   height: 50px;
 }
-/* line 1686, ../sass/index.scss */
+/* line 1675, ../sass/index.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1694, ../sass/index.scss */
+/* line 1683, ../sass/index.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 1701, ../sass/index.scss */
+/* line 1690, ../sass/index.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;

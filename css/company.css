@@ -165,8 +165,9 @@ body .header .container .search {
   border: 0 none;
   height: 36px;
   margin-top: 12px;
+  overflow: hidden;
 }
-/* line 237, ../sass/_layout.scss */
+/* line 238, ../sass/_layout.scss */
 body .header .container .search > input[type="search"] {
   width: 150px;
   height: 100%;
@@ -176,7 +177,7 @@ body .header .container .search > input[type="search"] {
   float: left;
   text-indent: 45px;
 }
-/* line 247, ../sass/_layout.scss */
+/* line 248, ../sass/_layout.scss */
 body .header .container .search > a {
   width: 36px;
   height: 100%;
@@ -187,11 +188,11 @@ body .header .container .search > a {
   color: #898989;
   display: block;
 }
-/* line 259, ../sass/_layout.scss */
+/* line 260, ../sass/_layout.scss */
 body .header .container .navHead {
   height: 100%;
 }
-/* line 263, ../sass/_layout.scss */
+/* line 264, ../sass/_layout.scss */
 body .header .container .navHead > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #e6e3e3;
@@ -201,7 +202,7 @@ body .header .container .navHead > li {
   position: relative;
   float: left;
 }
-/* line 270, ../sass/_layout.scss */
+/* line 271, ../sass/_layout.scss */
 body .header .container .navHead > li > a {
   border-radius: 5px;
   border: 1px solid #fff;
@@ -213,11 +214,11 @@ body .header .container .navHead > li > a {
   margin: 0 10px;
   color: #e6e3e3;
 }
-/* line 280, ../sass/_layout.scss */
+/* line 281, ../sass/_layout.scss */
 body .header .container .navHead > li > a.active {
   color: #14adc4;
 }
-/* line 287, ../sass/_layout.scss */
+/* line 288, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection {
   padding: 5px 0;
   margin-top: 0px;
@@ -227,25 +228,25 @@ body .header .container .navHead > li .navSection {
   display: none;
   background: rgba(17, 17, 17, 0.9);
 }
-/* line 299, ../sass/_layout.scss */
+/* line 300, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li {
   line-height: 36px;
   font-size: 14px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 304, ../sass/_layout.scss */
+/* line 305, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a {
   color: #fff;
 }
-/* line 307, ../sass/_layout.scss */
+/* line 308, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a:hover {
   color: #2176da;
 }
-/* line 312, ../sass/_layout.scss */
+/* line 313, ../sass/_layout.scss */
 body .header .container .navHead > li .navSection > ul > li > a.active {
   color: #14adc4;
 }
-/* line 331, ../sass/_layout.scss */
+/* line 332, ../sass/_layout.scss */
 body .header .container .reglog {
   height: 60px;
   line-height: 60px;
@@ -255,138 +256,138 @@ body .header .container .reglog {
   background-size: 20px 20px;
   padding-right: 35px;
 }
-/* line 346, ../sass/_layout.scss */
+/* line 347, ../sass/_layout.scss */
 body .service {
   width: 100%;
   background: #0b2f47;
   overflow: hidden;
 }
-/* line 353, ../sass/_layout.scss */
+/* line 354, ../sass/_layout.scss */
 body .service .container .serviceTop {
   margin: 10px auto 0px;
 }
-/* line 356, ../sass/_layout.scss */
+/* line 357, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
 }
-/* line 362, ../sass/_layout.scss */
+/* line 363, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 366, ../sass/_layout.scss */
+/* line 367, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 370, ../sass/_layout.scss */
+/* line 371, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 372, ../sass/_layout.scss */
+/* line 373, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 379, ../sass/_layout.scss */
+/* line 380, ../sass/_layout.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
-  margin: 20px auto 20px;
+  margin: 20px 0 20px;
 }
-/* line 384, ../sass/_layout.scss */
+/* line 385, ../sass/_layout.scss */
 body .service .container .serviceTop .ma > img {
   width: 100%;
   height: 100%;
 }
-/* line 391, ../sass/_layout.scss */
+/* line 392, ../sass/_layout.scss */
 body .service .container .serviceBot {
   margin: 10px auto 0px;
 }
-/* line 394, ../sass/_layout.scss */
+/* line 395, ../sass/_layout.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
 }
-/* line 402, ../sass/_layout.scss */
+/* line 403, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   color: #fff;
 }
-/* line 408, ../sass/_layout.scss */
+/* line 409, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 14px;
 }
-/* line 412, ../sass/_layout.scss */
+/* line 413, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 415, ../sass/_layout.scss */
+/* line 416, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 419, ../sass/_layout.scss */
+/* line 420, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 432, ../sass/_layout.scss */
+/* line 433, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li {
   width: 50px;
   height: 50px;
-  margin-left: 50px;
+  margin-right: 50px;
   float: left;
 }
-/* line 438, ../sass/_layout.scss */
+/* line 439, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 50px;
   height: 50px;
 }
-/* line 445, ../sass/_layout.scss */
+/* line 446, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 453, ../sass/_layout.scss */
+/* line 454, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 460, ../sass/_layout.scss */
+/* line 461, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;
 }
-/* line 474, ../sass/_layout.scss */
+/* line 475, ../sass/_layout.scss */
 body .footer {
   width: 100%;
   height: 100px;
   background: #081f2f;
 }
-/* line 480, ../sass/_layout.scss */
+/* line 481, ../sass/_layout.scss */
 body .footer .container .version {
   margin-top: 25px;
 }
-/* line 483, ../sass/_layout.scss */
+/* line 484, ../sass/_layout.scss */
 body .footer .container .version > li {
   line-height: 30px;
 }
-/* line 488, ../sass/_layout.scss */
+/* line 489, ../sass/_layout.scss */
 body .footer .container .version.pull-left {
   text-align: left;
 }
-/* line 492, ../sass/_layout.scss */
+/* line 493, ../sass/_layout.scss */
 body .footer .container .version.pull-right {
   text-align: right;
 }
-/* line 499, ../sass/_layout.scss */
+/* line 500, ../sass/_layout.scss */
 body .joint {
   position: fixed;
   width: 40px;
@@ -397,16 +398,16 @@ body .joint {
   border: 0 none;
   z-index: 30;
 }
-/* line 508, ../sass/_layout.scss */
+/* line 509, ../sass/_layout.scss */
 body .joint > li {
   width: 45px;
   height: 45px;
 }
-/* line 512, ../sass/_layout.scss */
+/* line 513, ../sass/_layout.scss */
 body .joint > li:nth-child(1) {
   background: #25364a;
 }
-/* line 514, ../sass/_layout.scss */
+/* line 515, ../sass/_layout.scss */
 body .joint > li:nth-child(1) > a {
   width: 30px;
   height: 20px;
@@ -414,11 +415,11 @@ body .joint > li:nth-child(1) > a {
   background: url("../images/speech-bubble.png") no-repeat center center;
   background-size: contain;
 }
-/* line 523, ../sass/_layout.scss */
+/* line 524, ../sass/_layout.scss */
 body .joint > li:nth-child(2) {
   background: #4ebbdd;
 }
-/* line 525, ../sass/_layout.scss */
+/* line 526, ../sass/_layout.scss */
 body .joint > li:nth-child(2) > a {
   width: 30px;
   height: 20px;
@@ -426,11 +427,11 @@ body .joint > li:nth-child(2) > a {
   background: url("../images/email.png") no-repeat center center;
   background-size: contain;
 }
-/* line 534, ../sass/_layout.scss */
+/* line 535, ../sass/_layout.scss */
 body .joint > li:nth-child(3) {
   background: #4aaaa5;
 }
-/* line 536, ../sass/_layout.scss */
+/* line 537, ../sass/_layout.scss */
 body .joint > li:nth-child(3) > a {
   width: 30px;
   height: 30px;
@@ -438,11 +439,11 @@ body .joint > li:nth-child(3) > a {
   background: url("../images/like.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 545, ../sass/_layout.scss */
+/* line 546, ../sass/_layout.scss */
 body .joint > li:nth-child(4) {
   background: #0091a9;
 }
-/* line 547, ../sass/_layout.scss */
+/* line 548, ../sass/_layout.scss */
 body .joint > li:nth-child(4) > a {
   width: 30px;
   height: 30px;
@@ -450,7 +451,7 @@ body .joint > li:nth-child(4) > a {
   background: url("../images/telephone.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 556, ../sass/_layout.scss */
+/* line 557, ../sass/_layout.scss */
 body .joint > li > a {
   display: block;
 }
@@ -1834,7 +1835,7 @@ body .joint > li > a {
 /* line 8, ../sass/company.scss */
 body .cg {
   width: 100%;
-  height: 500px;
+  height: 400px;
   background: url("../images/company.png") no-repeat center center;
   background-size: auto 100%;
   position: relative;
@@ -1926,9 +1927,13 @@ body .main .prinHead {
   width: 1000px;
   height: 31px;
   position: relative;
-  margin: 130px auto 0;
+  margin: 60px auto 0;
 }
 /* line 106, ../sass/company.scss */
+body .main .prinHead:nth-child(1) {
+  margin: 150px auto 0;
+}
+/* line 110, ../sass/company.scss */
 body .main .prinHead .line {
   width: 100%;
   height: 1px;
@@ -1938,7 +1943,7 @@ body .main .prinHead .line {
   background: #d6d6d6;
   z-index: 1;
 }
-/* line 116, ../sass/company.scss */
+/* line 120, ../sass/company.scss */
 body .main .prinHead .text {
   width: 250px;
   height: 100%;
@@ -1950,104 +1955,119 @@ body .main .prinHead .text {
   text-align: center;
   top: 0;
   left: 50%;
-  margin-left: -108px;
+  margin-left: -125px;
   background: #fff;
   z-index: 2;
 }
-/* line 133, ../sass/company.scss */
+/* line 137, ../sass/company.scss */
 body .main .prodImg1 {
-  width: 1046px;
-  height: 722px;
+  width: 908px;
+  height: 686px;
   background: url("../images/prodImg1.png") no-repeat center center;
   background-size: contain;
   margin: 60px auto 0;
 }
-/* line 141, ../sass/company.scss */
+/* line 145, ../sass/company.scss */
 body .main .prodImg2 {
-  width: 1140px;
-  height: 480px;
+  width: 900px;
+  height: 450px;
   background: url("../images/prodImg2.png") no-repeat center center;
   background-size: contain;
   margin: 60px auto 130px;
 }
-/* line 150, ../sass/company.scss */
+/* line 154, ../sass/company.scss */
 body .main .businessL {
+  width: 275px !important;
   border-left: 1px solid #d6d6d6;
   border-right: 1px solid #d6d6d6;
   padding: 0;
 }
-/* line 155, ../sass/company.scss */
+/* line 160, ../sass/company.scss */
 body .main .businessL .busHead {
   color: #272636;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   text-align: left;
   height: 80px;
   line-height: 80px;
   text-indent: 100px;
-  background: url("../images/busi.png") no-repeat 20px center;
-  background-size: 40px 36px;
+  background: url("../images/busi.png") no-repeat 50px center;
+  background-size: 30px 24px;
   font-weight: 400;
   border-bottom: 1px solid #d6d6d6;
 }
-/* line 171, ../sass/company.scss */
+/* line 176, ../sass/company.scss */
 body .main .businessL .business > li {
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: center;
-  height: 80px;
-  line-height: 80px;
+  height: 60px;
+  line-height: 60px;
   border-bottom: 1px solid #d6d6d6;
   font-weight: 400;
   cursor: pointer;
 }
-/* line 181, ../sass/company.scss */
+/* line 186, ../sass/company.scss */
 body .main .businessL .business > li > a {
   display: block;
   width: 100%;
   height: 100%;
   color: #272636;
 }
-/* line 187, ../sass/company.scss */
+/* line 192, ../sass/company.scss */
 body .main .businessL .business > li > a.active {
   color: #fff;
   background: #109ee1;
 }
-/* line 197, ../sass/company.scss */
+/* line 202, ../sass/company.scss */
 body .main .businessR {
-  padding-left: 70px;
-  padding-right: 70px;
+  width: 840px;
+  margin-left: 50px;
 }
-/* line 201, ../sass/company.scss */
+/* line 206, ../sass/company.scss */
 body .main .businessR .businessBox {
-  margin-top: 80px;
+  margin-top: 150px;
 }
-/* line 205, ../sass/company.scss */
-body .main .businessR .businessBox .row .comlogo {
+/* line 209, ../sass/company.scss */
+body .main .businessR .businessBox .row {
+  margin: 0;
+}
+/* line 212, ../sass/company.scss */
+body .main .businessR .businessBox .row > li {
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* line 217, ../sass/company.scss */
+body .main .businessR .businessBox .row > li .comlogo {
   width: 190px;
   height: 70px;
   background: url("../images/buslogo.png") no-repeat center center;
   background-size: contain;
 }
-/* line 213, ../sass/company.scss */
-body .main .businessR .businessBox .row .comhead {
+/* line 224, ../sass/company.scss */
+body .main .businessR .businessBox .row > li .comhead {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #4691d5;
   font-size: 18px;
   line-height: 30px;
 }
-/* line 222, ../sass/company.scss */
-body .main .businessR .businessBox .row .combody > li {
+/* line 232, ../sass/company.scss */
+body .main .businessR .businessBox .row > li .combody > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #515567;
   font-size: 16px;
   line-height: 30px;
 }
-/* line 232, ../sass/company.scss */
+/* line 244, ../sass/company.scss */
 body .main .businessR .businessBox .cshohead {
   height: 80px;
 }
-/* line 240, ../sass/company.scss */
+/* line 248, ../sass/company.scss */
+body .main .businessR .businessBox .cshobody {
+  margin: 80px auto 0;
+}
+/* line 253, ../sass/company.scss */
 body .main .businessR .businessBox .cshobody .cshoarticle > li {
   color: #515567;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -2055,43 +2075,43 @@ body .main .businessR .businessBox .cshobody .cshoarticle > li {
   line-height: 40px;
   text-indent: 2em;
 }
-/* line 251, ../sass/company.scss */
+/* line 264, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot {
   margin: 50px auto 100px;
 }
-/* line 254, ../sass/company.scss */
+/* line 267, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .icon {
   width: 100%;
   margin: 20px auto 0;
 }
-/* line 258, ../sass/company.scss */
+/* line 271, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .icon > img {
   width: 100%;
   height: 100%;
 }
-/* line 264, ../sass/company.scss */
+/* line 277, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshobus {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
-/* line 269, ../sass/company.scss */
+/* line 282, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshobus.cshobus1 {
   background: #358eb8;
 }
-/* line 273, ../sass/company.scss */
+/* line 286, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshobus.cshobus2 {
   background: #326c94;
 }
-/* line 277, ../sass/company.scss */
+/* line 290, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshobus.cshobus3 {
   background: #ccd1d9;
 }
-/* line 280, ../sass/company.scss */
+/* line 293, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshobus.cshobus3 > li {
   color: #000;
 }
-/* line 285, ../sass/company.scss */
+/* line 298, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshobus > li {
   color: #ffffff;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -2099,21 +2119,21 @@ body .main .businessR .businessBox .cshofoot .cshobus > li {
   text-align: center;
   line-height: 30px;
 }
-/* line 296, ../sass/company.scss */
+/* line 309, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshoser {
   height: 280px;
   width: 44.5%;
   margin: 0 2%;
 }
-/* line 301, ../sass/company.scss */
+/* line 314, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshoser.cshoser1 {
   background: #326c94;
 }
-/* line 305, ../sass/company.scss */
+/* line 318, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshoser.cshoser2 {
   background: #358eb8;
 }
-/* line 309, ../sass/company.scss */
+/* line 322, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshoser .cshoserhead {
   color: #000;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -2121,7 +2141,7 @@ body .main .businessR .businessBox .cshofoot .cshoser .cshoserhead {
   text-align: center;
   margin-top: 50px;
 }
-/* line 319, ../sass/company.scss */
+/* line 332, ../sass/company.scss */
 body .main .businessR .businessBox .cshofoot .cshoser .cshoserbody > li {
   list-style: disc;
   color: #000;
@@ -2130,7 +2150,7 @@ body .main .businessR .businessBox .cshofoot .cshoser .cshoserbody > li {
   text-align: center;
   line-height: 30px;
 }
-/* line 332, ../sass/company.scss */
+/* line 345, ../sass/company.scss */
 body .main .businessR .businessBox .buslogo {
   width: 330px;
   height: 134px;
@@ -2139,7 +2159,7 @@ body .main .businessR .businessBox .buslogo {
   background: url("../images/buslogo.png") no-repeat center center;
   background-size: contain;
 }
-/* line 341, ../sass/company.scss */
+/* line 354, ../sass/company.scss */
 body .main .businessR .businessBox .incident {
   width: 570px;
   height: 942px;
@@ -2148,39 +2168,39 @@ body .main .businessR .businessBox .incident {
   margin: 30px auto 80px 0;
   overflow: hidden;
 }
-/* line 352, ../sass/company.scss */
+/* line 365, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(1), body .main .businessR .businessBox .incident .incid > li:nth-child(3), body .main .businessR .businessBox .incident .incid > li:nth-child(5) {
   margin-left: 320px;
 }
-/* line 356, ../sass/company.scss */
+/* line 369, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(2), body .main .businessR .businessBox .incident .incid > li:nth-child(4), body .main .businessR .businessBox .incident .incid > li:nth-child(6) {
   margin-left: 70px;
 }
-/* line 360, ../sass/company.scss */
+/* line 373, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(1) {
   margin-top: 35px;
 }
-/* line 364, ../sass/company.scss */
+/* line 377, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(2) {
   margin-top: 120px;
 }
-/* line 368, ../sass/company.scss */
+/* line 381, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(3) {
   margin-top: 95px;
 }
-/* line 372, ../sass/company.scss */
+/* line 385, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(4) {
   margin-top: 95px;
 }
-/* line 376, ../sass/company.scss */
+/* line 389, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(5) {
   margin-top: 70px;
 }
-/* line 380, ../sass/company.scss */
+/* line 393, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li:nth-child(6) {
   margin-top: 105px;
 }
-/* line 386, ../sass/company.scss */
+/* line 399, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li .list > li {
   color: #515567;
   font-size: 20px;
@@ -2188,7 +2208,7 @@ body .main .businessR .businessBox .incident .incid > li .list > li {
   height: 30px;
   line-height: 30px;
 }
-/* line 394, ../sass/company.scss */
+/* line 407, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li .list > li > span {
   width: 0;
   height: 0;
@@ -2199,13 +2219,13 @@ body .main .businessR .businessBox .incident .incid > li .list > li > span {
   margin-right: 6px;
   margin-top: 6px;
 }
-/* line 408, ../sass/company.scss */
+/* line 421, ../sass/company.scss */
 body .main .businessR .businessBox .incident .incid > li .textt {
   color: #006c97;
   font-size: 24px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
-/* line 422, ../sass/company.scss */
+/* line 435, ../sass/company.scss */
 body .main .businessR .businessBox .profHead {
   color: #358eb8;
   font-size: 24px;
@@ -2213,40 +2233,40 @@ body .main .businessR .businessBox .profHead {
   line-height: 40px;
   margin-top: 80px;
 }
-/* line 434, ../sass/company.scss */
+/* line 447, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .proff > li {
   color: #515567;
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   line-height: 36px;
 }
-/* line 442, ../sass/company.scss */
+/* line 455, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .joinpic {
   width: 805px;
   height: 87px;
 }
-/* line 446, ../sass/company.scss */
+/* line 459, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .joinpic > a {
   display: inline-block;
   margin: 0 10px;
 }
-/* line 453, ../sass/company.scss */
+/* line 466, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .joinimg {
   width: 805px;
   height: 452px;
   margin-top: 20px;
 }
-/* line 458, ../sass/company.scss */
+/* line 471, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .joinimg > img {
   width: 100%;
   heigth: 100%;
 }
-/* line 464, ../sass/company.scss */
+/* line 477, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .coord {
   margin: 30px auto 70px;
   text-align: center;
 }
-/* line 468, ../sass/company.scss */
+/* line 481, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .coord > li {
   display: inline-block;
   color: #515567;
@@ -2256,7 +2276,7 @@ body .main .businessR .businessBox .profBody .coord > li {
   height: 20px;
   line-height: 20px;
 }
-/* line 477, ../sass/company.scss */
+/* line 490, ../sass/company.scss */
 body .main .businessR .businessBox .profBody .coord > li span {
   border-radius: 5px;
   width: 8px;

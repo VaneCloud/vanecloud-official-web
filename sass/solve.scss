@@ -7,7 +7,7 @@ body{
 
 	.financeBg{
 		width:100%;
-		height:500px;
+		height:400px;
 		background:#263d69 url('../images/financeBg.png')no-repeat center center;
 		background-size:auto 100%; 
 		position: relative;
@@ -64,7 +64,7 @@ body{
 			margin:0 35px;
 			font-family: $fontW;
 			color:#000000;
-			font-size: 18px;
+			font-size: 16px;
 			text-align:center;
 			transition: 1s;
 
@@ -91,7 +91,7 @@ body{
 		.container{
 
 			.principle{
-				margin:140px auto 0;
+				margin:150px auto 0;
 				overflow:hidden;
 
 				h3{
@@ -104,7 +104,7 @@ body{
 				.principleTitle{
 					font-family: $fontW;
 					color:#0062c1;
-					font-size: 20px;
+					font-size: 18px;
 					line-height: 40px;
 					margin:50px auto 0;
 					text-align: left;
@@ -113,7 +113,7 @@ body{
 				article{
 					font-family: $fontW;
 					color:#515567;
-					font-size: 20px;
+					font-size: 16px;
 					line-height: 40px;
 					text-indent: 2em;
 				}
@@ -123,14 +123,14 @@ body{
 				}
 
 				.demand1{
-					width:1006px;
+					width:900px;
 					height:506px;
 					background:url('../images/demand1.png')no-repeat center center;
 					background-size:contain;
 				}
 				
 				.demand2{
-					width:1000px;
+					width:900px;
 					height:590px;
 					background:url('../images/demand2.png')no-repeat center center;
 					background-size:contain;
@@ -530,8 +530,8 @@ body{
 					}
 
 					.clientIcon{
-						width:180px;
-						height:180px;
+						width:120px;
+						height:120px;
 						background:url('../images/clientImg.png')no-repeat center center;
 						background-size:contain;
 						margin:10px auto 0;
@@ -549,8 +549,8 @@ body{
 						margin:0 auto 0;
 						
 						.customImg{
-							width:256px;
-							height:256px;
+							width:220px;
+							height:220px;
 							position: relative;
 
 							&>img{
@@ -573,11 +573,12 @@ body{
 
 						.customL{
 							float:left;
-
+							margin-left:36px;
 						}
 
 						.customR{
 							float:right;
+							margin-right:36px;
 						}
 					}
 
@@ -634,18 +635,18 @@ body{
 						color:#000;
 						font-size: 24px;
 						text-align: center;
-						top:405px;
+						top:368px;
 						position: absolute;
 					}
 
 					.line1{
 						width:1px;
-						height:128px;
+						height:110px;
 						position: absolute;
 						background:#d6d6d6;
 						left:50%;
 						margin-left:-0.5px;
-						top:210px;
+						top:150px;
 					}
 
 					.line2{
@@ -655,7 +656,7 @@ body{
 						background:#d6d6d6;
 						left:50%;
 						margin-left:-150px;
-						top:338px;
+						top:260px;
 					}
 
 					.dataLine1{
@@ -683,7 +684,7 @@ body{
 						height:70px;
 						position: absolute;
 						background:#d6d6d6;
-						top:465px;
+						top:368px;
 						left:228px;
 					}
 
@@ -692,18 +693,18 @@ body{
 						height:70px;
 						position: absolute;
 						background:#d6d6d6;
-						top:465px;
+						top:368px;
 						right:228px;
 					}
 
 					.line5{
-						width:800px;
+						width:700px;
 						height:1px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
-						margin-left:-400px;
+						margin-left:-350px;
 					}
 
 					.line6{
@@ -749,8 +750,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						left:100px;
+						top:436px;
+						left:150px;
 					}
 
 					.line12{
@@ -758,8 +759,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						left:300px;
+						top:436px;
+						left:320px;
 					}
 
 					.line13{
@@ -767,7 +768,7 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
 						margin-left:-0.5px;
 					}
@@ -777,8 +778,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						right:300px;
+						top:436px;
+						right:320px;
 					}
 
 					.line15{
@@ -786,16 +787,17 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						right:100px;
+						top:436px;
+						right:150px;
 					}
 
 
 					.SOLUTION{
+						width:900px;
 						margin:130px auto 0;
 						&>li{
-							width:190px;
-							height:480px;
+							width:170px;
+							height:415px;
 							float:left;
 							margin:0 5px;
 							position: relative;
@@ -806,15 +808,15 @@ body{
 								height:100%;
 								background:#fff;
 								position: absolute;
-								top:-480px;
-								left:0;
+								top:0px;
+								left:-170px;
 								z-index:2;
-								
+								overflow: hidden;
 								
 								h3{
 									color:#0070cc;
 									font-family:$fontW;
-									font-size: 20px;
+									font-size: 18px;
 									font-weight: normal;
 									margin:30px auto 0;
 									line-height: 35px;
@@ -839,7 +841,7 @@ body{
 								margin:40px auto 0;
 								font-family: 'Bauhaus 93';
 								color:#ffffff;
-								font-size: 36px;
+								font-size: 28px;
 								text-align: center;
 							}
 
@@ -849,7 +851,7 @@ body{
 								.solText{
 									color:#ffffff;
 									font-family: $fontW;
-									font-size: 20px;
+									font-size: 18px;
 									text-align: center;
 									margin:40px auto 0;
 								}
@@ -871,7 +873,7 @@ body{
 								bottom:0;
 								right:0;
 								width: 100%;
-								height: 190px;
+								height: 168px;
 							}
 
 							&:nth-child(1){
@@ -881,11 +883,11 @@ body{
 								.solicon{
 									
 									background:url('../images/si1.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si11.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -897,12 +899,11 @@ body{
 								.solicon{
 									
 									background:url('../images/si2.png')no-repeat right bottom;
-									background-size:auto;
-
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si22.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -913,11 +914,11 @@ body{
 
 								.solicon{
 									background:url('../images/si3.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si33.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -928,12 +929,12 @@ body{
 
 								.solicon{
 									background:url('../images/si4.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 
 									&:hover{
 										background:url('../images/si44.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -944,11 +945,11 @@ body{
 
 								.solicon{
 									background:url('../images/si5.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si55.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -1265,6 +1266,7 @@ body{
 				}
 
 				.scheme{
+					width:900px;
 					margin:60px auto 80px;
 
 					&>li{
@@ -1272,7 +1274,7 @@ body{
 						h3{
 							font-family:$fontW;
 							color:#000;
-							font-size:24px;
+							font-size:18px;
 							text-align:center;
 							font-weight:normal;
 						}
@@ -1280,20 +1282,21 @@ body{
 						.iocn{
 							width: 186px;
 							height: 214px;
-							margin:30px auto 0;
+							margin:35px auto 0;
+							text-align: center;
 
 							&>img{
-								width: 100%;
-								height: 100%;
+								width: 90%;
+								height: 90%;
 							}
 						}
 
 						article{
 							font-family:$fontW;
 							color:#74767c;
-							font-size:18px;
-							line-height: 36px;
-							margin:40px auto 0;
+							font-size:16px;
+							line-height: 32px;
+							margin:30px auto 0;
 							padding:0 20px;
 						}
 					}
@@ -1303,7 +1306,7 @@ body{
 					margin:60px auto 80px;
 
 					&>li{
-						width:1080px;
+						width:900px;
 						height:200px;
 						margin:0 auto 15px;
 						border:1px solid #6a6a6a;
@@ -1379,21 +1382,12 @@ body{
 								padding:0 5px;
 							}
 
-							.triangleR{
-								width: 0;
-    							height: 0;
-								border-top: 15px solid transparent;
-   								border-left: 20px solid #fff;
-    							border-bottom: 15px solid transparent;
-								position: absolute;
-								right:0;
-								top:80px;
-							}
+
 						}
 
 						.content{
 							float:left;
-							width:878px;
+							width: 698px;
 							height:200px;
 							
 							.textR{
@@ -1409,7 +1403,7 @@ body{
 				}
 
 				.demoImg{
-					width: 1000px;
+					width:900px;
 					height:700px;
 					margin:40px auto 40px;
 					background:url('../images/demoImg.png')no-repeat center center;
