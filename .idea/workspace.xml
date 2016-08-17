@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d829690f-8b16-42fd-9174-a7b2d2a58598" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/submit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/e0ff28e3e40d460552608bd01632ab683651440a/_animation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/e0ff28e3e40d460552608bd01632ab683651440a/_animation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/e0ff28e3e40d460552608bd01632ab683651440a/index.scssc" afterPath="$PROJECT_DIR$/.sass-cache/e0ff28e3e40d460552608bd01632ab683651440a/index.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/yunn.png" afterPath="$PROJECT_DIR$/images/yunn.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/company.html" afterPath="$PROJECT_DIR$/company.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/company.css" afterPath="$PROJECT_DIR$/css/company.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/finish.css" afterPath="$PROJECT_DIR$/css/finish.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/login.css" afterPath="$PROJECT_DIR$/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/news.css" afterPath="$PROJECT_DIR$/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/newsmain.css" afterPath="$PROJECT_DIR$/css/newsmain.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/registry.css" afterPath="$PROJECT_DIR$/css/registry.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/server.css" afterPath="$PROJECT_DIR$/css/server.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/solve.css" afterPath="$PROJECT_DIR$/css/solve.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/trss.css" afterPath="$PROJECT_DIR$/css/trss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vane.css" afterPath="$PROJECT_DIR$/css/vane.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yuncloud.css" afterPath="$PROJECT_DIR$/css/yuncloud.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/government.html" afterPath="$PROJECT_DIR$/government.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/banner.js" afterPath="$PROJECT_DIR$/js/banner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/business.js" afterPath="$PROJECT_DIR$/js/business.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scroll.js" afterPath="$PROJECT_DIR$/js/scroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/settleNav.js" afterPath="$PROJECT_DIR$/js/settleNav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/otherDownload.html" afterPath="$PROJECT_DIR$/otherDownload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productLine.html" afterPath="$PROJECT_DIR$/productLine.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/retail.html" afterPath="$PROJECT_DIR$/retail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_animation.scss" afterPath="$PROJECT_DIR$/sass/_animation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/index.scss" afterPath="$PROJECT_DIR$/sass/index.scss" />
     </list>
     <ignored path="vanecloud-official-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +30,7 @@
       <file leaf-file-name="company.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="4004">
               <caret line="143" column="69" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="69" />
               <folding />
             </state>
@@ -68,8 +40,8 @@
       <file leaf-file-name="productLine.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/productLine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+            <state relative-caret-position="-106">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -78,7 +50,7 @@
       <file leaf-file-name="retail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/retail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="10724">
               <caret line="383" column="64" selection-start-line="383" selection-start-column="64" selection-end-line="383" selection-end-column="64" />
               <folding />
             </state>
@@ -88,7 +60,7 @@
       <file leaf-file-name="finance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/finance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="7280">
               <caret line="260" column="70" selection-start-line="260" selection-start-column="70" selection-end-line="260" selection-end-column="70" />
               <folding />
             </state>
@@ -98,7 +70,7 @@
       <file leaf-file-name="bigData.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bigData.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
+            <state relative-caret-position="2772">
               <caret line="99" column="70" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="70" />
               <folding />
             </state>
@@ -108,7 +80,7 @@
       <file leaf-file-name="education.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="2996">
               <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
               <folding />
             </state>
@@ -118,7 +90,7 @@
       <file leaf-file-name="government.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/government.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
+            <state relative-caret-position="6104">
               <caret line="218" column="70" selection-start-line="218" selection-start-column="70" selection-end-line="218" selection-end-column="70" />
               <folding />
             </state>
@@ -243,9 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -266,10 +235,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="Z:/vaneq_rails" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -811,14 +783,15 @@
       <workItem from="1471395803023" duration="21991000" />
       <workItem from="1471434181024" duration="13066000" />
       <workItem from="1471447526684" duration="196000" />
+      <workItem from="1471448821573" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153599000" />
+    <option name="totallyTimeSpent" value="153756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -897,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="141" column="23" selection-start-line="141" selection-start-column="23" selection-end-line="141" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="392" column="30" selection-start-line="392" selection-start-column="30" selection-end-line="392" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,7 +1201,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/retail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="10724">
           <caret line="383" column="64" selection-start-line="383" selection-start-column="64" selection-end-line="383" selection-end-column="64" />
           <folding />
         </state>
@@ -1242,7 +1209,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/finance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="7280">
           <caret line="260" column="70" selection-start-line="260" selection-start-column="70" selection-end-line="260" selection-end-column="70" />
           <folding />
         </state>
@@ -1250,7 +1217,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/government.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
+        <state relative-caret-position="6104">
           <caret line="218" column="70" selection-start-line="218" selection-start-column="70" selection-end-line="218" selection-end-column="70" />
           <folding />
         </state>
@@ -1258,7 +1225,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bigData.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="2772">
           <caret line="99" column="70" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="70" />
           <folding />
         </state>
@@ -1266,7 +1233,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/education.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="2996">
           <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
           <folding />
         </state>
@@ -1274,7 +1241,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/company.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
+        <state relative-caret-position="4004">
           <caret line="143" column="69" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="69" />
           <folding />
         </state>
@@ -1282,8 +1249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/productLine.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="30" column="70" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
+        <state relative-caret-position="-106">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding />
         </state>
       </provider>
