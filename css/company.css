@@ -1828,6 +1828,38 @@ body .joint > li > a {
     -o-transform: rotateY(360deg);
   }
 }
+@keyframes seamless {
+  from {
+    left: 0;
+  }
+  to {
+    left: -330px;
+  }
+}
+@-webkit-keyframes seamless {
+  from {
+    left: 0;
+  }
+  to {
+    left: -330px;
+  }
+}
+@-moz-keyframes seamless {
+  from {
+    left: 0;
+  }
+  to {
+    left: -330px;
+  }
+}
+@-o-keyframes seamless {
+  from {
+    left: 0;
+  }
+  to {
+    left: -330px;
+  }
+}
 /* line 8, ../sass/company.scss */
 body .cg {
   width: 100%;

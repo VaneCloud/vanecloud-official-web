@@ -860,15 +860,18 @@ body{
 
 			.indd{
 				overflow: hidden;
+				padding-left: 0;
+				padding-right: 0;
 			}
 		}	
 			.indust{
 				margin-top:0px;
-				width:1980px;
+				width:3300px;
 				position: relative;
 
 				&>li{
 					width:330px;
+					float:left;
 					padding-right:40px;
 					padding-left:40px;
 				}

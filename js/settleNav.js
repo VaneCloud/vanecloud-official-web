@@ -6,7 +6,7 @@ $(function(){
 		'<a href="government.html" class="nav3">政府方案</a>'+
 		'<a href="retail.html" class="nav4">零售方案</a>'+
 		'<a href="bigData.html" class="nav5">大数据方案</a>'+
-	'</nav>';
+		'</nav>';
 
 	$('#settleNav').append(bgNav);
 })
