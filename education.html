@@ -51,7 +51,7 @@
 						<div class="line2"></div>
 						<div class="line3"></div>
 						<div class="line4"></div>
-						<div class="line6"></div>
+						<div class="line10"></div>
 						<div class="line7"></div>
 						<div class="line8"></div>
 						<div class="line9"></div>
@@ -66,7 +66,7 @@
 								<div class="delBox">
 									<h3>服务器虚化技术</h3>
 									<ul class="SOList">
-										<li>利用服务器虚拟化技术，将原先隔离的硬件资源变成一个资源池，使硬件资源的利用率得到大幅度提升，CPU的利用率从原来的不足10%提升到60%～80%，使得IT资源得以按需使用，硬件采购成本大幅降低，同时节省了设备能耗。可提供一键式部署，简化业务部署，实现教学活动、行政管理等新业务快速上线，提升办公效率。
+										<li>利用服务器虚拟化技术，将原先隔离的硬件资源变成一个资源池，使硬件资源的利用率得到大幅度提升，CPU的利用率从原来的不足10%提升到60%～80%，使得IT资源得以按需使用，硬件采购成本大幅降低，同时节省了设备能耗。
 										</li>
 									</ul>
 								</div>
@@ -125,19 +125,21 @@
 			$(function(){
 				$('.delivery > li').hover(function(){
 					$(this).children('.delBox').animate({
-						top:'0px'
+						left:'0'
 					},500)
 				},function(){
-					
+					$(this).children('.delBox').animate({
+						left:'-280px'
+					},500)
 				});
 
 				$('.delivery > li .delBox').hover(function(){
 					$(this).animate({
-						top:'0px'
+						left:'0px'
 					},500)
 				},function(){
 					$(this).animate({
-						top:'-520px'
+						left:'-280px'
 					},500)
 				})
 

@@ -16,7 +16,7 @@ body{
 	
 	.educationBg{
 		width:100%;
-		height:500px;
+		height:400px;
 		background:#0076c6 url('../images/educationBg.png')no-repeat center center;
 		background-size:auto 100%; 
 		position: relative;
@@ -24,7 +24,7 @@ body{
 	
 	.governmentBg{
 		width:100%;
-		height:500px;
+		height:400px;
 		background:#8acef1 url('../images/governmentBg.png')no-repeat center center;
 		background-size:auto 100%; 
 		position: relative;
@@ -32,7 +32,7 @@ body{
 	
 	.retailBg{
 		width:100%;
-		height:500px;
+		height:400px;
 		background:#01526f url('../images/retailBg.png')no-repeat center center;
 		background-size:auto 100%; 
 		position: relative;
@@ -40,7 +40,7 @@ body{
 	
 	.bigDataBg{
 		width:100%;
-		height:500px;
+		height:400px;
 		background:#404040 url('../images/bigDataBg.png')no-repeat center center;
 		background-size:auto 100%; 
 		position: relative;
@@ -60,7 +60,7 @@ body{
 			line-height: 160px;
 			display:inline-block;
 			background:url('../images/f2.png')no-repeat center center;
-			background-size:contain; 
+			background-size:95%;
 			margin:0 35px;
 			font-family: $fontW;
 			color:#000000;
@@ -71,13 +71,13 @@ body{
 			&:hover{
 				color:#fff;
 				background:url('../images/f1.png')no-repeat center center;
-				
+				background-size:95%;
 			}
 
 			&.active{
 				color:#fff;
 				background:url('../images/f1.png')no-repeat center center;
-				
+				background-size:95%;
 			}
 
 		}
@@ -120,17 +120,16 @@ body{
 				
 				.demand{
 					margin:70px auto 0;
+					width:900px;
 				}
 
 				.demand1{
-					width:900px;
 					height:506px;
 					background:url('../images/demand1.png')no-repeat center center;
 					background-size:contain;
 				}
 				
 				.demand2{
-					width:900px;
 					height:590px;
 					background:url('../images/demand2.png')no-repeat center center;
 					background-size:contain;
@@ -138,7 +137,6 @@ body{
 				}
 
 				.demand3{
-					width:1000px;
 					height:554px;
 					background:url('../images/demand3.png')no-repeat center center;
 					background-size:contain;
@@ -146,14 +144,13 @@ body{
 				}
 
 				.demand4{
-					width:1000px;
 					height:554px;
 					background:url('../images/demand4.png')no-repeat center center;
 					background-size:contain;
 				}
 
 				.settleImg{
-					width:990px;
+					width:900px;
 					height:784px;
 					background:url('../images/settleImg.png')no-repeat center center;
 					background-size:contain;
@@ -199,11 +196,10 @@ body{
 				}
 
 				.valuess{
-					width: 1000px;
+					width: 900px;
 					margin:0 auto 0;
 
 					&>li{
-						width: 460px;
 						height:200px;
 						margin-top:55px;
 						border:1px solid #6a6a6a;
@@ -234,19 +230,10 @@ body{
 								padding:0 10px;
 							}
 
-							.triangleR{
-								width: 0;
-	    						height: 0;
-								border-top: 15px solid transparent;
-	   							border-bottom: 15px solid transparent;
-								position: absolute;
-								top:80px;
-							}
-
 						}
 
 						.content{
-							width:258px;
+							width:248px;
 							height:200px;
 							
 							.textR{
@@ -312,6 +299,7 @@ body{
 				}
 				
 				.worth{
+					width: 900px;
 					margin:100px auto 100px;
 
 					.worthH{
@@ -327,14 +315,14 @@ body{
 
 						&>li{
 							width:100%;
-							height:95px;
+							height:90px;
 							border:1px solid #60ccf4;
 							margin-bottom:15px;
 
 							.icon{
 								width:55px;
 								height:55px;
-								margin:20px auto auto 20px;
+								margin:17.5px auto auto 20px;
 
 								&>img{
 									width: 100%;
@@ -347,7 +335,7 @@ body{
 								color:#000000;
 								font-size: 18px;
 								font-family: $fontW;
-								line-height: 95px;
+								line-height: 90px;
 							}
 						}
 					}
@@ -415,7 +403,7 @@ body{
 						h3{
 							font-family: $fontW;
 							color:#000000;
-							font-size: 24px;
+							font-size: 18px;
 							text-align: center;
 							font-weight: normal;
 						}
@@ -429,7 +417,7 @@ body{
 						article{
 							font-family: $fontW;
 							color:#74767c;
-							font-size: 18px;
+							font-size: 16px;
 							line-height: 36px;
 
 						}
@@ -451,21 +439,19 @@ body{
 						text-align: center;
 
 						.frameHL{
-							width:534px;
-							margin-left:93px;
+							margin-left:280px;
 						}
 
 						.frameHR{
-							width:213px;
-							margin-right:115px;
+							margin-right:175px;
 						}
 					}
 					
 					.frameP{
-						width: 100%;
+						width: 900px;
 						height: 597px;
 						margin:10px auto 80px;
-						background:url('../images/frame.png')no-repeat center center;
+						background:url('../images/frame.png')no-repeat center top;
 						background-size:contain;
 					}
 
@@ -483,8 +469,8 @@ body{
 				}
 			
 				.dataImg{
-					width: 1100px;
-					height: 500px;
+					width: 900px;
+					height: 450px;
 					background:url('../images/dataImg.png')no-repeat center top;
 					background-size:contain;
 					margin:25px auto 100px;
@@ -507,14 +493,14 @@ body{
 				
 				.systemicon{
 					margin:100px auto 100px;
-					width: 1100px;
+					width: 900px;
 					height: 400px;
 					background:url('../images/systemicon.png')no-repeat center top;
 					background-size:contain;
 				}
 
 				.custom{
-					width:1000px;
+					width:800px;
 					margin:60px auto 80px;
 					overflow: hidden;
 					position: relative;
@@ -564,7 +550,7 @@ body{
 								line-height: 60px;
 								font-family: $fontW;
 								color:#000;
-								font-size: 24px;
+								font-size: 22px;
 								bottom:0px;
 								width:100%;
 								text-indent: 20px;
@@ -587,14 +573,13 @@ body{
 						margin:10px auto 0;
 						
 						.datesImg{
-							width: 300px;
-							height: 530px;
+							width: 250px;
 							border:1px solid #6a6a6a;
 							background:#d6d6d6;
 
 							.icon{
-								width: 280px;
-								height: 200px;
+								width: 210px;
+								height: 180px;
 								margin:10px auto 0;
 
 								&>img{
@@ -607,10 +592,10 @@ body{
 						h3{
 							color:#0070cc;
 							font-family: $fontW;
-							font-size: 32px;
+							font-size: 22px;
 							text-align: center;
 							padding:0 10px;
-							margin:20px auto 0;
+							margin:10px auto 0;
 							font-weight: normal;
 						}
 
@@ -621,7 +606,7 @@ body{
 							line-height: 32px;
 							text-indent: 2em;
 							padding:0 20px;
-							margin:20px auto 0;
+							margin:15px auto 10px;
 
 						}
 
@@ -666,7 +651,7 @@ body{
 						left:50%;
 						margin-left:-0.5px;
 						background:#d6d6d6;
-						top:210px;
+						top:150px;
 					}
 
 					.dataLine2{
@@ -676,7 +661,7 @@ body{
 						background:#d6d6d6;
 						left:50%;
 						margin-left:-200px;
-						top:485px;
+						top:424px;
 					}
 
 					.line3{
@@ -712,7 +697,7 @@ body{
 						height:1px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
 						margin-left:-350px;
 					}
@@ -722,8 +707,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						left:150px;
+						top:436px;
+						left:210px;
 					}
 					
 					.line8{
@@ -731,7 +716,7 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
 						margin-left:-0.5px;
 					}
@@ -741,8 +726,18 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						right:150px;
+						top:436px;
+						right:210px;
+					}
+
+					.line10{
+						width:580px;
+						height:1px;
+						position: absolute;
+						background:#d6d6d6;
+						top:436px;
+						left:50%;
+						margin-left:-290px;
 					}
 
 					.line11{
@@ -957,12 +952,13 @@ body{
 					}
 
 					.delivery{
+						width:900px;
 						text-align: center;
-						margin:150px auto 0;
+						margin:146px auto 0;
 
 						&>li{
-							width:320px;
-							height:520px;
+							width:280px;
+							height:450px;
 							display:inline-block;
 							margin:0 5px;
 							position: relative;
@@ -974,28 +970,31 @@ body{
 
 								.delicon{
 									background:url('../images/solution_13.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/icon_03.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 								
 								.govicon{
 									background:url('../images/gov1.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/gov11.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.raticon{
 									background:url('../images/ra1.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra11.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
@@ -1007,28 +1006,31 @@ body{
 
 								.delicon{
 									background:url('../images/solution_16.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/icon_06.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.govicon{
 									background:url('../images/gov2.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/gov22.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.raticon{
 									background:url('../images/ra2.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra22.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
@@ -1040,28 +1042,31 @@ body{
 
 								.delicon{
 									background:url('../images/solution_19.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/icon_09.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.govicon{
 									background:url('../images/gov3.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/gov33.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.raticon{
 									background:url('../images/ra3.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra33.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
@@ -1073,10 +1078,11 @@ body{
 
 								.raticon{
 									background:url('../images/ra4.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra44.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 							}
@@ -1087,10 +1093,11 @@ body{
 
 								.raticon{
 									background:url('../images/ra5.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra55.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 							}
@@ -1101,10 +1108,11 @@ body{
 
 								.raticon{
 									background:url('../images/ra6.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra66.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 							}
@@ -1115,18 +1123,18 @@ body{
 
 							.delHead{
 								color:#ffffff;
-								font-size: 50px;
+								font-size: 40px;
 								font-family: 'Bauhaus 93';
 								text-align: center;
-								margin:65px auto 0;
+								margin:50px auto 0;
 							}
 
 							.delBofy{
-								margin:35px auto 0;
+								margin:20px auto 0;
 
 								.delText{
 									color:#ffffff;
-									font-size: 32px;
+									font-size: 26px;
 									font-family:$fontW;
 									text-align: center;
 									line-height: 35px;
@@ -1135,16 +1143,16 @@ body{
 								.delb{
 									width: 0;
 								    height: 0;
-								    border-left: 20px solid transparent;
-								    border-right: 20px solid transparent;
-								    border-top: 30px solid #fff;
-								    margin:20px auto 0;
+								    border-left: 10px solid transparent;
+								    border-right: 10px solid transparent;
+								    border-top: 15px solid #fff;
+								    margin:22px auto 0;
 								}
 							}
 
 							.delicon{
 								width:100%;
-								height:320px;
+								height:200px;
 								position: absolute;
 								bottom:0;
 								right:0;
@@ -1170,23 +1178,23 @@ body{
 								position: absolute;
 								width:100%;
 								height:100%;
-								left:0;
-								top:-520px;
+								left:-280px;
+								top:0;
 								z-index:2;
 								background:#fff;
 
 								h3{
 									color:#0070cc;
-									font-size: 32px;
+									font-size: 26px;
 									font-family:$fontW;
 									text-align: center;
-									margin:100px auto 0;
+									margin:50px auto 0;
 									line-height: 40px;
 									font-weight: normal;
 								}
 
 								.SOList{
-									margin:100px auto 0;
+									margin:30px auto 0;
 									&>li{
 										color:#545454;
 										font-family:$fontW;
@@ -1206,6 +1214,7 @@ body{
 								top:-520px;
 								z-index:2;
 								background:#fff;
+								overflow: hidden;
 
 								h3{
 									color:#0070cc;
@@ -1218,7 +1227,7 @@ body{
 								}
 
 								.SOList{
-									margin:30px auto 0;
+									margin: 30px auto 0;
 									&>li{
 										color:#545454;
 										font-family:$fontW;
@@ -1238,6 +1247,7 @@ body{
 								top:-420px;
 								z-index:2;
 								background:#fff;
+								overflow: hidden;
 
 								h3{
 									color:#0070cc;

@@ -57,8 +57,8 @@
 						</div>
 					</div>
 					<div class="btn btn_l"></div>
-			    	<div class="btn btn_r"></div>
-				</div> 
+					<div class="btn btn_r"></div>
+				</div>
 			</section>
 			<section class="section">
 				<div class="newsdynamic">
@@ -89,7 +89,7 @@
 								</aside>
 								<div class="particulars">
 									<div class="partpic"></div>
-									<div class="partext">近日，随着OVH公有云、德国电信（Deutsche Telekom）Open Telekom Cloud和Cloud Team Alliance陆续上线......</div>
+									<div class="partext">近日，随着OVH公有云、德国电信（Deutsche Telekom）Open Telekom Cloud陆续上线......</div>
 									<a href="newsBusiness.html" class="parthref">查看详情</a>
 								</div>
 							</li>
@@ -308,7 +308,7 @@
 										<ul class="productspaneclbody">
 											<li class="productspaneclbodyT">氢氧智迅</li>
 											<li class="productspaneclbodyB"><span></span>
-											作为Vane-Cloud私有云上的一个集成服务，整合了企业大数据的获取、传输，存储和展示功能。</li>
+												作为Vane-Cloud私有云上的一个集成服务，整合了企业大数据的获取、传输，存储和展示功能。</li>
 										</ul>
 									</div>
 								</div>
@@ -323,7 +323,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="section section6"> 
+			<section class="section section6">
 				<div class="experience">
 					<div class="container">
 						<div class="conHead6">
@@ -345,13 +345,13 @@
 					</div>
 				</div>
 			</section>
-			<section class="section">
+			<section class="section section7">
 				<div class="ourserver">
 					<div class="container">
 						<div class="conHead7">
 							<div class="Ch">我们的服务</div>
 							<div class="En">OUR SERVICES</div>
-						</div> 
+						</div>
 						<ul class="row">
 							<div class="col-lg-6 col-md-6">
 								<div class="servers">
@@ -403,12 +403,13 @@
 			</section>
 		</div>
 		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/jquery.fullpage.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/full.js"></script>
 		<script type="text/javascript" src="js/picFoot.js"></script>
 		<script type="text/javascript" src="js/react.min.js"></script>
 		<script type="text/javascript" src="js/react-dom.min.js"></script>
 		<script type="text/javascript" src="js/browser.min.js"></script>
-		<script type="text/javascript" src="js/jquery.fullpage.js"></script>
-		<script type="text/javascript" src="js/header.js"></script>
 		<script type="text/javascript" src="js/our.js"></script>
 		<script type="text/babel" src="js/rfooter.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
@@ -417,43 +418,17 @@
 		<script type="text/javascript" src="js/scroll.js"></script>
 		<script type="text/javascript" src="js/fluid.js"></script>
 		<script type="text/javascript" src="js/tree.js"></script>
-		<script type="text/javascript" src="js/full.js"></script>
-	 	<script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
+		<script type="text/javascript" src="js/modernizr-2.8.3.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/plugin.js"></script>
 		<script type="text/javascript" src="js/variable.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript">
 			$(function(){
-				$('#header').hover(function(){
-					$(this).css('background','rgba(17,17,17,0.9)')
-				},function(){
-					$(this).css('background','transparent');
-				})
-
-				$('.navHead li').on('mouseover',function(){
-					$(this).children('a').css('color','#14adc4');
-					$(this).children('.navSection').show();
-				});
-
-				$('.navHead li').on('mouseout',function(){
-					$(this).children('a').css('color','#e6e3e3');
-					$(this).children('.navSection').hide();
-				});
-
-				/*$('.navSection').hover(function(){
-					$(this).siblings('a').css('color','#14adc4');
-				},function(){
-					$(this).siblings('a').css('color','#e6e3e3');
-				})*/
-	
-
 				$('.row.products li').hover(function(){
 					$(this).children('.productsBox1').hide();
-					
-					$(this).children('.productsBox2').show();
-					
 
+					$(this).children('.productsBox2').show();
 				},function(){
 					$(this).children('.productsBox1').show();
 					$(this).children('.productsBox2').hide();
@@ -474,9 +449,7 @@
 					$('.btn.btn_l').hide();
 					$('.btn.btn_r').hide();
 				});
-
 			})
 		</script>
-		
 	</body>
 </html>

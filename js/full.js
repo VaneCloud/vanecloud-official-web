@@ -1,123 +1,145 @@
-$('#fullpage').fullpage({
-	fixedElements:'#header',
-	scrollingSpeed:500,
+$(function(){
+	$('#fullpage').fullpage({
+		fixedElements:'#header',
+		scrollingSpeed:700,
 
-	onLeave: function(index, nextIndex, direction){
-
-		if(nextIndex == 3||nextIndex == 5||nextIndex == 7){
-			$('.headbar').addClass('active');
-			$('.navHead li a').addClass('active');
-
-			$('.navSection ul li a').addClass('active');
-
-			$('.navHead li').hover(function(){
-				$(this).children('a').css('color','#ffffff');
-				$(this).children('.navSection').show();
+		afterRender:function(){
+			$('#header').hover(function(){
+				$(this).css('background','rgba(17,17,17,0.9)')
 			},function(){
-				$(this).children('a').css('color','#14adc4');
-				$(this).children('.navSection').hide();
+				$(this).css('background','transparent');
+			});
+
+			$('.navHead li>a').hover(function(){
+				$(this).siblings('.navSection').show();
+			},function(){
+				$(this).siblings('.navSection').hide();
 			});
 
 			$('.navSection').hover(function(){
-				$(this).siblings('a').css('color','#e6e3e3');
+				$(this).show();
 			},function(){
-				$(this).siblings('a').css('color','#14adc4');
-			})
-
-		}else{
-			$('.navHead li a').removeClass('active');
-			$('.headbar').removeClass('active');
-			$('.navSection ul li a').removeClass('active');
-
-			$('.navHead li').hover(function(){
-				$(this).children('a').css('color','#14adc4');
-				$(this).children('.navSection').show();
-			},function(){
-				$(this).children('a').css('color','#ffffff');
-				$(this).children('.navSection').hide();
+				$(this).hide();
 			});
 
-			$('.navSection').hover(function(){
-				$(this).siblings('a').css('color','#14adc4');
+			$('.navSection ul li>a').hover(function(){
+				$(this).addClass('active');
 			},function(){
-				$(this).siblings('a').css('color','#e6e3e3');
+				$(this).removeClass('active');
 			})
-		}
-	},
+		},
+		
+		onLeave: function(index, nextIndex, direction){
+			if(nextIndex==3){
+				$('.navHead li>a').addClass('active');
+				$('.navSection ul li>a').addClass('active');
+				$('.headbar').addClass('active');
 
-	afterLoad: function(anchorLink, index){
-		if(index == 2){
-			$('.froot').css('animation','0.5s opacity linear 0s forwards');
-			$('.froot').css('-webkit-animation','0.5s opacity linear 0s forwards');
-			$('.froot').css('-moz-animation','0.5s opacity linear 0s forwards');
-			$('.froot').css('-o-animation','0.5s opacity linear 0s forwards');
+				$('.navSection ul li>a').hover(function(){
+					$(this).removeClass('active');
+				},function(){
+					$(this).addClass('active');
+				})
 
-			$('.ratio').css('animation','0.5s opacity linear 2.4s forwards');
-			$('.ratio').css('-webkit-animation','0.5s opacity linear 2.4s forwards');
-			$('.ratio').css('-moz-animation','0.5s opacity linear 2.4s forwards');
-			$('.ratio').css('-o-animation','0.5s opacity linear 2.4s forwards');
+				tree();
+			}else if(nextIndex == 3||nextIndex == 5||nextIndex == 7){
+				$('.navHead li>a').addClass('active');
+				$('.navSection ul li>a').addClass('active');
+				$('.headbar').addClass('active');
 
-			$('.leaf a:nth-child(1)').css('animation','0.1s opacity linear 1.9s forwards');
-			$('.leaf a:nth-child(1)').css('-webkit-animation','0.1s opacity linear 1.9s forwards');
-			$('.leaf a:nth-child(1)').css('-moz-animation','0.1s opacity linear 1.9s forwards');
-			$('.leaf a:nth-child(1)').css('-o-animation','0.1s opacity linear 1.9s forwards');
+				$('.navSection ul li>a').hover(function(){
+					$(this).removeClass('active');
+				},function(){
+					$(this).addClass('active');
+				})
 
-			$('.leaf a:nth-child(2)').css('animation','0.1s opacity linear 2.2s forwards');
-			$('.leaf a:nth-child(2)').css('-webkit-animation','0.1s opacity linear 2.2s forwards');
-			$('.leaf a:nth-child(2)').css('-moz-animation','0.1s opacity linear 2.2s forwards');
-			$('.leaf a:nth-child(2)').css('-o-animation','0.1s opacity linear 2.2s forwards');
+			}else{
+				$('.navHead li>a').removeClass('active');
+				$('.navSection ul li>a').removeClass('active');
+				$('.headbar').removeClass('active');
 
-			$('.leaf a:nth-child(3)').css('animation','0.1s opacity linear 1.3s forwards');
-			$('.leaf a:nth-child(3)').css('-webkit-animation','0.1s opacity linear 1.3s forwards');
-			$('.leaf a:nth-child(3)').css('-moz-animation','0.1s opacity linear 1.3s forwards');
-			$('.leaf a:nth-child(3)').css('-o-animation','0.1s opacity linear 1.3s forwards');
+				$('.navSection ul li>a').hover(function(){
+					$(this).addClass('active');
+				},function(){
+					$(this).removeClass('active');
+				})
 
-			$('.leaf a:nth-child(4)').css('animation','0.1s opacity linear 1.6s forwards');
-			$('.leaf a:nth-child(4)').css('-webkit-animation','0.1s opacity linear 1.6s forwards');
-			$('.leaf a:nth-child(4)').css('-moz-animation','0.1s opacity linear 1.6s forwards');
-			$('.leaf a:nth-child(4)').css('-o-animation','0.1s opacity linear 1.6s forwards');
+			}
 
-			$('.leaf a:nth-child(5)').css('animation','0.1s opacity linear 0.7s forwards');
-			$('.leaf a:nth-child(5)').css('-webkit-animation','0.1s opacity linear 0.7s forwards');
-			$('.leaf a:nth-child(5)').css('-moz-animation','0.1s opacity linear 0.7s forwards');
-			$('.leaf a:nth-child(5)').css('-o-animation','0.1s opacity linear 0.7s forwards');
 
-			$('.leaf a:nth-child(6)').css('animation','0.1s opacity linear 1s forwards');
-			$('.leaf a:nth-child(6)').css('-webkit-animation','0.1s opacity linear 1s forwards');
-			$('.leaf a:nth-child(6)').css('-moz-animation','0.1s opacity linear 1s forwards');
-			$('.leaf a:nth-child(6)').css('-o-animation','0.1s opacity linear 1s forwards');
+		},
+	});
 
-			$('.bole li:nth-child(1)').css('animation','0.3s move1 linear 1.7s forwards');
-			$('.bole li:nth-child(1)').css('-webkit-animation','0.3s move1 linear 1.7s forwards');
-			$('.bole li:nth-child(1)').css('-moz-animation','0.3s move1 linear 1.7s forwards');
-			$('.bole li:nth-child(1)').css('-o-animation','0.3s move1 linear 1.7s forwards');
+	function tree(){
+		$('.froot').css('animation','0.5s opacity linear 0s forwards');
+		$('.froot').css('-webkit-animation','0.5s opacity linear 0s forwards');
+		$('.froot').css('-moz-animation','0.5s opacity linear 0s forwards');
+		$('.froot').css('-o-animation','0.5s opacity linear 0s forwards');
 
-			$('.bole li:nth-child(2)').css('animation','0.3s move2 linear 2s forwards');
-			$('.bole li:nth-child(2)').css('-webkit-animation','0.3s move2 linear 2s forwards');
-			$('.bole li:nth-child(2)').css('-moz-animation','0.3s move2 linear 2s forwards');
-			$('.bole li:nth-child(2)').css('-o-animation','0.3s move2 linear 2s forwards');
+		$('.ratio').css('animation','0.5s opacity linear 2.4s forwards');
+		$('.ratio').css('-webkit-animation','0.5s opacity linear 2.4s forwards');
+		$('.ratio').css('-moz-animation','0.5s opacity linear 2.4s forwards');
+		$('.ratio').css('-o-animation','0.5s opacity linear 2.4s forwards');
 
-			$('.bole li:nth-child(3)').css('animation','0.3s move3 linear 1.1s forwards');
-			$('.bole li:nth-child(3)').css('-webkit-animation','0.3s move3 linear 1.1s forwards');
-			$('.bole li:nth-child(3)').css('-moz-animation','0.3s move3 linear 1.1s forwards');
-			$('.bole li:nth-child(3)').css('-o-animation','0.3s move3 linear 1.1s forwards');
+		$('.leaf a:nth-child(1)').css('animation','0.1s opacity linear 1.9s forwards');
+		$('.leaf a:nth-child(1)').css('-webkit-animation','0.1s opacity linear 1.9s forwards');
+		$('.leaf a:nth-child(1)').css('-moz-animation','0.1s opacity linear 1.9s forwards');
+		$('.leaf a:nth-child(1)').css('-o-animation','0.1s opacity linear 1.9s forwards');
 
-			$('.bole li:nth-child(4)').css('animation','0.3s move4 linear 1.4s forwards');
-			$('.bole li:nth-child(4)').css('-webkit-animation','0.3s move4 linear 1.4s forwards');
-			$('.bole li:nth-child(4)').css('-moz-animation','0.3s move4 linear 1.4s forwards');
-			$('.bole li:nth-child(4)').css('-o-animation','0.3s move4 linear 1.4s forwards');
+		$('.leaf a:nth-child(2)').css('animation','0.1s opacity linear 2.2s forwards');
+		$('.leaf a:nth-child(2)').css('-webkit-animation','0.1s opacity linear 2.2s forwards');
+		$('.leaf a:nth-child(2)').css('-moz-animation','0.1s opacity linear 2.2s forwards');
+		$('.leaf a:nth-child(2)').css('-o-animation','0.1s opacity linear 2.2s forwards');
 
-			$('.bole li:nth-child(5)').css('animation','0.3s move5 linear 0.5s forwards');
-			$('.bole li:nth-child(5)').css('-webkit-animation','0.3s move5 linear 0.5s forwards');
-			$('.bole li:nth-child(5)').css('-moz-animation','0.3s move5 linear 0.5s forwards');
-			$('.bole li:nth-child(5)').css('-o-animation','0.3s move5 linear 0.5s forwards');
+		$('.leaf a:nth-child(3)').css('animation','0.1s opacity linear 1.3s forwards');
+		$('.leaf a:nth-child(3)').css('-webkit-animation','0.1s opacity linear 1.3s forwards');
+		$('.leaf a:nth-child(3)').css('-moz-animation','0.1s opacity linear 1.3s forwards');
+		$('.leaf a:nth-child(3)').css('-o-animation','0.1s opacity linear 1.3s forwards');
 
-			$('.bole li:nth-child(6)').css('animation','0.3s move6 linear 0.8s forwards');
-			$('.bole li:nth-child(6)').css('-webkit-animation','0.3s move6 linear 0.8s forwards');
-			$('.bole li:nth-child(6)').css('-moz-animation','0.3s move6 linear 0.8s forwards');
-			$('.bole li:nth-child(6)').css('-o-animation','0.3s move6 linear 0.8s forwards');
-		}
+		$('.leaf a:nth-child(4)').css('animation','0.1s opacity linear 1.6s forwards');
+		$('.leaf a:nth-child(4)').css('-webkit-animation','0.1s opacity linear 1.6s forwards');
+		$('.leaf a:nth-child(4)').css('-moz-animation','0.1s opacity linear 1.6s forwards');
+		$('.leaf a:nth-child(4)').css('-o-animation','0.1s opacity linear 1.6s forwards');
+
+		$('.leaf a:nth-child(5)').css('animation','0.1s opacity linear 0.7s forwards');
+		$('.leaf a:nth-child(5)').css('-webkit-animation','0.1s opacity linear 0.7s forwards');
+		$('.leaf a:nth-child(5)').css('-moz-animation','0.1s opacity linear 0.7s forwards');
+		$('.leaf a:nth-child(5)').css('-o-animation','0.1s opacity linear 0.7s forwards');
+
+		$('.leaf a:nth-child(6)').css('animation','0.1s opacity linear 1s forwards');
+		$('.leaf a:nth-child(6)').css('-webkit-animation','0.1s opacity linear 1s forwards');
+		$('.leaf a:nth-child(6)').css('-moz-animation','0.1s opacity linear 1s forwards');
+		$('.leaf a:nth-child(6)').css('-o-animation','0.1s opacity linear 1s forwards');
+
+		$('.bole li:nth-child(1)').css('animation','0.3s move1 linear 1.7s forwards');
+		$('.bole li:nth-child(1)').css('-webkit-animation','0.3s move1 linear 1.7s forwards');
+		$('.bole li:nth-child(1)').css('-moz-animation','0.3s move1 linear 1.7s forwards');
+		$('.bole li:nth-child(1)').css('-o-animation','0.3s move1 linear 1.7s forwards');
+
+		$('.bole li:nth-child(2)').css('animation','0.3s move2 linear 2s forwards');
+		$('.bole li:nth-child(2)').css('-webkit-animation','0.3s move2 linear 2s forwards');
+		$('.bole li:nth-child(2)').css('-moz-animation','0.3s move2 linear 2s forwards');
+		$('.bole li:nth-child(2)').css('-o-animation','0.3s move2 linear 2s forwards');
+
+		$('.bole li:nth-child(3)').css('animation','0.3s move3 linear 1.1s forwards');
+		$('.bole li:nth-child(3)').css('-webkit-animation','0.3s move3 linear 1.1s forwards');
+		$('.bole li:nth-child(3)').css('-moz-animation','0.3s move3 linear 1.1s forwards');
+		$('.bole li:nth-child(3)').css('-o-animation','0.3s move3 linear 1.1s forwards');
+
+		$('.bole li:nth-child(4)').css('animation','0.3s move4 linear 1.4s forwards');
+		$('.bole li:nth-child(4)').css('-webkit-animation','0.3s move4 linear 1.4s forwards');
+		$('.bole li:nth-child(4)').css('-moz-animation','0.3s move4 linear 1.4s forwards');
+		$('.bole li:nth-child(4)').css('-o-animation','0.3s move4 linear 1.4s forwards');
+
+		$('.bole li:nth-child(5)').css('animation','0.3s move5 linear 0.5s forwards');
+		$('.bole li:nth-child(5)').css('-webkit-animation','0.3s move5 linear 0.5s forwards');
+		$('.bole li:nth-child(5)').css('-moz-animation','0.3s move5 linear 0.5s forwards');
+		$('.bole li:nth-child(5)').css('-o-animation','0.3s move5 linear 0.5s forwards');
+
+		$('.bole li:nth-child(6)').css('animation','0.3s move6 linear 0.8s forwards');
+		$('.bole li:nth-child(6)').css('-webkit-animation','0.3s move6 linear 0.8s forwards');
+		$('.bole li:nth-child(6)').css('-moz-animation','0.3s move6 linear 0.8s forwards');
+		$('.bole li:nth-child(6)').css('-o-animation','0.3s move6 linear 0.8s forwards');
 	}
+})
 
-
-});

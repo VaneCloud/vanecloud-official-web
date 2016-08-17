@@ -186,7 +186,6 @@ body{
             color:#14adc4;
           }
 
-
         .top{
           line-height: 20px;
           font-family: $fontW;
@@ -259,8 +258,6 @@ body{
 
       .navHead{
         height:100%;
-            
-
         &>li{
           @include headText;
           overflow: visible;
@@ -294,9 +291,7 @@ body{
             display:none;
             background:rgba(17,17,17,0.9);
                 
-            
             &>ul{
-
               &>li{
                 line-height:36px;
                 font-size: 14px;
@@ -305,20 +300,12 @@ body{
                 &>a{
                   color:#fff;  
 
-                  &:hover{
-                    color:#2176da;
-                    
-                  }
-
                   &.active{
                     color:#14adc4;
                   }
-
                 }
               }
-
             }
-                
           }
 
        }
