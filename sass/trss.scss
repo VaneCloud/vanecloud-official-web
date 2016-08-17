@@ -6,11 +6,8 @@
 body{
 
 	.bg{
-		width:100%;
-		height:500px;
+		@include banner-bg;
 		background:url('../images/tree.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
 
 		.treeNav{
 			width:100%;
@@ -21,18 +18,10 @@ body{
 			perspective:50000px;
 
 			&>a{
-				width:160px;
-				height:160px;
-				line-height: 160px;
-				display:inline-block;
+				@include fixed-nav-a;
 				background:url('../images/f2.png')no-repeat center center;
 				background-size:contain; 
 				margin:0 20px;
-				font-family: $fontW;
-				color:#000000;
-				font-size: 18px;
-				text-align:center;
-				transition: 1s;
 
 				&:hover{
 					color:#fff;

@@ -6,11 +6,8 @@
 body{
 
 	.bg{
-		width:100%;
-		height:500px;
+		@include banner-bg;
 		background:url('../images/yunn.png')no-repeat center center;
-		background-size:cover; 
-		position:relative;
 	}
 
 	.main{

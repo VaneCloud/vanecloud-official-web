@@ -126,11 +126,12 @@
 				$('.delivery > li').hover(function(){
 					$(this).children('.delBox').animate({
 						left:'0'
-					},500)
-				},function(){
-					$(this).children('.delBox').animate({
+					},500);
+
+					$(this).siblings().children('.delBox').animate({
 						left:'-280px'
 					},500)
+				},function(){
 				});
 
 				$('.delivery > li .delBox').hover(function(){
