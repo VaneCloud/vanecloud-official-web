@@ -17,31 +17,33 @@
 				</div>
 				<ul class="row productBody">
 					<li class="col-lg-6 col-md-6">
-						<form action="">
+						<form method="post" action="" id="form">
 							<div class="youHead">
 								<div class="youl"></div>
 								<div class="yout">您的联系方式</div>
 							</div>
 							<div class="youBody">
 								<label>
-									<input type="text" placeholder="姓名"/>
+									<input id="myText" type="text" placeholder="姓名" name="username"/>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<input type="text" placeholder="职位"/>
+									<input id="job" type="text" placeholder="职位" name="job"/>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<input type="text" placeholder="公司名称"/>
+									<input id="company" type="text" placeholder="公司名称" name="company"/>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<input type="text" placeholder="邮箱"/>
+									<input id="email" type="text" placeholder="个人邮箱" name="email"/>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<select>
+									<select id="relation" name="relation">
 										<option>与氢氧的合作关系</option>
+										<option>11111</option>
+										<option>22222</option>
 									</select>
 									<div class="significance"></div>
 								</label>
@@ -52,25 +54,25 @@
 							</div>
 							<div class="youBody">
 								<label>
-									<select>
+									<select id="product" name="product">
 										<option>所需产品</option>
 									</select>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<select>
+									<select id="industry" name="industry">
 										<option>所属行业</option>
 									</select>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<select>
+									<select id="interest" name="interest">
 										<option>感兴趣产品</option>
 									</select>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<textarea class="demand" placeholder="需求描述"></textarea>
+									<textarea id="demand" class="demand" placeholder="需求描述"></textarea>
 								</label>
 								<!--<label>
 									<input type="text" placeholder="验证码" class="small"/>
@@ -78,7 +80,7 @@
 									<a href="javascript:" class="yardd">刷新图片</a>
 									<div class="significance"></div>
 								</label>-->
-								<input type="submit" value="提    交" class="submit">
+								<input type="submit" value="发    送" class="submit">
 								<div class="footT">我们会尽快联系您，等待期间需要获取更多信息，请查询处理进度或联系我们。</div>
 							</div>
 						</form>
