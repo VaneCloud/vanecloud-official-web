@@ -2,6 +2,8 @@ $(function(){
 
 	resize();
 
+
+
 	$(window).on('scroll resize',function(){
 		resize();
 		
@@ -9,7 +11,11 @@ $(function(){
 	})
 
 	function resize(){
+		var w=$(window).width();
+
 		var h=$(window).height();
+
+		alert(w);
 
 		$('.banner').height(h);
 

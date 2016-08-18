@@ -210,7 +210,7 @@ body .header .container .navHead > li > a {
   height: 100%;
   line-height: 60px;
   display: block;
-  padding: 0 10px;
+  padding: 0 30px;
   margin: 0 10px;
   color: #e6e3e3;
 }
@@ -1967,30 +1967,31 @@ body .main .container .row .vanR {
 }
 /* line 108, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody {
+  width: 900px;
   margin: 70px auto 0;
 }
-/* line 111, ../sass/vane.scss */
+/* line 112, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .cloudTitle {
   color: #0062c1;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 44px;
 }
-/* line 118, ../sass/vane.scss */
+/* line 119, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .advantageLists {
   margin: 50px auto 0;
 }
-/* line 121, ../sass/vane.scss */
+/* line 122, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .advantageLists > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 20px;
+  font-size: 16px;
   background: url("../images/g_03.png") no-repeat left 10px;
   background-size: 20px 20px;
   line-height: 40px;
   text-indent: 40px;
 }
-/* line 132, ../sass/vane.scss */
+/* line 133, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .advantagePic {
   margin: 70px auto 100px;
   width: 759px;
@@ -1998,257 +1999,266 @@ body .main .container .row .vanR .cloudBody .advantagePic {
   background: url("../images/advantagePic.png") no-repeat center center;
   background-size: contain;
 }
-/* line 140, ../sass/vane.scss */
+/* line 141, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody article {
   color: #515567;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 40px;
   text-indent: 2em;
 }
-/* line 148, ../sass/vane.scss */
+/* line 149, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize {
   margin: 60px auto 0;
 }
-/* line 151, ../sass/vane.scss */
+/* line 152, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .pic {
   height: 434px;
   background: url("../images/summarize.png") no-repeat center top;
   background-size: contain;
 }
-/* line 157, ../sass/vane.scss */
+/* line 158, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .summList {
   width: 270px;
   margin: 100px auto 0;
 }
-/* line 161, ../sass/vane.scss */
+/* line 162, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .summList > li {
   color: #797c80;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
 }
-/* line 167, ../sass/vane.scss */
+/* line 168, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .summarize .summList > li span {
   color: #0062c1;
 }
-/* line 174, ../sass/vane.scss */
+/* line 175, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .featurePic {
-  width: 566px;
+  width: 450px;
   height: 465px;
   margin: 80px auto 0;
   background: url("../images/figure.png") no-repeat center center;
   background-size: contain;
 }
-/* line 182, ../sass/vane.scss */
+/* line 183, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .figureFoot {
   color: #000000;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin: 40px auto 0;
 }
-/* line 190, ../sass/vane.scss */
+/* line 191, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature {
   margin: 100px auto 0;
   overflow: hidden;
 }
-/* line 194, ../sass/vane.scss */
+/* line 195, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li {
   margin-bottom: 80px;
   overflow: hidden;
 }
-/* line 198, ../sass/vane.scss */
+/* line 199, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .featureTitle {
   color: #000000;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
-/* line 205, ../sass/vane.scss */
+/* line 206, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .icon {
   width: 198px;
   height: 216px;
   margin: 60px auto 60px;
 }
-/* line 210, ../sass/vane.scss */
+/* line 211, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .icon > img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
-/* line 219, ../sass/vane.scss */
+/* line 220, ../sass/vane.scss */
 body .main .container .row .vanR .cloudBody .feature > li .lists > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 20px;
+  font-size: 16px;
   background: url("../images/g_03.png") no-repeat left 10px;
   background-size: 20px 20px;
   line-height: 40px;
   text-indent: 40px;
 }
-/* line 237, ../sass/vane.scss */
+/* line 238, ../sass/vane.scss */
 body .main .container .vaneWells {
   width: 100%;
-  margin: 100px auto 0;
+  margin: 150px auto 0;
 }
-/* line 241, ../sass/vane.scss */
+/* line 242, ../sass/vane.scss */
 body .main .container .vaneWells .vaneHead {
+  margin-top: 20px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #000000;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
 }
-/* line 250, ../sass/vane.scss */
+/* line 252, ../sass/vane.scss */
 body .main .container .vaneWells .vaneFoot {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
-  font-size: 22px;
+  font-size: 16px;
   text-align: center;
   margin-top: 20px;
 }
-/* line 259, ../sass/vane.scss */
+/* line 261, ../sass/vane.scss */
 body .main .container .diskHead {
-  margin: 65px auto 85px;
+  margin: 80px auto 85px;
   overflow: hidden;
 }
-/* line 263, ../sass/vane.scss */
+/* line 265, ../sass/vane.scss */
 body .main .container .diskHead .disTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 44px;
 }
-/* line 270, ../sass/vane.scss */
+/* line 272, ../sass/vane.scss */
 body .main .container .diskHead article {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 40px;
 }
-/* line 277, ../sass/vane.scss */
+/* line 279, ../sass/vane.scss */
 body .main .container .diskHead .diskPic {
-  width: 353px;
+  width: 500px;
   height: 418px;
-  background: url("../images/diskPic.png") no-repeat center center;
+  background: url("../images/diskPic.png") no-repeat right center;
   background-size: contain;
   marin: 0 auto;
 }
-/* line 286, ../sass/vane.scss */
+/* line 288, ../sass/vane.scss */
 body .main .container .diskBody {
   margin: 0 auto 90px;
 }
-/* line 289, ../sass/vane.scss */
+/* line 291, ../sass/vane.scss */
 body .main .container .diskBody .disTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 44px;
+  width: 500px;
+  text-indent: 150px;
 }
-/* line 296, ../sass/vane.scss */
+/* line 300, ../sass/vane.scss */
 body .main .container .diskBody .icon {
   width: 222px;
   height: 255px;
-  margin: 0 auto 0;
+  margin: 0px 0px 0px 120px;
 }
-/* line 301, ../sass/vane.scss */
+/* line 305, ../sass/vane.scss */
 body .main .container .diskBody .icon > img {
-  width: 100%;
+  width: 90%;
   heigth: 100%;
 }
-/* line 309, ../sass/vane.scss */
+/* line 313, ../sass/vane.scss */
 body .main .container .diskBody .lists > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 20px;
+  font-size: 16px;
   background: url("../images/g_03.png") no-repeat left 10px;
   background-size: 20px 20px;
   line-height: 40px;
   text-indent: 40px;
+  margin-left: 150px;
 }
-/* line 322, ../sass/vane.scss */
+/* line 327, ../sass/vane.scss */
 body .main .container .vanePanel {
   margin: 35px auto 0;
 }
-/* line 325, ../sass/vane.scss */
+/* line 330, ../sass/vane.scss */
 body .main .container .vanePanel .vaneTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #0062c1;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 44px;
   font-weight: 400;
 }
-/* line 333, ../sass/vane.scss */
+/* line 338, ../sass/vane.scss */
 body .main .container .vanePanel .traitPic {
-  width: 502px;
+  width: 402px;
   height: 500px;
   margin: 40px auto 0;
   background: url("../images/traitPic.png") no-repeat center center;
   background-size: contain;
 }
-/* line 343, ../sass/vane.scss */
+/* line 346, ../sass/vane.scss */
+body .main .container .vanePanel .traitLists-father {
+  overflow: hidden;
+  padding-top: 160px;
+}
+/* line 353, ../sass/vane.scss */
 body .main .container .vanePanel .traitLists > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 18px;
+  font-size: 16px;
   background: url("../images/g_03.png") no-repeat left 10px;
   background-size: 20px 20px;
   line-height: 40px;
   text-indent: 40px;
 }
-/* line 354, ../sass/vane.scss */
+/* line 364, ../sass/vane.scss */
 body .main .container .vanePanel article {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 36px;
   text-indent: 2em;
 }
-/* line 362, ../sass/vane.scss */
+/* line 372, ../sass/vane.scss */
 body .main .container .vanePanel .fun {
   margin: 20px auto 0;
 }
-/* line 365, ../sass/vane.scss */
+/* line 375, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li {
   padding-right: 30px;
   padding-left: 30px;
 }
-/* line 369, ../sass/vane.scss */
+/* line 379, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .funHead {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #000;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
-/* line 376, ../sass/vane.scss */
+/* line 386, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .icon {
-  margin: 40px auto 0;
+  margin: 60px auto 0;
   width: 222px;
   height: 255px;
 }
-/* line 381, ../sass/vane.scss */
+/* line 391, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .icon > img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
-/* line 387, ../sass/vane.scss */
+/* line 397, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .lists {
-  margin: 60px auto 50px;
+  margin: 60px auto 80px;
 }
-/* line 390, ../sass/vane.scss */
+/* line 400, ../sass/vane.scss */
 body .main .container .vanePanel .fun > li .lists > li {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #74767c;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 36px;
   background: url("../images/g_03.png") no-repeat left 5px;
   background-size: 26px 26px;
   text-indent: 40px;
 }
-/* line 404, ../sass/vane.scss */
+/* line 414, ../sass/vane.scss */
 body .main .container .vanePanel .vaneFoot {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #326c94;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   margin: 100px auto 100px;
 }

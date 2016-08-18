@@ -1,7 +1,10 @@
 $(function(){
 	$('#fullpage').fullpage({
+		anchors:['section-1','section-2','section-3','section-4','section-5','section-6'],
+		navigationTooltips:['section-1','section-2','section-3','section-4','section-5','section-6'],
 		fixedElements:'#header',
 		scrollingSpeed:700,
+
 
 		afterRender:function(){
 			$('#header').hover(function(){

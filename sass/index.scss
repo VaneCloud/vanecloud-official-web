@@ -36,6 +36,21 @@ body{
 		position:relative;
 		overflow:hidden;
 
+		.more-know{
+			display: block;
+			width: 48px;
+			height: 62px;
+			position: absolute;
+			left:50%;
+			margin-left:24px;
+			bottom:20px;
+			background:url('../images/more-know.png') no-repeat center center;
+			background-size:contain;
+			cursor: pointer;
+			z-index:30;
+		}
+
+
 			.num{
 				position:absolute;
 				width:100%; 
@@ -275,7 +290,7 @@ body{
 
 				&:nth-child(3){
 					background:#4ebbdd url(../images/56.png) no-repeat center center;
-					background-size:contain;;
+					background-size:contain;
 
 					&>.footer{
 						background: #318fbb;

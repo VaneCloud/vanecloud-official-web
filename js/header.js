@@ -58,14 +58,14 @@ $(function(){
 				'</div>'+
 			'</li>'+
 		'</nav>'+
-		'<ul class="logInOut pull-left">'+
+		/*'<ul class="logInOut pull-left">'+
 			'<li><a href="login.html">登录</a></li>'+
 			'<li><a href="registry.html" class="active">注册</a></li>'+
 		'</ul>'+
 		'<div class="search pull-left">'+
 			'<input type="search" placeholder="探索氢氧知识库" />'+
 			'<a href="http://kb.vanecloud.com/"></a>'+
-		'</div>'+
+		'</div>'+*/
 	'</div>';
 
 	$('.header').append(head);
