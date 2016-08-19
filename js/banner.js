@@ -29,7 +29,7 @@ $(function(){
 
 
 	move();
-	/*var t=setInterval(function(){
+	var t=setInterval(function(){
 		i++;
 		move()
 	},3000)
@@ -42,7 +42,7 @@ $(function(){
 			i++;
 			move()
 		},3000)
-	})*/
+	})
 
 	$(".btn.btn_l").click(function(){
 		i++;
