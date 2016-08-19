@@ -263,127 +263,131 @@ body .service .container .serviceTop {
   margin: 10px auto 0px;
 }
 /* line 362, ../sass/_layout.scss */
+body .service .container .serviceTop .our-l {
+  width: 1090px;
+}
+/* line 366, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: left;
   font-size: 16px;
 }
-/* line 368, ../sass/_layout.scss */
+/* line 372, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: left;
   font-size: 14px;
 }
-/* line 372, ../sass/_layout.scss */
+/* line 376, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li {
   margin-top: 10px;
 }
-/* line 376, ../sass/_layout.scss */
+/* line 380, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a {
   color: #abbac4;
 }
-/* line 378, ../sass/_layout.scss */
+/* line 382, ../sass/_layout.scss */
 body .service .container .serviceTop .serviceBody li a:hover {
   color: #fff;
 }
-/* line 385, ../sass/_layout.scss */
+/* line 389, ../sass/_layout.scss */
 body .service .container .serviceTop .ma {
   width: 70px;
   height: 70px;
   margin: 20px 0 20px;
 }
-/* line 390, ../sass/_layout.scss */
+/* line 394, ../sass/_layout.scss */
 body .service .container .serviceTop .ma > img {
   width: 100%;
   height: 100%;
 }
-/* line 397, ../sass/_layout.scss */
+/* line 401, ../sass/_layout.scss */
 body .service .container .serviceBot {
   margin: 10px auto 0px;
 }
-/* line 400, ../sass/_layout.scss */
+/* line 404, ../sass/_layout.scss */
 body .service .container .serviceBot > li.language {
   color: #fff;
   font-size: 16px;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: left;
 }
-/* line 408, ../sass/_layout.scss */
+/* line 412, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceTitle {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: left;
   font-size: 16px;
   color: #fff;
 }
-/* line 414, ../sass/_layout.scss */
+/* line 418, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody {
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   text-align: left;
   font-size: 14px;
 }
-/* line 418, ../sass/_layout.scss */
+/* line 422, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li {
   margin-top: 10px;
 }
-/* line 421, ../sass/_layout.scss */
+/* line 425, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a {
   color: #abbac4;
 }
-/* line 425, ../sass/_layout.scss */
+/* line 429, ../sass/_layout.scss */
 body .service .container .serviceBot .serviceBody li > a:hover {
   color: #fff;
 }
-/* line 435, ../sass/_layout.scss */
+/* line 439, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li {
   width: 40px;
   height: 40px;
   margin-right: 40px;
   float: left;
 }
-/* line 441, ../sass/_layout.scss */
+/* line 445, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li > a {
   display: block;
   width: 100%;
   height: 100%;
 }
-/* line 448, ../sass/_layout.scss */
+/* line 452, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(1) > a {
   background: url("../images/WB.png") no-repeat center center;
   background-size: contain;
 }
-/* line 456, ../sass/_layout.scss */
+/* line 460, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(2) > a {
   background: url("../images/WX.png") no-repeat center center;
   background-size: contain;
 }
-/* line 463, ../sass/_layout.scss */
+/* line 467, ../sass/_layout.scss */
 body .service .container .serviceBot .xwq > li:nth-child(3) > a {
   background: url("../images/QQ.png") no-repeat center center;
   background-size: contain;
 }
-/* line 477, ../sass/_layout.scss */
+/* line 481, ../sass/_layout.scss */
 body .footer {
   width: 100%;
   height: 100px;
   background: #081f2f;
 }
-/* line 483, ../sass/_layout.scss */
+/* line 487, ../sass/_layout.scss */
 body .footer .container .version {
   margin-top: 25px;
 }
-/* line 486, ../sass/_layout.scss */
+/* line 490, ../sass/_layout.scss */
 body .footer .container .version > li {
   line-height: 30px;
 }
-/* line 491, ../sass/_layout.scss */
+/* line 495, ../sass/_layout.scss */
 body .footer .container .version.pull-left {
   text-align: left;
 }
-/* line 495, ../sass/_layout.scss */
+/* line 499, ../sass/_layout.scss */
 body .footer .container .version.pull-right {
   text-align: right;
 }
-/* line 502, ../sass/_layout.scss */
+/* line 506, ../sass/_layout.scss */
 body .joint {
   position: fixed;
   width: 40px;
@@ -394,16 +398,16 @@ body .joint {
   border: 0 none;
   z-index: 30;
 }
-/* line 511, ../sass/_layout.scss */
+/* line 515, ../sass/_layout.scss */
 body .joint > li {
   width: 45px;
   height: 45px;
 }
-/* line 515, ../sass/_layout.scss */
+/* line 519, ../sass/_layout.scss */
 body .joint > li:nth-child(1) {
   background: #25364a;
 }
-/* line 517, ../sass/_layout.scss */
+/* line 521, ../sass/_layout.scss */
 body .joint > li:nth-child(1) > a {
   width: 30px;
   height: 20px;
@@ -411,11 +415,11 @@ body .joint > li:nth-child(1) > a {
   background: url("../images/speech-bubble.png") no-repeat center center;
   background-size: contain;
 }
-/* line 526, ../sass/_layout.scss */
+/* line 530, ../sass/_layout.scss */
 body .joint > li:nth-child(2) {
   background: #4ebbdd;
 }
-/* line 528, ../sass/_layout.scss */
+/* line 532, ../sass/_layout.scss */
 body .joint > li:nth-child(2) > a {
   width: 30px;
   height: 20px;
@@ -423,11 +427,11 @@ body .joint > li:nth-child(2) > a {
   background: url("../images/email.png") no-repeat center center;
   background-size: contain;
 }
-/* line 537, ../sass/_layout.scss */
+/* line 541, ../sass/_layout.scss */
 body .joint > li:nth-child(3) {
   background: #4aaaa5;
 }
-/* line 539, ../sass/_layout.scss */
+/* line 543, ../sass/_layout.scss */
 body .joint > li:nth-child(3) > a {
   width: 30px;
   height: 30px;
@@ -435,11 +439,11 @@ body .joint > li:nth-child(3) > a {
   background: url("../images/like.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 548, ../sass/_layout.scss */
+/* line 552, ../sass/_layout.scss */
 body .joint > li:nth-child(4) {
   background: #0091a9;
 }
-/* line 550, ../sass/_layout.scss */
+/* line 554, ../sass/_layout.scss */
 body .joint > li:nth-child(4) > a {
   width: 30px;
   height: 30px;
@@ -447,7 +451,7 @@ body .joint > li:nth-child(4) > a {
   background: url("../images/telephone.png") no-repeat center center;
   background-size: 30px 30px;
 }
-/* line 559, ../sass/_layout.scss */
+/* line 563, ../sass/_layout.scss */
 body .joint > li > a {
   display: block;
 }
@@ -1858,6 +1862,36 @@ body .joint > li > a {
   }
   to {
     left: -330px;
+  }
+}
+@keyframes incident {
+  0% {
+    background: url("../images/incident.png") no-repeat center center;
+    background-size: contain;
+  }
+  16% {
+    background: url("../images/incident1.png") no-repeat center center;
+    background-size: contain;
+  }
+  32% {
+    background: url("../images/incident2.png") no-repeat center center;
+    background-size: contain;
+  }
+  48% {
+    background: url("../images/incident3.png") no-repeat center center;
+    background-size: contain;
+  }
+  64% {
+    background: url("../images/incident4.png") no-repeat center center;
+    background-size: contain;
+  }
+  80% {
+    background: url("../images/incident5.png") no-repeat center center;
+    background-size: contain;
+  }
+  100% {
+    background: url("../images/incident6.png") no-repeat center center;
+    background-size: contain;
   }
 }
 /* line 20, ../sass/login.scss */

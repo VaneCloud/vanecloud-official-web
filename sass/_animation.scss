@@ -429,3 +429,13 @@
 		left:-330px;
 	}
 }
+
+@keyframes incident{
+	0%   {background:url('../images/incident.png')no-repeat center center;background-size:contain;}
+	16%  {background:url('../images/incident1.png')no-repeat center center;background-size:contain;}
+	32%  {background:url('../images/incident2.png')no-repeat center center;background-size:contain;}
+	48%  {background:url('../images/incident3.png')no-repeat center center;background-size:contain;}
+	64%  {background:url('../images/incident4.png')no-repeat center center;background-size:contain;}
+	80%  {background:url('../images/incident5.png')no-repeat center center;background-size:contain;}
+	100% {background:url('../images/incident6.png')no-repeat center center;background-size:contain;}
+}

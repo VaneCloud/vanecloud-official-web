@@ -282,7 +282,7 @@
 					</ul>
 					<ul class="row worth">
 						<li class="col-lg-4 col-md-4">
-							<div class="worthH">使用云来节省成本提高收入的战略</div>
+							<div class="worthH">使用云节省成本提高收入的战略</div>
 							<ul class="worthList">
 								<li>
 									<div class="icon pull-left">
@@ -391,19 +391,21 @@
 
 				$('.delivery > li').hover(function(){
 					$(this).children('.ratBox').animate({
-						top:'0px'
+						left:'0px'
 					},500)
 				},function(){
-					
+					$(this).siblings().children('.ratBox').animate({
+						left:'-280px'
+					},500)
 				});
 
 				$('.delivery > li .ratBox').hover(function(){
 					$(this).animate({
-						top:'0px'
+						left:'0px'
 					},500)
 				},function(){
 					$(this).animate({
-						top:'-420px'
+						left:'-280px'
 					},500)
 				});
 

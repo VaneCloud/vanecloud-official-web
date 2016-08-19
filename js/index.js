@@ -28,8 +28,6 @@ $(function(){
 
 	$(window).on('scroll resize',function(){
 		resize();
-		
-
 	})
 
 	function resize(){
@@ -83,9 +81,9 @@ $(function(){
 
 		$('.experience .container').css('margin',(h-$('.experience .container').height())/2+30+'px auto 0');
 
-		$('.service').css('height',h/2-100+'px');
+		$('.service').css('height',h/2-150+'px');
 
-		$('.ourserver').css('height',h/2-60+'px');
+		$('.ourserver').css('height',h/2-10+'px');
 
 		var sh=$('.service').height();
 
@@ -97,7 +95,7 @@ $(function(){
 
 		$('.servers').css('margin',(oh-$('.servers').height())/4+'px auto 0');
 
-		$('.serviceTop').css('margin',(sh-th-bh)/4+'px auto 0');
+		$('.serviceTop').css('margin',(sh-th-bh)/8+'px auto 0');
 
 		$('.serviceBot').css('margin',(sh-th-bh)/4+'px auto 0');
 	}

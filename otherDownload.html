@@ -9,6 +9,7 @@
 	<body>
 		<header class="bg">
 			<div class="header"></div>
+			<div id="downNav"></div>
 		</header>
 		<section class="main">
 			<div class="container">
@@ -206,6 +207,7 @@
 		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/registry.js"></script>
 		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/downNav.js"></script>
 		<script type="text/javascript" src="js/our.js"></script>
 		<script type="text/babel" src="js/rfooter.js"></script>
 		<script type="text/javascript" src="js/submit.js"></script>
@@ -213,6 +215,8 @@
 		<script type="text/javascript" src="js/server.js"></script>
 		<script type="text/javascript">
 			$(function(){
+				$('.downNav>a.nav2').addClass('active');
+
 				$('.yuns > li').hover(function(){
 					$(this).children('.yunbox1').hide();
 					$(this).children('.yunbox2').show();
@@ -220,6 +224,7 @@
 					$(this).children('.yunbox1').show();
 					$(this).children('.yunbox2').hide();
 				})
+
 			})
 		</script>
 	</body>

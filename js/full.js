@@ -1,8 +1,16 @@
 $(function(){
 	$('#fullpage').fullpage({
+		anchors:['section1','section2','section3','section4','section5','section6','section7'],
 		fixedElements:'#header',
 		scrollingSpeed:700,
+		navigationTooltips:['section1','section2','section3','section4','section5','section6','section7'],
+		navigation:true,
+		navigationPostion:'right',
+
 		afterRender:function(){
+
+			$('#fp-nav ul li a span,.fp-slidesNav ul li a span').css('background','#e6e3e3');
+
 			$('#header').hover(function(){
 				$(this).css('background','rgba(17,17,17,0.9)')
 			},function(){
@@ -37,6 +45,7 @@ $(function(){
 				$('.navHead li>a').addClass('active');
 				$('.navSection ul li>a').addClass('active');
 				$('.headbar').addClass('active');
+				$('#fp-nav ul li a span,.fp-slidesNav ul li a span').css('background','#326a92');
 
 				$('.navHead li>a').hover(function(){
 					$(this).removeClass('active');
@@ -60,6 +69,8 @@ $(function(){
 				$('.navHead li>a').addClass('active');
 				$('.navSection ul li>a').addClass('active');
 				$('.headbar').addClass('active');
+
+				$('#fp-nav ul li a span,.fp-slidesNav ul li a span').css('background','#326a92');
 
 				$('.navHead li>a').hover(function(){
 					$(this).removeClass('active');
@@ -89,6 +100,8 @@ $(function(){
 				$('.navSection ul li>a').removeClass('active');
 				$('.headbar').removeClass('active');
 
+				$('#fp-nav ul li a span,.fp-slidesNav ul li a span').css('background','#e6e3e3');
+
 				$('.navSection').hover(function(){
 					$(this).siblings('.navHead li a').addClass('active');
 				},function(){
@@ -114,36 +127,67 @@ $(function(){
 		$('.ratio').css('-webkit-animation','0.5s opacity linear 2.4s forwards');
 		$('.ratio').css('-moz-animation','0.5s opacity linear 2.4s forwards');
 		$('.ratio').css('-o-animation','0.5s opacity linear 2.4s forwards');
-
+		
 		$('.leaf a:nth-child(1)').css('animation','0.1s opacity linear 1.9s forwards');
 		$('.leaf a:nth-child(1)').css('-webkit-animation','0.1s opacity linear 1.9s forwards');
 		$('.leaf a:nth-child(1)').css('-moz-animation','0.1s opacity linear 1.9s forwards');
 		$('.leaf a:nth-child(1)').css('-o-animation','0.1s opacity linear 1.9s forwards');
+
+		$('.leaf a:nth-child(1)>span').css('animation','0.1s opacity linear 1.9s forwards');
+		$('.leaf a:nth-child(1)>span').css('-webkit-animation','0.1s opacity linear 1.9s forwards');
+		$('.leaf a:nth-child(1)>span').css('-moz-animation','0.1s opacity linear 1.9s forwards');
+		$('.leaf a:nth-child(1)>span').css('-o-animation','0.1s opacity linear 1.9s forwards');
 
 		$('.leaf a:nth-child(2)').css('animation','0.1s opacity linear 2.2s forwards');
 		$('.leaf a:nth-child(2)').css('-webkit-animation','0.1s opacity linear 2.2s forwards');
 		$('.leaf a:nth-child(2)').css('-moz-animation','0.1s opacity linear 2.2s forwards');
 		$('.leaf a:nth-child(2)').css('-o-animation','0.1s opacity linear 2.2s forwards');
 
+		$('.leaf a:nth-child(2)>span').css('animation','0.1s opacity linear 2.2s forwards');
+		$('.leaf a:nth-child(2)>span').css('-webkit-animation','0.1s opacity linear 2.2s forwards');
+		$('.leaf a:nth-child(2)>span').css('-moz-animation','0.1s opacity linear 2.2s forwards');
+		$('.leaf a:nth-child(2)>span').css('-o-animation','0.1s opacity linear 2.2s forwards');
+		
 		$('.leaf a:nth-child(3)').css('animation','0.1s opacity linear 1.3s forwards');
 		$('.leaf a:nth-child(3)').css('-webkit-animation','0.1s opacity linear 1.3s forwards');
 		$('.leaf a:nth-child(3)').css('-moz-animation','0.1s opacity linear 1.3s forwards');
 		$('.leaf a:nth-child(3)').css('-o-animation','0.1s opacity linear 1.3s forwards');
+
+		$('.leaf a:nth-child(3)>span').css('animation','0.1s opacity linear 1.3s forwards');
+		$('.leaf a:nth-child(3)>span').css('-webkit-animation','0.1s opacity linear 1.3s forwards');
+		$('.leaf a:nth-child(3)>span').css('-moz-animation','0.1s opacity linear 1.3s forwards');
+		$('.leaf a:nth-child(3)>span').css('-o-animation','0.1s opacity linear 1.3s forwards');
+
 
 		$('.leaf a:nth-child(4)').css('animation','0.1s opacity linear 1.6s forwards');
 		$('.leaf a:nth-child(4)').css('-webkit-animation','0.1s opacity linear 1.6s forwards');
 		$('.leaf a:nth-child(4)').css('-moz-animation','0.1s opacity linear 1.6s forwards');
 		$('.leaf a:nth-child(4)').css('-o-animation','0.1s opacity linear 1.6s forwards');
 
+		$('.leaf a:nth-child(4)>span').css('animation','0.1s opacity linear 1.6s forwards');
+		$('.leaf a:nth-child(4)>span').css('-webkit-animation','0.1s opacity linear 1.6s forwards');
+		$('.leaf a:nth-child(4)>span').css('-moz-animation','0.1s opacity linear 1.6s forwards');
+		$('.leaf a:nth-child(4)>span').css('-o-animation','0.1s opacity linear 1.6s forwards');
+
 		$('.leaf a:nth-child(5)').css('animation','0.1s opacity linear 0.7s forwards');
 		$('.leaf a:nth-child(5)').css('-webkit-animation','0.1s opacity linear 0.7s forwards');
 		$('.leaf a:nth-child(5)').css('-moz-animation','0.1s opacity linear 0.7s forwards');
 		$('.leaf a:nth-child(5)').css('-o-animation','0.1s opacity linear 0.7s forwards');
 
+		$('.leaf a:nth-child(5)>span').css('animation','0.1s opacity linear 0.7s forwards');
+		$('.leaf a:nth-child(5)>span').css('-webkit-animation','0.1s opacity linear 0.7s forwards');
+		$('.leaf a:nth-child(5)>span').css('-moz-animation','0.1s opacity linear 0.7s forwards');
+		$('.leaf a:nth-child(5)>span').css('-o-animation','0.1s opacity linear 0.7s forwards');
+
 		$('.leaf a:nth-child(6)').css('animation','0.1s opacity linear 1s forwards');
 		$('.leaf a:nth-child(6)').css('-webkit-animation','0.1s opacity linear 1s forwards');
 		$('.leaf a:nth-child(6)').css('-moz-animation','0.1s opacity linear 1s forwards');
 		$('.leaf a:nth-child(6)').css('-o-animation','0.1s opacity linear 1s forwards');
+
+		$('.leaf a:nth-child(6)>span').css('animation','0.1s opacity linear 1s forwards');
+		$('.leaf a:nth-child(6)>span').css('-webkit-animation','0.1s opacity linear 1s forwards');
+		$('.leaf a:nth-child(6)>span').css('-moz-animation','0.1s opacity linear 1s forwards');
+		$('.leaf a:nth-child(6)>span').css('-o-animation','0.1s opacity linear 1s forwards');
 
 		$('.bole li:nth-child(1)').css('animation','0.3s move1 linear 1.7s forwards');
 		$('.bole li:nth-child(1)').css('-webkit-animation','0.3s move1 linear 1.7s forwards');

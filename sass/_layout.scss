@@ -359,6 +359,10 @@ body{
       .serviceTop{
          margin:10px auto 0px;
 
+        .our-l{
+          width: 1090px;
+        }
+
         .serviceTitle{
           @include serviceText;
           font-size:16px;
