@@ -15,10 +15,12 @@ $(function(){
 	})
 
 	$('.navSection').hover(function(){
+		$(this).siblings('.navHead li a').addClass('active');
 		$(this).show();
 	},function(){
 		$(this).hide();
-	})
+		$(this).siblings('.navHead li a').removeClass('active');
+	});
 
 	$('.navSection ul li>a').hover(function(){
 		$(this).addClass('active');

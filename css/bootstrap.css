@@ -5228,16 +5228,11 @@ button.list-group-item-danger.active:focus {
   filter: alpha(opacity=50);
   opacity: .5;
 }
-button.close {
-  -webkit-appearance: none;
-  padding: 0;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-}
+
 .modal-open {
   overflow: hidden;
 }
+
 .modal {
   position: fixed;
   top: 0;

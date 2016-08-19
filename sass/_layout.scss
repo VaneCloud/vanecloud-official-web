@@ -178,6 +178,7 @@ body{
     z-index:10;
   }
 
+
   .header{
     width:100%;
     height:60px;
@@ -200,7 +201,7 @@ body{
           margin:10px 50px auto auto;
           width:100px;
           text-align: center;
-          color:#fff;
+          color: #e6e3e3;
           
           &.#{$className}{
             color:#14adc4;
@@ -284,22 +285,19 @@ body{
           position: relative;
           float:left;
           
-
           &>a{
             @include Radiu;
             border:0 none;
             height: 100%;
             line-height: 60px;
             display:block;
-            padding:0 20px;
-            margin:0 10px;
+            padding: 0 25px;
+            margin: 0 10px;
             color:#e6e3e3;
             
             &.active{
               color:#14adc4;
             }
-
-            
           }
             
           .navSection{
@@ -318,7 +316,7 @@ body{
                 font-family:$fontW;
 
                 &>a{
-                  color:#fff;  
+                  color:#e6e3e3;
 
                   &.active{
                     color:#14adc4;
@@ -433,20 +431,17 @@ body{
           }
         }
 
-
-
         .xwq{
-
           &>li{
-            width:50px;
-            height:50px;
-            margin-right:50px;
+            width:	40px;
+            height:	40px;
+            margin-right: 40px;
             float:left;
             
             &>a{
               display:block;
-              width:50px;
-              height:50px;
+              width: 100%;
+              height: 100%;
             }
 
             &:nth-child(1){

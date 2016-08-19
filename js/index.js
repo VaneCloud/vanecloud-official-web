@@ -1,8 +1,30 @@
 $(function(){
+	$('.row.products li').hover(function(){
+		$(this).children('.productsBox1').hide();
+
+		$(this).children('.productsBox2').show();
+	},function(){
+		$(this).children('.productsBox1').show();
+		$(this).children('.productsBox2').hide();
+	});
+
+	$('.site-bg-canvas').hover(function(){
+		$('.btn.btn_l').show();
+		$('.btn.btn_r').show();
+	},function(){
+		$('.btn.btn_l').hide();
+		$('.btn.btn_r').hide();
+	});
+
+	$('.banner').hover(function(){
+		$('.btn.btn_l').show();
+		$('.btn.btn_r').show();
+	},function(){
+		$('.btn.btn_l').hide();
+		$('.btn.btn_r').hide();
+	});
 
 	resize();
-
-
 
 	$(window).on('scroll resize',function(){
 		resize();
