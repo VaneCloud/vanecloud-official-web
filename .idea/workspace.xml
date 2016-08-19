@@ -1,85 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d829690f-8b16-42fd-9174-a7b2d2a58598" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/incident1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/incident2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/incident3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/incident4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/incident5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/incident6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nopad-circle1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nopad-circle2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nopad-circle3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/nopad-circle6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/two-ma.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/downNav.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/_animation.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/_animation.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/_layout.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/_layout.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/company.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/company.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/index.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/index.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/news.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/news.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/server.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/server.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/solve.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/solve.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/yuncloud.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/yuncloud.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon_09.png" afterPath="$PROJECT_DIR$/images/icon_09.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/incident.png" afterPath="$PROJECT_DIR$/images/incident.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ser.png" afterPath="$PROJECT_DIR$/images/ser.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/solution_19.png" afterPath="$PROJECT_DIR$/images/solution_19.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/yunn.png" afterPath="$PROJECT_DIR$/images/yunn.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/company.css" afterPath="$PROJECT_DIR$/css/company.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/finish.css" afterPath="$PROJECT_DIR$/css/finish.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/login.css" afterPath="$PROJECT_DIR$/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/news.css" afterPath="$PROJECT_DIR$/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/newsmain.css" afterPath="$PROJECT_DIR$/css/newsmain.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/registry.css" afterPath="$PROJECT_DIR$/css/registry.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/server.css" afterPath="$PROJECT_DIR$/css/server.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/solve.css" afterPath="$PROJECT_DIR$/css/solve.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/trss.css" afterPath="$PROJECT_DIR$/css/trss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vane.css" afterPath="$PROJECT_DIR$/css/vane.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/yuncloud.css" afterPath="$PROJECT_DIR$/css/yuncloud.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/full.js" afterPath="$PROJECT_DIR$/js/full.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/header.js" afterPath="$PROJECT_DIR$/js/header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/our.js" afterPath="$PROJECT_DIR$/js/our.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/submit.js" afterPath="$PROJECT_DIR$/js/submit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsBusiness.html" afterPath="$PROJECT_DIR$/newsBusiness.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsInternational.html" afterPath="$PROJECT_DIR$/newsInternational.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsIssue.html" afterPath="$PROJECT_DIR$/newsIssue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsVane.html" afterPath="$PROJECT_DIR$/newsVane.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain.html" afterPath="$PROJECT_DIR$/newsmain.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain10.html" afterPath="$PROJECT_DIR$/newsmain10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain11.html" afterPath="$PROJECT_DIR$/newsmain11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain12.html" afterPath="$PROJECT_DIR$/newsmain12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain13.html" afterPath="$PROJECT_DIR$/newsmain13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain14.html" afterPath="$PROJECT_DIR$/newsmain14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain15.html" afterPath="$PROJECT_DIR$/newsmain15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain16.html" afterPath="$PROJECT_DIR$/newsmain16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain17.html" afterPath="$PROJECT_DIR$/newsmain17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain2.html" afterPath="$PROJECT_DIR$/newsmain2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain3.html" afterPath="$PROJECT_DIR$/newsmain3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain4.html" afterPath="$PROJECT_DIR$/newsmain4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain5.html" afterPath="$PROJECT_DIR$/newsmain5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain6.html" afterPath="$PROJECT_DIR$/newsmain6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain7.html" afterPath="$PROJECT_DIR$/newsmain7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain8.html" afterPath="$PROJECT_DIR$/newsmain8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsmain9.html" afterPath="$PROJECT_DIR$/newsmain9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notepad.html" afterPath="$PROJECT_DIR$/notepad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/otherDownload.html" afterPath="$PROJECT_DIR$/otherDownload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/retail.html" afterPath="$PROJECT_DIR$/retail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_animation.scss" afterPath="$PROJECT_DIR$/sass/_animation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_layout.scss" afterPath="$PROJECT_DIR$/sass/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/company.scss" afterPath="$PROJECT_DIR$/sass/company.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/index.scss" afterPath="$PROJECT_DIR$/sass/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/news.scss" afterPath="$PROJECT_DIR$/sass/news.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/server.scss" afterPath="$PROJECT_DIR$/sass/server.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/solve.scss" afterPath="$PROJECT_DIR$/sass/solve.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/yuncloud.scss" afterPath="$PROJECT_DIR$/sass/yuncloud.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunCloud.html" afterPath="$PROJECT_DIR$/yunCloud.html" />
-    </list>
+    <list default="true" id="d829690f-8b16-42fd-9174-a7b2d2a58598" name="Default" comment="" />
     <ignored path="vanecloud-official-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -103,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="112">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -119,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="43" />
+            <state relative-caret-position="476">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -893,12 +815,12 @@
       <workItem from="1471481160193" duration="10639000" />
       <workItem from="1471496813787" duration="15768000" />
       <workItem from="1471519846395" duration="2768000" />
-      <workItem from="1471567878699" duration="22409000" />
+      <workItem from="1471567878699" duration="22826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205552000" />
+    <option name="totallyTimeSpent" value="205969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1371,18 +1293,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="112">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1390,6 +1304,14 @@
             <element signature="n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
