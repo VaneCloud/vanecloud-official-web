@@ -7,13 +7,13 @@ $width100:100%;
 
 @mixin conCh{
 	font-family:$font-family;
-	font-size:24px;
+	font-size: 18px;
 }
 
 @mixin conEn{
 	font-family:'Arial';
 	margin-top:5px;
-	font-size:18px;
+	font-size: 16px;
 }
 
 body{
@@ -895,7 +895,7 @@ body{
 					margin:50px auto 0;
 					font-family: $fontW;
 					color: $color;
-					font-size: 30px;
+					font-size: 18px;
 					text-align: center;
 					font-weight: normal;
 				}
@@ -992,6 +992,7 @@ body{
 					text-indent: 2em;
 					line-height: 30px;
 					word-wrap: break-word;
+					font-weight: normal;
 					
 				}
 
@@ -1313,14 +1314,14 @@ body{
 			}
 
 			.learn{
-				width:90%;
-				margin:100px auto;
+				width: 90%;
+				margin: 170px auto 0;
 
 				p{
 					width: 420px;
 					font-family: $fontW;
-					color:#ffffff;
-					font-size: 18px;
+					color: #ffffff;
+					font-size: 16px;
 					text-indent: 2em;
 					line-height: 40px;
 				}
@@ -1330,8 +1331,8 @@ body{
 				@include Radiu;
 				@include sectionFoot;
 				color:#ffffff;
-				border:1px solid #ffffff;
-				margin:100px auto 0;
+				border: 1px solid #ffffff;
+				margin: 60px auto 0;
 				
 				&:hover{
 					color:#318fbb;
@@ -1372,9 +1373,9 @@ body{
 				width:450px;
 
 				&>p{
-					color:#326a92;
-					font-family:$fontW;
-					font-size: 18px;
+					color: #326a92;
+					font-family: $fontW;
+					font-size: 16px;
 					line-height: 40px;
 					margin-top:10px;
 					text-indent: 2em;
@@ -1383,15 +1384,15 @@ body{
 
 			.serverf{
 				@include Radiu;
-				width:150px;
-				height:50px;
-				line-height: 50px;
-				font-size: 18px;
+				width:120px;
+				height:40px;
+				line-height: 40px;
+				font-size: 16px;
 				font-family: $fontW;
 				color:#fff;
 				background:#318fbb;
 				border:0 none;
-				margin:10px auto 0;
+				margin:-30px auto 0;
 				display:block;
 				text-align: center;
 				

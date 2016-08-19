@@ -188,16 +188,18 @@ body{
 				width:756px;
 				height:70px;
 				font-family:$fontW;
-				font-size:36px;
+				font-size:18px;
 				color:#0b2f47;
-				margin:180px auto 100px;
+				margin: 150px auto 50px;
 				overflow: hidden;
+				text-align: center;
 				background:url('../images/liney.png')no-repeat center bottom;
-				background-size:contain;
+				background-size:60%;
 			}
 
 			.productBody{
-				margin:0 auto 180px;
+				width: 900px;
+				margin: 0 auto 0;
 
 				&>li{
 
@@ -208,7 +210,7 @@ body{
 					.youHead{
 						width:100%;
 						height:32px;
-						margin:0 auto 0;
+						margin: 50px auto 0;
 						position: relative;
 						overflow: hidden;
 
@@ -233,63 +235,65 @@ body{
 							background:#fff;
 							z-index:2;
 							color:#000000;
-							font-size: 24px;
+							font-size: 18px;
 							font-family:$fontW;
 							text-align: center;
 						}
 					}
 
 					.youBody{
-						margin:60px auto 60px;
+						margin:80px auto 80px;
 						overflow: hidden;
 
 						label{
 							position: relative;
-							margin-bottom:20px;
+							margin-bottom: 22px;
 							display:block;
 							overflow: hidden;
 
 							input{
 								@include radius;
-								width:100%;
-								height:60px;
-								line-height:60px;
+								width:80%;
+								height:50px;
+								line-height:50px;
 								border:1px solid #318fbb;
 								margin:0 auto 0;
-								color:#000000;
-								font-size: 18px;
+								color: #74767c;
+								font-size: 14px;
 								font-family:$fontW;
 								text-indent: 35px;
 								display:block;
+								font-style: italic;
 
 								&::-webkit-input-placeholder{
-									color:#000000;
+									color: #74767c;
 
 								}
 
 								&::-moz-placeholder{
-									color:#000000;
+									color: #74767c;
 								}
 								&.small{
 									width:220px;
 									float:left;
-
 								}
 
 							}
 
 							select{
 								@include radius;
-								width:100%;
-								height:60px;
-								line-height:60px;
+								width:80%;
+								height:50px;
+								line-height:50px;
 								border:1px solid #318fbb;
 								margin:0 auto 0;
-
-								font-size: 18px;
+								display: block;
+								color:#74767c;
+								font-size: 14px;
 								font-family:$fontW;
 								text-indent: 35px;
-								display:block;
+								font-style: italic;
+
 							}
 
 							.significance{
@@ -297,20 +301,21 @@ body{
 								height:11px;
 								position: absolute;
 								top:12px;
-								left:30px;
+								left: 20px;
 								background:url('../images/sig.png')no-repeat right center;
 								background-size:contain;
 							}
 				
 							.demand{
 								@include radius;
-								width:100%;
-								height:290px;
+								font-style: italic;
+								width: 80%;
+								height: 200px;
 								border:1px solid #318fbb;
 								margin:0 auto 0;
-								line-height:60px;
-								color:#000000;
-								font-size: 18px;
+								line-height: 60px;
+								color: #74767c;
+								font-size: 14px;
 								font-family:$fontW;
 								text-indent: 35px;
 								display:block;
@@ -336,13 +341,13 @@ body{
 
 						.submit{
 							@include radius;
-							width:180px;
-							heigth:60px;
-							line-height:60px;
+							width:140px;
+							heigth:40px;
+							line-height:40px;
 							background: #318fbb;
 							margin:40px auto 0;
 							color:#ffffff;
-							font-size: 24px;
+							font-size: 16px;
 							font-family:$fontW;
 							text-align: center;
 							display:block;
@@ -351,38 +356,11 @@ body{
 						
 						.footT{
 							margin:40px auto 40px;
-							width:490px;
-							line-height: 30px;
+							width: 80%;
+							line-height: 26px;
 							color:#000000;
-							font-size: 18px;
+							font-size: 16px;
 							font-family:$fontW;
-						}
-					}
-
-					.arrows{
-						width:51px;
-						height:30px;
-						margin:0 auto 0;
-						cursor:pointer;
-
-						&.top{
-							background:url('../images/arrows1.png')no-repeat right center;
-							background-size:contain;
-
-							&:hover{
-								background:url('../images/arrows11.png')no-repeat right center;
-								background-size:contain;
-							}
-						}
-
-						&.bot{
-							background:url('../images/arrows22.png')no-repeat right center;
-							background-size:contain;
-
-							&:hover{
-								background:url('../images/arrows2.png')no-repeat right center;
-								background-size:contain;
-							}
 						}
 					}
 
@@ -391,12 +369,12 @@ body{
 						height:1494px;
 
 						.yuns{
-							margin:11px auto 10px;
+							margin:0 auto 0;
 
 							&>li{
 								width:100%;
-								height:460px;
-								margin-bottom:33px;
+								height: 340px;
+								margin-bottom: 20px;
 								
 								&:nth-child(1){
 									.pic{
@@ -407,14 +385,21 @@ body{
 								
 								&:nth-child(2){
 									.pic{
-										background:url('../images/vane4.png')no-repeat center center;
+										background:url('../images/vane1.png')no-repeat center center;
 										background-size:contain;
 									}
 								}
 								
 								&:nth-child(3){
 									.pic{
-										background:url('../images/vane2.png')no-repeat center center;
+										background:url('../images/vane4.png')no-repeat center center;
+										background-size:contain;
+									}
+								}
+
+								&:nth-child(4){
+									.pic{
+										background:url('../images/vane4.png')no-repeat center center;
 										background-size:contain;
 									}
 								}
@@ -435,12 +420,12 @@ body{
 									}
 
 									.box{
-										width:440px;
-										height:400px;
-										border:1px solid #aeb0b7;
-										position:absolute;
+										width: 330px;
+										height: 285px;
+										border: 1px solid #aeb0b7;
+										position: absolute;
 										left:50%;
-										margin-left:-220px;
+										margin-left: -165px;
 										top:54px;
 										z-index:1;
 
@@ -448,18 +433,18 @@ body{
 										.box1Head{
 											margin-left:20px;
 											margin-right:20px;
-											height:130px;
+											height:120px;
 											border-bottom:1px solid #adafb7;
 											
 
 											span{
 												text-align: center;
 												color:#000000;
-												font-size:30px;
+												font-size: 18px;
 												font-family:$fontW;
 												display:block;
 												width:100%;
-												padding-top:70px;
+												padding-top:60px;
 											}
 										}
 
@@ -472,11 +457,11 @@ body{
 											span{
 												text-align: center;
 												color:#000000;
-												font-size:22px;
+												font-size: 16px;
 												font-family:$fontW;
 												display:block;
 												width:100%;
-												padding-top:50px;
+												padding-top: 40px;
 												line-height: 40px;
 											}
 										}
@@ -484,52 +469,56 @@ body{
 									}
 								}
 
-
 								.yunbox2{
-									width:440px;
-									height:454px;
-									margin:0 auto 0;
+									width: 330px;
+									height: 380px;
+									margin: 0 auto 0;
 									border:1px solid #255676;
 									background: -webkit-linear-gradient(#318cb8, #326a92); 
 								    background: -o-linear-gradient(#318cb8, #326a92); 
 								    background: -moz-linear-gradient(#318cb8,#326a92); 
 								    background: linear-gradient(#318cb8, #326a92);
-								    display:none;
+									display: none;
 									
 									.box2Head{
 										margin-left:20px;
 										margin-right:20px;
-										height:222px;
+										height:160px;
 										border-bottom:1px solid #fff;
 
 										.text{
 											color:#ffffff;
-											font-size: 30px;
+											font-size: 18px;
 											font-family:$fontW;
 											width:100%;
 											text-align:center;
-											line-height: 50px;
-											height:50px;
-											margin-top:20px;
+											line-height: 30px;
+											height: 30px;
+											margin-top: 10px;
 										}
 
 										.pic{
 											width:108px;
 											height:108px;
-											margin:20px auto 0;
+											margin: 10px auto 0;
+
+											&.vane8{
+												background:url('../images/vane8.png')no-repeat center center;
+												background-size:contain;
+											}
 										}
 									}
 
 									&:nth-child(1){
 										.pic{
-											background:url('../images/vane5.png')no-repeat center center;
+											background: url('../images/vane5.png')no-repeat center center;
 											background-size:contain;
 										}
 									}
 
 									&:nth-child(2){
 										.pic{
-											background:url('../images/vane6.png')no-repeat center center;
+											background: url('../images/vane5.png')no-repeat center center;
 											background-size:contain;
 										}
 									}
@@ -541,6 +530,12 @@ body{
 										}
 									}
 
+									&:nth-child(3){
+										.pic{
+											background:url('../images/vane8.png')no-repeat center center;
+											background-size:contain;
+										}
+									}
 									.box2Body{
 										margin-left:20px;
 										margin-right:20px;
@@ -549,21 +544,21 @@ body{
 
 										.tet{
 											color:#ffffff;
-											font-size: 22px;
+											font-size: 16px;
 											font-family:$fontW;
-											line-height: 40px;
-											margin-top:20px;
+											line-height: 20px;
+											margin-top:10px;
 										}
 
 										.book{
-											width:160px;
-											height:40px;
+											width: 120px;
+											height: 40px;
 											line-height: 40px;
-											background:#224c6a;
-											margin:20px auto 0;
+											background: #224c6a;
+											margin: 20px auto 0;
 											display:block;
 											color:#ffffff;
-											font-size: 24px;
+											font-size: 16px;
 											font-family:$fontW;
 											text-align: center;
 										}

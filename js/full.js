@@ -1,7 +1,7 @@
 $(function(){
 	$('#fullpage').fullpage({
-		anchors:['section-1','section-2','section-3','section-4','section-5','section-6'],
-		navigationTooltips:['section-1','section-2','section-3','section-4','section-5','section-6'],
+		anchors:['section1','section2','section3','section4','section5','section6','section6'],
+		navigationTooltips:['section1','section2','section3','section4','section5','section6','section7'],
 		fixedElements:'#header',
 		scrollingSpeed:700,
 
