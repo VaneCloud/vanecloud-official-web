@@ -1,0 +1,96 @@
+@import "layout";
+@import "row";
+@import "animation";
+@charset "utf-8";
+
+
+
+@mixin logput{
+	width:370px;
+	height:58px;
+	line-height: 58px;
+	border:2px solid #aabcce;
+	background:#fff;
+	font-size:20px;
+	font-family:$fontW;
+}
+
+body{
+
+	.header{
+		background: #1f2539 !important;
+		overflow: visible;
+	}
+
+	.Login{
+		width:100%;
+		background: -webkit-linear-gradient(#358fb9,#326a92); 
+		background: -o-linear-gradient(#358fb9,#326a92); 
+		background: -moz-linear-gradient(#358fb9,#326a92); 
+		background: linear-gradient(#358fb9,#326a92);
+		overflow: hidden;
+		
+		.loginBox{
+			@include Radiu;
+			background:#ffffff;
+			width:450px;
+			box-shadow:0 0 10px #307398;
+			overflow: hidden;
+
+			h1{
+				color:#000;
+				font-size: 30px;
+				text-align: center;
+				margin:20px auto 20px; 
+				font-family:$fontW;
+				font-weight: normal;
+				font-weight: bold;
+			}
+
+			input{
+				margin:20px auto 0;
+				@include Radiu;
+				@include logput;
+				display: block;
+				
+				color:#b8b8b8;
+
+				&[type="text"]{
+					text-align: left;
+					text-indent: 20px;
+				}
+
+				&[type="password"]{
+					text-align: left;
+					text-indent: 20px;
+				}
+
+				&[type="submit"]{
+					background:#14adc4;
+					text-align: center;
+					border:2px solid #15849b;
+					color:#fff;
+				}
+
+				
+			}
+			
+			.footLogin{
+				width:370px;
+				height:20px;
+				line-height: 20px;
+				margin:20px auto 20px;
+
+				&>a{
+					color:#15849b;
+					font-size: 20px;
+					font-family:$fontW;
+				}
+			}
+		}
+	}
+
+	.footer{
+
+	}
+}

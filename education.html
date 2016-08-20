@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSHO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/solve.css">
+	</head>
+	<body>
+		<header class="educationBg">
+			<div class="header"></div>
+			<div id="settleNav"></div>
+		</header>
+		<section class="main">
+			<div class="container">
+				<div class="principle">
+					<h3>教育云之道</h3>
+					<div class="principleTitle">行业需求：</div>
+					<article>
+						 数据中心作为校园信息化建设的基石，始终承载着学校教学及行政管理等各项业务，是校园信息化的核心要素。随着信息化建设在各大高校不断开展，对于数据中心也提出了挑战：
+					</article>
+					<div class="demand demand2"></div>
+					<div class="principleTitle">解决方案：</div>
+					<article>
+						中科氢氧校园云数据中心解决方案，通过虚拟化技术，统一管理软件以及可靠的业务连续性保障机制，提供敏捷、高效、可靠的数据中心，助力高校教育信息化迈向云时代。
+					</article>
+					<div class="settleImg"></div>
+				</div>
+				<div class="principlePanel">
+					<div class="prinHead">
+						<div class="line"></div>
+						<div class="text">特殊定制</div>
+					</div>
+					<div class="custom">
+						<div class="client">客户</div>
+						<div class="clientIcon">
+							<img src="./images/clientImg.png"/>
+						</div>
+						<div class="customLR">
+							<div class="customImg customL">
+								<img src="./images/cus2.png" />
+								<div class="Text">教育云</div>
+							</div>
+							<div class="customImg customR">
+								<img src="./images/isv.png" />
+								<div class="Text">ISV软件</div>
+							</div>
+						</div>
+						<div class="pay">交付</div>
+						<div class="line1"></div>
+						<div class="line2"></div>
+						<div class="line3"></div>
+						<div class="line4"></div>
+						<div class="line10"></div>
+						<div class="line7"></div>
+						<div class="line8"></div>
+						<div class="line9"></div>
+						<ul class="delivery">
+							<li>
+								<div class="delHead">SOLUTION1</div>
+								<div class="delBofy">
+									<div class="delText">服务器虚化技术</div>
+									<div class="delb"></div>
+								</div>
+								<div class="delicon"></div>
+								<div class="delBox">
+									<h3>服务器虚化技术</h3>
+									<ul class="SOList">
+										<li>利用服务器虚拟化技术，将原先隔离的硬件资源变成一个资源池，使硬件资源的利用率得到大幅度提升，CPU的利用率从原来的不足10%提升到60%～80%，使得IT资源得以按需使用，硬件采购成本大幅降低，同时节省了设备能耗。
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="delHead">SOLUTION2</div>
+								<div class="delBofy">
+									<div class="delText">统一云管理平台</div>
+									<div class="delb"></div>
+								</div>
+								<div class="delicon"></div>
+								<div class="delBox">
+									<h3>统一云管理平台</h3>
+									<ul class="SOList">
+										<li>
+										统一的云管理平台，不同校区资源全局统一管理和调度，方便管理，省时省力，同时也提高了提高资源池利用率。
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<div class="delHead">SOLUTION3</div>
+								<div class="delBofy">
+									<div class="delText">确保业务稳定性</div>
+									<div class="delb"></div>
+								</div>
+								<div class="delicon"></div>
+								<div class="delBox">
+									<h3>确保业务稳定性</h3>
+									<ul class="SOList">
+										<li>
+										云数据中心提供虚拟化热迁移、资源资源热插拔等特性，减少系统计划内宕机时间；提供虚拟机快照备份和恢复技术，实现系统故障自动切换，减少系统计划外宕机时间。同时实现零宕机硬件维护和升级，确保业务连续性。
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="service"></section>
+		<footer class="footer"></footer>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script type="text/javascript" src="js/browser.min.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/search.js"></script>
+		<script type="text/javascript" src="js/registry.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/settleNav.js"></script>
+		<script type="text/javascript" src="js/our.js"></script>
+		<script type="text/babel" src="js/rfooter.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.delivery > li').hover(function(){
+					$(this).children('.delBox').animate({
+						left:'0'
+					},500);
+
+					$(this).siblings().children('.delBox').animate({
+						left:'-280px'
+					},500)
+				},function(){
+				});
+
+				$('.delivery > li .delBox').hover(function(){
+					$(this).animate({
+						left:'0px'
+					},500)
+				},function(){
+					$(this).animate({
+						left:'-280px'
+					},500)
+				})
+
+				$('.settleNav a.nav2').addClass('active');
+
+			})
+		</script>
+	</body>
+</html>

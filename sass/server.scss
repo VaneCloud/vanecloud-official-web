@@ -1,0 +1,453 @@
+@import "layout";
+@import "row";
+@import "animation";
+@charset "utf-8";
+
+body{
+
+	.bg{
+		@include banner-bg;
+		background:url('../images/ser.png')no-repeat center center;
+	}
+
+	.main{
+		width:100%;
+		background:#ffffff;
+		overflow: hidden;
+
+		.serverL{
+			border-left:1px solid #d6d6d6;
+			border-right:1px solid #d6d6d6;
+			padding:0;
+			background:#fbfbfb;
+			
+			.serHead{
+				color:#272636;
+				font-family: $fontW;
+				font-size:18px;
+				text-align: left;
+				height:80px;
+				line-height: 80px;
+				text-indent: 100px;
+				background:url('../images/rgt.png')no-repeat 50px center;
+				background-size:26px 26px;
+				font-weight: 400;
+				border-bottom:1px solid #d6d6d6;
+			}
+
+			.serelect{
+
+				&>li{
+					font-size:16px;
+					font-family: $fontW;
+					text-align: center;
+					height:80px;
+					line-height: 80px;
+					border-bottom:1px solid #d6d6d6;
+					font-weight: 400;
+					cursor: pointer;
+					
+					&>a{
+						
+						color:#272636;
+						display:block;
+
+						&.#{$className}{
+							color:#fff;
+							background:#109ee1;
+						}
+					}
+					
+				}
+			}
+		}
+
+		.serverR{
+			padding-left:40px;
+
+			.serverBox{
+				margin-top:80px;
+
+				.serHead{
+					overflow:hidden;
+
+					.declaration{
+						text-align: center;
+						font-family: $fontW;
+						font-size: 18px;
+						color: #000000;
+						line-height: 50px;
+
+						&>li{
+
+						}
+					}
+					
+					.author{
+						margin-top:20px;
+						font-family:$fontW;
+						color:#0062c1;
+						font-size: 16px;
+						float:right;
+						line-height: 50px;
+					}
+					
+				}
+
+				.serBody{
+					margin:50px auto 0;
+
+
+					.motif{
+						font-family: $fontW;
+						color:#0062c1;
+						font-size: 20px;
+					}
+
+					.row{
+
+						.col-lg-6.col-md-6{
+
+							.clHead{
+								color:#000000;
+								font-family:$fontW;
+								font-size: 18px;
+								text-align:center;
+								margin-top:30px;
+							}
+							
+							.pic{
+								width:100%;
+								height:230px;
+								margin:40px auto 0px;
+
+								&>img{
+									margin:0 auto 0;
+									height:180px;
+									display:block;
+								}
+							}
+
+							.clFoot{
+								margin:0 auto 50px;
+								&>li{
+									line-height: 30px;
+									font-family:$fontW;
+									color: #515567;
+									font-size:16px;
+									text-align: left;
+								}
+
+								&.last{
+									&>li{
+										text-align: center;
+									}
+								}
+							}
+						}
+
+					}
+					
+				}
+			}
+
+			.gradeHead{
+
+				.selgrade{
+					margin:50px auto 0;
+					width:100%;
+					text-align: left;
+					font-family:$fontW;
+					color:#0062c1;
+					font-size:20px;
+				}
+
+				.gHead{
+					margin:40px auto 0;
+					color:#000000;
+					font-family:$fontW;
+					font-size:16px;
+				}
+
+				.gBody{
+					margin:30px auto 0;
+					color:#000000;
+					font-family:$fontW;
+					font-size:16px;
+					text-indent: 2em;
+					line-height: 30px;
+				}
+				
+				.call{
+					width:100%;
+					margin:30px auto 0px;
+					overflow:hidden;
+					text-align: center;
+					
+					&>li{
+						height:253px;
+						display:inline-block;
+						margin-right:15px;
+						margin-bottom:15px;
+
+						.site{
+							position: relative;
+							width:400px;
+							height:100%;
+
+							.backups{
+								position: absolute;
+								top:0;
+								font-family:$fontW;
+								color:#535353;
+								font-size: 16px;
+
+								&.backupsL{
+									left:0;
+								}
+
+								&.backupsR{
+									right:0;
+								}
+
+								&.backupsC{
+									width:100%;
+									text-align: center;
+									top:40px;
+									font-size: 16px;
+								}
+
+							}
+
+							
+							.lines{
+								width:100px;
+								height:196px;
+								position: absolute;
+								top:30px;
+								border-bottom:1px solid #161616;
+
+								&.linesL{
+									left:35px;
+									border-left:1px solid #161616;
+								}
+
+								&.linesR{
+									right:35px;
+									border-right:1px solid #161616;
+								}	
+							}
+
+							.cir{
+								position: absolute;
+								width:12px;
+								height:12px;
+								bottom:21px;
+								background:#161616;
+								@include round;
+
+								&.cirL{
+									left:124px;
+								}
+
+								&.cirR{
+									right:124px;
+								}
+							}
+			
+							.gear{
+								position: absolute;
+								width:80px;
+								height:130px;
+								top:40px;
+
+								span{
+									width:100%;
+									color:#535353;
+									font-family: $fontW;
+									text-indent: center;
+									display:inline-block;
+								}
+
+								&.gearL{
+									left:45px;
+				
+									.gearImg{
+										width:80px;
+										height:80px;
+										background:url('../images/C2.png')no-repeat center top;
+										background-size:contain;
+										animation:gear 10s linear infinite;
+									}
+
+									span{
+										font-size:18px;
+										margin-top:36px;
+									}
+								}
+
+								&.gearC{
+									width:116px;
+									left:50%;
+									margin-left:-58px;
+									top:80px;
+					
+									.gearImg{
+										width:116px;
+										height:116px;
+										background:url('../images/C1.png')no-repeat center top;
+										background-size:contain;
+										animation:gear2 10s linear infinite;
+									}
+
+									span{
+										font-size:18px;
+										margin-top:15px;
+									}
+								}
+
+								&.gearR{
+									right:45px;
+	
+									.gearImg{
+										width:80px;
+										height:80px;
+										background:url('../images/C3.png')no-repeat center top;
+										background-size:contain;
+										animation:gear 10s linear infinite;
+									}
+
+									span{
+										font-size:18px;
+										margin-top:36px;
+									}
+								}
+
+							}
+						}
+					}
+				}
+
+				.team{
+					margin:30px auto 30px;
+
+					&>li{
+						.teampic{
+							height:80px;
+						}
+						
+						span{
+							width:100%;
+							font-family:$fontW;
+							color:#000000;
+							font-size: 16px;
+							text-align: center;
+							display: inline-block;
+							margin-top:20px;
+
+						}
+
+						&:nth-child(1){
+				
+							.teampic{
+								background:url('../images/sdas_03.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+
+						&:nth-child(2){
+				
+							.teampic{
+								background:url('../images/sdas_05.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+
+						&:nth-child(3){
+				
+							.teampic{
+								background:url('../images/sdas_07.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+
+						&:nth-child(4){
+				
+							.teampic{
+								background:url('../images/sdas_09.png')no-repeat center top;
+								background-size:contain;
+							}
+						}
+					}
+				}
+
+				.manageImg{
+					margin:70px auto 70px;
+					height:300px;
+					background:url('../images/manageImg.png')no-repeat center center;
+					background-size:contain;
+
+				}
+			}
+
+			
+			.sustain{
+				width:100%;
+				margin:100px auto 100px;
+				border-collapse:collapse;
+				border-left:1px solid #c7c7c7;
+				border-top:1px solid #c7c7c7;
+				
+				
+				&>tbody>tr>th{
+					height:80px;
+					line-height: 80px;
+					background:#08528f;
+					text-align: center;
+					border-right:1px solid #c7c7c7;
+					border-bottom:1px solid #c7c7c7;
+					font-size: 18px;
+					font-family: $fontW;
+				}
+
+				&>tbody>tr>td{
+					height:80px;
+					line-height: 80px;
+					border-right:1px solid #c7c7c7;
+					border-bottom:1px solid #c7c7c7;
+					overflow: hidden;
+					
+					
+
+					.text1{
+						color:#000000;
+						font-family:$fontW;
+						font-size: 14px;
+						line-height: 20px;
+						margin:20px auto 0;
+
+					}
+
+					.text2{
+						color:#000000;
+						font-family:$fontW;
+						font-size: 14px;
+						line-height: 20px;
+						margin:20px auto 0;
+
+						
+					}
+
+					.elect{
+						width:44px;
+						height:44px;
+						background:url('../images/elect.png')no-repeat center center;
+						background-size:contain;
+						margin:18px auto 0;
+					}
+				}
+			}
+			
+		}
+	}
+}

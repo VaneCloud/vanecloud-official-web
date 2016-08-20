@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSHO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/vane.css">
+	</head>
+	<body>
+		<header class="bg1">
+			<div class="header"></div>
+			<div id="vaneNav"></div>
+		</header>
+		<section class="main">
+			<div class="container">
+				<ul class="row">
+					<!-- <li class="col-lg-3 col-md-3 vanL">
+						<div class="cloudComputing">云计算产品</div>
+						<ul class="cloudsel">
+							<li>
+								<a href="vaneCloud.html" class="active">氢氧云</a>
+							</li>
+							<li>
+								<a href="vaneQueue.html">氢氧云管平台</a>
+							</li>
+						</ul>
+					</li> -->
+					<li class="col-lg-12 col-md-12 vanR">
+						<div class="vaneWells">
+							<div class="vaneHead">vaneCloud氢氧云</div>
+							<div class="vaneFoot">vaneCloud3.0 私有云平台</div>
+						</div>
+						<div class="cloudBody">
+							<div class="cloudTitle">产品概述：</div>
+							<article>
+								一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台
+							</article>
+							<div class="row summarize">
+								<div class="col-lg-6 col-md-6 pic"></div>
+								<div class="col-lg-6 col-md-6">
+									<ul class="summList">
+										<li><span>业界领先的IaaS</span> 私有云平台</li>
+										<li><span>真正的</span> 混合平台技术</li>
+										<li><span>标准化</span> 快速部署</li>
+										<li><span>自动化</span> 节点部署</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="cloudBody">
+							<div class="cloudTitle">产品优势：</div>
+							<ul class="advantageLists">
+								<li>全面的功能 领先的高兼容性、高容错性和高安全性云计算平台</li>
+								<li>计量计费（标配）细颗粒度计费模式</li>
+								<li>Power强力支持（标配）业界领先的Power整合最优化技术实力</li>
+								<li>工作流（定制化） 完美实现企业的业务需求</li>
+								<li>日志模块（标配） 云平台日志分析</li>
+								<li>氢氧云盘（标配） 企业级高性价比安全云盘</li>
+								<li>万信征信系统 一站式大数据实时信用服务平台</li>
+								<li>智迅（定制化） 业内最快的大数据分析平台</li>
+								<li>应用商店（即将上线） 各类行业应用一键部署</li>
+							</ul>
+							<div class="advantagePic"></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="service"></section>
+		<footer class="footer"></footer>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script type="text/javascript" src="js/browser.min.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/search.js"></script>
+		<script type="text/javascript" src="js/registry.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/vaneNav.js"></script>
+		<script type="text/javascript" src="js/our.js"></script>
+		<script type="text/babel" src="js/rfooter.js"></script>
+	
+		<script type="text/javascript">
+			$(function(){
+				var wh=$(window).height();
+
+				var rh=$('.vanR').height();
+
+				$('.vanL').css('height',rh+'px');
+
+				$('.vaneNav a.nav2').addClass('active');
+
+			})
+		</script>
+	</body>
+</html>

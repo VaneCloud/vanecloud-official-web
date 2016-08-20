@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>CSHO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/trss.css">
+	</head>
+	<body>
+		<header class="bg">
+			<div class="header"></div>
+			<div id="treeNav"></div>
+		</header>
+		<section class="main">
+			<div class="container">
+				<div class="treesHead">
+					<h3>DOCKER封装技术</h3>
+					<article>
+						一个容器是操作系统层虚拟化特征的一种抽象。通过开拓这些特征，容器系统能够将进程和网络隔离成类似于系统沙盒的东西，因此将一个应用程序载入一个容器就好像把它从操作系统上隔离出来一样，容器管理程序则让容器使用相同的内核，共享相同的用户空间二进制文件，共享其他的库文件，然后让应用程序直接运行在这些层上。
+					</article>
+				</div>
+				<ul class="row treesBody">
+					<li class="col-lg-6 col-md-6">
+						<ul class="property">
+							<li>
+								<h3>隔离性</h3>
+								<article>
+									 服务与服务之间得到了相对的隔离。每个服务均能够独立起停而不影响其他服务。同时得益于openstack优秀的RESTful API设计，能够保证各个服务之间的耦合。
+								</article>
+							</li>
+							<li>
+								<h3>扩展性</h3>
+								<article>
+									 由于openstack的各个服务在设计上无状态性的优势，使得openstack的服务具有良好的扩展性。而由于采用了容器技术对各个服务进行了封装，使得服务的扩展更为方便快捷。通过这种形式的服务封装vaneCloud能够非常方便地支持大规模的平台部署。
+								</article>
+							</li>
+							<li>
+								<h3>轻量级</h3>
+								<article>
+									  容器技术由于是使用共享内核及库文件，使得容器运行非常轻量级。与进程运行相比，在容器内运行进行再性能上损失几乎为零，与直接在宿主环境中运行openstack服务相比，采用容器技术进行服务封装使得vaneCloud能够在保证性能的条件下获得容器技术带来的其他收益。
+								</article>
+							</li>
+						</ul>
+					</li>
+					<li class="col-lg-6 col-md-6">
+						<div class="packpic"></div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="service"></section>
+		<footer class="footer"></footer>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script type="text/javascript" src="js/browser.min.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/search.js"></script>
+		<script type="text/javascript" src="js/registry.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/treeNav.js"></script>
+		<script type="text/javascript" src="js/our.js"></script>
+		<script type="text/babel" src="js/rfooter.js"></script>
+		<script type="text/javascript" src="js/company.js"></script>
+		<script type="text/javascript" src="js/server.js"></script>
+		<script type="text/javascript" src="js/trss.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.treeNav a.nav4').addClass('active');
+
+			})
+		</script>
+	</body>
+</html>
