@@ -1,18 +1,8 @@
-@import "compass/css3";
-@import "compass/css3/border-radius";
 @charset "utf-8";
 
 $font-family:'微软雅黑' !default;
 
-$fontW:"Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
-
-$fontF:'方正兰亭超细黑简体';
-
-$fontc:'方正兰亭超细黑';
-
-$fontG1:'方正兰亭纤黑_GBK';
-
-$fontG2:'方正兰亭中黑_GBK';
+$fontW: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
 
 $color:#fff !default;
 
@@ -360,7 +350,7 @@ body{
          margin:10px auto 0px;
 
         .our-l{
-          width: 1090px;
+          width: 1080px;
         }
 
         .serviceTitle{
