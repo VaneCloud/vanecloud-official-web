@@ -18,14 +18,14 @@
 				</div>
 				<ul class="row productBody">
 					<li class="col-lg-6 col-md-6">
-						<form method="post" action="" id="form">
+						<form method="post" action="https://formspree.io/sales@vanecloud.com" id="form">
 							<div class="youHead">
 								<div class="youl"></div>
 								<div class="yout">您的联系方式</div>
 							</div>
 							<div class="youBody">
 								<label>
-									<input id="myText" type="text" placeholder="姓名" name="username"/>
+									<input id="myText" type="text" placeholder="姓名" name="name"/>
 									<div class="significance"></div>
 								</label>
 								<label>
@@ -37,14 +37,17 @@
 									<div class="significance"></div>
 								</label>
 								<label>
-									<input id="email" type="text" placeholder="个人邮箱" name="email"/>
+									<input id="_replyto" type="text" placeholder="个人邮箱" name="_replyto"/>
+									<input type="hidden" name="_next" value="http://www.vanecloud.com" />
+									<input type="hidden" name="_subject" value="官网留言" />
 									<div class="significance"></div>
 								</label>
 								<label>
+									<select name="relationship"></select>
 									<select id="relation" name="relation">
 										<option>与氢氧的关系</option>
-										<option>合作伙伴</option>
-										<option>客户</option>
+										<option value="合作伙伴">合作伙伴</option>
+										<option value="其他">其他</option>
 									</select>
 									<div class="significance"></div>
 								</label>
@@ -55,30 +58,40 @@
 							</div>
 							<div class="youBody">
 								<label>
+									<select name="product_need"></select>
 									<select id="product" name="product">
-										<option>氢氧云</option>
-										<option>氢氧云管平台</option>
-										<option>氢氧智迅</option>
-										<option>氢氧万信</option>
+										<option>所需产品</option>
+										<option value="氢氧云盘">氢氧云盘</option>
+										<option value="氢氧云">氢氧云</option>
+										<option value="氢氧云管平台">氢氧运管平台</option>
+										<option value="氢氧智讯">氢氧智讯</option>
+										<option value="氢氧万信">氢氧万信</option>
 									</select>
 									<div class="significance"></div>
 								</label>
 								<label>
+									<select name="industry"></select>
 									<select id="industry" name="industry">
-										<option>金融</option>
-										<option>教育</option>
-										<option>政府</option>
-										<option>零售</option>
-										<option>大数据</option>
+										<option>所属行业</option>
+										<option value="金融">金融</option>
+										<option value="公共">公共</option>
+										<option value="教育">教育</option>
+										<option value="制造">制造</option>
+										<option value="消费">消费</option>
+										<option value="医疗">医疗</option>
+										<option value="其他">其他</option>
 									</select>
 									<div class="significance"></div>
 								</label>
 								<label>
+									<select name="project_want"></select>
 									<select id="interest" name="interest">
-										<option>氢氧云</option>
-										<option>氢氧云管平台</option>
-										<option>氢氧智迅</option>
-										<option>氢氧万信</option>
+										<option>感兴趣产品</option>
+										<option value="氢氧云盘">氢氧云盘</option>
+										<option value="氢氧云">氢氧云</option>
+										<option value="氢氧云管平台">氢氧运管平台</option>
+										<option value="氢氧智讯">氢氧智讯</option>
+										<option value="氢氧万信">氢氧万信</option>
 									</select>
 									<div class="significance"></div>
 								</label>
@@ -91,6 +104,12 @@
 									<a href="javascript:" class="yardd">刷新图片</a>
 									<div class="significance"></div>
 								</label>-->
+								<label>
+									<input type="text" placeholder="验证码" class="small"/>
+									<div class="yard"></div>
+									<a href="javascript:" class="yardd">刷新图片</a>
+									<div class="significance"></div>
+								</label>
 								<input type="submit" value="发    送" class="submit">
 								<div class="footT">我们会尽快联系您，等待期间需要获取更多信息，请查询处理进度或联系我们。</div>
 							</div>

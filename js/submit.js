@@ -1,7 +1,6 @@
 /**
  * Created by admin on 2016/8/17.
  */
-
 $(function() {
     $('input.submit').on('click', function () {
 
@@ -19,7 +18,7 @@ $(function() {
 
     $('#form').validate({
         rules:{
-            username: {
+            name: {
                 required: true,
                 minlength: 2,
                 maxlength: 10
@@ -31,24 +30,24 @@ $(function() {
             company: {
                 required: true,
             },
-            email: {
+            _replyto: {
                 required: true,
                 email: true
             }
         },
         messages:{
-            username: {
+            name: {
                 required: '请输入姓名',
-                minlength: '用户名不能小于2个字符',
-                maxlength: '用户名不能超过10个字符',
+                minlength: '姓名不能小于2个字符',
+                maxlength: '姓名不能超过10个字符',
             },
             job: {
                 required: '请输入职位',
             },
             company: {
-                required: '请输入攻速名',
+                required: '请输入公司名',
             },
-            email: {
+            _replyto: {
                 required: '请输入电子邮件',
                 email: '必须输入正确格式的电子邮件'
             }
@@ -68,13 +67,13 @@ $(function() {
 
     function sendMail() {
 
-        var username=$('#myText').val();
+        var name=$('#myText').val();
 
         var job=$('#job').val();
 
         var company=$('#company').val();
         
-        var email=$('#email').val();
+        var _replyto=$('#_replyto').val();
 
         var relation=$('#relation').val();
 
@@ -87,8 +86,8 @@ $(function() {
         var demand=$('#demand').val();
 
         var link='mailto:zhukai@vanecloud.com?subject='+encodeURIComponent("氢氧产品体验-个人信息填写")+
-            '&body=姓名：'+username+'<br/>职位：'+job+'<br/>公司名称：'+company+'<br/>个人邮箱：'+
-            email+'<br/>与氢氧的合作关系：'+relation+'<br/>所需产品：'+product+'<br/>所属行业：'+industry+
+            '&body=姓名：'+name+'<br/>职位：'+job+'<br/>公司名称：'+company+'<br/>个人邮箱：'+
+            _replyto+'<br/>与氢氧的合作关系：'+relation+'<br/>所需产品：'+product+'<br/>所属行业：'+industry+
             '<br/>感兴趣产品：'+interest+'<br/>需求描述：'+demand;
 
         window.location.href=link;
