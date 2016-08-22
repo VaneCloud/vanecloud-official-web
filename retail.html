@@ -54,7 +54,7 @@
 						<div class="line2"></div>
 						<div class="line3"></div>
 						<div class="line4"></div>
-						<div class="line6"></div>
+						<div class="line10"></div>
 						<div class="line7"></div>
 						<div class="line8"></div>
 						<div class="line9"></div>
@@ -238,55 +238,51 @@
 						<li class="col-lg-6 col-md-6 pull-left">
 							<div class="value pull-left">
 								<div class="valueit">VALUE1</div>
-								<div class="textL">快速响应业务需求</div>
-								<div class="triangleR"></div>
+								<div class="textL">云基础架构即服务</div>
 							</div>
-							<div class="content pull-right">
+							<div class="content pull-left">
 								<div class="textR">
 									在支持业务增长的同时，大大减少了零售商的运营成本
 								</div>
 							</div>
 						</li>	
 						<li class="col-lg-6 col-md-6 pull-right">
-							<div class="content pull-left">
+							<div class="value pull-right">
+								<div class="valueit">VALUE2</div>
+								<div class="textL">云分析软件</div>
+							</div>
+							<div class="content pull-right">
 								<div class="textR">
 									云分析软件即解决方案 可帮助零售商交付个性化的多渠道体验
 								</div>
-							</div>
-							<div class="value pull-right">
-								<div class="valueit">VALUE2</div>
-								<div class="textL">快速响应业务需求</div>
-								<div class="triangleR"></div>
 							</div>
 						</li>
 						<li class="col-lg-6 col-md-6 pull-left">
 							<div class="value pull-left">
 								<div class="valueit">VALUE3</div>
-								<div class="textL">快速响应业务需求</div>
-								<div class="triangleR"></div>
+								<div class="textL">云软件</div>
 							</div>
-							<div class="content pull-right">
+							<div class="content pull-left">
 								<div class="textR">
 									云软件即服务解决方案 在提高利润的同时，为零售商提供最大的灵活性
 								</div>
 							</div>
 						</li>
 						<li class="col-lg-6 col-md-6 pull-right">
-							<div class="content pull-left">
+							<div class="value pull-right">
+								<div class="valueit">VALUE4</div>
+								<div class="textL">vaneCloud</div>
+							</div>
+							<div class="content pull-right">
 								<div class="textR">
 									vaneCloud协助零售商进入云计算的天地
 								</div>
-							</div>
-							<div class="value pull-right">
-								<div class="valueit">VALUE4</div>
-								<div class="textL">快速响应业务需求</div>
-								<div class="triangleR"></div>
 							</div>
 						</li>
 					</ul>
 					<ul class="row worth">
 						<li class="col-lg-4 col-md-4">
-							<div class="worthH">制定如何使用云来节省成本提高收入的战略</div>
+							<div class="worthH">使用云节省成本提高收入的战略</div>
 							<ul class="worthList">
 								<li>
 									<div class="icon pull-left">
@@ -386,8 +382,8 @@
 		<script type="text/javascript" src="js/registry.js"></script>
 		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/nav.js"></script>
-		<script type="text/javascript" src="js/settleNav.js"></script>
 		<script type="text/javascript" src="js/our.js"></script>
+		<script type="text/javascript" src="js/settleNav.js"></script>
 		<script type="text/babel" src="js/rfooter.js"></script>
 		<script type="text/javascript">
 			$(function(){
@@ -395,23 +391,25 @@
 
 				$('.delivery > li').hover(function(){
 					$(this).children('.ratBox').animate({
-						top:'0px'
+						left:'0px'
 					},500)
 				},function(){
-					
+					$(this).siblings().children('.ratBox').animate({
+						left:'-280px'
+					},500)
 				});
 
 				$('.delivery > li .ratBox').hover(function(){
 					$(this).animate({
-						top:'0px'
+						left:'0px'
 					},500)
 				},function(){
 					$(this).animate({
-						top:'-420px'
+						left:'-280px'
 					},500)
 				});
 
-				$('.settleNav a.nav4').addClass('active');
+				$('.settleNav>a.nav4').addClass('active');
 
 			})
 		</script>

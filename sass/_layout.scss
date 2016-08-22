@@ -1,18 +1,8 @@
-@import "compass/css3";
-@import "compass/css3/border-radius";
 @charset "utf-8";
 
 $font-family:'微软雅黑' !default;
 
-$fontW:"Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
-
-$fontF:'方正兰亭超细黑简体';
-
-$fontc:'方正兰亭超细黑';
-
-$fontG1:'方正兰亭纤黑_GBK';
-
-$fontG2:'方正兰亭中黑_GBK';
+$fontW: "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;
 
 $color:#fff !default;
 
@@ -87,7 +77,7 @@ input[type=search]::-webkit-search-results-decoration {
 
 @mixin serviceText{
   font-family: $fontW;
-  text-align: center;
+  text-align: left;
 }
 
 @mixin namic{
@@ -118,15 +108,35 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 @mixin sectionFoot{
-  font-size: 20px;
-  width:150px;
-  height:50px;
-  line-height: 45px;
+  font-size: 16px;
+  width: 120px;
+  height:40px;
+  line-height:40px;
   font-family:$fontW;
   white-space:pre;
   text-align:center;
   display:block;
 }
+
+@mixin banner-bg{
+  width:100%;
+  height:400px;
+  background-size:auto 100%;
+  position: relative;
+}
+
+@mixin fixed-nav-a{
+  width:160px;
+  height:160px;
+  line-height: 160px;
+  display:inline-block;
+  font-family: $fontW;
+  color:#000000;
+  font-size: 16px;
+  text-align:center;
+  transition:1s;
+}
+
 
 .container {
   padding-right: 15px;
@@ -158,6 +168,7 @@ body{
     z-index:10;
   }
 
+
   .header{
     width:100%;
     height:60px;
@@ -180,12 +191,11 @@ body{
           margin:10px 50px auto auto;
           width:100px;
           text-align: center;
-          color:#fff;
+          color: #e6e3e3;
           
           &.#{$className}{
             color:#14adc4;
           }
-
 
         .top{
           line-height: 20px;
@@ -233,6 +243,7 @@ body{
         border:0 none;
         height:36px;
         margin-top:12px;
+        overflow: hidden;
       
         &>input[type="search"]{
           width:150px;
@@ -258,30 +269,25 @@ body{
 
       .navHead{
         height:100%;
-            
-
         &>li{
           @include headText;
           overflow: visible;
           position: relative;
           float:left;
           
-
           &>a{
             @include Radiu;
             border:0 none;
             height: 100%;
             line-height: 60px;
             display:block;
-            padding:0 10px;
-            margin:0 10px;
+            padding: 0 22px;
+            margin: 0 10px;
             color:#e6e3e3;
             
             &.active{
               color:#14adc4;
             }
-
-            
           }
             
           .navSection{
@@ -293,31 +299,21 @@ body{
             display:none;
             background:rgba(17,17,17,0.9);
                 
-            
             &>ul{
-
               &>li{
                 line-height:36px;
                 font-size: 14px;
                 font-family:$fontW;
 
                 &>a{
-                  color:#fff;  
-
-                  &:hover{
-                    color:#2176da;
-                    
-                  }
+                  color:#e6e3e3;
 
                   &.active{
                     color:#14adc4;
                   }
-
                 }
               }
-
             }
-                
           }
 
        }
@@ -353,6 +349,10 @@ body{
       .serviceTop{
          margin:10px auto 0px;
 
+        .our-l{
+          width: 1080px;
+        }
+
         .serviceTitle{
           @include serviceText;
           font-size:16px;
@@ -365,8 +365,8 @@ body{
           
           li{
             margin-top:10px;
-            
-            
+
+
             a{
               color:#abbac4;
               &:hover{
@@ -379,7 +379,7 @@ body{
         .ma{
           width:70px;
           height:70px;
-          margin:20px auto 20px;
+          margin:20px 0 20px;
 
           &>img{
             width:100%;
@@ -395,7 +395,7 @@ body{
           color:#fff;
           font-size: 16px;
           font-family:$fontW;
-          text-align: center;
+          text-align: left;
           
         } 
 
@@ -425,20 +425,17 @@ body{
           }
         }
 
-
-
         .xwq{
-
           &>li{
-            width:50px;
-            height:50px;
-            margin-left:50px;
+            width:	40px;
+            height:	40px;
+            margin-right: 40px;
             float:left;
             
             &>a{
               display:block;
-              width:50px;
-              height:50px;
+              width: 100%;
+              height: 100%;
             }
 
             &:nth-child(1){

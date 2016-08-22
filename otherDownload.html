@@ -9,6 +9,7 @@
 	<body>
 		<header class="bg">
 			<div class="header"></div>
+			<div id="downNav"></div>
 		</header>
 		<section class="main">
 			<div class="container">
@@ -17,72 +18,94 @@
 				</div>
 				<ul class="row productBody">
 					<li class="col-lg-6 col-md-6">
-						<div class="youHead">
-							<div class="youl"></div>
-							<div class="yout">您的联系方式</div>
-						</div>
-						<div class="youBody">
-							<label>
-								<input type="text" placeholder="姓名"/>
-								<div class="significance"></div>
-							</label>
-							<label>
-								<input type="text" placeholder="职位"/>
-								<div class="significance"></div>
-							</label>
-							<label>
-								<input type="text" placeholder="公司名称"/>
-								<div class="significance"></div>
-							</label>
-							<label>
-								<input type="text" placeholder="邮箱"/>
-								<div class="significance"></div>
-							</label>
-							<label>
-								<select>
-									<option>与氢氧的合作关系</option>
-								</select>
-								<div class="significance"></div>
-							</label>
-						</div>
-						<div class="youHead">
-							<div class="youl"></div>
-							<div class="yout">关于您的需求</div>
-						</div>
-						<div class="youBody">
-							<label>
-								<select>
-									<option>所需产品</option>
-								</select>
-								<div class="significance"></div>
-							</label>
-							<label>
-								<select>
-									<option>所属行业</option>
-								</select>
-								<div class="significance"></div>
-							</label>
-							<label>
-								<select>
-									<option>感兴趣产品</option>
-								</select>
-								<div class="significance"></div>
-							</label>
-							<label>
-								<textarea class="demand" placeholder="需求描述"></textarea>
-							</label>
-							<label>
-								<input type="text" placeholder="验证码" class="small"/>
-								<div class="yard"></div>
-								<a href="javascript:" class="yardd">刷新图片</a>
-								<div class="significance"></div>
-							</label>
-							<input type="submit" value="提    交" class="submit">
-							<div class="footT">我们会尽快联系您，等待期间需要获取更多信息，请查询处理进度或联系我们。</div>	
-						</div>
+						<form method="post" action="https://formspree.io/sales@vanecloud.com" id="form">
+							<div class="youHead">
+								<div class="youl"></div>
+								<div class="yout">您的联系方式</div>
+							</div>
+							<div class="youBody">
+								<label>
+									<input id="myText" type="text" placeholder="姓名" name="name"/>
+									<div class="significance"></div>
+								</label>
+								<label>
+									<input id="job" type="text" placeholder="职位" name="job"/>
+									<div class="significance"></div>
+								</label>
+								<label>
+									<input id="company" type="text" placeholder="公司名称" name="company"/>
+									<div class="significance"></div>
+								</label>
+								<label>
+									<input id="_replyto" type="text" placeholder="个人邮箱" name="_replyto"/>
+									<input type="hidden" name="_next" value="http://www.vanecloud.com" />
+									<input type="hidden" name="_subject" value="官网留言" />
+									<div class="significance"></div>
+								</label>
+								<label>
+									<select id="relation" name="relationship">
+										<option>与氢氧的关系</option>
+										<option value="合作伙伴">合作伙伴</option>
+										<option value="其他">其他</option>
+									</select>
+									<div class="significance"></div>
+								</label>
+							</div>
+							<div class="youHead">
+								<div class="youl"></div>
+								<div class="yout">关于您的需求</div>
+							</div>
+							<div class="youBody">
+								<label>
+									<select id="product_need" name="product_need">
+										<option>所需产品</option>
+										<option value="氢氧云盘">氢氧云盘</option>
+										<option value="氢氧云">氢氧云</option>
+										<option value="氢氧云管平台">氢氧运管平台</option>
+										<option value="氢氧智讯">氢氧智讯</option>
+										<option value="氢氧万信">氢氧万信</option>
+									</select>
+									<div class="significance"></div>
+								</label>
+								<label>
+									<select id="industry" name="industry">
+										<option>所属行业</option>
+										<option value="金融">金融</option>
+										<option value="公共">公共</option>
+										<option value="教育">教育</option>
+										<option value="制造">制造</option>
+										<option value="消费">消费</option>
+										<option value="医疗">医疗</option>
+										<option value="其他">其他</option>
+									</select>
+									<div class="significance"></div>
+								</label>
+								<label>
+									<select id="project_want" name="project_want">
+										<option>感兴趣产品</option>
+										<option value="氢氧云盘">氢氧云盘</option>
+										<option value="氢氧云">氢氧云</option>
+										<option value="氢氧云管平台">氢氧运管平台</option>
+										<option value="氢氧智讯">氢氧智讯</option>
+										<option value="氢氧万信">氢氧万信</option>
+									</select>
+									<div class="significance"></div>
+								</label>
+								<label>
+									<textarea id="demand" class="demand" placeholder="需求描述"></textarea>
+								</label>
+								<!--<label>
+									<input type="text" placeholder="验证码" class="small"/>
+									<div class="yard"></div>
+									<a href="javascript:" class="yardd">刷新图片</a>
+									<div class="significance"></div>
+								</label>-->
+								<input type="submit" value="发    送" class="submit">
+								<div class="footT">我们会尽快联系您，等待期间需要获取更多信息，请查询处理进度或联系我们。</div>
+							</div>
+						</form>
 					</li>
 					<li class="col-lg-6 col-md-6">
-						<div class="arrows top"></div>
 						<div class="yunproduct">
 							<ul class="yuns">
 								<li>
@@ -93,7 +116,7 @@
 												<span>氢氧云管平台</span>
 											</div>
 											<div class="box1Body">
-												<span>一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台</span>
+												<span>vaneQ为IAAS层私有云提供了一个企业级的云管理平台。</span>
 											</div>
 										</div>
 									</div>
@@ -103,7 +126,7 @@
 											<div class="pic"></div>
 										</div>
 										<div class="box2Body">
-											<div class="tet">一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台</div>
+											<div class="tet">vaneQ为IAAS层私有云提供了一个企业级的云管理平台。</div>
 											<a href="http://192.168.20.116:3000/vaneC/user-guide" class="book">产品手册</a>
 										</div>
 									</div>
@@ -136,27 +159,49 @@
 										<div class="pic"></div>
 										<div class="box">
 											<div class="box1Head">
-												<span>氢氧云管平台</span>
+												<span>氢氧智迅</span>
 											</div>
 											<div class="box1Body">
-												<span>一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台</span>
+												<span>Vane-Analytics整合了企业大数据的获取、传输，存储和展示功能。</span>
 											</div>
 										</div>
 									</div>
 									<div class="yunbox2">
 										<div class="box2Head">
-											<div class="text">氢氧云管平台</div>
-											<div class="pic"></div>
+											<div class="text">氢氧智迅</div>
+											<div class="pic vane8" ></div>
 										</div>
 										<div class="box2Body">
-											<div class="tet">一款基于OpenStack深度开发并且提供了一种简单快速部署方法的私有云平台</div>
+											<div class="tet">Vane-Analytics整合了企业大数据的获取、传输，存储和展示功能。</div>
+											<a href="http://192.168.20.116:3000/vaneC/user-guide" class="book">产品手册</a>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="yunbox1">
+										<div class="pic"></div>
+										<div class="box">
+											<div class="box1Head">
+												<span>氢氧万信</span>
+											</div>
+											<div class="box1Body">
+												<span>针对授权企业及相关个人的信息搜集、背景调查、用户画像、信用评估、定制模型等服务。</span>
+											</div>
+										</div>
+									</div>
+									<div class="yunbox2">
+										<div class="box2Head">
+											<div class="text">氢氧万信</div>
+											<div class="pic vane8"></div>
+										</div>
+										<div class="box2Body">
+											<div class="tet">针对授权企业及相关个人的信息搜集、背景调查、用户画像、信用评估、定制模型等服务。</div>
 											<a href="http://192.168.20.116:3000/vaneC/user-guide" class="book">产品手册</a>
 										</div>
 									</div>
 								</li>
 							</ul>
 						</div>
-						<div class="arrows bot"></div>
 					</li>
 				</ul>
 			</div>
@@ -167,23 +212,29 @@
 		<script type="text/javascript" src="js/react.min.js"></script>
 		<script type="text/javascript" src="js/react-dom.min.js"></script>
 		<script type="text/javascript" src="js/browser.min.js"></script>
+		<script type="text/javascript" src="js/jquery.validate-1.13.1.js"></script>
 		<script type="text/javascript" src="js/header.js"></script>
 		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/registry.js"></script>
 		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/downNav.js"></script>
 		<script type="text/javascript" src="js/our.js"></script>
 		<script type="text/babel" src="js/rfooter.js"></script>
+		<script type="text/javascript" src="js/submit.js"></script>
 		<script type="text/javascript" src="js/placeholder.js"></script>
 		<script type="text/javascript" src="js/server.js"></script>
 		<script type="text/javascript">
 			$(function(){
+				$('.downNav>a.nav2').addClass('active');
+
 				$('.yuns > li').hover(function(){
 					$(this).children('.yunbox1').hide();
 					$(this).children('.yunbox2').show();
 				},function(){
 					$(this).children('.yunbox1').show();
 					$(this).children('.yunbox2').hide();
-				})
+				});
+
 			})
 		</script>
 	</body>

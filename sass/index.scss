@@ -7,22 +7,23 @@ $width100:100%;
 
 @mixin conCh{
 	font-family:$font-family;
-	font-size:24px;
+	font-size: 18px;
 }
 
 @mixin conEn{
 	font-family:'Arial';
 	margin-top:5px;
-	font-size:18px;
+	font-size: 16px;
 }
 
 body{
 	#header{
-		height:60px;
+		height: 60px;
 		position: fixed;
-		top:0;
+		top: 0;
 		left:0;
 		z-index:20;
+		background: none;
 
 		.container{
 			overflow: visible !important;
@@ -35,6 +36,21 @@ body{
 		height:980px;
 		position:relative;
 		overflow:hidden;
+
+		.more-know{
+			display: block;
+			width: 48px;
+			height: 62px;
+			position: absolute;
+			left:50%;
+			margin-left:24px;
+			bottom:20px;
+			background:url('../images/more-know.png') no-repeat center center;
+			background-size:contain;
+			cursor: pointer;
+			z-index:30;
+		}
+
 
 			.num{
 				position:absolute;
@@ -275,7 +291,7 @@ body{
 
 				&:nth-child(3){
 					background:#4ebbdd url(../images/56.png) no-repeat center center;
-					background-size:contain;;
+					background-size:contain;
 
 					&>.footer{
 						background: #318fbb;
@@ -424,9 +440,10 @@ body{
 						&>.partpic{
 							width:315px;
 							height:200px;
-							background:url('../images/n1.png') no-repeat center center;
-							background-size:contain;
-							margin:40px auto 0;
+							background: url('../images/n1.png') no-repeat center center;
+							background-size:auto 100%;
+							margin: 40px auto 0;
+							display: block;
 						}
 
 						&>.partext{
@@ -484,6 +501,7 @@ body{
 							background:url('../images/n2.png') no-repeat center center;
 							background-size:contain;
 							margin:40px auto 0;
+							display: block;
 						}
 
 						&>.partext{
@@ -537,9 +555,10 @@ body{
 						&>.partpic{
 							width:315px;
 							height:200px;
-							background:url('../images/n3.png') no-repeat center center;
+							background:url('../images/m3.png') no-repeat center center;
 							background-size:contain;
 							margin:40px auto 0;
+							display: block;
 						}
 
 						&>.partext{
@@ -591,11 +610,12 @@ body{
 							background: #4b99bf; 
 
 							&>.partpic{
-								width:315px;
+								width: 315px;
 								height:200px;
-								background:url('../images/n4.png') no-repeat center center;
+								background:url('../images/m4.png') no-repeat center center;
 								background-size:contain;
 								margin:40px auto 0;
+								display: block;
 							}
 
 						&>.partext{
@@ -688,7 +708,6 @@ body{
 				}
 			
 				.leaf{
-
 					a{
 						width:150px;
 						height:150px;
@@ -700,7 +719,23 @@ body{
 						@include trans;
 						font-size: 16px;
 						text-indent: 10px;
-						display:block;
+
+
+						&>span{
+							position: absolute;
+							display: block;
+							font-size: 12px;
+							font-family: $fontW;
+							color: #5a5a5a;
+							width: 135px;
+							height: 150px;
+							line-height: 240px;
+							top: 0;
+							left: 0;
+							opacity: 0;
+							text-align: right;
+							@include trans;
+						}
 
 						&:nth-child(1){
 							left:0;
@@ -756,6 +791,8 @@ body{
 							background:url('../images/leaf6.png') no-repeat 20px 20px;
 							background-size:35% 35%;
 						}
+
+
 					}
 				}
 
@@ -860,15 +897,18 @@ body{
 
 			.indd{
 				overflow: hidden;
+				padding-left: 0;
+				padding-right: 0;
 			}
 		}	
 			.indust{
 				margin-top:0px;
-				width:1980px;
+				width:3300px;
 				position: relative;
 
 				&>li{
 					width:330px;
+					float:left;
 					padding-right:40px;
 					padding-left:40px;
 				}
@@ -877,7 +917,7 @@ body{
 					margin:50px auto 0;
 					font-family: $fontW;
 					color: $color;
-					font-size: 30px;
+					font-size: 18px;
 					text-align: center;
 					font-weight: normal;
 				}
@@ -892,6 +932,7 @@ body{
 						width:160px;
 						height:160px;
 						position:absolute;
+						display:block;
 						border-bottom:1px solid #fff;
 						border-right:1px solid #fff;
 						top:120px;
@@ -901,7 +942,7 @@ body{
 						-webkit-transform: rotate(45deg);
 						-moz-transform: rotate(45deg);
 						-o-transform: rotate(45deg);
-						animation:gear 10s linear infinite; 
+						animation:gear 10s linear infinite;
 
 						.industryPic3{
 							margin:40px auto 0;
@@ -915,6 +956,7 @@ body{
 						width:120px;
 						height:120px;
 						position:absolute;
+						display:block;
 						border:1px solid #3ad4eb;
 						background:rgba(62,177,217,0.15);
 						top:140px;
@@ -934,6 +976,7 @@ body{
 						top:170px;
 						left:50%;
 						margin-left:-30px;
+						display:block;
 
 						&.p1{
 							background:url('../images/p1.png')no-repeat center center;
@@ -971,6 +1014,7 @@ body{
 					text-indent: 2em;
 					line-height: 30px;
 					word-wrap: break-word;
+					font-weight: normal;
 					
 				}
 
@@ -1047,8 +1091,7 @@ body{
 					position:relative;
 					padding-left:0;
 					padding-right:0;
-					transition: 500ms;
-					
+
 					&:nth-child(1){
 						.productsBox1{
 							.productspic{
@@ -1113,15 +1156,6 @@ body{
 						}
 						
 					}
-
-					&:hover{
-						transform: rotateY(360deg);
-						-webkit-transform: rotateY(360deg);
-						-o-transform: rotateY(360deg);
-						-moz-transform: rotateY(360deg);
-					}
-					
-				
 
 					.productsBox1{
 						position:relative;
@@ -1272,12 +1306,10 @@ body{
 		width:100%;
 		height:100%;
 		background:url('../images/ys.png') no-repeat center center;
-		background-size:auto 100%;
-		display:block;
+		background-size: cover;
+		display: block;
 		overflow:hidden;
 		
-		
-
 		.container{
 			
 			.conHead6{
@@ -1302,16 +1334,16 @@ body{
 			}
 
 			.learn{
-				width:90%;
-				margin:100px auto;
+				width: 90%;
+				margin: 170px auto 0;
 
-				li{
+				p{
+					width: 420px;
 					font-family: $fontW;
-					color:#ffffff;
-					font-size: 20px;
+					color: #ffffff;
+					font-size: 16px;
 					text-indent: 2em;
 					line-height: 40px;
-					margin-bottom:40px;
 				}
 			}
 
@@ -1319,8 +1351,8 @@ body{
 				@include Radiu;
 				@include sectionFoot;
 				color:#ffffff;
-				border:2px solid #ffffff;
-				margin:100px auto 0;
+				border: 1px solid #ffffff;
+				margin: 60px auto 0;
 				
 				&:hover{
 					color:#318fbb;
@@ -1337,7 +1369,6 @@ body{
 		margin:60px auto 0;
 		
 		.container{
-			width:100% !important;
 
 			.row{
 
@@ -1360,32 +1391,34 @@ body{
 			.servers{
 				
 				width:450px;
-				&>li{
-					color:#326a92;
-					font-family:$fontW;
+
+				&>p{
+					color: #326a92;
+					font-family: $fontW;
 					font-size: 16px;
-					line-height: 25px;
+					line-height: 40px;
 					margin-top:10px;
+					text-indent: 2em;
 				}
 			}
 
 			.serverf{
 				@include Radiu;
-				width:155px;
-				height:45px;
-				line-height: 45px;
-				font-size: 20px;
+				width:120px;
+				height:40px;
+				line-height: 40px;
+				font-size: 16px;
 				font-family: $fontW;
-				color:#fff;
+				color: #fff;
 				background:#318fbb;
 				border:0 none;
-				margin:10px auto 0;
+				margin:0 auto 0;
 				display:block;
 				text-align: center;
 				
 				&:hover{
-					color:#318fbb;
-					background:#fff;
+					color: #318fbb;
+					background: #f8f8f8;
 				}
 			}
 
@@ -1664,22 +1697,20 @@ body{
 
 
 				.xwq{
-
 					&>li{
-						width:50px;
-						height:50px;
-						margin-left:50px;
-						float:left;
+						width:	40px;
+						height:	40px;
+						margin-right: 40px;
+						float: left;
 						
 						&>a{
 							display:block;
-							width:50px;
-							height:50px;
+							width: 100%;
+							height: 100%;
 						}
 
 						&:nth-child(1){
 							&>a{
-
 								background:url('../images/WB.png')no-repeat center center;
 								background-size:contain;
 							}

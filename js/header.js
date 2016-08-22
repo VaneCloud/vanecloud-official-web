@@ -57,15 +57,24 @@ $(function(){
 					'</ul>'+
 				'</div>'+
 			'</li>'+
+			'<li><a href="javascript:">服务中心</a>'+
+				'<div class="navSection">'+
+					'<ul>'+
+						'<li><a href="serverContent.html">服务内容</a></li>'+
+						'<li><a href="serverGrade.html">服务级别</a></li>'+
+						'<li><a href="serverSuperiority.html">服务优势</a></li>'+
+					'</ul>'+
+				'</div>'+
+			'</li>'+
 		'</nav>'+
 		/*'<ul class="logInOut pull-left">'+
 			'<li><a href="login.html">登录</a></li>'+
 			'<li><a href="registry.html" class="active">注册</a></li>'+
-		'</ul>'+*/
+		'</ul>'+
 		'<div class="search pull-left">'+
 			'<input type="search" placeholder="探索氢氧知识库" />'+
 			'<a href="http://kb.vanecloud.com/"></a>'+
-		'</div>'+
+		'</div>'+*/
 	'</div>';
 
 	$('.header').append(head);

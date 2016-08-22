@@ -18,12 +18,9 @@ body{
 	}
 	
 	.bg{
-		width:100%;
-		height:490px;
+		@include banner-bg;
 		background:url('../images/ba.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
-		
+
 		.dynamicNav{
 			width:100%;
 			text-align:center;
@@ -33,18 +30,10 @@ body{
 			perspective:50000px;
 
 			&>a{
-				width:160px;
-				height:160px;
-				line-height: 160px;
-				display:inline-block;
+				@include fixed-nav-a;
 				background:url('../images/f2.png')no-repeat center center;
 				background-size:contain; 
 				margin:0 35px;
-				font-family: $fontW;
-				color:#000000;
-				font-size: 18px;
-				text-align:center;
-				transition: 1s;
 
 				&:hover{
 					color:#fff;
@@ -86,17 +75,16 @@ body{
 	
 	.newSection{
 		width:100%;
-		
 		background:#fff;
 		overflow: hidden;
 
 		.newSearch{
 			height:36px;
-			margin:250px auto 0;
+			margin:150px auto 0;
 
 			.newSl{
 				color:#000000;
-				font-size: 24px;
+				font-size: 16px;
 				font-family: $fontW;
 				line-height: 36px;
 				float:left;
@@ -112,8 +100,10 @@ body{
 				text-align: center;
 				border-radius:5px;
 
+
 				option{
 					color: #000000;
+					font-size: 14px;
 				}
 			}
 
@@ -137,7 +127,7 @@ body{
 		}
 
 		.newSbody{
-			margin:100px auto 0;
+			margin: 150px auto 100px;
 
 			&>li{
 				height:270px;
@@ -168,6 +158,7 @@ body{
 					margin:22px auto auto 80px;
 					border:1px solid #9f9f9f;
 					border-radius:5px;
+					display:block;
 
 					&>img{
 						width: 100%;
@@ -181,8 +172,8 @@ body{
 
 					.situationHead{
 						color:#000000;
-						font-size:30px;
-						font-family:$fontW;
+						font-size: 20px;
+						font-family: $fontW;
 						width:100%;
 						overflow:hidden;
 						text-overflow:ellipsis;
@@ -193,26 +184,26 @@ body{
 					
 					time{
 						color:#7c7b7b;
-						font-size:18px;
+						font-size:16px;
 						line-height: 30px;
 						font-family:$fontW;
 					}
 
 					.situationBody{
 						color:#000000;
-						font-size: 18px;
+						font-size: 16px;
 						font-family:$fontW;
 						line-height: 36px;
-
+						display:block;
 					}
 
-					&>a{
+					&>a.situationFoot{
 						position: absolute;
 						right:0;
 						bottom:10px;
 						font-family:$fontW;
 						color:#074696;
-						font-size: 18px;
+						font-size: 16px;
 
 					}
 				}
@@ -239,7 +230,7 @@ body{
 
 		.pages{
 			text-align: center;
-			margin:120px auto 50px;
+			margin:100px auto 50px;
 
 			.page{
 				display: inline-block;

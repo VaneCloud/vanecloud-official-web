@@ -1,12 +1,12 @@
 $(function(){
-	var w=$(window).width()+20;
+	var w=$(window).width();
+
 	$('.pic').width(w);
 	
 	$('.picture').width(w*5);
 
-	
-
 	var i=0;
+
 	var clone=$(".picture .pic").first().clone();
 	
 	$(".picture").append(clone);
@@ -61,7 +61,6 @@ $(function(){
 			$(".picture").css({left:0})			
 			i=1;
 		}
-		
 		
 		if(i==-1){
 			$(".picture").css({left:-(size-1)*w})

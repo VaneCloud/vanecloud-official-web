@@ -6,44 +6,28 @@
 body{
 
 	.financeBg{
-		width:100%;
-		height:500px;
-		background:#263d69 url('../images/financeBg.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
-		
+		@include banner-bg;
+		background:url('../images/financeBg.png')no-repeat center center;
 	}
 	
 	.educationBg{
-		width:100%;
-		height:500px;
-		background:#0076c6 url('../images/educationBg.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
+		@include banner-bg;
+		background:url('../images/educationBg.png')no-repeat center center;
 	}
 	
 	.governmentBg{
-		width:100%;
-		height:500px;
-		background:#8acef1 url('../images/governmentBg.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
+		@include banner-bg;
+		background:url('../images/governmentBg.png')no-repeat center center;
 	}
 	
 	.retailBg{
-		width:100%;
-		height:500px;
+		@include banner-bg;
 		background:#01526f url('../images/retailBg.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
 	}
 	
 	.bigDataBg{
-		width:100%;
-		height:500px;
+		@include banner-bg;
 		background:#404040 url('../images/bigDataBg.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
 	}
 
 	.settleNav{
@@ -55,29 +39,22 @@ body{
 		perspective:50000px;
 
 		&>a{
-			width:160px;
-			height:160px;
-			line-height: 160px;
-			display:inline-block;
+			@include fixed-nav-a;
 			background:url('../images/f2.png')no-repeat center center;
-			background-size:contain; 
+			background-size:95%;
 			margin:0 35px;
-			font-family: $fontW;
-			color:#000000;
-			font-size: 18px;
-			text-align:center;
-			transition: 1s;
+
 
 			&:hover{
 				color:#fff;
 				background:url('../images/f1.png')no-repeat center center;
-				
+				background-size:95%;
 			}
 
 			&.active{
 				color:#fff;
 				background:url('../images/f1.png')no-repeat center center;
-				
+				background-size:95%;
 			}
 
 		}
@@ -91,7 +68,8 @@ body{
 		.container{
 
 			.principle{
-				margin:140px auto 0;
+				width: 900px;
+				margin:150px auto 0;
 				overflow:hidden;
 
 				h3{
@@ -104,7 +82,7 @@ body{
 				.principleTitle{
 					font-family: $fontW;
 					color:#0062c1;
-					font-size: 20px;
+					font-size: 18px;
 					line-height: 40px;
 					margin:50px auto 0;
 					text-align: left;
@@ -113,24 +91,23 @@ body{
 				article{
 					font-family: $fontW;
 					color:#515567;
-					font-size: 20px;
+					font-size: 16px;
 					line-height: 40px;
 					text-indent: 2em;
 				}
 				
 				.demand{
 					margin:70px auto 0;
+					width:900px;
 				}
 
 				.demand1{
-					width:1006px;
 					height:506px;
 					background:url('../images/demand1.png')no-repeat center center;
 					background-size:contain;
 				}
 				
 				.demand2{
-					width:1000px;
 					height:590px;
 					background:url('../images/demand2.png')no-repeat center center;
 					background-size:contain;
@@ -138,7 +115,6 @@ body{
 				}
 
 				.demand3{
-					width:1000px;
 					height:554px;
 					background:url('../images/demand3.png')no-repeat center center;
 					background-size:contain;
@@ -146,14 +122,13 @@ body{
 				}
 
 				.demand4{
-					width:1000px;
 					height:554px;
 					background:url('../images/demand4.png')no-repeat center center;
 					background-size:contain;
 				}
 
 				.settleImg{
-					width:990px;
+					width:900px;
 					height:784px;
 					background:url('../images/settleImg.png')no-repeat center center;
 					background-size:contain;
@@ -199,16 +174,16 @@ body{
 				}
 
 				.valuess{
-					width: 1000px;
+					width: 900px;
 					margin:0 auto 0;
 
 					&>li{
-						width: 460px;
 						height:200px;
 						margin-top:55px;
-						border:1px solid #6a6a6a;
 						padding:0;
-						
+
+
+
 						.value{
 							width:200px;
 							height:200px;
@@ -217,7 +192,7 @@ body{
 							.valueit{
 								width:100%;
 								height:40px;
-								margin:20px auto 0;
+								margin:32px auto 0;
 								color:#ffffff;
 								font-size: 40px;
 								font-family: 'Bauhaus 93';
@@ -227,28 +202,20 @@ body{
 							.textL{
 								color:#ffffff;
 								font-family: $fontW;
-								font-size: 20px;
-								margin:50px auto 0;
+								font-size: 18px;
+								margin:45px auto 0;
 								line-height: 30px;
 								text-align:center;
 								padding:0 10px;
 							}
 
-							.triangleR{
-								width: 0;
-	    						height: 0;
-								border-top: 15px solid transparent;
-	   							border-bottom: 15px solid transparent;
-								position: absolute;
-								top:80px;
-							}
-
 						}
 
 						.content{
-							width:258px;
+							width:240px;
 							height:200px;
-							
+							border:1px solid #6a6a6a;
+
 							.textR{
 								font-family: $fontW;
 								color:#545454;
@@ -312,6 +279,7 @@ body{
 				}
 				
 				.worth{
+					width: 900px;
 					margin:100px auto 100px;
 
 					.worthH{
@@ -327,14 +295,14 @@ body{
 
 						&>li{
 							width:100%;
-							height:95px;
+							height:90px;
 							border:1px solid #60ccf4;
 							margin-bottom:15px;
 
 							.icon{
 								width:55px;
 								height:55px;
-								margin:20px auto auto 20px;
+								margin:17.5px auto auto 20px;
 
 								&>img{
 									width: 100%;
@@ -345,9 +313,9 @@ body{
 							.content{
 								margin-left:95px;
 								color:#000000;
-								font-size: 18px;
+								font-size: 16px;
 								font-family: $fontW;
-								line-height: 95px;
+								line-height: 90px;
 							}
 						}
 					}
@@ -365,6 +333,7 @@ body{
 				}
 
 				.preceptList{
+					width:900px;
 					margin:60px auto 0;
 
 					&>li{
@@ -374,7 +343,7 @@ body{
 							text-align: center;
 							font-family: $fontW;
 							color:#000000;
-							font-size: 24px;
+							font-size: 18px;
 							heigth:30px;
 							line-height: 30px;
 							font-weight: normal;
@@ -398,7 +367,7 @@ body{
 							&>li{
 								font-family: $fontW;
 								color:#74767c;
-								font-size: 18px;
+								font-size: 16px;
 								line-height: 36px;
 								text-align: center;
 							}
@@ -408,6 +377,7 @@ body{
 				}
 
 				.preponderant{
+					width: 900px;
 					margin:70px auto 70px;
 
 					&>li{
@@ -415,7 +385,7 @@ body{
 						h3{
 							font-family: $fontW;
 							color:#000000;
-							font-size: 24px;
+							font-size: 18px;
 							text-align: center;
 							font-weight: normal;
 						}
@@ -423,13 +393,13 @@ body{
 						.icon{
 							width:185px;
 							height:215px;
-							margin:30px auto 50px;
+							margin:50px auto 50px;
 						}
 
 						article{
 							font-family: $fontW;
 							color:#74767c;
-							font-size: 18px;
+							font-size: 16px;
 							line-height: 36px;
 
 						}
@@ -451,21 +421,19 @@ body{
 						text-align: center;
 
 						.frameHL{
-							width:534px;
-							margin-left:93px;
+							margin-left:280px;
 						}
 
 						.frameHR{
-							width:213px;
-							margin-right:115px;
+							margin-right:175px;
 						}
 					}
 					
 					.frameP{
-						width: 100%;
+						width: 900px;
 						height: 597px;
 						margin:10px auto 80px;
-						background:url('../images/frame.png')no-repeat center center;
+						background:url('../images/frame.png')no-repeat center top;
 						background-size:contain;
 					}
 
@@ -483,8 +451,8 @@ body{
 				}
 			
 				.dataImg{
-					width: 1100px;
-					height: 500px;
+					width: 900px;
+					height: 450px;
 					background:url('../images/dataImg.png')no-repeat center top;
 					background-size:contain;
 					margin:25px auto 100px;
@@ -492,12 +460,13 @@ body{
 				}
 				
 				.systemList{
+					width: 900px;
 					margin:60px auto 0;
 
 					&>li{
 						font-family: $fontW;
 						color:#515567;
-						font-size: 20px;
+						font-size: 16px;
 						line-height: 40px;
 						background:url('../images/g_03.png')no-repeat left 10px;
 						background-size:20px 20px;
@@ -507,18 +476,21 @@ body{
 				
 				.systemicon{
 					margin:100px auto 100px;
-					width: 1100px;
+					width: 900px;
 					height: 400px;
 					background:url('../images/systemicon.png')no-repeat center top;
 					background-size:contain;
 				}
 
 				.custom{
-					width:1000px;
 					margin:60px auto 80px;
 					overflow: hidden;
 					position: relative;
-		
+
+					&.custom-width{
+						width:800px;
+					}
+
 					.client{
 						width:100%;
 						height:20px;
@@ -530,8 +502,8 @@ body{
 					}
 
 					.clientIcon{
-						width:180px;
-						height:180px;
+						width:120px;
+						height:120px;
 						background:url('../images/clientImg.png')no-repeat center center;
 						background-size:contain;
 						margin:10px auto 0;
@@ -544,14 +516,15 @@ body{
 					}
 
 					.customLR{
-						width:810px;
+						width:800px;
 						overflow: hidden;
 						margin:0 auto 0;
 						
 						.customImg{
-							width:256px;
-							height:256px;
+							width:220px;
+							height:220px;
 							position: relative;
+							z-index:5;
 
 							&>img{
 								width:100%;
@@ -564,7 +537,7 @@ body{
 								line-height: 60px;
 								font-family: $fontW;
 								color:#000;
-								font-size: 24px;
+								font-size: 22px;
 								bottom:0px;
 								width:100%;
 								text-indent: 20px;
@@ -573,11 +546,12 @@ body{
 
 						.customL{
 							float:left;
-
+							margin-left:115px;
 						}
 
 						.customR{
 							float:right;
+							margin-right:115px;
 						}
 					}
 
@@ -586,14 +560,13 @@ body{
 						margin:10px auto 0;
 						
 						.datesImg{
-							width: 300px;
-							height: 530px;
+							width: 250px;
 							border:1px solid #6a6a6a;
 							background:#d6d6d6;
 
 							.icon{
-								width: 280px;
-								height: 200px;
+								width: 210px;
+								height: 180px;
 								margin:10px auto 0;
 
 								&>img{
@@ -606,10 +579,10 @@ body{
 						h3{
 							color:#0070cc;
 							font-family: $fontW;
-							font-size: 32px;
+							font-size: 22px;
 							text-align: center;
 							padding:0 10px;
-							margin:20px auto 0;
+							margin:10px auto 0;
 							font-weight: normal;
 						}
 
@@ -620,7 +593,7 @@ body{
 							line-height: 32px;
 							text-indent: 2em;
 							padding:0 20px;
-							margin:20px auto 0;
+							margin:15px auto 10px;
 
 						}
 
@@ -634,18 +607,18 @@ body{
 						color:#000;
 						font-size: 24px;
 						text-align: center;
-						top:405px;
+						top:368px;
 						position: absolute;
 					}
 
 					.line1{
 						width:1px;
-						height:128px;
+						height:110px;
 						position: absolute;
 						background:#d6d6d6;
 						left:50%;
 						margin-left:-0.5px;
-						top:210px;
+						top:150px;
 					}
 
 					.line2{
@@ -655,7 +628,7 @@ body{
 						background:#d6d6d6;
 						left:50%;
 						margin-left:-150px;
-						top:338px;
+						top:260px;
 					}
 
 					.dataLine1{
@@ -665,7 +638,7 @@ body{
 						left:50%;
 						margin-left:-0.5px;
 						background:#d6d6d6;
-						top:210px;
+						top:150px;
 					}
 
 					.dataLine2{
@@ -675,7 +648,7 @@ body{
 						background:#d6d6d6;
 						left:50%;
 						margin-left:-200px;
-						top:485px;
+						top:424px;
 					}
 
 					.line3{
@@ -683,8 +656,8 @@ body{
 						height:70px;
 						position: absolute;
 						background:#d6d6d6;
-						top:465px;
-						left:228px;
+						top:368px;
+						left:395px;
 					}
 
 					.line4{
@@ -692,18 +665,18 @@ body{
 						height:70px;
 						position: absolute;
 						background:#d6d6d6;
-						top:465px;
-						right:228px;
+						top:368px;
+						right:395px;
 					}
 
 					.line5{
-						width:800px;
+						width:700px;
 						height:1px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
-						margin-left:-400px;
+						margin-left:-350px;
 					}
 
 					.line6{
@@ -711,7 +684,7 @@ body{
 						height:1px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
 						margin-left:-350px;
 					}
@@ -721,8 +694,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						left:150px;
+						top:436px;
+						left:280px;
 					}
 					
 					.line8{
@@ -730,7 +703,7 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
 						margin-left:-0.5px;
 					}
@@ -740,8 +713,18 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						right:150px;
+						top:436px;
+						right:280px;
+					}
+
+					.line10{
+						width:580px;
+						height:1px;
+						position: absolute;
+						background:#d6d6d6;
+						top:436px;
+						left:50%;
+						margin-left:-290px;
 					}
 
 					.line11{
@@ -749,8 +732,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						left:100px;
+						top:436px;
+						left:220px;
 					}
 
 					.line12{
@@ -758,8 +741,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						left:300px;
+						top:436px;
+						left:395px;
 					}
 
 					.line13{
@@ -767,7 +750,7 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
+						top:436px;
 						left:50%;
 						margin-left:-0.5px;
 					}
@@ -777,8 +760,8 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						right:300px;
+						top:436px;
+						right:395px;
 					}
 
 					.line15{
@@ -786,16 +769,17 @@ body{
 						height:81px;
 						position: absolute;
 						background:#d6d6d6;
-						top:535px;
-						right:100px;
+						top:436px;
+						right:220px;
 					}
 
 
 					.SOLUTION{
+						width:900px;
 						margin:130px auto 0;
 						&>li{
-							width:190px;
-							height:480px;
+							width:170px;
+							height:415px;
 							float:left;
 							margin:0 5px;
 							position: relative;
@@ -806,15 +790,15 @@ body{
 								height:100%;
 								background:#fff;
 								position: absolute;
-								top:-480px;
-								left:0;
+								top:0px;
+								left:-170px;
 								z-index:2;
-								
+								overflow: hidden;
 								
 								h3{
 									color:#0070cc;
 									font-family:$fontW;
-									font-size: 20px;
+									font-size: 18px;
 									font-weight: normal;
 									margin:30px auto 0;
 									line-height: 35px;
@@ -839,7 +823,7 @@ body{
 								margin:40px auto 0;
 								font-family: 'Bauhaus 93';
 								color:#ffffff;
-								font-size: 36px;
+								font-size: 28px;
 								text-align: center;
 							}
 
@@ -849,7 +833,7 @@ body{
 								.solText{
 									color:#ffffff;
 									font-family: $fontW;
-									font-size: 20px;
+									font-size: 22px;
 									text-align: center;
 									margin:40px auto 0;
 								}
@@ -871,7 +855,7 @@ body{
 								bottom:0;
 								right:0;
 								width: 100%;
-								height: 190px;
+								height: 168px;
 							}
 
 							&:nth-child(1){
@@ -881,11 +865,11 @@ body{
 								.solicon{
 									
 									background:url('../images/si1.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si11.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -897,12 +881,11 @@ body{
 								.solicon{
 									
 									background:url('../images/si2.png')no-repeat right bottom;
-									background-size:auto;
-
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si22.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -913,11 +896,11 @@ body{
 
 								.solicon{
 									background:url('../images/si3.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si33.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -928,12 +911,12 @@ body{
 
 								.solicon{
 									background:url('../images/si4.png')no-repeat right bottom;
-									background-size:auto;
+
 
 
 									&:hover{
 										background:url('../images/si44.png')no-repeat right bottom;
-										
+
 									}
 								}
 							}
@@ -944,11 +927,11 @@ body{
 
 								.solicon{
 									background:url('../images/si5.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/si55.png')no-repeat right bottom;
-										
+										background-size:contain;
 									}
 								}
 							}
@@ -956,12 +939,13 @@ body{
 					}
 
 					.delivery{
+						width:900px;
 						text-align: center;
-						margin:150px auto 0;
+						margin:146px auto 0;
 
 						&>li{
-							width:320px;
-							height:520px;
+							width:280px;
+							height:450px;
 							display:inline-block;
 							margin:0 5px;
 							position: relative;
@@ -973,28 +957,31 @@ body{
 
 								.delicon{
 									background:url('../images/solution_13.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/icon_03.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 								
 								.govicon{
 									background:url('../images/gov1.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/gov11.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.raticon{
 									background:url('../images/ra1.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra11.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
@@ -1006,28 +993,31 @@ body{
 
 								.delicon{
 									background:url('../images/solution_16.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/icon_06.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.govicon{
 									background:url('../images/gov2.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/gov22.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.raticon{
 									background:url('../images/ra2.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra22.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
@@ -1038,29 +1028,32 @@ body{
 								border:2px solid #465961;
 
 								.delicon{
-									background:url('../images/solution_19.png')no-repeat right bottom;
-									background-size:auto;
+									background: url('../images/solution_19.png')no-repeat right bottom;
+									background-size:contain;
 
 									&:hover{
-										background:url('../images/icon_09.png')no-repeat right bottom;
+										background: url('../images/icon_09.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.govicon{
 									background:url('../images/gov3.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/gov33.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
 								.raticon{
 									background:url('../images/ra3.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra33.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 
@@ -1072,10 +1065,11 @@ body{
 
 								.raticon{
 									background:url('../images/ra4.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra44.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 							}
@@ -1086,10 +1080,11 @@ body{
 
 								.raticon{
 									background:url('../images/ra5.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra55.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 							}
@@ -1100,10 +1095,11 @@ body{
 
 								.raticon{
 									background:url('../images/ra6.png')no-repeat right bottom;
-									background-size:auto;
+									background-size:contain;
 
 									&:hover{
 										background:url('../images/ra66.png')no-repeat right bottom;
+										background-size:contain;
 									}
 								}
 							}
@@ -1114,18 +1110,18 @@ body{
 
 							.delHead{
 								color:#ffffff;
-								font-size: 50px;
+								font-size: 40px;
 								font-family: 'Bauhaus 93';
 								text-align: center;
-								margin:65px auto 0;
+								margin:50px auto 0;
 							}
 
 							.delBofy{
-								margin:35px auto 0;
+								margin:20px auto 0;
 
 								.delText{
 									color:#ffffff;
-									font-size: 32px;
+									font-size: 22px;
 									font-family:$fontW;
 									text-align: center;
 									line-height: 35px;
@@ -1134,16 +1130,16 @@ body{
 								.delb{
 									width: 0;
 								    height: 0;
-								    border-left: 20px solid transparent;
-								    border-right: 20px solid transparent;
-								    border-top: 30px solid #fff;
-								    margin:20px auto 0;
+								    border-left: 10px solid transparent;
+								    border-right: 10px solid transparent;
+								    border-top: 15px solid #fff;
+								    margin:22px auto 0;
 								}
 							}
 
 							.delicon{
 								width:100%;
-								height:320px;
+								height: 159px;
 								position: absolute;
 								bottom:0;
 								right:0;
@@ -1151,7 +1147,7 @@ body{
 							
 							.govicon{
 								width:100%;
-								height:200px;
+								height: 159px;
 								position: absolute;
 								bottom:0;
 								right:0;
@@ -1169,23 +1165,23 @@ body{
 								position: absolute;
 								width:100%;
 								height:100%;
-								left:0;
-								top:-520px;
+								left:-280px;
+								top:0;
 								z-index:2;
 								background:#fff;
 
 								h3{
 									color:#0070cc;
-									font-size: 32px;
+									font-size: 26px;
 									font-family:$fontW;
 									text-align: center;
-									margin:100px auto 0;
+									margin:50px auto 0;
 									line-height: 40px;
 									font-weight: normal;
 								}
 
 								.SOList{
-									margin:100px auto 0;
+									margin:30px auto 0;
 									&>li{
 										color:#545454;
 										font-family:$fontW;
@@ -1201,14 +1197,15 @@ body{
 								position: absolute;
 								width:100%;
 								height:100%;
-								left:0;
-								top:-520px;
+								left: -280px;
+								top:0;
 								z-index:2;
 								background:#fff;
+								overflow: hidden;
 
 								h3{
 									color:#0070cc;
-									font-size: 32px;
+									font-size: 30px;
 									font-family:$fontW;
 									text-align: center;
 									margin:30px auto 0;
@@ -1217,7 +1214,7 @@ body{
 								}
 
 								.SOList{
-									margin:30px auto 0;
+									margin: 30px auto 0;
 									&>li{
 										color:#545454;
 										font-family:$fontW;
@@ -1233,18 +1230,19 @@ body{
 								position: absolute;
 								width:100%;
 								height:100%;
-								left:0;
-								top:-420px;
+								left: -280px;
+								top: 0;
 								z-index:2;
 								background:#fff;
+								overflow: hidden;
 
 								h3{
-									color:#0070cc;
-									font-size: 32px;
-									font-family:$fontW;
+									color: #0070cc;
+									font-size: 28px;
+									font-family: $fontW;
 									text-align: center;
-									margin:40px auto 0;
-									line-height: 40px;
+									margin: 30px auto 0;
+									line-height: 30px;
 									font-weight: normal;
 								}
 
@@ -1265,6 +1263,7 @@ body{
 				}
 
 				.scheme{
+					width:900px;
 					margin:60px auto 80px;
 
 					&>li{
@@ -1272,7 +1271,7 @@ body{
 						h3{
 							font-family:$fontW;
 							color:#000;
-							font-size:24px;
+							font-size:18px;
 							text-align:center;
 							font-weight:normal;
 						}
@@ -1280,20 +1279,21 @@ body{
 						.iocn{
 							width: 186px;
 							height: 214px;
-							margin:30px auto 0;
+							margin:35px auto 0;
+							text-align: center;
 
 							&>img{
-								width: 100%;
-								height: 100%;
+								width: 90%;
+								height: 90%;
 							}
 						}
 
 						article{
 							font-family:$fontW;
 							color:#74767c;
-							font-size:18px;
-							line-height: 36px;
-							margin:40px auto 0;
+							font-size:16px;
+							line-height: 32px;
+							margin:30px auto 0;
 							padding:0 20px;
 						}
 					}
@@ -1303,7 +1303,7 @@ body{
 					margin:60px auto 80px;
 
 					&>li{
-						width:1080px;
+						width:900px;
 						height:200px;
 						margin:0 auto 15px;
 						border:1px solid #6a6a6a;
@@ -1372,28 +1372,19 @@ body{
 							.textL{
 								color:#ffffff;
 								font-family: $fontW;
-								font-size: 20px;
+								font-size: 18px;
 								margin:50px auto 0;
 								line-height: 30px;
 								text-align:center;
 								padding:0 5px;
 							}
 
-							.triangleR{
-								width: 0;
-    							height: 0;
-								border-top: 15px solid transparent;
-   								border-left: 20px solid #fff;
-    							border-bottom: 15px solid transparent;
-								position: absolute;
-								right:0;
-								top:80px;
-							}
+
 						}
 
 						.content{
 							float:left;
-							width:878px;
+							width: 698px;
 							height:200px;
 							
 							.textR{
@@ -1409,7 +1400,7 @@ body{
 				}
 
 				.demoImg{
-					width: 1000px;
+					width:900px;
 					height:700px;
 					margin:40px auto 40px;
 					background:url('../images/demoImg.png')no-repeat center center;

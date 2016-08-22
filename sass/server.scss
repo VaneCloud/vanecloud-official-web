@@ -6,13 +6,8 @@
 body{
 
 	.bg{
-		width:100%;
-		height:500px;
+		@include banner-bg;
 		background:url('../images/ser.png')no-repeat center center;
-		background-size:auto 100%; 
-		position: relative;
-
-
 	}
 
 	.main{
@@ -29,13 +24,13 @@ body{
 			.serHead{
 				color:#272636;
 				font-family: $fontW;
-				font-size:24px;
+				font-size:18px;
 				text-align: left;
 				height:80px;
 				line-height: 80px;
 				text-indent: 100px;
-				background:url('../images/rgt.png')no-repeat 20px center;
-				background-size:40px 36px; 
+				background:url('../images/rgt.png')no-repeat 50px center;
+				background-size:26px 26px;
 				font-weight: 400;
 				border-bottom:1px solid #d6d6d6;
 			}
@@ -43,7 +38,7 @@ body{
 			.serelect{
 
 				&>li{
-					font-size:20px;
+					font-size:16px;
 					font-family: $fontW;
 					text-align: center;
 					height:80px;
@@ -78,9 +73,9 @@ body{
 
 					.declaration{
 						text-align: center;
-						font-family:$fontW;
-						font-size: 24px;
-						color:#000000;
+						font-family: $fontW;
+						font-size: 18px;
+						color: #000000;
 						line-height: 50px;
 
 						&>li{
@@ -92,7 +87,7 @@ body{
 						margin-top:20px;
 						font-family:$fontW;
 						color:#0062c1;
-						font-size: 18px;
+						font-size: 16px;
 						float:right;
 						line-height: 50px;
 					}
@@ -106,7 +101,7 @@ body{
 					.motif{
 						font-family: $fontW;
 						color:#0062c1;
-						font-size: 24px;
+						font-size: 20px;
 					}
 
 					.row{
@@ -116,7 +111,7 @@ body{
 							.clHead{
 								color:#000000;
 								font-family:$fontW;
-								font-size: 22px;
+								font-size: 18px;
 								text-align:center;
 								margin-top:30px;
 							}
@@ -124,21 +119,21 @@ body{
 							.pic{
 								width:100%;
 								height:230px;
-								margin:40px auto 40px;
+								margin:40px auto 0px;
 
 								&>img{
 									margin:0 auto 0;
-									height:230px;
+									height:180px;
 									display:block;
 								}
 							}
 
 							.clFoot{
-								margin:0 auto 60px; 
+								margin:0 auto 50px;
 								&>li{
 									line-height: 30px;
 									font-family:$fontW;
-									color:#000000;
+									color: #515567;
 									font-size:16px;
 									text-align: left;
 								}
@@ -164,21 +159,21 @@ body{
 					text-align: left;
 					font-family:$fontW;
 					color:#0062c1;
-					font-size:24px;
+					font-size:20px;
 				}
 
 				.gHead{
 					margin:40px auto 0;
 					color:#000000;
 					font-family:$fontW;
-					font-size:20px;
+					font-size:16px;
 				}
 
 				.gBody{
 					margin:30px auto 0;
 					color:#000000;
 					font-family:$fontW;
-					font-size:20px;
+					font-size:16px;
 					text-indent: 2em;
 					line-height: 30px;
 				}
@@ -205,7 +200,7 @@ body{
 								top:0;
 								font-family:$fontW;
 								color:#535353;
-								font-size: 18px;
+								font-size: 16px;
 
 								&.backupsL{
 									left:0;
@@ -219,7 +214,7 @@ body{
 									width:100%;
 									text-align: center;
 									top:40px;
-									font-size: 22px;
+									font-size: 16px;
 								}
 
 							}
@@ -306,7 +301,7 @@ body{
 									}
 
 									span{
-										font-size:22px;
+										font-size:18px;
 										margin-top:15px;
 									}
 								}
@@ -388,7 +383,7 @@ body{
 
 				.manageImg{
 					margin:70px auto 70px;
-					height:345px;
+					height:300px;
 					background:url('../images/manageImg.png')no-repeat center center;
 					background-size:contain;
 
@@ -411,7 +406,7 @@ body{
 					text-align: center;
 					border-right:1px solid #c7c7c7;
 					border-bottom:1px solid #c7c7c7;
-					font-size: 22px;
+					font-size: 18px;
 					font-family: $fontW;
 				}
 
