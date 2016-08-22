@@ -75,20 +75,20 @@ $(function() {
         
         var _replyto=$('#_replyto').val();
 
-        var relation=$('#relation').val();
+        var relationship=$('#relationship').val();
 
-        var product=$('#product').val();
+        var product_need=$('#product_need').val();
 
         var industry=$('#industry').val();
 
-        var interest=$('#interest').val();
+        var project_want=$('#project_want').val();
 
         var demand=$('#demand').val();
 
         var link='mailto:zhukai@vanecloud.com?subject='+encodeURIComponent("氢氧产品体验-个人信息填写")+
             '&body=姓名：'+name+'<br/>职位：'+job+'<br/>公司名称：'+company+'<br/>个人邮箱：'+
-            _replyto+'<br/>与氢氧的合作关系：'+relation+'<br/>所需产品：'+product+'<br/>所属行业：'+industry+
-            '<br/>感兴趣产品：'+interest+'<br/>需求描述：'+demand;
+            _replyto+'<br/>与氢氧的合作关系：'+relationship+'<br/>所需产品：'+product_need+'<br/>所属行业：'+industry+
+            '<br/>感兴趣产品：'+project_want+'<br/>需求描述：'+demand;
 
         window.location.href=link;
     }
