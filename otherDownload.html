@@ -18,14 +18,14 @@
 				</div>
 				<ul class="row productBody">
 					<li class="col-lg-6 col-md-6">
-						<form method="post" action="" id="form">
+						<form method="post" action="https://formspree.io/sales@vanecloud.com" id="form">
 							<div class="youHead">
 								<div class="youl"></div>
 								<div class="yout">您的联系方式</div>
 							</div>
 							<div class="youBody">
 								<label>
-									<input id="myText" type="text" placeholder="姓名" name="username"/>
+									<input id="myText" type="text" placeholder="姓名" name="name"/>
 									<div class="significance"></div>
 								</label>
 								<label>
@@ -37,14 +37,16 @@
 									<div class="significance"></div>
 								</label>
 								<label>
-									<input id="email" type="text" placeholder="个人邮箱" name="email"/>
+									<input id="_replyto" type="text" placeholder="个人邮箱" name="_replyto"/>
+									<input type="hidden" name="_next" value="http://www.vanecloud.com" />
+									<input type="hidden" name="_subject" value="官网留言" />
 									<div class="significance"></div>
 								</label>
 								<label>
-									<select id="relation" name="relation">
+									<select id="relation" name="relationship">
 										<option>与氢氧的关系</option>
-										<option>合作伙伴</option>
-										<option>客户</option>
+										<option value="合作伙伴">合作伙伴</option>
+										<option value="其他">其他</option>
 									</select>
 									<div class="significance"></div>
 								</label>
@@ -55,30 +57,37 @@
 							</div>
 							<div class="youBody">
 								<label>
-									<select id="product" name="product">
-										<option>氢氧云</option>
-										<option>氢氧云管平台</option>
-										<option>氢氧智迅</option>
-										<option>氢氧万信</option>
+									<select id="product_need" name="product_need">
+										<option>所需产品</option>
+										<option value="氢氧云盘">氢氧云盘</option>
+										<option value="氢氧云">氢氧云</option>
+										<option value="氢氧云管平台">氢氧运管平台</option>
+										<option value="氢氧智讯">氢氧智讯</option>
+										<option value="氢氧万信">氢氧万信</option>
 									</select>
 									<div class="significance"></div>
 								</label>
 								<label>
 									<select id="industry" name="industry">
-										<option>金融</option>
-										<option>教育</option>
-										<option>政府</option>
-										<option>零售</option>
-										<option>大数据</option>
+										<option>所属行业</option>
+										<option value="金融">金融</option>
+										<option value="公共">公共</option>
+										<option value="教育">教育</option>
+										<option value="制造">制造</option>
+										<option value="消费">消费</option>
+										<option value="医疗">医疗</option>
+										<option value="其他">其他</option>
 									</select>
 									<div class="significance"></div>
 								</label>
 								<label>
-									<select id="interest" name="interest">
-										<option>氢氧云</option>
-										<option>氢氧云管平台</option>
-										<option>氢氧智迅</option>
-										<option>氢氧万信</option>
+									<select id="project_want" name="project_want">
+										<option>感兴趣产品</option>
+										<option value="氢氧云盘">氢氧云盘</option>
+										<option value="氢氧云">氢氧云</option>
+										<option value="氢氧云管平台">氢氧运管平台</option>
+										<option value="氢氧智讯">氢氧智讯</option>
+										<option value="氢氧万信">氢氧万信</option>
 									</select>
 									<div class="significance"></div>
 								</label>
