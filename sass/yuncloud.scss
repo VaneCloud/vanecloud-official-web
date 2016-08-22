@@ -298,9 +298,9 @@ body{
 								color: #74767c;
 								font-size: 14px;
 								font-family:$fontW;
-								text-indent: 35px;
+								text-indent: 30px;
 								display:block;
-								font-style: italic;
+
 
 								&.error {
 									border: 1px solid red;
@@ -329,15 +329,16 @@ body{
 								border:1px solid #318fbb;
 								margin:0 auto 0;
 								display: block;
-								color:#74767c;
+								color: #74767c;
 								font-size: 14px;
 								font-family:$fontW;
-								text-indent: 35px;
-								font-style: italic;
+                                padding:0 35px;
+								background: #fff;
+                                background:url('../images/jt_03.png')no-repeat 290px top;
+								background-size:contain;
+                            }
 
-							}
-
-							.significance{
+                            .significance{
 								width:11px;
 								height:11px;
 								position: absolute;
@@ -349,8 +350,7 @@ body{
 				
 							.demand{
 								@include radius;
-								font-style: italic;
-								width: 80%;
+                                width: 80%;
 								height: 200px;
 								border:1px solid #318fbb;
 								margin:0 auto 0;
