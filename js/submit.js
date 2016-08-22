@@ -7,12 +7,13 @@ $(function() {
         var valid=$("#form").valid();
 
         if(valid){
-            sendMail();
+
         }else{
             $(window).scrollTop(640);
+            return false;
         };
 
-        return false;
+
     });
 
     $('#form').validate({

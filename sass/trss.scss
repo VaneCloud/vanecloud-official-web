@@ -87,7 +87,19 @@ body{
 			.treesBody{
 				width: 900px;
 				margin: 100px auto 150px;
-				
+
+				.IBM-img{
+					width: 160px;
+					height: 100px;
+					margin: 40px auto 0;
+
+					&>img{
+						width: 100%;
+						height: auto;
+					}
+				}
+
+
 				h3{
 					color:#313131;
 					font-family: $fontW;
@@ -135,7 +147,7 @@ body{
 				}
 				
 				.powpic{
-					margin:40px auto 130px;
+					margin:40px auto 0;
 
 					.PowerL{
 						width:695px;
