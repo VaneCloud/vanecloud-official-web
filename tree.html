@@ -63,164 +63,208 @@
 								</ul>
 						</div>
 						<map name="Map" class="areas">
-								<area shape="rect" coords="160,380,245,390" title="Glance">
-								<area shape="rect" coords="115,444,205,458" title="Storage Drivers">
-								<area shape="rect" coords="295,444,400,458" title="PowerVM Drivers">
-								<area shape="rect" coords="480,444,590,458" title="Network Drivers">
-								<area shape="rect" coords="135,400,335,420" title="AMQP">
-								<area shape="rect" coords="356,400,555,420" title="DBMS">
-								<area shape="rect" coords="110,440,230,475" title="Cinder">
-								<area shape="rect" coords="280,440,415,475" title="Nova">
-								<area shape="rect" coords="455,440,605,475" title="Neutron">
-								<area shape="rect" coords="190,312,510,320" title="PowerVC API">
-								<area shape="rect" coords="403,300,500,305" title="API additions">
-								<area shape="rect" coords="216,370,243,380" title="OVF">
-								<area shape="rect" coords="275,380,365,391" title="Flavors">
-								<area shape="rect" coords="376,380,436,391" title="Quotas">
-								<area shape="rect" coords="450,380,545,391" title="VM Mgmt">
-								<area shape="rect" coords="172,351,254,360" title="Keystone">
-								<area shape="rect" coords="335,342,363,350" title="Platform">
-								<area shape="rect" coords="280,351,363,360" title="Scheduler">
-								<area shape="rect" coords="378,351,430,360" title="Projects">
-								<area shape="rect" coords="440,351,530,360" title="Monitoring">
-							</map>
-
-							<div class="PowerR" style="display: block;">
-								<div class="cinder">Storage Drivers</div>
-								<p>
-									PowerVM虚拟化接入：PowerVC存储驱动，含常见IBM存储、EMC存储及存储交换机驱动
-								</p>
-								<p>
-									PowerKVM虚拟化接入：vaneCloud存储驱动，含常见存储交换机驱动
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">PowerVM Drivers</div>
-								<p>
-									PowerVM虚拟化接入：IBM PowerVM的OpenStack nova服务驱动
-								</p>
-								<p>
-									PowerKVM虚拟化接入：
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">Network Drivers</div>
-								<p>
-									PowerVM虚拟化接入：IBM PowerVM的OpenStack neutron服务驱动
-								</p>
-								<p>
-									PowerKVM虚拟化接入：PowerKVM neutron服务驱动
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">AMQP</div>
-								<p>
-									PowerVM虚拟化接入：队列服务，并与PowerVC的AMQP服务交互，提供消息队列的直接对接
-								</p>
-								<p>
-									PowerKVM虚拟化接入：消息队列服务
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">DBMS</div>
-								<p>
-									PowerVM虚拟化接入：vaneCloud数据库，存储vaneCloud平台数据
-								</p>
-								<p>
-									PowerKVM虚拟化接入：数据库服务，存储PowerVC信息存储
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">Cinder</div>
-								<p>
-									PowerVM虚拟化接入：块存储服务，并与PowerVC的Cinder服务交互，提供块存储及存储网络信息的同步、操作等功能
-								</p>
-								<p>
-									PowerKVM虚拟化接入：OpenStack块存储服务
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">Nova</div>
-								<p>
-									PowerVM虚拟化接入：计算服务，并与PowerVC的Nova服务交互，提供计算服务信息的同步、操作等功能
-								</p>
-								<p>
-									PowerKVM虚拟化接入：计算服务，并与PowerVC的Nova服务交互，提供计算服务信息的同步、操作等功能
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">Neutron</div>
-								<p>
-									网络服务，并与PowerVC的Neutron服务交互，提供网络信息同步、操作等功能
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">PowerVC API</div>
-								<p>
-									OpenStack 标准API
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">API additions</div>
-								<p>
-									PowerVC提供的补充API
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">OVF</div>
-								<p>
-									提供OVF打包格式
-								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">Flavors</div>
-								<p>
-									计算模板服务
-								</p>
-							</div>
+							<area shape="rect" coords="160,380,245,390" title="Glance">
+							<area shape="rect" coords="115,444,205,458" title="Storage Drivers">
+							<area shape="rect" coords="295,444,400,458" title="PowerVM Drivers">
+							<area shape="rect" coords="480,444,590,458" title="Network Drivers">
+							<area shape="rect" coords="135,400,335,420" title="AMQP">
+							<area shape="rect" coords="356,400,555,420" title="DBMS">
+							<area shape="rect" coords="110,440,230,475" title="Cinder">
+							<area shape="rect" coords="280,440,415,475" title="Nova">
+							<area shape="rect" coords="455,440,605,475" title="Neutron">
+							<area shape="rect" coords="190,312,510,320" title="PowerVC API">
+							<area shape="rect" coords="403,300,500,305" title="API additions">
+							<area shape="rect" coords="216,370,243,380" title="OVF">
+							<area shape="rect" coords="275,380,365,391" title="Flavors">
+							<area shape="rect" coords="376,380,436,391" title="Quotas">
+							<area shape="rect" coords="450,380,545,391" title="VM Mgmt">
+							<area shape="rect" coords="172,351,254,360" title="Keystone">
+							<area shape="rect" coords="335,342,363,350" title="Platform">
+							<area shape="rect" coords="280,351,363,360" title="Scheduler">
+							<area shape="rect" coords="440,351,530,360" title="Monitoring">
+							<area shape="rect" coords="378,351,430,360" title="Projects">
+						</map>
+						<div class="PowerR" style="display: block;">
+							<div class="cinder">Glance</div>
+							<p>
+								PowerVM虚拟化接入：镜像服务，并与PowerVC的Glance服务交互，提供镜像同步、操作等功能
+							</p>
+							<p>
+								PowerKVM虚拟化接入：Glance镜像服务
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">Storage Drivers</div>
+							<p>
+								PowerVM虚拟化接入：PowerVC存储驱动，含常见IBM存储、EMC存储及存储交换机驱动
+							</p>
+							<p>
+								PowerKVM虚拟化接入：vaneCloud存储驱动，含常见存储交换机驱动
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">PowerVM Drivers</div>
+							<p>
+								PowerVM虚拟化接入：IBM PowerVM的OpenStack nova服务驱动
+							</p>
+							<p>
+								PowerKVM虚拟化接入：IBM PowerVM的OpenStack nova服务驱动
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">Network Drivers</div>
+							<p>
+								PowerVM虚拟化接入：IBM PowerVM的OpenStack neutron服务驱动
+							</p>
+							<p>
+								PowerKVM虚拟化接入：PowerKVM neutron服务驱动
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">AMQP</div>
+							<p>
+								PowerVM虚拟化接入：队列服务，并与PowerVC的AMQP服务交互，提供消息队列的直接对接
+							</p>
+							<p>
+								PowerKVM虚拟化接入：消息队列服务
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">DBMS</div>
+							<p>
+								PowerVM虚拟化接入：vaneCloud数据库，存储vaneCloud平台数据
+							</p>
+							<p>
+								PowerKVM虚拟化接入：数据库服务，存储PowerVC信息存储
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">Cinder</div>
+							<p>
+								PowerVM虚拟化接入：块存储服务，并与PowerVC的Cinder服务交互，提供块存储及存储网络信息的同步、操作等功能
+							</p>
+							<p>
+								PowerKVM虚拟化接入：OpenStack块存储服务
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">Nova</div>
+							<p>
+								PowerVM虚拟化接入：计算服务，并与PowerVC的Nova服务交互，提供计算服务信息的同步、操作等功能
+							</p>
+							<p>
+								PowerKVM虚拟化接入：OpenStack计算服务
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">Neutron</div>
+							<p>
+								PowerVM虚拟化接入：网络服务，并与PowerVC的Neutron服务交互，提供网络信息同步、操作等功能
+							</p>
+							<p>
+								PowerKVM虚拟化接入： OpenStack网络服务
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">PowerVC API</div>
+							<p>
+								PowerVM虚拟化接入：OpenStack 标准API
+							</p>
+							<p>
+								PowerKVM虚拟化接入：OpenStack 标准API
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">API additions</div>
+							<p>
+								PowerVM虚拟化接入：PowerVC提供的补充API
+							</p>
+							<p>
+								PowerKVM虚拟化接入：PowerVC提供的补充API
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">OVF</div>
+							<p>
+								PowerVM虚拟化接入：提供OVF打包格式
+							</p>
+							<p>
+								PowerKVM虚拟化接入：提供OVF打包格式
+							</p>
+						</div>
+						<div class="PowerR">
+							<div class="cinder">Flavors</div>
+							<p>
+								PowerVM虚拟化接入：计算模板服务
+							</p>
+							<p>
+								PowerKVM虚拟化接入：计算模板服务
+							</p>
+						</div>
 							<div class="PowerR">
 								<div class="cinder">Quotas</div>
 								<p>
-									配额服务
+									PowerVM虚拟化接入：配额服务
+								</p>
+								<p>
+									PowerKVM虚拟化接入：配额服务
 								</p>
 							</div>
 							<div class="PowerR">
 								<div class="cinder">VM Mgmt</div>
 								<p>
-									虚拟机管理服务
+									PowerVM虚拟化接入：虚拟机管理服务
+								</p>
+								<p>
+									PowerKVM虚拟化接入：虚拟机管理服务
 								</p>
 							</div>
 							<div class="PowerR">
 								<div class="cinder">Keystone</div>
 								<p>
-									vaneCloud认证服务，负责服务认证、用户认证
+									PowerVM虚拟化接入：vaneCloud认证服务，负责服务认证、用户认证
+								</p>
+								<p>
+									PowerKVM虚拟化接入：认证服务
 								</p>
 							</div>
 							<div class="PowerR">
 								<div class="cinder">Platform</div>
 								<p>
-									IBM EGO调度器
+									PowerVM虚拟化接入：IBM EGO调度器
+								</p>
+								<p>
+									PowerKVM虚拟化接入：IBM EGO调度器
 								</p>
 							</div>
 							<div class="PowerR">
 								<div class="cinder">Scheduler</div>
 								<p>
-									OpenStack标准调度器
+									PowerVM虚拟化接入：OpenStack标准调度器
 								</p>
-							</div>
-							<div class="PowerR">
-								<div class="cinder">Projects</div>
 								<p>
-
+									PowerKVM虚拟化接入：OpenStack标准调度器
 								</p>
 							</div>
+
 							<div class="PowerR">
 								<div class="cinder">Monitoring</div>
 								<p>
-									vaneCloud监控服务，提供平台监控数据收集、存储功能
+									PowerVM虚拟化接入：vaneCloud监控服务，提供平台监控数据收集、存储功能
+								</p>
+								<p>
+									PowerKVM虚拟化接入：vaneCloud监控模块
 								</p>
 							</div>
-
+						<div class="PowerR">
+							<div class="cinder">Projects</div>
+							<p>
+								PowerVM虚拟化接入：
+							</p>
+							<p>
+								PowerKVM虚拟化接入：
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
