@@ -13,8 +13,6 @@ $(function() {
             return false;
         };
 
-
-
     });
 
     $('#form').validate({
@@ -40,13 +38,13 @@ $(function() {
             name: {
                 required: '请输入姓名',
                 minlength: '姓名不能小于2个字符',
-                maxlength: '姓名不能超过10个字符',
+                maxlength: '姓名不能超过10个字符'
             },
             job: {
-                required: '请输入职位',
+                required: '请输入职位'
             },
             company: {
-                required: '请输入公司名',
+                required: '请输入公司名'
             },
             _replyto: {
                 required: '请输入电子邮件',
@@ -86,7 +84,7 @@ $(function() {
 
         var demand=$('#demand').val();
 
-        var link='mailto:zhukai@vanecloud.com?subject='+encodeURIComponent("氢氧产品体验-个人信息填写")+
+        var link='mailto:support@vanecloud.com?subject='+encodeURIComponent("氢氧产品体验-个人信息填写")+
             '&body=姓名：'+name+'<br/>职位：'+job+'<br/>公司名称：'+company+'<br/>个人邮箱：'+
             _replyto+'<br/>与氢氧的合作关系：'+relationship+'<br/>所需产品：'+product_need+'<br/>所属行业：'+industry+
             '<br/>感兴趣产品：'+project_want+'<br/>需求描述：'+demand;
