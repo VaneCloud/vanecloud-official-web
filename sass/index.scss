@@ -1,4 +1,5 @@
 @import "layout";
+@import "visible";
 @import "row";
 @import "animation";
 @charset "utf-8";
@@ -17,6 +18,16 @@ $width100:100%;
 }
 
 body{
+
+	.movement{
+		width: 100%;
+		height: 100%;
+		background:url('../images/movement.png') no-repeat center center;
+		background-size:contain;
+		position: absolute;
+		z-index:999;
+	}
+
 	#header{
 		height: 60px;
 		position: fixed;
