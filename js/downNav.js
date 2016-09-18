@@ -7,7 +7,7 @@ $(function(){
     var downNav=
         '<nav class="downNav">'+
             '<a href="yunCloud.html" class="nav1">氢氧云盘</a>'+
-            '<a href="otherDownload.html" class="nav2">其他产品</a>'+
+            '<a href="otherDownload.html" class="nav2">申请试用</a>'+
         '</nav>';
 
     $('#downNav').append(downNav);

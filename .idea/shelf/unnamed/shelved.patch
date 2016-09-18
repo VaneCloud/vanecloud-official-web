@@ -1,0 +1,395 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision cd12cef62829f8b016b70472988952cf9f6e6b1d)
++++ .idea/workspace.xml	(revision )
+@@ -2,7 +2,10 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="d829690f-8b16-42fd-9174-a7b2d2a58598" name="Default" comment="">
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/_layout.scssc" afterPath="$PROJECT_DIR$/.sass-cache/fadd5fadcf30ecb3bb2a532ce616884d88595171/_layout.scssc" />
+       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_layout.scss" afterPath="$PROJECT_DIR$/sass/_layout.scss" />
+     </list>
+     <ignored path="vanecloud-official-web.iws" />
+     <ignored path=".idea/workspace.xml" />
+@@ -29,16 +32,28 @@
+   </component>
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
++      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/index.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="30">
+-              <caret line="190" column="86" selection-start-line="190" selection-start-column="86" selection-end-line="190" selection-end-column="86" />
++            <state relative-caret-position="210">
++              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
++      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/gulpfile.js">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="42">
++              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
++              <folding>
++                <element signature="n#!!doc" expanded="true" />
++              </folding>
++            </state>
++          </provider>
++        </entry>
++      </file>
+     </leaf>
+   </component>
+   <component name="FileTemplateManagerImpl">
+@@ -59,8 +74,6 @@
+   <component name="IdeDocumentHistory">
+     <option name="CHANGED_PATHS">
+       <list>
+-        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+-        <option value="$PROJECT_DIR$/js/nav.js" />
+         <option value="$PROJECT_DIR$/retail.html" />
+         <option value="$PROJECT_DIR$/notepad.html" />
+         <option value="$PROJECT_DIR$/js/settleNav.js" />
+@@ -97,12 +110,10 @@
+         <option value="$PROJECT_DIR$/css/login.css" />
+         <option value="$PROJECT_DIR$/js/banner.js" />
+         <option value="$PROJECT_DIR$/sass/_animation.scss" />
+-        <option value="$PROJECT_DIR$/gulpfile.js" />
+         <option value="$PROJECT_DIR$/sass/vane.scss" />
+         <option value="$PROJECT_DIR$/sass/company.scss" />
+         <option value="$PROJECT_DIR$/js/header.js" />
+         <option value="$PROJECT_DIR$/yunCloud.html" />
+-        <option value="$PROJECT_DIR$/sass/_layout.scss" />
+         <option value="$PROJECT_DIR$/sass/yuncloud.scss" />
+         <option value="$PROJECT_DIR$/otherDownload.html" />
+         <option value="$PROJECT_DIR$/js/submit.js" />
+@@ -110,6 +121,10 @@
+         <option value="$PROJECT_DIR$/sass/trss.scss" />
+         <option value="$PROJECT_DIR$/index.html" />
+         <option value="$PROJECT_DIR$/sass/index.scss" />
++        <option value="$PROJECT_DIR$/sass/_layout.scss" />
++        <option value="$PROJECT_DIR$/js/glupfile.js" />
++        <option value="$PROJECT_DIR$/js/gulpfile.js" />
++        <option value="$PROJECT_DIR$/gulpfile.js" />
+       </list>
+     </option>
+   </component>
+@@ -121,6 +136,11 @@
+   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+   <component name="JsGulpfileManager">
+     <detection-done>true</detection-done>
++    <gulpfiles>
++      <GulpfileState>
++        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
++      </GulpfileState>
++    </gulpfiles>
+     <sorting>DEFINITION_ORDER</sorting>
+   </component>
+   <component name="MavenImportPreferences">
+@@ -435,7 +455,6 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="PackagesPane" />
+       <pane id="ProjectPane">
+         <subPane>
+           <PATH>
+@@ -456,15 +475,16 @@
+           </PATH>
+         </subPane>
+       </pane>
+-      <pane id="Scope" />
+       <pane id="Scratches" />
++      <pane id="PackagesPane" />
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+-    <property name="last_opened_file_path" value="Z:/vaneq_rails" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/gulpfile.js" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="HbShouldOpenHtmlAsHb" value="" />
+-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
++    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+     <property name="settings.editor.splitter.proportion" value="0.2610125" />
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+@@ -475,6 +495,9 @@
+     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\admin\AppData\Roaming\npm\node_modules\gulp" />
+   </component>
+   <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="D:\webProjects\vanecloud-official-web" />
++    </key>
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="D:\webProjects\vanecloud-official-web" />
+       <recent name="D:\webProjects\vanecloud-official-web\js" />
+@@ -482,7 +505,7 @@
+       <recent name="D:\projects\vanecloud-official-web\js" />
+     </key>
+   </component>
+-  <component name="RunManager">
++  <component name="RunManager" selected="Gulp.js.vanecloud-official-web">
+     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+       <module name="" />
+       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+@@ -866,6 +889,9 @@
+       <envs />
+       <method />
+     </configuration>
++    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
++      <method />
++    </configuration>
+     <configuration default="true" type="Remote" factoryName="Remote">
+       <option name="USE_SOCKET_TRANSPORT" value="true" />
+       <option name="SERVER_MODE" value="false" />
+@@ -975,12 +1001,37 @@
+       <envs />
+       <method />
+     </configuration>
++    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
++      <node-interpreter>project</node-interpreter>
++      <node-options />
++      <working-directory />
++      <pass-parent-env>true</pass-parent-env>
++      <envs />
++      <ui />
++      <extra-mocha-options />
++      <test-kind>DIRECTORY</test-kind>
++      <test-directory />
++      <recursive>false</recursive>
++      <method />
++    </configuration>
+     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+       <method />
+     </configuration>
+     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+       <method />
+     </configuration>
++    <configuration default="false" name="vanecloud-official-web" type="js.build_tools.gulp" factoryName="Gulp.js">
++      <node-interpreter>project</node-interpreter>
++      <node-options />
++      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
++      <tasks />
++      <arguments />
++      <envs />
++      <method />
++    </configuration>
++    <list size="1">
++      <item index="0" class="java.lang.String" itemvalue="Gulp.js.vanecloud-official-web" />
++    </list>
+   </component>
+   <component name="ShelveChangesManager" show_recycled="false">
+     <option name="remove_strategy" value="false" />
+@@ -1035,11 +1086,17 @@
+       <workItem from="1471775902780" duration="1078000" />
+       <workItem from="1471827074122" duration="22552000" />
+       <workItem from="1471855000732" duration="59000" />
++      <workItem from="1472040005188" duration="66000" />
++      <workItem from="1472088082308" duration="477000" />
++      <workItem from="1472128211779" duration="275000" />
++      <workItem from="1472362530198" duration="2000" />
++      <workItem from="1472362540288" duration="4567000" />
++      <workItem from="1472367687171" duration="785000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="246464000" />
++    <option name="totallyTimeSpent" value="252636000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+@@ -1051,10 +1108,11 @@
+       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37983587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+@@ -1118,23 +1176,6 @@
+     <option name="FILTER_TARGETS" value="false" />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/js/full.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="112">
+-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/serverContent.html" />
+-    <entry file="file://$PROJECT_DIR$/README.md" />
+-    <entry file="file://$PROJECT_DIR$/css/news.css" />
+-    <entry file="file://$PROJECT_DIR$/js/banner.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-168">
+-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/sass/_animation.scss">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="112">
+@@ -1289,13 +1330,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="314">
+-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/css/yuncloud.css">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="243">
+@@ -1307,7 +1341,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="156">
+           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -1332,13 +1365,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/js/submit.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="208">
+-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/sass/trss.scss">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="206">
+@@ -1406,15 +1432,61 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="60">
+           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
++    <entry file="file://$PROJECT_DIR$/js/submit.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="673">
++          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/js/rfooter.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="240">
++          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/node_modules/gulp/package.json" />
++    <entry file="file://$PROJECT_DIR$/sass/_layout.scss">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="178">
++          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="30">
+-          <caret line="190" column="86" selection-start-line="190" selection-start-column="86" selection-end-line="190" selection-end-column="86" />
++        <state relative-caret-position="210">
++          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+           <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/README.md">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/package.json">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/gulpfile.js">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="42">
++          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
++          <folding>
++            <element signature="n#!!doc" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+\ No newline at end of file
+Index: gulpfile.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gulpfile.js	(revision )
++++ gulpfile.js	(revision )
+@@ -0,0 +1,15 @@
++/**
++ * Created by admin on 2016/8/28.
++ */
++/*var gulp = require ('gulp');
++
++gulp.task('default',function(){
++
++    console.log('hello pulp!!!');
++
++})*/
++
++console.log('hello pulp!!!');
++
++
++
+Index: sass/_layout.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sass/_layout.scss	(revision cd12cef62829f8b016b70472988952cf9f6e6b1d)
++++ sass/_layout.scss	(revision )
+@@ -21,7 +21,7 @@
+ }
+ 
+ li{
+-  list-style:none;
++  list-style: none;
+   overflow: hidden;
+ }
+ 
+@@ -62,7 +62,6 @@
+   color:#e6e3e3;
+   font-size: 14px;
+   text-align: center;
+- 
+ }
+ 
+ @mixin lineunder{

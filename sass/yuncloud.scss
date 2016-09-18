@@ -46,7 +46,7 @@ body{
 		.container{
 			
 			.yunHead{
-				width:1020px;
+				width: 900px;
 				height:40px;
 				margin:150px auto 0;
 				position:relative;
@@ -78,6 +78,15 @@ body{
 					background:#fff;
 					z-index:2;
 				}
+			}
+
+			.yunHead-heading{
+				width :900px;
+				font-family:$fontW;
+				color:#000000;
+				font-size: 16px;
+				text-align: center;
+				margin: 50px  auto 50px;
 			}
 
 			.yunBody{
@@ -411,12 +420,13 @@ body{
 						height:1494px;
 
 						.yuns{
-							margin:0 auto 0;
+							margin: -440px auto 0;
 
 							&>li{
-								width:100%;
-								height: 340px;
+								width: 100%;
+
 								margin-bottom: 20px;
+								overflow: visible;
 								
 								&:nth-child(1){
 									.pic{
@@ -446,8 +456,16 @@ body{
 									}
 								}
 
+								&:nth-child(5){
+									.pic{
+										background: url('../images/vane2.png')no-repeat center center;
+										background-size:contain;
+									}
+								}
+
 								.yunbox1{
 									position: relative;
+									height: 340px;
 									margin:0 auto 0;
 
 
@@ -494,7 +512,6 @@ body{
 											margin-left:20px;
 											margin-right:20px;
 											height:190px;
-											border-bottom:1px solid #adafb7;
 
 											span{
 												text-align: center;
@@ -513,7 +530,7 @@ body{
 
 								.yunbox2{
 									width: 330px;
-									height: 380px;
+									height: 340px;
 									margin: 0 auto 0;
 									border:1px solid #255676;
 									background: -webkit-linear-gradient(#318cb8, #326a92); 
@@ -548,6 +565,8 @@ body{
 												background:url('../images/vane8.png')no-repeat center center;
 												background-size:contain;
 											}
+
+
 										}
 									}
 
@@ -562,6 +581,11 @@ body{
 										.pic{
 											background: url('../images/vane5.png')no-repeat center center;
 											background-size:contain;
+
+											&.vane6{
+												background:url('../images/vane6.png')no-repeat center center;
+												background-size:contain;
+											}
 										}
 									}
 				
@@ -572,12 +596,16 @@ body{
 										}
 									}
 
-									&:nth-child(3){
+									&:nth-child(5){
 										.pic{
-											background:url('../images/vane8.png')no-repeat center center;
-											background-size:contain;
+											&.vane2{
+												background:url('../images/vane2.png')no-repeat center center;
+												background-size:contain;
+											}
+
 										}
 									}
+
 									.box2Body{
 										margin-left:20px;
 										margin-right:20px;
