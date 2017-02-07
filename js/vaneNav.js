@@ -7,6 +7,7 @@ $(function(){
 		'<a href="vaneQueue.html" class="nav3">氢氧云管平台</a>'+
 		'<a href="vaneAnalytics.html" class="nav4">氢氧智迅</a>'+
 		'<a href="vaneReport.html" class="nav5">氢氧万信</a>'+
+		'<a href="resourceAudit.html" class="nav6">自然资产审计</a>'+
 	'</nav>';
 
 	$('#vaneNav').append(bgNav);
