@@ -38,6 +38,7 @@ $(function(){
 						'<li><a href="vaneQueue.html">氢氧云管平台</a></li>'+
 						'<li><a href="vaneAnalytics.html">氢氧智讯</a></li>'+
 						'<li><a href="vaneReport.html">氢氧万信</a></li>'+
+						'<li><a href="resourceAudit.html">自然资产审计</a></li>'+
 					'</ul>'+
 				'</li>'+
 				'<li class="col-sm-2">'+
@@ -77,6 +78,6 @@ $(function(){
 
 	$('.service').append(our);
 
-	
+
 
 })
