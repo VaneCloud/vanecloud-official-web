@@ -66,7 +66,7 @@ body .main .container .principle article {
     font-size: 14px;
 }
 
-body .main .container .principlePanel .inner_title{
+body .main .container .principle .inner_title{
     font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
     color: #000000;
     font-size: 18px;
@@ -89,6 +89,40 @@ body .main .container .principlePanel .prinHead {
     position: relative;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+body .main .container .principle .prinHead {
+    width: 900px;
+    height: 31px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body .main .container .principle .prinHead .line {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    background: #d6d6d6;
+    z-index: 1;
+}
+
+body .main .container .principle .prinHead .text {
+    width: 216px;
+    height: 100%;
+    line-height: 31px;
+    position: absolute;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    top: 0;
+    left: 50%;
+    margin-left: -108px;
+    background: #fff;
+    z-index: 2;
 }
 
 body .main .container .principle .inner_desc{
